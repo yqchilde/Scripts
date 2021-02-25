@@ -1,0 +1,81 @@
+jd_scripts:
+  image: lxk0301/jd_scripts:latest
+  container_name: jd_scripts
+  restart: always
+  volumes:
+    - ./my_crontab_list.sh:/scripts/docker/my_crontab_list.sh
+    - ./logs:/scripts/logs
+  tty: true
+  extra_hosts:
+    - "gitee.com:180.97.125.228"
+    - "github.com:13.229.188.59"
+    - "raw.githubusercontent.com:151.101.228.133"
+  environment:
+    #脚本更新仓库地址，配置了会切换到对应的地址
+    - REPO_URL=git@gitee.com:lxk0301/jd_scripts.git
+    
+    # 京东Cookie
+    - JD_COOKIE=
+
+    # 企业微信机器人通知
+    - QYWX_AM=${CORPID},${CORPSECRET},${TOUSER},${AGENTID},${MEDIAID}
+    
+  #----------------------------Share Start------------------------------
+
+    # 东东工厂
+    - DDFACTORY_SHARECODES=${DDFACTORY1}@${DDFACTORY2}@${DDFACTORY3}@${DDFACTORY4}
+
+    # 京喜工厂
+    - DREAM_FACTORY_SHARE_CODES=${DREAM_FACTORY1}@${DREAM_FACTORY2}@${DREAM_FACTORY3}@${DREAM_FACTORY4}
+
+    # 京喜农场
+    - JXNC_SHARECODES=${JXNC1}@${JXNC2}@${JXNC3}@${JXNC4}
+
+    # 京东萌宠
+    - PETSHARECODES=${PETS1}@${PETS2}@${PETS3}@${PETS4}
+
+    # 种豆得豆
+    - PLANT_BEAN_SHARECODES=${PLANT_BEAN1}@${PLANT_BEAN2}@${PLANT_BEAN3}@${PLANT_BEAN4}
+
+    # crazyJoys
+    - JDJOY_SHARECODES=${JDJOY1}@${JDJOY2}@${JDJOY3}@${JDJOY4}
+
+    # 闪购盲盒
+    - JDSGMH_SHARECODES=${JDSGMH1}@${JDSGMH2}@${JDSGMH3}@${JDSGMH4}
+
+    # 东东农场
+    - FRUITSHARECODES=${DDNC1}@${DDNC2}@${DDNC3}@${DDNC4}
+
+#----------------------------Share End------------------------------
+
+    # 宠汪汪喂食数量
+    - JOY_FEED_COUNT=80
+
+    # 宠汪汪兑换京豆数量
+    - JD_JOY_REWARD_NAME=500
+
+    # 东东超市
+    - MARKET_COIN_TO_BEANS=纯甄
+
+    # 东东超市参与作者团队pk
+    - JOIN_PK_TEAM=true
+
+    - JD_DEBUG=true
+
+    # 京喜农场token
+    - JXNCTOKENS=
+    
+    - CFD_NOTIFY_CONTROL="true"
+    
+
+    # 延时
+    # - RANDOM_DELAY_MAX=30
+
+    # 追加shell
+    # - CUSTOM_SHELL_FILE=https://raw.sevencdn.com/iouAkira/someDockerfile/master/jd_scripts/shell_script_mod.sh
+
+    #使用自定义定任务追加默认任务之后，上面volumes挂载之后这里配置对应的文件名
+    - CUSTOM_LIST_FILE=my_crontab_list.sh
+
+    # 不执行的脚本
+    - DO_NOT_RUN_SCRIPTS=jd_family
