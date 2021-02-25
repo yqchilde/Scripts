@@ -1,0 +1,4 @@
+[hemu]
+# 将该文件名删掉 `_dist`
+# qmsg网址：https://qmsg.zendee.cn/
+qmsg_key = xxx
