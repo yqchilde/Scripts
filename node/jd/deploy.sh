@@ -20,14 +20,15 @@ function syncDeploy() {
   echo "同步最新脚本"
   if [ -f "./my_crontab_list.sh" ]; then
     mv ./my_crontab_list.sh ./my_crontab_list.sh.bak
-    wget https://raw.githubusercontent.com/yqchilde/Scripts/main/node/jd/my_crontab_list.sh -O ./my_crontab_list.sh
   fi
 
   if [ -f "./deploy.sh" ]; then
     mv ./deploy.sh ./deploy.sh.bak
-    wget https://raw.githubusercontent.com/yqchilde/Scripts/main/node/jd/deploy.sh -O ./deploy.sh
-    chmod 777 ./deploy.sh
   fi
+  
+  wget https://raw.githubusercontent.com/yqchilde/Scripts/main/node/jd/my_crontab_list.sh -O ./my_crontab_list.sh
+  wget https://raw.githubusercontent.com/yqchilde/Scripts/main/node/jd/deploy.sh -O ./deploy.sh
+  chmod 777 ./deploy.sh
 
   echo "执行脚本任务"
   exec sh ./deploy.sh start
