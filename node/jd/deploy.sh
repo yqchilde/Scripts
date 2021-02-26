@@ -9,6 +9,7 @@ if [ "$1" != "start" ]; then
     if [ -f "./deploy.sh" ]; then 
         rm -rf ./deploy.sh
         wget https://raw.githubusercontent.com/yqchilde/Scripts/main/node/jd/deploy.sh -O ./deploy.sh
+        chmod 777 ./deploy.sh
     fi
 
     echo "执行脚本任务"
@@ -56,4 +57,4 @@ docker cp ./format_share_jd_code.js jd_scripts:/scripts/format_share_jd_code.js
 rm -rf *.js
 
 echo "重新安装node包"
-docker exec -it jd_scripts sh -c 'node i'
+docker exec -it jd_scripts sh -c 'npm i'
