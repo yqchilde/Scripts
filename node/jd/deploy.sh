@@ -1,7 +1,7 @@
 #!/bin/bash
 
-echo "同步最新脚本"
 if [ "$1" != "start" ]; then
+    echo "同步最新脚本"
     if [ -f "./my_crontab_list.sh" ]; then
         rm -rf ./my_crontab_list.sh
         wget https://raw.sevencdn.com/yqchilde/Scripts/main/node/jd/my_crontab_list.sh -O ./my_crontab_list.sh
@@ -12,7 +12,7 @@ if [ "$1" != "start" ]; then
     fi
 
     echo "执行脚本任务"
-    sh ./deploy.sh start --exec
+    exec sh ./deploy.sh start
 fi
 
 
@@ -49,7 +49,7 @@ echo "财富岛通知"
 wget https://raw.sevencdn.com/moposmall/Script/main/Me/jx_cfd_exchange.js -O ./jx_cfd_exchange.js
 docker cp ./jx_cfd_exchange.js jd_scripts:/scripts/jx_cfd_exchange.js
 
-echo 格式化互助码"
+echo "格式化互助码"
 wget https://gitee.com/qq34347476/quantumult-x/raw/master/format_share_jd_code.js -O ./format_share_jd_code.js
 docker cp ./format_share_jd_code.js jd_scripts:/scripts/format_share_jd_code.js
 
