@@ -8,7 +8,7 @@ if [ "$1" != "start" ]; then
     fi
     if [ -f "./deploy.sh" ]; then 
         rm -rf ./deploy.sh
-        wget https://raw.sevencdn.com/yqchilde/Scripts/main/node/jd/deploy.sh -O ./deploy.sh
+        wget https://raw.githubusercontent.com/yqchilde/Scripts/main/node/jd/deploy.sh -O ./deploy.sh
     fi
 
     echo "执行脚本任务"
