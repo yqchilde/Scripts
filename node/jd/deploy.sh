@@ -57,4 +57,3 @@ rm -rf *.js
 
 echo "重新安装node包"
 docker exec -it jd_scripts sh -c 'node i'
-
