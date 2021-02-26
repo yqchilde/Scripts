@@ -20,7 +20,7 @@ function syncDeploy() {
   echo "同步最新脚本"
   if [ -f "./my_crontab_list.sh" ]; then
     mv ./my_crontab_list.sh ./my_crontab_list.sh.bak
-    wget https://raw.sevencdn.com/yqchilde/Scripts/main/node/jd/my_crontab_list.sh -O ./my_crontab_list.sh
+    wget https://raw.githubusercontent.com/yqchilde/Scripts/main/node/jd/my_crontab_list.sh -O ./my_crontab_list.sh
   fi
 
   if [ -f "./deploy.sh" ]; then
