@@ -1,19 +1,23 @@
 #!/bin/bash
 
+function checkWget() {
+  if [ ! `command -v wget` ];then
+    echo "发现wget没有安装，程序退出"
+    exit 1
+  fi
+}
+
 function readImageNames() {
-  IFS=$'\n'
-  grep -v '^ *#' < .env | while IFS= read -r line
+  for line in `cat .env`
   do
-
-    if [ "${line:0:11}" == "SCRIPT_NAME" ]; then
-      echo "${line:12}"
+    if [ "${line:0:12}" == "SCRIPT_NAME=" ]; then
+      echo "读到脚本配置: ${line:12}"
       return $?
-    else
-      echo "没有识别到配置docker脚本名称，程序退出"
-      exit 7
     fi
-
   done
+
+  echo "没有识别到配置docker脚本名称，程序退出"
+  exit 1
 }
 
 function syncDeploy() {
@@ -25,10 +29,10 @@ function syncDeploy() {
   if [ -f "./deploy.sh" ]; then
     mv ./deploy.sh ./deploy.sh.bak
   fi
-  
+
   wget https://raw.githubusercontent.com/yqchilde/Scripts/main/node/jd/my_crontab_list.sh -O ./my_crontab_list.sh
   wget https://raw.githubusercontent.com/yqchilde/Scripts/main/node/jd/deploy.sh -O ./deploy.sh
-  chmod 777 ./deploy.sh
+  chmod 700 ./deploy.sh
 
   echo "执行脚本任务"
   exec sh ./deploy.sh start
@@ -43,6 +47,7 @@ function downScript() {
   wget https://raw.sevencdn.com/moposmall/Script/main/Me/jx_cfd.js -O ./jx_cfd.js
   wget https://raw.sevencdn.com/moposmall/Script/main/Me/jx_cfd_exchange.js -O ./jx_cfd_exchange.js
   wget https://gitee.com/qq34347476/quantumult-x/raw/master/format_share_jd_code.js -O ./format_share_jd_code.js
+  wget https://raw.githubusercontent.com/i-chenzhe/qx/main/jd_shake.js
 }
 
 function runDocker() {
@@ -62,38 +67,44 @@ function initScript() {
   for image in "${arr[@]}"
   do
 
-    echo "宠汪汪兑换"
+    echo "docker copy joy_reword.js"
     docker cp ./joy_reword.js "$image":/scripts/joy_reword.js
 
-    echo "华硕-爱奇艺"
+    echo "docker copy jd_asus_iqiyi.js"
     docker cp ./jd_asus_iqiyi.js "$image":/scripts/jd_asus_iqiyi.js
 
-    echo "跳一跳"
+    echo "docker copy jd_jump-jump.js"
     docker cp ./jd_jump-jump.js "$image":/scripts/jd_jump-jump.js
 
-    echo "百变大咖秀"
+    echo "docker copy jd_entertainment.js"
     docker cp ./jd_entertainment.js "$image":/scripts/jd_entertainment.js
 
-    echo "粉丝互动"
+    echo "docker copy jd_fanslove.js"
     docker cp ./jd_fanslove.js "$image":/scripts/jd_fanslove.js
 
-    echo "财富岛任务"
+    echo "docker copy jx_cfd.js"
     docker cp ./jx_cfd.js "$image":/scripts/jx_cfd.js
 
-    echo "财富岛通知"
+    echo "docker copy jx_cfd_exchange.js"
     docker cp ./jx_cfd_exchange.js "$image":/scripts/jx_cfd_exchange.js
 
-    echo "格式化互助码"
+    echo "docker copy format_share_jd_code.js"
     docker cp ./format_share_jd_code.js "$image":/scripts/format_share_jd_code.js
 
+    echo "docker copy jd_shake.js"
+    docker cp ./jd_shake.js "$image":/scripts/jd_shake.js
+
     echo "重新安装node包"
+    echo "$image"
     docker exec -it "$image" sh -c 'npm i'
 
   done
 }
 
 
-imageNames=$(readImageNames)
+imageNames=`readImageNames`
+
+checkWget
 
 if [ "$1" != "start" ]; then
   syncDeploy
