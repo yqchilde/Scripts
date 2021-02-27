@@ -20,14 +20,16 @@
 
 # 财富岛任务
 5 */3 * * * wget https://raw.sevencdn.com/moposmall/Script/main/Me/jx_cfd.js -O /scripts/jx_cfd.js
-0 * * * * node /scripts/jd_cfd.js >> /scripts/logs/jd_cfd.log 2>&1
+0 * * * * node /scripts/jx_cfd.js >> /scripts/logs/jx_cfd.log 2>&1
 
 # 财富岛通知
 6 */3 * * * wget https://raw.sevencdn.com/moposmall/Script/main/Me/jx_cfd_exchange.js -O /scripts/jx_cfd_exchange.js
 30 6,12,22 * * * node /scripts/jx_cfd_exchange.js >> /scripts/logs/jx_cfd_exchange.log 2>&1
 
+# 摇一摇活动
+7 */3 * * * wget https://raw.githubusercontent.com/i-chenzhe/qx/main/jd_shake.js
+3 20 * * * * * * node /scripts/jd_shake.js >> /scripts/logs/jd_shake.log 2>&1
+
 # 格式化互助码
 0 */12 * * * wget https://gitee.com/qq34347476/quantumult-x/raw/master/format_share_jd_code.js -O /scripts/format_share_jd_code.js
 0 1 0/2 * * node /scripts/format_share_jd_code.js >> /scripts/logs/format_share_jd_code.log 2>&1
-
-
