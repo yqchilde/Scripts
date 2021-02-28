@@ -124,8 +124,4 @@ function main() {
   rm -rf *.js
 }
 
-main
-
-
-
-
+main $1
