@@ -1,12 +1,5 @@
 #!/bin/bash
 
-function checkWget() {
-  if [ ! `command -v wget` ];then
-    echo "发现wget没有安装，程序退出"
-    exit 1
-  fi
-}
-
 function readImageNames() {
   for line in `cat .env`
   do
@@ -16,8 +9,7 @@ function readImageNames() {
     fi
   done
 
-  echo "没有识别到配置docker脚本名称，程序退出"
-  exit 1
+  return 1
 }
 
 function syncDeploy() {
@@ -101,21 +93,34 @@ function initScript() {
   done
 }
 
+function main() {
+  imageNames=`readImageNames`
 
-imageNames=`readImageNames`
+  if [ $? -ne 0 ]; then
+    echo "没有识别到配置docker脚本名称，程序退出"
+    exit 1
+  fi
 
-checkWget
+  if [ ! `command -v wget` ];then
+      echo "发现wget没有安装，程序退出"
+      exit 1
+  fi
 
-if [ "$1" != "start" ]; then
-  syncDeploy
-fi
+  if [ "$1" != "start" ]; then
+    syncDeploy
+  fi
 
-downScript
+  downScript
 
-runDocker
+  runDocker
 
-initScript "$imageNames"
+  initScript "$imageNames"
 
-rm -rf *.js
+  rm -rf *.js
+}
+
+main
+
+
 
 
