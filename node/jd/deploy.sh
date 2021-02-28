@@ -1,11 +1,15 @@
 #!/bin/bash
 
+RED=$(tput setaf 1)
+GREEN=$(tput setaf 2)
+BLUE=$(tput setaf 4)
+RES=$(tput sgr0)
+
 function readImageNames() {
   for line in `cat .env`
   do
     if [ "${line:0:12}" == "SCRIPT_NAME=" ]; then
-      echo "读到脚本配置: ${line:12}"
-      return $?
+      return ${line:12}
     fi
   done
 
@@ -13,7 +17,7 @@ function readImageNames() {
 }
 
 function syncDeploy() {
-  echo "同步最新脚本"
+  echo -e "${GREEN}同步最新脚本${RES}"
   if [ -f "./my_crontab_list.sh" ]; then
     mv ./my_crontab_list.sh ./my_crontab_list.sh.bak
   fi
@@ -26,7 +30,7 @@ function syncDeploy() {
   wget https://raw.githubusercontent.com/yqchilde/Scripts/main/node/jd/deploy.sh -O ./deploy.sh
   chmod 700 ./deploy.sh
 
-  echo "执行脚本任务"
+  echo -e "${GREEN}执行脚本任务${RES}"
   exec sh ./deploy.sh start
 }
 
@@ -43,7 +47,7 @@ function downScript() {
 }
 
 function runDocker() {
-  echo "docker task start"
+  echo -e "${GREEN}docker task start${RES}"
   docker-compose down
   docker rmi lxk0301/jd_scripts
   docker-compose up -d
@@ -59,34 +63,34 @@ function initScript() {
   for image in "${arr[@]}"
   do
 
-    echo "docker copy joy_reword.js"
+    echo -e "${BLUE}docker copy joy_reword.js${RES}"
     docker cp ./joy_reword.js "$image":/scripts/joy_reword.js
 
-    echo "docker copy jd_asus_iqiyi.js"
+    echo -e "${BLUE}docker copy jd_asus_iqiyi.js${RES}"
     docker cp ./jd_asus_iqiyi.js "$image":/scripts/jd_asus_iqiyi.js
 
-    echo "docker copy jd_jump-jump.js"
+    echo -e "${BLUE}docker copy jd_jump-jump.js${RES}"
     docker cp ./jd_jump-jump.js "$image":/scripts/jd_jump-jump.js
 
-    echo "docker copy jd_entertainment.js"
+    echo -e "${BLUE}docker copy jd_entertainment.js${RES}"
     docker cp ./jd_entertainment.js "$image":/scripts/jd_entertainment.js
 
-    echo "docker copy jd_fanslove.js"
+    echo -e "${BLUE}docker copy jd_fanslove.js${RES}"
     docker cp ./jd_fanslove.js "$image":/scripts/jd_fanslove.js
 
-    echo "docker copy jx_cfd.js"
+    echo -e "${BLUE}docker copy jx_cfd.js${RES}"
     docker cp ./jx_cfd.js "$image":/scripts/jx_cfd.js
 
-    echo "docker copy jx_cfd_exchange.js"
+    echo -e "${BLUE}docker copy jx_cfd_exchange.js${RES}"
     docker cp ./jx_cfd_exchange.js "$image":/scripts/jx_cfd_exchange.js
 
-    echo "docker copy format_share_jd_code.js"
+    echo -e "${BLUE}docker copy format_share_jd_code.js${RES}"
     docker cp ./format_share_jd_code.js "$image":/scripts/format_share_jd_code.js
 
-    echo "docker copy jd_shake.js"
+    echo -e "${BLUE}docker copy jd_shake.js${RES}"
     docker cp ./jd_shake.js "$image":/scripts/jd_shake.js
 
-    echo "重新安装node包"
+    echo -e "${GREEN}Exec npm i${RES}"
     echo "$image"
     docker exec -it "$image" sh -c 'npm i'
 
@@ -97,12 +101,12 @@ function main() {
   imageNames=`readImageNames`
 
   if [ $? -ne 0 ]; then
-    echo "没有识别到配置docker脚本名称，程序退出"
+    echo -e "${RED}没有识别到配置docker脚本名称，程序退出${RES}"
     exit 1
   fi
 
   if [ ! `command -v wget` ];then
-      echo "发现wget没有安装，程序退出"
+      echo -e "${RED}发现wget没有安装，程序退出${RES}"
       exit 1
   fi
 
