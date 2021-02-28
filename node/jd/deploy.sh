@@ -9,7 +9,7 @@ function readImageNames() {
   for line in `cat .env`
   do
     if [ "${line:0:12}" == "SCRIPT_NAME=" ]; then
-      echo ${line:12}
+      export SCRIPT_NAMES=${line:12}
       return $?
     fi
   done
@@ -99,7 +99,7 @@ function initScript() {
 }
 
 function main() {
-  imageNames=`readImageNames`
+  readImageNames
 
   if [ $? -ne 0 ]; then
     echo -e "${RED}没有识别到配置docker脚本名称，程序退出${RES}"
@@ -119,7 +119,7 @@ function main() {
 
   runDocker
 
-  initScript "$imageNames"
+  initScript $SCRIPT_NAMES
 
   rm -rf *.js
 }
