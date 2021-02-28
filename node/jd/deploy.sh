@@ -105,6 +105,7 @@ function initScript() {
 }
 
 function main() {
+  if [ "$1" != "start" ]; then
     echo -e "${GREEN}                       _ ____    ____            _       _
                       | |  _ \  / ___|  ___ _ __(_)_ __ | |_
                    _  | | | | | \___ \ / __| '__| | '_ \| __|
@@ -117,6 +118,7 @@ function main() {
                      | |_) | |_| | | | (_| | | | | | (_| |
                      |____/ \__,_|_|_|\__,_|_|_| |_|\__, |
                                                     |___/${RES}"
+  fi
 
   readImageNames
 
