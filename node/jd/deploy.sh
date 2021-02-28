@@ -9,7 +9,8 @@ function readImageNames() {
   for line in `cat .env`
   do
     if [ "${line:0:12}" == "SCRIPT_NAME=" ]; then
-      return ${line:12}
+      echo ${line:12}
+      return $?
     fi
   done
 
