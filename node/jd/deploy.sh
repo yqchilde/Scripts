@@ -34,6 +34,7 @@ function syncDeploy() {
   if [ ! -f "./deploy.sh" ] || [ ! -s "./deploy.sh" ]; then
     echo -e "${RED}脚本同步失败，程序退出${RES}"
     cp ./deploy.sh.bak ./deploy.sh
+    exit 1
   else
     echo -e "${GREEN}执行脚本任务${RES}"
     exec bash deploy.sh start
