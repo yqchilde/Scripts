@@ -31,8 +31,13 @@ function syncDeploy() {
   wget https://raw.githubusercontent.com/yqchilde/Scripts/main/node/jd/deploy.sh -O ./deploy.sh
   chmod 700 ./deploy.sh
 
-  echo -e "${GREEN}执行脚本任务${RES}"
-  exec bash deploy.sh start
+  if [ ! -f "./deploy.sh" ] || [ ! -s "./deploy.sh" ]; then
+    echo -e "${RED}脚本同步失败，程序退出${RES}"
+    cp ./deploy.sh.bak ./deploy.sh
+  else
+    echo -e "${GREEN}执行脚本任务${RES}"
+    exec bash deploy.sh start
+  fi
 }
 
 function downScript() {
