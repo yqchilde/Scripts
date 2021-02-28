@@ -42,15 +42,15 @@ function syncDeploy() {
 }
 
 function downScript() {
-  wget https://raw.sevencdn.com/yqchilde/Scripts/main/node/jd/joy_reword.js -O ./joy_reword.js
-  wget https://raw.sevencdn.com/i-chenzhe/qx/main/jd_asus_iqiyi.js -O ./jd_asus_iqiyi.js
-  wget https://raw.sevencdn.com/i-chenzhe/qx/main/jd_jump-jump.js -O ./jd_jump-jump.js
-  wget https://raw.sevencdn.com/i-chenzhe/qx/main/jd_entertainment.js -O ./jd_entertainment.js
-  wget https://raw.sevencdn.com/i-chenzhe/qx/main/jd_fanslove.js -O ./jd_fanslove.js
-  wget https://raw.sevencdn.com/moposmall/Script/main/Me/jx_cfd.js -O ./jx_cfd.js
-  wget https://raw.sevencdn.com/moposmall/Script/main/Me/jx_cfd_exchange.js -O ./jx_cfd_exchange.js
+  wget https://raw.githubusercontent.com/yqchilde/Scripts/main/node/jd/joy_reword.js -O ./joy_reword.js
+  wget https://raw.githubusercontent.com/i-chenzhe/qx/main/jd_asus_iqiyi.js -O ./jd_asus_iqiyi.js
+  wget https://raw.githubusercontent.com/i-chenzhe/qx/main/jd_jump-jump.js -O ./jd_jump-jump.js
+  wget https://raw.githubusercontent.com/i-chenzhe/qx/main/jd_entertainment.js -O ./jd_entertainment.js
+  wget https://raw.githubusercontent.com/i-chenzhe/qx/main/jd_fanslove.js -O ./jd_fanslove.js
+  wget https://raw.githubusercontent.com/moposmall/Script/main/Me/jx_cfd.js -O ./jx_cfd.js
+  wget https://raw.githubusercontent.com/moposmall/Script/main/Me/jx_cfd_exchange.js -O ./jx_cfd_exchange.js
   wget https://gitee.com/qq34347476/quantumult-x/raw/master/format_share_jd_code.js -O ./format_share_jd_code.js
-  wget https://raw.githubusercontent.com/i-chenzhe/qx/main/jd_shake.js
+  wget https://raw.githubusercontent.com/i-chenzhe/qx/main/jd_shake.js -O ./jd_shake.js
 }
 
 function runDocker() {
