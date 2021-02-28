@@ -32,15 +32,19 @@
 
 **前提：** 
 
- 	1. 按照模板配置好 `docker-compose.yml`
- 	2. 同目录创建 `deploy.sh` 并将该项目中`deploy.sh`代码拷贝进去
- 	3. 同目录创建 `.env` 文件，按照 `.env` 模板配置好自己的信息
+  1. 按照模板配置好 `docker-compose.yml`
+
+  2. 同目录创建 `deploy.sh` 并将该项目中`deploy.sh`代码拷贝进去
+
+  3. 同目录创建 `.env` 文件，按照 `.env` 模板配置好自己的信息
 
 **注意：** 
 
- 	1. `.env` 文件中 `SCRIPT_NAME` 变量是配置docker多账号的，每个docker容器名用 `@` 符号隔开
- 	2. `.env` 文件中除了 `SCRIPT_NAME` 变量，其他变量是非必须和本项目模板保持一致的，可自行扩展
- 	3. 本项目中重要的是 `deploy.sh` 文件，其他均可以自行扩展
+  1. `.env` 文件中 `SCRIPT_NAME` 变量是配置docker多账号的，每个docker容器名用 `@` 符号隔开
+
+  2. `.env` 文件中除了 `SCRIPT_NAME` 变量，其他变量是非必须和本项目模板保持一致的，可自行扩展
+
+  3. 本项目中重要的是 `deploy.sh` 文件，其他均可以自行扩展
 
 ---
 
