@@ -32,7 +32,7 @@ function syncDeploy() {
   chmod 700 ./deploy.sh
 
   echo -e "${GREEN}执行脚本任务${RES}"
-  exec sh ./deploy.sh start
+  exec bash deploy.sh start
 }
 
 function downScript() {
