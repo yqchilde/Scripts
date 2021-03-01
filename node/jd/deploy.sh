@@ -49,7 +49,7 @@ function downScript() {
   wget https://gitee.com/qq34347476/quantumult-x/raw/master/format_share_jd_code.js -O ./format_share_jd_code.js
   wget https://raw.githubusercontent.com/i-chenzhe/qx/main/jd_shake.js -O ./jd_shake.js
   wget https://raw.githubusercontent.com/yqchilde/Scripts/main/node/jd/author/whyour/jx_cfdtx.js -O ./jx_cfdtx.js
-  wget https://raw.githubusercontent.com/yqchilde/Scripts/main/node/jd/author/lxk0301/jd_live_redrain.js -O /scripts/jd_live_redrain.js
+  wget https://raw.githubusercontent.com/yqchilde/Scripts/main/node/jd/author/lxk0301/jd_live_redrain.js -O ./jd_live_redrain.js
 }
 
 function runDocker() {
