@@ -95,7 +95,7 @@ function initScript() {
       docker cp ./jd_shake.js "$image":/scripts/jd_live_redrain.js
 
       echo -e "${GREEN}------------------------------------------------Exec Npm Install------------------------------------------------${RES}"
-      docker exec -it "$image" sh -c 'npm config set registry https://registry.npm.taobao.org && npm install'
+      docker exec -it "$image" /bin/bash -c 'npm config set registry https://registry.npm.taobao.org && npm install'
     }&
 
   done
