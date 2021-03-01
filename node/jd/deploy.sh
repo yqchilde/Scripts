@@ -97,15 +97,6 @@ function initScript() {
 
   done
   wait
-
-  for image in "${arr[@]}"
-  do
-  {
-    echo -e "${GREEN}-------------------------------------------Exec Npm Install-------------------------------------------${RES}"
-    docker exec -it "$image" sh "npm config set registry https://registry.npm.taobao.org && npm install"
-  }&
-  done
-  wait
 }
 
 function main() {
