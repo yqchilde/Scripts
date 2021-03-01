@@ -102,7 +102,7 @@ function initScript() {
   do
   {
     echo -e "${GREEN}-------------------------------------------Exec Npm Install-------------------------------------------${RES}"
-    docker exec "$image" sh 'npm config set registry https://registry.npm.taobao.org && npm install'
+    docker exec -it "$image" sh "npm config set registry https://registry.npm.taobao.org && npm install"
   }&
   done
   wait
