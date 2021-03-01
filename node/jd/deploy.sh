@@ -93,11 +93,17 @@ function initScript() {
       
       echo -e "${BLUE}docker copy jd_live_redrain.js${RES}"
       docker cp ./jd_shake.js "$image":/scripts/jd_live_redrain.js
-
-      echo -e "${GREEN}------------------------------------------------Exec Npm Install------------------------------------------------${RES}"
-      docker exec "$image" sh 'npm config set registry https://registry.npm.taobao.org && npm install'
     }&
 
+  done
+  wait
+
+  for image in "${arr[@]}"
+  do
+  {
+    echo -e "${GREEN}-------------------------------------------Exec Npm Install-------------------------------------------${RES}"
+    docker exec "$image" sh 'npm config set registry https://registry.npm.taobao.org && npm install'
+  }&
   done
   wait
 }
