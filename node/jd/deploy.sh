@@ -51,6 +51,7 @@ function downScript() {
   wget https://gitee.com/qq34347476/quantumult-x/raw/master/format_share_jd_code.js -O ./format_share_jd_code.js
   wget https://raw.githubusercontent.com/i-chenzhe/qx/main/jd_shake.js -O ./jd_shake.js
   wget https://raw.githubusercontent.com/yqchilde/Scripts/main/node/jd/author/whyour/jx_cfdtx.js -O ./jx_cfdtx.js
+  wget https://raw.githubusercontent.com/yqchilde/Scripts/main/node/jd/author/lxk0301/jd_live_redrain.js -O /scripts/jd_live_redrain.js
 }
 
 function runDocker() {
@@ -96,6 +97,9 @@ function initScript() {
 
     echo -e "${BLUE}docker copy jd_shake.js${RES}"
     docker cp ./jd_shake.js "$image":/scripts/jd_shake.js
+    
+    echo -e "${BLUE}docker copy jd_live_redrain.js${RES}"
+    docker cp ./jd_shake.js "$image":/scripts/jd_live_redrain.js
 
     echo -e "${GREEN}Exec npm i${RES}"
     echo "$image"
