@@ -27,8 +27,8 @@ function syncDeploy() {
     mv ./deploy.sh ./deploy.sh.bak
   fi
 
-  wget https://cdn.jsdelivr.net/gh/yqchilde/Scripts@main/node/jd/my_crontab_list.sh -O ./my_crontab_list.sh
-  wget https://cdn.jsdelivr.net/gh/yqchilde/Scripts@main/node/jd/deploy.sh -O ./deploy.sh
+  wget https://raw.githubusercontent.com/yqchilde/Scripts/main/node/jd/my_crontab_list.sh -O ./my_crontab_list.sh
+  wget https://raw.githubusercontent.com/yqchilde/Scripts/main/node/jd/deploy.sh -O ./deploy.sh
   chmod 700 ./deploy.sh
 
   if [ ! -f "./deploy.sh" ] || [ ! -s "./deploy.sh" ]; then
@@ -42,14 +42,14 @@ function syncDeploy() {
 }
 
 function downScript() {
-  wget https://cdn.jsdelivr.net/gh/yqchilde/Scripts@main/node/jd/author/lxk0301/joy_reword.js -O ./joy_reword.js
-  wget https://cdn.jsdelivr.net/gh/i-chenzhe/qx@main/jd_entertainment.js -O ./jd_entertainment.js
-  wget https://cdn.jsdelivr.net/gh/i-chenzhe/qx@main/jd_fanslove.js -O ./jd_fanslove.js
-  wget https://cdn.jsdelivr.net/gh/moposmall/Script@main/Me/jx_cfd_exchange.js -O ./jx_cfd_exchange.js
+  wget https://raw.githubusercontent.com/yqchilde/Scripts/main/node/jd/author/lxk0301/joy_reword.js -O ./joy_reword.js
+  wget https://raw.githubusercontent.com/i-chenzhe/qx/main/jd_entertainment.js -O ./jd_entertainment.js
+  wget https://raw.githubusercontent.com/i-chenzhe/qx/main/jd_fanslove.js -O ./jd_fanslove.js
+  wget https://raw.githubusercontent.com/moposmall/Script/main/Me/jx_cfd_exchange.js -O ./jx_cfd_exchange.js
   wget https://gitee.com/qq34347476/quantumult-x/raw/master/format_share_jd_code.js -O ./format_share_jd_code.js
-  wget https://cdn.jsdelivr.net/gh/i-chenzhe/qx@main/jd_shake.js -O ./jd_shake.js
-  wget https://cdn.jsdelivr.net/gh/yqchilde/Scripts@main/node/jd/author/whyour/jx_cfdtx.js -O ./jx_cfdtx.js
-  wget https://cdn.jsdelivr.net/gh/yqchilde/Scripts@main/node/jd/author/lxk0301/jd_live_redrain.js -O /scripts/jd_live_redrain.js
+  wget https://raw.githubusercontent.com/i-chenzhe/qx/main/jd_shake.js -O ./jd_shake.js
+  wget https://raw.githubusercontent.com/yqchilde/Scripts/main/node/jd/author/whyour/jx_cfdtx.js -O ./jx_cfdtx.js
+  wget https://raw.githubusercontent.com/yqchilde/Scripts/main/node/jd/author/lxk0301/jd_live_redrain.js -O /scripts/jd_live_redrain.js
 }
 
 function runDocker() {
@@ -69,45 +69,34 @@ function initScript() {
   for image in "${arr[@]}"
   do
 
-  {
-    echo -e "${BLUE}docker copy joy_reword.js${RES}"
-    docker cp ./joy_reword.js "$image":/scripts/joy_reword.js
+    {
+      echo -e "${BLUE}docker copy joy_reword.js${RES}"
+      docker cp ./joy_reword.js "$image":/scripts/joy_reword.js
 
-    echo -e "${BLUE}docker copy jd_entertainment.js${RES}"
-    docker cp ./jd_entertainment.js "$image":/scripts/jd_entertainment.js
+      echo -e "${BLUE}docker copy jd_entertainment.js${RES}"
+      docker cp ./jd_entertainment.js "$image":/scripts/jd_entertainment.js
 
-    echo -e "${BLUE}docker copy jd_fanslove.js${RES}"
-    docker cp ./jd_fanslove.js "$image":/scripts/jd_fanslove.js
+      echo -e "${BLUE}docker copy jd_fanslove.js${RES}"
+      docker cp ./jd_fanslove.js "$image":/scripts/jd_fanslove.js
 
-    echo -e "${BLUE}docker copy jx_cfdtx.js${RES}"
-    docker cp ./jx_cfdtx.js "$image":/scripts/jx_cfdtx.js
+      echo -e "${BLUE}docker copy jx_cfdtx.js${RES}"
+      docker cp ./jx_cfdtx.js "$image":/scripts/jx_cfdtx.js
 
-    echo -e "${BLUE}docker copy jx_cfd_exchange.js${RES}"
-    docker cp ./jx_cfd_exchange.js "$image":/scripts/jx_cfd_exchange.js
+      echo -e "${BLUE}docker copy jx_cfd_exchange.js${RES}"
+      docker cp ./jx_cfd_exchange.js "$image":/scripts/jx_cfd_exchange.js
 
-    echo -e "${BLUE}docker copy format_share_jd_code.js${RES}"
-    docker cp ./format_share_jd_code.js "$image":/scripts/format_share_jd_code.js
+      echo -e "${BLUE}docker copy format_share_jd_code.js${RES}"
+      docker cp ./format_share_jd_code.js "$image":/scripts/format_share_jd_code.js
 
-    echo -e "${BLUE}docker copy jd_shake.js${RES}"
-    docker cp ./jd_shake.js "$image":/scripts/jd_shake.js
-    
-    echo -e "${BLUE}docker copy jd_live_redrain.js${RES}"
-    docker cp ./jd_shake.js "$image":/scripts/jd_live_redrain.js
+      echo -e "${BLUE}docker copy jd_shake.js${RES}"
+      docker cp ./jd_shake.js "$image":/scripts/jd_shake.js
+      
+      echo -e "${BLUE}docker copy jd_live_redrain.js${RES}"
+      docker cp ./jd_shake.js "$image":/scripts/jd_live_redrain.js
 
-    echo -e "${GREEN}------------------------------------------------Exec Install Cnpm------------------------------------------------${RES}"
-    docker exec -it "$image" sh -c 'npm install -g cnpm --registry=https://registry.npm.taobao.org' &
-    
-  }&
-
-  done
-  wait
-
-  for image in "${arr[@]}"
-  do
-
-  {
-    docker exec -it "$image" sh -c 'cnpm i' &
-  }&
+      echo -e "${GREEN}------------------------------------------------Exec Npm Install------------------------------------------------${RES}"
+      docker exec -it "$image" sh -c 'npm config set registry https://registry.npm.taobao.org && npm install'
+    }&
 
   done
   wait
