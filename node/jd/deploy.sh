@@ -18,7 +18,7 @@ function readImageNames() {
 }
 
 function syncDeploy() {
-  echo -e "${GREEN}同步最新脚本${RES}"
+  echo -e "${GREEN}------------------------------------------------同步最新脚本------------------------------------------------${RES}"
   if [ -f "./my_crontab_list.sh" ]; then
     mv ./my_crontab_list.sh ./my_crontab_list.sh.bak
   fi
@@ -27,35 +27,33 @@ function syncDeploy() {
     mv ./deploy.sh ./deploy.sh.bak
   fi
 
-  wget https://raw.githubusercontent.com/yqchilde/Scripts/main/node/jd/my_crontab_list.sh -O ./my_crontab_list.sh
-  wget https://raw.githubusercontent.com/yqchilde/Scripts/main/node/jd/deploy.sh -O ./deploy.sh
+  wget https://cdn.jsdelivr.net/gh/yqchilde/Scripts@main/node/jd/my_crontab_list.sh -O ./my_crontab_list.sh
+  wget https://cdn.jsdelivr.net/gh/yqchilde/Scripts@main/node/jd/deploy.sh -O ./deploy.sh
   chmod 700 ./deploy.sh
 
   if [ ! -f "./deploy.sh" ] || [ ! -s "./deploy.sh" ]; then
-    echo -e "${RED}脚本同步失败，程序退出${RES}"
+    echo -e "${RED}因网络原因导致脚本同步失败，程序退出${RES}"
     cp ./deploy.sh.bak ./deploy.sh
     exit 1
   else
-    echo -e "${GREEN}执行脚本任务${RES}"
+    echo -e "${GREEN}------------------------------------------------执行脚本任务------------------------------------------------${RES}"
     exec bash deploy.sh start
   fi
 }
 
 function downScript() {
-  wget https://raw.githubusercontent.com/yqchilde/Scripts/main/node/jd/author/lxk0301/joy_reword.js -O ./joy_reword.js
-  wget https://raw.githubusercontent.com/i-chenzhe/qx/main/jd_asus_iqiyi.js -O ./jd_asus_iqiyi.js
-  wget https://raw.githubusercontent.com/i-chenzhe/qx/main/jd_jump-jump.js -O ./jd_jump-jump.js
-  wget https://raw.githubusercontent.com/i-chenzhe/qx/main/jd_entertainment.js -O ./jd_entertainment.js
-  wget https://raw.githubusercontent.com/i-chenzhe/qx/main/jd_fanslove.js -O ./jd_fanslove.js
-  wget https://raw.githubusercontent.com/moposmall/Script/main/Me/jx_cfd_exchange.js -O ./jx_cfd_exchange.js
+  wget https://cdn.jsdelivr.net/gh/yqchilde/Scripts@main/node/jd/author/lxk0301/joy_reword.js -O ./joy_reword.js
+  wget https://cdn.jsdelivr.net/gh/i-chenzhe/qx@main/jd_entertainment.js -O ./jd_entertainment.js
+  wget https://cdn.jsdelivr.net/gh/i-chenzhe/qx@main/jd_fanslove.js -O ./jd_fanslove.js
+  wget https://cdn.jsdelivr.net/gh/moposmall/Script@main/Me/jx_cfd_exchange.js -O ./jx_cfd_exchange.js
   wget https://gitee.com/qq34347476/quantumult-x/raw/master/format_share_jd_code.js -O ./format_share_jd_code.js
-  wget https://raw.githubusercontent.com/i-chenzhe/qx/main/jd_shake.js -O ./jd_shake.js
-  wget https://raw.githubusercontent.com/yqchilde/Scripts/main/node/jd/author/whyour/jx_cfdtx.js -O ./jx_cfdtx.js
-  wget https://raw.githubusercontent.com/yqchilde/Scripts/main/node/jd/author/lxk0301/jd_live_redrain.js -O /scripts/jd_live_redrain.js
+  wget https://cdn.jsdelivr.net/gh/i-chenzhe/qx@main/jd_shake.js -O ./jd_shake.js
+  wget https://cdn.jsdelivr.net/gh/yqchilde/Scripts@main/node/jd/author/whyour/jx_cfdtx.js -O ./jx_cfdtx.js
+  wget https://cdn.jsdelivr.net/gh/yqchilde/Scripts@main/node/jd/author/lxk0301/jd_live_redrain.js -O /scripts/jd_live_redrain.js
 }
 
 function runDocker() {
-  echo -e "${GREEN}docker task start${RES}"
+  echo -e "${GREEN}------------------------------------------------docker task start------------------------------------------------${RES}"
   docker-compose down
   docker rmi lxk0301/jd_scripts
   docker-compose up -d
@@ -73,12 +71,6 @@ function initScript() {
 
     echo -e "${BLUE}docker copy joy_reword.js${RES}"
     docker cp ./joy_reword.js "$image":/scripts/joy_reword.js
-
-    echo -e "${BLUE}docker copy jd_asus_iqiyi.js${RES}"
-    docker cp ./jd_asus_iqiyi.js "$image":/scripts/jd_asus_iqiyi.js
-
-    echo -e "${BLUE}docker copy jd_jump-jump.js${RES}"
-    docker cp ./jd_jump-jump.js "$image":/scripts/jd_jump-jump.js
 
     echo -e "${BLUE}docker copy jd_entertainment.js${RES}"
     docker cp ./jd_entertainment.js "$image":/scripts/jd_entertainment.js
@@ -102,8 +94,8 @@ function initScript() {
     docker cp ./jd_shake.js "$image":/scripts/jd_live_redrain.js
 
     echo -e "${GREEN}Exec npm i${RES}"
-    echo "$image"
-    docker exec -it "$image" sh -c 'npm i'
+    docker exec -it "$image" sh -c 'npm install -g cnpm --registry=https://registry.npm.taobao.org' &
+    docker exec -it "$image" sh -c 'cnpm i' &
 
   done
 }
@@ -127,12 +119,12 @@ function main() {
   readImageNames
 
   if [ $? -ne 0 ]; then
-    echo -e "${RED}没有识别到配置docker脚本名称，程序退出${RES}"
+    echo -e "${RED}未检查到配置脚本多账号容器名称，程序退出，详情请查看 https://github.com/yqchilde/Scripts/tree/main/node/jd${RES}"
     exit 1
   fi
 
   if [ ! `command -v wget` ];then
-      echo -e "${RED}发现wget没有安装，程序退出${RES}"
+      echo -e "${RED}未检查到wget安装，程序退出${RES}"
       exit 1
   fi
 
@@ -149,6 +141,8 @@ function main() {
   rm -rf *.js
 
   unset SCRIPT_NAMES
+
+  wait
 
   echo -e "${GREEN}   ____     __ __
   / __ \   / //_/
