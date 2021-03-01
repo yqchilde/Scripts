@@ -69,6 +69,7 @@ function initScript() {
   for image in "${arr[@]}"
   do
 
+  {
     echo -e "${BLUE}docker copy joy_reword.js${RES}"
     docker cp ./joy_reword.js "$image":/scripts/joy_reword.js
 
@@ -93,11 +94,23 @@ function initScript() {
     echo -e "${BLUE}docker copy jd_live_redrain.js${RES}"
     docker cp ./jd_shake.js "$image":/scripts/jd_live_redrain.js
 
-    echo -e "${GREEN}Exec npm i${RES}"
+    echo -e "${GREEN}------------------------------------------------Exec Install Cnpm------------------------------------------------${RES}"
     docker exec -it "$image" sh -c 'npm install -g cnpm --registry=https://registry.npm.taobao.org' &
-    docker exec -it "$image" sh -c 'cnpm i' &
+    
+  }&
 
   done
+  wait
+
+  for image in "${arr[@]}"
+  do
+
+  {
+    docker exec -it "$image" sh -c 'cnpm i' &
+  }&
+
+  done
+  wait
 }
 
 function main() {
@@ -132,17 +145,17 @@ function main() {
     syncDeploy
   fi
 
-  downScript
+  downScript &
 
-  runDocker
+  runDocker &
+
+  wait
 
   initScript $SCRIPT_NAMES
 
   rm -rf *.js
 
   unset SCRIPT_NAMES
-
-  wait
 
   echo -e "${GREEN}   ____     __ __
   / __ \   / //_/
