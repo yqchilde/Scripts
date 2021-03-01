@@ -47,6 +47,9 @@ services:
 
       # 东东农场
       - FRUITSHARECODES=${DDNC1}@${DDNC2}@${DDNC3}@${DDNC4}@${DDNC5}
+      
+      # 财富岛
+      - JDCFD_SHARECODES=${JDCFD1}@${JDCFD2}@${JDCFD3}@${JDCFD4}@${JDCFD5}
 
       #----------------------------Share End------------------------------
 
@@ -126,6 +129,9 @@ services:
 
       # 东东农场
       - FRUITSHARECODES=${DDNC1}@${DDNC2}@${DDNC3}@${DDNC4}@${DDNC6}
+      
+      # 财富岛
+      - JDCFD_SHARECODES=${JDCFD1}@${JDCFD2}@${JDCFD3}@${JDCFD4}@${JDCFD6}
 
       #----------------------------Share End------------------------------
 
