@@ -30,6 +30,10 @@
 8 */3 * * * https://raw.githubusercontent.com/yqchilde/Scripts/main/node/jd/author/whyour/jx_cfdtx.js -O /scripts/jx_cfdtx.js
 0 0 * * * node /scripts/jx_cfdtx.js >> /scripts/logs/jx_cfdtx.log 2>&1
 
+# 红包雨
+9 */3 * * * https://raw.githubusercontent.com/yqchilde/Scripts/main/node/jd/author/lxk0301/jd_live_redrain.js -O /scripts/jd_live_redrain.js
+30,31 20-23/1 2,5 3 * node /scripts/jd_live_redrain.js >> /scripts/logs/jd_live_redrain.log 2>&1
+
 # 格式化互助码
 0 */12 * * * wget https://gitee.com/qq34347476/quantumult-x/raw/master/format_share_jd_code.js -O /scripts/format_share_jd_code.js
 0 1 0/2 * * node /scripts/format_share_jd_code.js >> /scripts/logs/format_share_jd_code.log 2>&1
