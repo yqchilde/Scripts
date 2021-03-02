@@ -50,6 +50,7 @@ function downScript() {
   wget https://raw.githubusercontent.com/i-chenzhe/qx/main/jd_shake.js -O ./jd_shake.js
   wget https://raw.githubusercontent.com/yqchilde/Scripts/main/node/jd/author/whyour/jx_cfdtx.js -O ./jx_cfdtx.js
   wget https://raw.githubusercontent.com/yqchilde/Scripts/main/node/jd/author/lxk0301/jd_live_redrain.js -O ./jd_live_redrain.js
+  wget https://raw.githubusercontent.com/i-chenzhe/qx/main/jd_jump-jump.js -O ./jd_jump-jump.js
 }
 
 function runDocker() {
@@ -93,6 +94,9 @@ function initScript() {
       
       echo -e "${BLUE}docker copy jd_live_redrain.js${RES}"
       docker cp ./jd_shake.js "$image":/scripts/jd_live_redrain.js
+
+      echo -e "${BLUE}docker copy jd_jump-jump.js${RES}"
+      docker cp ./jd_shake.js "$image":/scripts/jd_jump-jump.js
     }&
 
   done

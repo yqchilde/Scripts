@@ -2,6 +2,10 @@
 0 */3 * * * wget https://raw.githubusercontent.com/yqchilde/Scripts/main/node/jd/author/lxk0301/joy_reword.js -O /scripts/joy_reword.js
 3,6,9 0 8,16 * * * node /scripts/joy_reward.js >> /scripts/logs/joy_reward.log 2>&1
 
+# 母婴-跳一跳
+1 */3 * * * wget https://raw.githubusercontent.com/i-chenzhe/qx/main/jd_jump-jump.js -O /scripts/jd_jump-jd_jump.js
+5 8,14,20 2-7 3 * node /scripts/jd_jump-jump.js >> /scripts/logs/jd_jump-jump.log 2>&1
+
 # 百变大咖秀
 3 */3 * * * wget https://raw.githubusercontent.com/i-chenzhe/qx/main/jd_entertainment.js -O /scripts/jd_entertainment.js
 10 10,11 * * 2-5 node /scripts/jd_entertainment.js >> /scripts/logs/jd_entertainment.log 2>&1
