@@ -4,11 +4,11 @@
 const $ = new Env('超级直播间红包雨');
 let bodyList = {
   '2': {
-    url: 'https://api.m.jd.com/client.action?functionId=liveActivityV8420&uuid=8888888&client=apple&clientVersion=9.4.1&st=1614332001091&sign=92c7fc6ad1cc78cb344bf32de2fa7474&sv=110',
-    body: 'body=%7B%22liveId%22%3A%223570050%22%7D'
+    url: 'https://api.m.jd.com/client.action?functionId=liveActivityV842&uuid=8888888&client=apple&clientVersion=9.4.1&st=1614686919076&sign=1437500a14b55763d807c04b94067e80&sv=111',
+    body: 'body=%7B%22liveId%22%3A3570050%7D'
   },
   '5': {
-    url: 'https://api.m.jd.com/client.action?functionId=liveActivityV8420&uuid=8888888&client=apple&clientVersion=9.4.1&st=1614331999027&sign=a33166ef832849af9c298801a5bad24a&sv=112',
+    url: 'https://api.m.jd.com/client.action?functionId=liveActivityV842&uuid=8888888&client=apple&clientVersion=9.4.1&st=1614686892067&sign=176cea32bb75228773843ada8f36572e&sv=111',
     body: 'body=%7B%22liveId%22%3A%223554417%22%7D'
   }
 }
