@@ -1,7 +1,7 @@
 #!/bin/bash
 
 function initGitRepo() {
-   git clone https://github.com/yqchilde/Scripts.git /ybRepo
+   git clone https://gitee.com/yqchilde/Scripts.git /ybRepo
 }
 
 if [ ! -d "/ybRepo/" ]; then
