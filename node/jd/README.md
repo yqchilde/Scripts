@@ -31,7 +31,7 @@
 ```
 
 # ScreenShot
-![](https://pic.yqqy.top/blog/20210304234821.png?imageMogr2/format/webp/interlace/1)
+![](https://https://pic.yqqy.top/blog/20210304234821.png)
 
 # Thanks
 
