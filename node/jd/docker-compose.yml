@@ -73,10 +73,13 @@ services:
       # 财富岛通知
       - CFD_NOTIFY_CONTROL="true"
 
+      # 取关店铺数量
+      - UN_SUBSCRIBES=100&100
+
       # 延时
       # - RANDOM_DELAY_MAX=30
 
-      #使用自定义定任务追加默认任务之后，上面volumes挂载之后这里配置对应的文件名
+      #使用自定义定任务追加默认任务之后
       - CUSTOM_LIST_FILE=my_crontab_list.sh
 
       # 不执行的脚本
@@ -155,10 +158,13 @@ services:
       # 财富岛通知
       - CFD_NOTIFY_CONTROL="true"
 
+      # 取关店铺数量
+      - UN_SUBSCRIBES=100&100
+
       # 延时
       # - RANDOM_DELAY_MAX=30
 
-      #使用自定义定任务追加默认任务之后，上面volumes挂载之后这里配置对应的文件名
+      #使用自定义定任务追加默认任务之后
       - CUSTOM_LIST_FILE=my_crontab_list.sh
 
       # 不执行的脚本

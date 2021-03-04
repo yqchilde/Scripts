@@ -23,38 +23,15 @@
 ├── .env                // 变量配置文件
 ├── README.md
 ├── author              // 存档脚本目录
-├── deploy.sh           // 一键构建脚本
+├── backup              // 过期脚本目录
+├── deploy.sh           // 一键构建脚本(已弃用)
+├── jd_script.sh        // 自定义脚本远程加载脚本, 在环境变量 CUSTOM_LIST_FILE 里配置远程地址
 ├── docker-compose.yml  // docker-compose配置模板
-└── my_crontab_list.sh  // linux crontab定时任务
+└── jd_script_tool.py   // 脚本相关生成工具
 ```
 
-# Running
-
-**前提：** 
-
-  1. 按照模板配置好 `docker-compose.yml`
-
-  2. 同目录创建 `deploy.sh` 并将该项目中`deploy.sh`代码拷贝进去
-
-  3. 同目录创建 `.env` 文件，按照 `.env` 模板配置好自己的信息
-
-**注意：** 
-
-  1. `.env` 文件中 `SCRIPT_NAME` 变量是配置docker多账号的，每个docker容器名用 `@` 符号隔开
-
-  2. `.env` 文件中除了 `SCRIPT_NAME` 变量，其他变量是非必须和本项目模板保持一致的，可自行扩展
-
-  3. 本项目中重要的是 `deploy.sh` 文件，其他均可以自行扩展
-
----
-
-**运行：**
-
-​	`bash deploy.sh`
-
-**更新：**
-
-​	已通过 crontab 添加了定时拉取脚本任务，手动更新请再次执行 `bash deploy.sh` 
+# ScreenShot
+![](https://pic.yqqy.top/blog/20210304234821.png?imageMogr2/format/webp/interlace/1)
 
 # Thanks
 
