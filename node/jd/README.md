@@ -31,7 +31,7 @@
 ```
 
 # ScreenShot
-![image](https://user-images.githubusercontent.com/36953759/109991452-4c39bd80-7d45-11eb-9f8b-c60717df3ac1.png)
+![a.jpg](https://i.loli.net/2021/03/05/5VSsjLhZKwdtcml.jpg)
 
 
 # Thanks
