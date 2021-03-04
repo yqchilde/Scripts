@@ -31,7 +31,8 @@
 ```
 
 # ScreenShot
-![](https://https://pic.yqqy.top/blog/20210304234821.png)
+![image](https://user-images.githubusercontent.com/36953759/109991452-4c39bd80-7d45-11eb-9f8b-c60717df3ac1.png)
+
 
 # Thanks
 
