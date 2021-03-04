@@ -25,4 +25,5 @@ cp $(find /ybRepo/node/jd/author -type f -name "*.js") /scripts/
   printf "# 摇一摇活动\n3 20 * * * node /scripts/jd_shake.js >> /scripts/logs/jd_shake.log 2>&1\n"
   printf "# 财富岛提现\n0 0 * * * node /scripts/jx_cfdtx.js >> /scripts/logs/jx_cfdtx.log 2>&1\n"
   printf "# 红包雨\n30,31 20-23/1 2,5 3 * node /scripts/jd_live_redrain.js >> /scripts/logs/jd_live_redrain.log 2>&1\n"
+  printf "# 京东小魔方\n10 10 * * * node /scripts/jd_xmf.js >> /scripts/logs/jd_xmf.log 2>&1\n"
 } >> /scripts/docker/merged_list_file.sh
