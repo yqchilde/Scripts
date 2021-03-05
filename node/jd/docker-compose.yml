@@ -6,7 +6,6 @@ services:
     restart: always
     volumes:
       - ./logs1:/scripts/logs
-      - ./my_crontab_list.sh:/scripts/docker/my_crontab_list.sh
     tty: true
     extra_hosts:
       - "gitee.com:180.97.125.228"
@@ -76,11 +75,8 @@ services:
       # 取关店铺数量
       - UN_SUBSCRIBES=100&100
 
-      # 延时
-      # - RANDOM_DELAY_MAX=30
-
       #使用自定义定任务追加默认任务之后
-      - CUSTOM_LIST_FILE=my_crontab_list.sh
+      - CUSTOM_SHELL_FILE=https://gitee.com/yqchilde/Scripts/raw/main/node/jd/jd_script.sh
 
       # 不执行的脚本
       - DO_NOT_RUN_SCRIPTS=jd_family
@@ -91,7 +87,6 @@ services:
     restart: always
     volumes:
       - ./logs2:/scripts/logs
-      - ./my_crontab_list.sh:/scripts/docker/my_crontab_list.sh
     tty: true
     extra_hosts:
       - "gitee.com:180.97.125.228"
@@ -161,11 +156,8 @@ services:
       # 取关店铺数量
       - UN_SUBSCRIBES=100&100
 
-      # 延时
-      # - RANDOM_DELAY_MAX=30
-
       #使用自定义定任务追加默认任务之后
-      - CUSTOM_LIST_FILE=my_crontab_list.sh
+      - CUSTOM_SHELL_FILE=https://gitee.com/yqchilde/Scripts/raw/main/node/jd/jd_script.sh
 
       # 不执行的脚本
       - DO_NOT_RUN_SCRIPTS=jd_family
