@@ -36,12 +36,12 @@ def show_menu():
     print("| |_| | |_| |  ___) | (__| |  | | |_) | |_ ")
     print(" \___/|____/  |____/ \___|_|  |_| .__/ \__|")
     print("                                |_|        ")
-    print("    ____        _ _     _ _             ")
-    print("   | __ ) _   _(_) | __| (_)_ __   __ _ ")
-    print("   |  _ \| | | | | |/ _` | | '_ \ / _` |")
-    print("   | |_) | |_| | | | (_| | | | | | (_| |")
-    print("   |____/ \__,_|_|_|\__,_|_|_| |_|\__, |")
-    print("                                  |___/ ")
+    print("            _____           _ ")
+    print("           |_   _|__   ___ | |")
+    print("             | |/ _ \ / _ \| |")
+    print("             | | (_) | (_) | |")
+    print("             |_|\___/ \___/|_|")
+    print("")
     print("1-东东工厂", "\t\t\t\t", end="")
     print("2-京喜工厂")
     print("3-京喜农场", "\t\t\t\t", end="")
@@ -109,7 +109,11 @@ def searchFile(path='.', file_name=""):
 
 
 def queryAllShareCode(paths):
-    for idx, path in enumerate(paths):
+    if len(paths) == 0:
+        print("\033[31m检测到文件位置放置错误，请将该文件放置在项目根目录\033[0m")
+        return
+
+    for path in paths:
         fo = open(path, "r")
 
         info = {}
@@ -280,7 +284,7 @@ def main():
         elif section == "10":
             multiHandle()
         elif section == "11":
-            searchFile(path="./", file_name="get")
+            searchFile(path="./", file_name="jd_get_share_code.log")
             queryAllShareCode(shareCodeFilePaths)
         elif section == "12":
             formatFriendCode()
