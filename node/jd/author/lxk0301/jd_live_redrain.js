@@ -1,15 +1,15 @@
 /*
-30,31 20-23/1 2,5 3 * jd_live_redrain.js
+30,31 20-23/1 5,9 3 * jd_live_redrain.js
 */
 const $ = new Env('超级直播间红包雨');
 let bodyList = {
-  '2': {
-    url: 'https://api.m.jd.com/client.action?functionId=liveActivityV842&uuid=8888888&client=apple&clientVersion=9.4.1&st=1614686919076&sign=1437500a14b55763d807c04b94067e80&sv=111',
-    body: 'body=%7B%22liveId%22%3A3570050%7D'
-  },
   '5': {
-    url: 'https://api.m.jd.com/client.action?functionId=liveActivityV842&uuid=8888888&client=apple&clientVersion=9.4.1&st=1614686892067&sign=176cea32bb75228773843ada8f36572e&sv=111',
+    url: 'https://api.m.jd.com/client.action?functionId=liveActivityV842&uuid=8888888&client=apple&clientVersion=9.4.1&st=1614921454051&sign=5dee8ffb2097a0971f6db222c5a72e44&sv=111',
     body: 'body=%7B%22liveId%22%3A%223554417%22%7D'
+  },
+  '9': {
+    url: 'https://api.m.jd.com/client.action?functionId=liveActivityV842&uuid=8888888&client=apple&clientVersion=9.4.1&st=1614921453083&sign=a67dd2c499dcb3b0f27e810e5f15f316&sv=111',
+    body: 'body=%7B%22liveId%22%3A%223623574%22%7D'
   }
 }
 let ids = {
@@ -248,7 +248,11 @@ function TotalBean() {
               $.isLogin = false; //cookie过期
               return
             }
-            $.nickName = data['base'].nickname;
+            if (data['retcode'] === 0) {
+              $.nickName = data['base'].nickname;
+            } else {
+              $.nickName = $.UserName
+            }
           } else {
             console.log(`京东服务器返回空数据`)
           }
