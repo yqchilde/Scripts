@@ -30,17 +30,17 @@ shareCodeFilePaths = []
 def show_menu():
     """Menu"""
     print("-" * 50)
-    print("     _ ____    ____            _       _   ")
-    print("    | |  _ \  / ___|  ___ _ __(_)_ __ | |_ ")
-    print(" _  | | | | | \___ \ / __| '__| | '_ \| __|")
-    print("| |_| | |_| |  ___) | (__| |  | | |_) | |_ ")
-    print(" \___/|____/  |____/ \___|_|  |_| .__/ \__|")
-    print("                                |_|        ")
-    print("            _____           _ ")
-    print("           |_   _|__   ___ | |")
-    print("             | |/ _ \ / _ \| |")
-    print("             | | (_) | (_) | |")
-    print("             |_|\___/ \___/|_|")
+    print("       _ ____    ____            _       _   ")
+    print("      | |  _ \  / ___|  ___ _ __(_)_ __ | |_ ")
+    print("   _  | | | | | \___ \ / __| '__| | '_ \| __|")
+    print("  | |_| | |_| |  ___) | (__| |  | | |_) | |_ ")
+    print("   \___/|____/  |____/ \___|_|  |_| .__/ \__|")
+    print("                                  |_|        ")
+    print("              _____           _ ")
+    print("             |_   _|__   ___ | |")
+    print("               | |/ _ \ / _ \| |")
+    print("               | | (_) | (_) | |")
+    print("               |_|\___/ \___/|_|")
     print("")
     print("1-东东工厂", "\t\t\t\t", end="")
     print("2-京喜工厂")
@@ -116,117 +116,123 @@ def queryAllShareCode(paths):
     for path in paths:
         fo = open(path, "r")
 
-        info = {}
+        infos = {}
         for line in fo.readlines():
             line = line.strip()
+            # print(line)
+
+            # 从账号1 start
             if getMiddleStr(line, "【账号1（", "）") != "":
-                info["USERNAME"] = getMiddleStr(line, "【账号1（", "）")
-            if getMiddleStr(line, "东东工厂】", "\0") != "":
-                info["DDFACTORY_SHARECODES"] = getMiddleStr(line, "东东工厂】", "\0")
-            if getMiddleStr(line, "京喜工厂】", "\0") != "":
-                info["DREAM_FACTORY_SHARE_CODES"] = getMiddleStr(line, "京喜工厂】", "\0")
-            if getMiddleStr(line, "京喜农场】", "\0") != "":
-                info["JXNC_SHARECODES"] = getMiddleStr(line, "京喜农场】", "\0")
-            if getMiddleStr(line, "京东萌宠】", "\0") != "":
-                info["PETSHARECODES"] = getMiddleStr(line, "京东萌宠】", "\0")
-            if getMiddleStr(line, "种豆得豆】", "\0") != "":
-                info["PLANT_BEAN_SHARECODES"] = getMiddleStr(line, "种豆得豆】", "\0")
-            if getMiddleStr(line, "crazyJoy】", "\0") != "":
-                info["JDJOY_SHARECODES"] = getMiddleStr(line, "crazyJoy】", "\0")
-            if getMiddleStr(line, "闪购盲盒】", "\0") != "":
-                info["JDSGMH_SHARECODES"] = getMiddleStr(line, "闪购盲盒】", "\0")
-            if getMiddleStr(line, "京东农场】", "\0") != "":
-                info["FRUITSHARECODES"] = getMiddleStr(line, "京东农场】", "\0")
-            if getMiddleStr(line, "财富岛】", "\0") != "":
-                info["JDCFD_SHARECODES"] = getMiddleStr(line, "财富岛】", "(每次都变化,不影响)")
+                infos["USERNAME"] = getMiddleStr(line, "【账号1（", "）")
+            if "账号1开始" in line:
+                infos["START_LINE"] = line[16:]
+            if "东东工厂" in line:
+                infos["DDFACTORY_LINE"] = line[16:]
+            if "京喜工厂" in line:
+                infos["DREAM_FACTORY_LINE"] = line[16:]
+            if "京喜农场" in line:
+                infos["JXNC_LINE"] = line[16:]
+            if "京东萌宠" in line:
+                infos["PET_LINE"] = line[16:]
+            if "种豆得豆" in line:
+                infos["PLANT_BEAN_LINE"] = line[16:]
+            if "crazyJoy" in line:
+                infos["JDJOY_LINE"] = line[16:]
+            if "闪购盲盒" in line:
+                infos["JDSGMH_LINE"] = line[16:]
+            if "京东农场" in line:
+                infos["FRUIT_LINE"] = line[16:]
+            if "财富岛" in line:
+                infos["JDCFD_LINE"] = line[16:]
 
         fo.close()
 
-        print("\033[1;36m" + "京东账号" + "：" + info["USERNAME"] + "\033[0m")
-        print("东东工厂：" + info["DDFACTORY_SHARECODES"])
-        print("京喜工厂：" + info["DREAM_FACTORY_SHARE_CODES"])
-        print("京喜农场：" + info["JXNC_SHARECODES"])
-        print("京东萌宠：" + info["PETSHARECODES"])
-        print("种豆得豆：" + info["PLANT_BEAN_SHARECODES"])
-        print("crazyJoy：" + info["JDJOY_SHARECODES"])
-        print("闪购盲盒：" + info["JDSGMH_SHARECODES"])
-        print("京东农场：" + info["FRUITSHARECODES"])
-        print("财富岛：" + info["JDCFD_SHARECODES"], "\n")
+        print("\n\033[1;36m" + "京东账号" + "：" + infos["USERNAME"] + "\033[0m")
+        print(infos["START_LINE"])
+        print(infos["DDFACTORY_LINE"])
+        print(infos["DREAM_FACTORY_LINE"])
+        print(infos["JXNC_LINE"])
+        print(infos["PET_LINE"])
+        print(infos["PLANT_BEAN_LINE"])
+        print(infos["JDJOY_LINE"])
+        print(infos["JDSGMH_LINE"])
+        print(infos["FRUIT_LINE"])
+        print(infos["JDCFD_LINE"])
 
 
-def formatFriendCode():
-    print("请确保好友的助力码保存在 \"./code.txt\" 文件中")
-    if not os.path.isfile("./code.txt"):
-        print("\"./code.txt\" 文件不存在")
+def formatFriendCode(path):
+    print("请确保好友的助力码保存在 " + path + " 文件中")
+    if not os.path.isfile(path):
+        print(path + " 文件不存在")
         return
     print("开始整理...\n")
 
-    fo = open("./code.txt", "r")
+    fo = open(path, "r")
 
     infos = {}
     cnt = 1
     for line in fo.readlines():
         line = line.strip()
-        if getMiddleStr(line, "京东账号：", "\0") != "":
+        if getMiddleStr(line, "东东工厂】", "\0") != "":
             if "USERNAME" + str(cnt) in infos:
-                infos["USERNAME" + str(cnt + 1)] = getMiddleStr(line, "京东账号：", "\0")
+                infos["USERNAME" + str(cnt + 1)] = getMiddleStr(line, "【账号1（", "）")
                 cnt += 1
             else:
-                infos["USERNAME" + str(cnt)] = getMiddleStr(line, "京东账号：", "\0")
-        if getMiddleStr(line, "东东工厂：", "\0") != "":
+                infos["USERNAME" + str(cnt)] = getMiddleStr(line, "【账号1（", "）")
+        if getMiddleStr(line, "东东工厂】", "\0") != "":
             if "DDFACTORY_SHARECODES" + str(cnt) in infos:
-                infos["DDFACTORY_SHARECODES" + str(cnt + 1)] = getMiddleStr(line, "东东工厂：", "\0")
+                infos["DDFACTORY_SHARECODES" + str(cnt + 1)] = getMiddleStr(line, "东东工厂】", "\0")
                 cnt += 1
             else:
-                infos["DDFACTORY_SHARECODES" + str(cnt)] = getMiddleStr(line, "东东工厂：", "\0")
-        if getMiddleStr(line, "京喜工厂：", "\0") != "":
+                infos["DDFACTORY_SHARECODES" + str(cnt)] = getMiddleStr(line, "东东工厂】", "\0")
+        if getMiddleStr(line, "京喜工厂】", "\0") != "":
             if "DREAM_FACTORY_SHARE_CODES" + str(cnt) in infos:
-                infos["DREAM_FACTORY_SHARE_CODES" + str(cnt + 1)] = getMiddleStr(line, "京喜工厂：", "\0")
+                infos["DREAM_FACTORY_SHARE_CODES" + str(cnt + 1)] = getMiddleStr(line, "京喜工厂】", "\0")
                 cnt += 1
             else:
-                infos["DREAM_FACTORY_SHARE_CODES" + str(cnt)] = getMiddleStr(line, "京喜工厂：", "\0")
-        if getMiddleStr(line, "京喜农场：", "\0") != "":
+                infos["DREAM_FACTORY_SHARE_CODES" + str(cnt)] = getMiddleStr(line, "京喜工厂】", "\0")
+        if getMiddleStr(line, "京喜农场】", "\0") != "":
             if "JXNC_SHARECODES" + str(cnt) in infos:
-                infos["JXNC_SHARECODES" + str(cnt + 1)] = getMiddleStr(line, "京喜农场：", "\0")
+                infos["JXNC_SHARECODES" + str(cnt + 1)] = getMiddleStr(line, "京喜农场】", "\0")
                 cnt += 1
             else:
-                infos["JXNC_SHARECODES" + str(cnt)] = getMiddleStr(line, "京喜农场：", "\0")
-        if getMiddleStr(line, "京东萌宠：", "\0") != "":
+                infos["JXNC_SHARECODES" + str(cnt)] = getMiddleStr(line, "京喜农场】", "\0")
+        if getMiddleStr(line, "京东萌宠】", "\0") != "":
             if "PETSHARECODES" + str(cnt) in infos:
-                infos["PETSHARECODES" + str(cnt + 1)] = getMiddleStr(line, "京东萌宠：", "\0")
+                infos["PETSHARECODES" + str(cnt + 1)] = getMiddleStr(line, "京东萌宠】", "\0")
                 cnt += 1
             else:
-                infos["PETSHARECODES" + str(cnt)] = getMiddleStr(line, "京东萌宠：", "\0")
-        if getMiddleStr(line, "种豆得豆：", "\0") != "":
+                infos["PETSHARECODES" + str(cnt)] = getMiddleStr(line, "京东萌宠】", "\0")
+        if getMiddleStr(line, "种豆得豆】", "\0") != "":
             if "PLANT_BEAN_SHARECODES" + str(cnt) in infos:
-                infos["PLANT_BEAN_SHARECODES" + str(cnt + 1)] = getMiddleStr(line, "种豆得豆：", "\0")
+                infos["PLANT_BEAN_SHARECODES" + str(cnt + 1)] = getMiddleStr(line, "种豆得豆】", "\0")
                 cnt += 1
             else:
-                infos["PLANT_BEAN_SHARECODES" + str(cnt)] = getMiddleStr(line, "种豆得豆：", "\0")
-        if getMiddleStr(line, "crazyJoy：", "\0") != "":
+                infos["PLANT_BEAN_SHARECODES" + str(cnt)] = getMiddleStr(line, "种豆得豆】", "\0")
+        if getMiddleStr(line, "crazyJoy】", "\0") != "":
             if "JDJOY_SHARECODES" + str(cnt) in infos:
-                infos["JDJOY_SHARECODES" + str(cnt + 1)] = getMiddleStr(line, "crazyJoy：", "\0")
+                infos["JDJOY_SHARECODES" + str(cnt + 1)] = getMiddleStr(line, "crazyJoy】", "\0")
                 cnt += 1
             else:
-                infos["JDJOY_SHARECODES" + str(cnt)] = getMiddleStr(line, "crazyJoy：", "\0")
-        if getMiddleStr(line, "闪购盲盒：", "\0") != "":
+                infos["JDJOY_SHARECODES" + str(cnt)] = getMiddleStr(line, "crazyJoy】", "\0")
+        if getMiddleStr(line, "闪购盲盒】", "\0") != "":
             if "JDSGMH_SHARECODES" + str(cnt) in infos:
-                infos["JDSGMH_SHARECODES" + str(cnt + 1)] = getMiddleStr(line, "闪购盲盒：", "\0")
+                infos["JDSGMH_SHARECODES" + str(cnt + 1)] = getMiddleStr(line, "闪购盲盒】", "\0")
                 cnt += 1
             else:
-                infos["JDSGMH_SHARECODES" + str(cnt)] = getMiddleStr(line, "闪购盲盒：", "\0")
-        if getMiddleStr(line, "京东农场：", "\0") != "":
+                infos["JDSGMH_SHARECODES" + str(cnt)] = getMiddleStr(line, "闪购盲盒】", "\0")
+        if getMiddleStr(line, "京东农场】", "\0") != "":
             if "FRUITSHARECODES" + str(cnt) in infos:
-                infos["FRUITSHARECODES" + str(cnt + 1)] = getMiddleStr(line, "京东农场：", "\0")
+                infos["FRUITSHARECODES" + str(cnt + 1)] = getMiddleStr(line, "京东农场】", "\0")
                 cnt += 1
             else:
-                infos["FRUITSHARECODES" + str(cnt)] = getMiddleStr(line, "京东农场：", "\0")
-        if getMiddleStr(line, "财富岛：", "\0") != "":
+                infos["FRUITSHARECODES" + str(cnt)] = getMiddleStr(line, "京东农场】", "\0")
+        if getMiddleStr(line, "财富岛】", "(每次都变化,不影响)") != "":
             if "JDCFD_SHARECODES" + str(cnt) in infos:
-                infos["JDCFD_SHARECODES" + str(cnt + 1)] = getMiddleStr(line, "财富岛：", "\0")
+                infos["JDCFD_SHARECODES" + str(cnt + 1)] = getMiddleStr(line, "财富岛】", "(每次都变化,不影响)")
                 cnt += 1
             else:
-                infos["JDCFD_SHARECODES" + str(cnt)] = getMiddleStr(line, "财富岛：", "\0")
+                infos["JDCFD_SHARECODES" + str(cnt)] = getMiddleStr(line, "财富岛】", "(每次都变化,不影响)")
 
     print("\n\033[1;36m好友助力码整理结果如下：\033[0m")
 
@@ -287,7 +293,7 @@ def main():
             searchFile(path="./", file_name="jd_get_share_code.log")
             queryAllShareCode(shareCodeFilePaths)
         elif section == "12":
-            formatFriendCode()
+            formatFriendCode("./friend_code.txt")
         elif section == "0":
             print("-" * 50)
             print("\033[32m已退出\033[0m\n")
