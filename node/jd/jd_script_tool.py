@@ -148,6 +148,34 @@ def queryAllShareCode(paths):
         fo.close()
 
         print("\n\033[1;36m" + "京东账号" + "：" + infos["USERNAME"] + "\033[0m")
+        if "DDFACTORY_LINE" not in infos:
+            print("\033[31m请参加东东工厂活动\033[0m")
+            return 
+        if "DREAM_FACTORY_LINE" not in infos:
+            print("\033[31m请参加京喜工厂活动\033[0m")
+            return
+        if "JXNC_LINE" not in infos:
+            print("\033[31m请参加京喜农场活动\033[0m")
+            return
+        if "PET_LINE" not in infos:
+            print("\033[31m请参加京东萌宠活动\033[0m")
+            return
+        if "PLANT_BEAN_LINE" not in infos:
+            print("\033[31m请参加种豆得豆活动\033[0m")
+            return
+        if "JDJOY_LINE" not in infos:
+            print("\033[31m请参加crazyJoy活动\033[0m")
+            return
+        if "JDSGMH_LINE" not in infos:
+            print("\033[31m请参加闪购盲盒活动\033[0m")
+            return
+        if "FRUIT_LINE" not in infos:
+            print("\033[31m请参加京东农场活动\033[0m")
+            return
+        if "JDCFD_LINE" not in infos:
+            print("\033[31m请参加财富岛活动\033[0m")
+            return
+
         print(infos["START_LINE"])
         print(infos["DDFACTORY_LINE"])
         print(infos["DREAM_FACTORY_LINE"])
