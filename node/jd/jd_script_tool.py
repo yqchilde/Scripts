@@ -87,16 +87,19 @@ def singleHandle(idx):
 
 
 def multiHandle():
-    line = input("\n生成所有活动的助力码格式，请输入需要生成的编号，符号之间用空格隔开：\n")
-    nums = list(map(int, line.split()))
+    print("\n\033[33m生成所有活动的助力码格式\033[0m\n")
+    line = input("请按照如下格式输入：1 3 2 代表区间[1,3] 过滤掉2的编号，即 1 3: \n")
+    m, n, f = line.split()[0], line.split()[1], line.split()[2]
 
     res = ""
-    print("\033[1;36m助力码生成结果如下：\033[0m\n")
-    for idx in activitiesEn:
-        for num in nums:
-            res += "${" + activitiesEn[idx] + str(num) + "}@"
+    print("\n\033[1;36m助力码生成结果如下：\033[0m\n")
+    for i in activitiesEn:
+        for j in range(int(m), int(n) + 1):
+            if str(j) == f:
+                continue
+            res += "${" + activitiesEn[i] + str(j) + "}@"
 
-        print("# " + activitiesZh[idx] + "\n\033[32m" + "- " + activitiesEn[idx] + "=" + res[:-1] + "\033[0m\n")
+        print("# " + activitiesZh[i] + "\n\033[32m" + "- " + activitiesEn[i] + "=" + res[:-1] + "\033[0m\n")
         res = ""
 
 
@@ -123,6 +126,13 @@ def searchFile(path='.', file_name=""):
             if file_name in item:
                 global shareCodeFilePaths
                 shareCodeFilePaths.append(item_path)
+
+
+def is_han(uchar):
+    if u'\u4e00' <= uchar <= u'\u9fa5':
+        return True
+    else:
+        return False
 
 
 def queryAllShareCode(paths):
@@ -208,22 +218,30 @@ def formatFriendCode(path):
     for line in fo.readlines():
         line = line.strip()
 
-        if getMiddleStr(line, "东东工厂】", "\0") != "":
-            if "USERNAME" + str(cnt) in infos:
-                infos["USERNAME" + str(cnt + 1)] = getMiddleStr(line, "【账号1（", "）")
-                cnt += 1
-            else:
-                infos["USERNAME" + str(cnt)] = getMiddleStr(line, "【账号1（", "）")
-
+        # 过滤数据
         if any(dirty in line for dirty in filter_list):
-            print("true")
             for filter_str in filter_list:
                 line = line.replace(filter_str, "")
-        else:
-            print("false")
 
+        # 填充数据
         for share_code, active_name in activitiesMap.items():
             setInfos(share_code, active_name, cnt)
+
+        # 定义账号
+        if getMiddleStr(line, "京东账号：", "\0") != "":
+            if "USERNAME" + str(cnt) in infos:
+                infos["USERNAME" + str(cnt + 1)] = getMiddleStr(line, "京东账号：", "\0")
+                cnt += 1
+            else:
+                infos["USERNAME" + str(cnt)] = getMiddleStr(line, "京东账号：", "\0")
+
+        if "USERNAME" + str(cnt) not in infos.keys():
+            if getMiddleStr(line, "东东工厂】", "\0") != "":
+                if "USERNAME" + str(cnt) in infos:
+                    infos["USERNAME" + str(cnt + 1)] = getMiddleStr(line, "【账号1（", "）")
+                    cnt += 1
+                else:
+                    infos["USERNAME" + str(cnt)] = getMiddleStr(line, "【账号1（", "）")
 
     print("\n\033[1;36m# 好友助力码整理结果如下：\033[0m")
     print("\n\033[32m" + "# 助力码顺序" + "\033[0m")
@@ -233,7 +251,7 @@ def formatFriendCode(path):
     def printShareCode(arg1, arg2):
         print("\n\033[32m" + "# " + arg2 + "" + "\033[0m")
         for i in range(cnt):
-            if infos[arg1 + str(i + 1)][0] == "未":
+            if is_han(infos[arg1 + str(i + 1)][0]):
                 print(arg1 + str(i + 1) + "=" + "none")
             else:
                 print(arg1 + str(i + 1) + "=" + infos[arg1 + str(i + 1)])
