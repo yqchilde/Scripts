@@ -1,15 +1,32 @@
 /*
-30,31 20-23/1 2,5 3 * jd_live_redrain.js
+超级直播间红包雨
+30,31 20-23/1 9,12 3 * jd_live_redrain.js
+脚本兼容: Quantumult X, Surge, Loon, JSBox, Node.js
+==============Quantumult X==============
+[task_local]
+#超级直播间红包雨
+30,31 20-23/1 9,12 3 * https://gitee.com/lxk0301/jd_scripts/raw/master/jd_live_redrain.js, tag=超级直播间红包雨, enabled=true
+
+==============Loon==============
+[Script]
+cron "30,31 20-23/1 9,12 3 *" script-path=https://gitee.com/lxk0301/jd_scripts/raw/master/jd_live_redrain.js,tag=超级直播间红包雨
+
+================Surge===============
+超级直播间红包雨 = type=cron,cronexp="30,31 20-23/1 9,12 3 *",wake-system=1,timeout=3600,script-path=https://gitee.com/lxk0301/jd_scripts/raw/master/jd_live_redrain.js
+
+===============小火箭==========
+超级直播间红包雨 = type=cron,script-path=https://gitee.com/lxk0301/jd_scripts/raw/master/jd_live_redrain.js, cronexpr="30,31 20-23/1 9,12 3 *", timeout=3600, enable=true
 */
 const $ = new Env('超级直播间红包雨');
+let allMessage = '';
 let bodyList = {
-  '2': {
-    url: 'https://api.m.jd.com/client.action?functionId=liveActivityV842&uuid=8888888&client=apple&clientVersion=9.4.1&st=1614686919076&sign=1437500a14b55763d807c04b94067e80&sv=111',
-    body: 'body=%7B%22liveId%22%3A3570050%7D'
+  '9': {
+    url: 'https://api.m.jd.com/client.action?functionId=liveActivityV842&uuid=8888888&client=apple&clientVersion=9.4.1&st=1615275374004&sign=cfa793e5439a37b0c18c0ff133a8a015&sv=121',
+    body: 'body=%7B%22liveId%22%3A%223623574%22%7D'
   },
-  '5': {
-    url: 'https://api.m.jd.com/client.action?functionId=liveActivityV842&uuid=8888888&client=apple&clientVersion=9.4.1&st=1614686892067&sign=176cea32bb75228773843ada8f36572e&sv=111',
-    body: 'body=%7B%22liveId%22%3A%223554417%22%7D'
+  '12': {
+    url: 'https://api.m.jd.com/client.action?functionId=liveActivityV842&uuid=8888888&client=apple&clientVersion=9.4.1&st=1615275371017&sign=ba7c91c08f52ffb28bacce95cff9a053&sv=100',
+    body: 'body=%7B%22liveId%22%3A%223649497%22%7D'
   }
 }
 let ids = {
@@ -75,8 +92,12 @@ const JD_API_HOST = 'https://api.m.jd.com/api';
       let nowTs = new Date().getTime() + new Date().getTimezoneOffset() * 60 * 1000 + 8 * 60 * 60 * 1000
       // console.log(nowTs, $.startTime, $.endTime)
       await receiveRedRain();
-      await showMsg();
+      // await showMsg();
     }
+  }
+  if (allMessage) {
+    if ($.isNode()) await notify.sendNotify(`${$.name}`, `${allMessage}`);
+    $.msg($.name, '', allMessage);
   }
 })()
   .catch((e) => {
@@ -154,7 +175,7 @@ function receiveRedRain() {
               console.log(`领取成功，获得${JSON.stringify(data.lotteryResult)}`)
               // message+= `领取成功，获得${JSON.stringify(data.lotteryResult)}\n`
               message += `领取成功，获得 ${(data.lotteryResult.jPeasList[0].quantity)}京豆`
-
+              allMessage += `京东账号${$.index}${$.nickName}\n领取成功，获得 ${(data.lotteryResult.jPeasList[0].quantity)}京豆${$.index !== cookiesArr.length ? '\n\n' : ''}`;
             } else if (data.subCode === '8') {
               console.log(`今日次数已满`)
               message += `领取失败，本场已领过`;
@@ -248,7 +269,11 @@ function TotalBean() {
               $.isLogin = false; //cookie过期
               return
             }
-            $.nickName = data['base'].nickname;
+            if (data['retcode'] === 0) {
+              $.nickName = (data['base'] && data['base'].nickname) || $.UserName;
+            } else {
+              $.nickName = $.UserName
+            }
           } else {
             console.log(`京东服务器返回空数据`)
           }
