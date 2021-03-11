@@ -25,5 +25,5 @@ cp $(find /ybRepo/node/jd/author -type f -name "*.js") /scripts/
   printf "# 财富岛提现\n0 0 * * * node /scripts/jx_cfdtx.js >> /scripts/logs/jx_cfdtx.log 2>&1\n"
   printf "# 京东超市-大转盘\n3 10 * * * node /scripts/z_marketLottery.js >> /scripts/logs/z_marketLottery.log 2>&1\n"
   printf "# 洗护发超级品类日\n13 8,10 8-15 3 *  node /scripts/z_superDay.js >> /scripts/logs/z_superDay.log 2>&1\n"
-  printf "# 美的家电节\n15 10 26-31 2,3 *   node /scripts/z_unionPoster.js >> /scripts/logs/z_unionPoster.log 2>&1\n"
+  printf "# 美的家电节\n15 10 10-31 3 *  node /scripts/z_unionPoster.js >> /scripts/logs/z_unionPoster.log 2>&1\n"
 } >> /scripts/docker/merged_list_file.sh
