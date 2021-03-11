@@ -13,7 +13,7 @@
                      |____/ \__,_|_|_|\__,_|_|_| |_|\__, |
                                                     |___/
 
-基于lxk大佬的docker镜像和各路JD脚本大佬汇总的Docker1一键构建工具，支持多账号
+基于 lxk 大佬的 docker 镜像和各路 JD 脚本大佬汇总的 Docker1 一键构建工具，支持多账号
 
 # Struct
 
@@ -31,12 +31,12 @@
 ```
 
 # ScreenShot
-![a.jpg](https://i.loli.net/2021/03/05/5VSsjLhZKwdtcml.jpg)
 
+![a.jpg](https://i.loli.net/2021/03/05/5VSsjLhZKwdtcml.jpg)
 
 # Thanks
 
-感谢以前作者开源JD Script相关项目供我学习使用
+感谢以下作者开源 JD Script 相关项目供我学习使用
 
 [@lxk0301](https://gitee.com/lxk0301/jd_docker)
 
