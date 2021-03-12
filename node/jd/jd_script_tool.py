@@ -1,40 +1,47 @@
 import os
+import copy
 import platform
 
 activitiesEn = {
-    1: "DDFACTORY_SHARECODES",
-    2: "DREAM_FACTORY_SHARE_CODES",
-    3: "JXNC_SHARECODES",
-    4: "PETSHARECODES",
-    5: "PLANT_BEAN_SHARECODES",
-    6: "JDJOY_SHARECODES",
-    7: "JDSGMH_SHARECODES",
-    8: "FRUITSHARECODES",
-    9: "JDCFD_SHARECODES",
+    1: "FRUITSHARECODES",
+    2: "PETSHARECODES",
+    3: "PLANT_BEAN_SHARECODES",
+    4: "DDFACTORY_SHARECODES",
+    5: "DREAM_FACTORY_SHARE_CODES",
+    6: "JXNC_SHARECODES",
+    7: "JDZZ_SHARECODES",
+    8: "JDJOY_SHARECODES",
+    9: "JDSGMH_SHARECODES",
+    10: "JDCFD_SHARECODES",
+    11: "JD_CASH_SHARECODES"
 }
 
 activitiesZh = {
-    1: "东东工厂",
-    2: "京喜工厂",
-    3: "京喜农场",
-    4: "京东萌宠",
-    5: "种豆得豆",
-    6: "crazyJoy",
-    7: "闪购盲盒",
-    8: "京东农场",
-    9: "财富岛",
+    1: "京东农场",
+    2: "京东萌宠",
+    3: "种豆得豆",
+    4: "东东工厂",
+    5: "京喜工厂",
+    6: "京喜农场",
+    7: "京东赚赚",
+    8: "crazyJoy",
+    9: "闪购盲盒",
+    10: "财富岛",
+    11: "签到领现金"
 }
 
 activitiesMap = {
+    "FRUITSHARECODES": "京东农场",
+    "PETSHARECODES": "京东萌宠",
+    "PLANT_BEAN_SHARECODES": "种豆得豆",
     "DDFACTORY_SHARECODES": "东东工厂",
     "DREAM_FACTORY_SHARE_CODES": "京喜工厂",
     "JXNC_SHARECODES": "京喜农场",
-    "PETSHARECODES": "京东萌宠",
-    "PLANT_BEAN_SHARECODES": "种豆得豆",
+    "JDZZ_SHARECODES": "的京东赚赚好友互助码",
     "JDJOY_SHARECODES": "crazyJoy",
     "JDSGMH_SHARECODES": "闪购盲盒",
-    "FRUITSHARECODES": "京东农场",
     "JDCFD_SHARECODES": "财富岛",
+    "JD_CASH_SHARECODES": "签到领现金"
 }
 
 shareCodeFilePaths = []
@@ -56,34 +63,13 @@ def show_menu():
     print("               | | (_) | (_) | |")
     print("               |_|\___/ \___/|_|")
     print("")
-    print("1-东东工厂", "\t\t\t\t", end="")
-    print("2-京喜工厂")
-    print("3-京喜农场", "\t\t\t\t", end="")
-    print("4-京东萌宠")
-    print("5-种豆得豆", "\t\t\t\t", end="")
-    print("6-crazyJoy")
-    print("7-闪购盲盒", "\t\t\t\t", end="")
-    print("8-京东农场")
-    print("9-财富岛  ", "\t\t\t\t", end="")
-    print("10-全部活动")
-    print("11-查询助力码", "\t\t\t\t", end="")
-    print("12-整理助力码")
+    print("1-全部活动")
+    print("2-查询助力码", "\t\t\t\t", end="")
+    print("3-整理助力码")
     print()
     print("\033[36m@-Help\033[0m", "\t\t\t\t\t", end="")
     print("\033[36m0-退出\033[0m")
     print("-" * 50)
-
-
-def singleHandle(idx):
-    line = input("\n单独生成" + activitiesZh[int(idx)] + "的助力码格式," + "请输入需要生成的编号，符号之间用空格隔开：\n")
-    nums = list(map(int, line.split()))
-
-    res = ""
-    for num in nums:
-        res += "${" + activitiesEn[int(idx)] + str(num) + "}@"
-
-    print(activitiesZh[int(idx)] + "助力码生成结果为：",
-          "\033[32m" + "- " + activitiesEn[int(idx)] + "=" + res[:-1] + "\033[0m\n")
 
 
 def multiHandle():
@@ -99,7 +85,8 @@ def multiHandle():
                 continue
             res += "${" + activitiesEn[i] + str(j) + "}@"
 
-        print("# " + activitiesZh[i] + "\n\033[32m" + "- " + activitiesEn[i] + "=" + res[:-1] + "\033[0m\n")
+        print("# " + activitiesZh[i] + "\n\033[32m" + "- " +
+              activitiesEn[i] + "=" + res[:-1] + "\033[0m\n")
         res = ""
 
 
@@ -150,28 +137,15 @@ def queryAllShareCode(paths):
             line = line.strip()
 
             # 从账号1 start
-            if getMiddleStr(line, "【账号1（", "）") != "":
-                infos["USERNAME"] = getMiddleStr(line, "【账号1（", "）")
+            if getMiddleStr(line, "【京东账号1（", "）") != "":
+                infos["USERNAME"] = getMiddleStr(line, "【京东账号1（", "）")
+
             if "账号1开始" in line:
                 infos["START_LINE"] = line[line.index("="):]
-            if "东东工厂】" in line:
-                infos["DDFACTORY_LINE"] = line[line.index("【账号1"):]
-            if "京喜工厂】" in line:
-                infos["DREAM_FACTORY_LINE"] = line[line.index("【账号1"):]
-            if "京喜农场】" in line:
-                infos["JXNC_LINE"] = line[line.index("【账号1"):]
-            if "京东萌宠】" in line:
-                infos["PET_LINE"] = line[line.index("【账号1"):]
-            if "种豆得豆】" in line:
-                infos["PLANT_BEAN_LINE"] = line[line.index("【账号1"):]
-            if "crazyJoy】" in line:
-                infos["JDJOY_LINE"] = line[line.index("【账号1"):]
-            if "闪购盲盒】" in line:
-                infos["JDSGMH_LINE"] = line[line.index("【账号1"):]
-            if "京东农场】" in line:
-                infos["FRUIT_LINE"] = line[line.index("【账号1"):]
-            if "财富岛】" in line:
-                infos["JDCFD_LINE"] = line[line.index("【账号1"):]
+
+            for share_code, active_name in activitiesMap.items():
+                if "【京东账号1" in line and active_name + "】" in line:
+                    infos[share_code] = line[line.index("【京东账号1"):]
 
         fo.close()
 
@@ -180,19 +154,12 @@ def queryAllShareCode(paths):
 
         def printLine(line_name, active_name):
             if line_name not in infos:
-                print("【账号1（" + infos["USERNAME"] + "）" + active_name + "】未获取到助力码，可能是账号黑了")
+                print("【京东账号1（" + infos["USERNAME"] + "）" + active_name + "】未获取到助力码，可能是账号黑了")
             else:
                 print(infos[line_name])
 
-        printLine("DDFACTORY_LINE", "东东工厂")
-        printLine("DREAM_FACTORY_LINE", "京喜工厂")
-        printLine("JXNC_LINE", "京喜农场")
-        printLine("PET_LINE", "京东萌宠")
-        printLine("PLANT_BEAN_LINE", "种豆得豆")
-        printLine("JDJOY_LINE", "crazyJoy")
-        printLine("JDSGMH_LINE", "闪购盲盒")
-        printLine("FRUIT_LINE", "京东农场")
-        printLine("JDCFD_LINE", "财富岛")
+        for share_code, active_name in activitiesMap.items():
+            printLine(share_code, active_name)
 
 
 def formatFriendCode(path):
@@ -210,10 +177,12 @@ def formatFriendCode(path):
     def setInfos(arg1, arg2, cnt):
         if getMiddleStr(line, "" + arg2 + "】", "\0") != "":
             if arg1 + str(cnt) in infos:
-                infos[arg1 + str(cnt + 1)] = getMiddleStr(line, "" + arg2 + "】", "\0")
+                infos[arg1 + str(cnt + 1)] = getMiddleStr(line,
+                                                          "" + arg2 + "】", "\0")
                 cnt += 1
             else:
-                infos[arg1 + str(cnt)] = getMiddleStr(line, "" + arg2 + "】", "\0")
+                infos[arg1 + str(cnt)] = getMiddleStr(line,
+                                                      "" + arg2 + "】", "\0")
 
     for line in fo.readlines():
         line = line.strip()
@@ -230,18 +199,22 @@ def formatFriendCode(path):
         # 定义账号
         if getMiddleStr(line, "京东账号：", "\0") != "":
             if "USERNAME" + str(cnt) in infos:
-                infos["USERNAME" + str(cnt + 1)] = getMiddleStr(line, "京东账号：", "\0")
+                infos["USERNAME" + str(cnt + 1)
+                      ] = getMiddleStr(line, "京东账号：", "\0")
                 cnt += 1
             else:
-                infos["USERNAME" + str(cnt)] = getMiddleStr(line, "京东账号：", "\0")
+                infos["USERNAME" +
+                      str(cnt)] = getMiddleStr(line, "京东账号：", "\0")
 
         if "USERNAME" + str(cnt) not in infos.keys():
             if getMiddleStr(line, "东东工厂】", "\0") != "":
                 if "USERNAME" + str(cnt) in infos:
-                    infos["USERNAME" + str(cnt + 1)] = getMiddleStr(line, "【账号1（", "）")
+                    infos["USERNAME" + str(cnt + 1)
+                          ] = getMiddleStr(line, "【京东账号1（", "）")
                     cnt += 1
                 else:
-                    infos["USERNAME" + str(cnt)] = getMiddleStr(line, "【账号1（", "）")
+                    infos["USERNAME" +
+                          str(cnt)] = getMiddleStr(line, "【京东账号1（", "）")
 
     print("\n\033[1;36m# 好友助力码整理结果如下：\033[0m")
     print("\n\033[32m" + "# 助力码顺序" + "\033[0m")
@@ -256,33 +229,41 @@ def formatFriendCode(path):
             else:
                 print(arg1 + str(i + 1) + "=" + infos[arg1 + str(i + 1)])
 
+        print()
+        copy.deepcopy()
+        for i in range(cnt):
+            for j in activitiesEn:
+
+                print("arg1" + str(i + 1) + "=" + )    
+
+    # 打印格式化后的助力码
     for share_code, active_name in activitiesMap.items():
         printShareCode(share_code, active_name)
 
 
 def main():
     # 显示功能菜单
-    show_menu()
+    # show_menu()
     while True:
 
         section = input("请选择您要使用的功能：")
         print("您选择的操作是:[%s]" % section)
 
-        if section in ["1", "2", "3", "4", "5", "6", "7", "8", "9"]:
-            singleHandle(section)
-        elif section == "10":
+        if section == "1":
             multiHandle()
-        elif section == "11":
+        elif section == "2":
             searchFile(path="./", file_name="jd_get_share_code.log")
             queryAllShareCode(shareCodeFilePaths)
-        elif section == "12":
+        elif section == "3":
             formatFriendCode("./friend_code.txt")
         elif section == "@":
             if platform.system() == "Darwin":
                 print("检测到运行环境为MacOS,打开网页...")
-                os.popen("python3 -mwebbrowser https://github.com/yqchilde/Scripts/tree/main/node/jd", "w")
+                os.popen(
+                    "python3 -mwebbrowser https://github.com/yqchilde/Scripts/tree/main/node/jd", "w")
             else:
-                print("检测到运行环境为Linux,指路：https://github.com/yqchilde/Scripts/tree/main/node/jd")
+                print(
+                    "检测到运行环境为Linux,指路：https://github.com/yqchilde/Scripts/tree/main/node/jd")
         elif section == "0":
             print("-" * 50)
             print("\033[32m已退出\033[0m\n")
