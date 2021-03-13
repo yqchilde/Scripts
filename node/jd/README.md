@@ -32,7 +32,7 @@
 
 # ScreenShot
 
-![image.png](https://i.loli.net/2021/03/13/lKThRDeOy6SCHPV.png)
+![image.png](https://i.loli.net/2021/03/13/X21HjEwLiGhJag4.png)
 
 # Running
 
