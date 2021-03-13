@@ -23,32 +23,38 @@ services:
 
       #----------------------------Share Start------------------------------
 
-      # 东东工厂
-      - DDFACTORY_SHARECODES=${DDFACTORY1}@${DDFACTORY2}@${DDFACTORY3}@${DDFACTORY4}@${DDFACTORY5}
-
-      # 京喜工厂
-      - DREAM_FACTORY_SHARE_CODES=${DREAM_FACTORY1}@${DREAM_FACTORY2}@${DREAM_FACTORY3}@${DREAM_FACTORY4}@${DREAM_FACTORY5}
-
-      # 京喜农场
-      - JXNC_SHARECODES=${JXNC1}@${JXNC2}@${JXNC3}@${JXNC4}@${JXNC5}
+      # 京东农场
+      - FRUITSHARECODES=${FRUIT_SHARECODE1}
 
       # 京东萌宠
-      - PETSHARECODES=${PETS1}@${PETS2}@${PETS3}@${PETS4}@${PETS5}
+      - PETSHARECODES=${PET_SHARECODE1}
 
       # 种豆得豆
-      - PLANT_BEAN_SHARECODES=${PLANT_BEAN1}@${PLANT_BEAN2}@${PLANT_BEAN3}@${PLANT_BEAN4}@${PLANT_BEAN5}
+      - PLANT_BEAN_SHARECODES=${PLANT_BEAN_SHARECODE1}
 
-      # crazyJoys
-      - JDJOY_SHARECODES=${JDJOY1}@${JDJOY2}@${JDJOY3}@${JDJOY4}@${JDJOY5}
+      # 东东工厂
+      - DDFACTORY_SHARECODES=${DDFACTORY_SHARECODE1}
+
+      # 京喜工厂
+      - DREAM_FACTORY_SHARE_CODES=${DREAM_FACTORY_SHARECODE1}
+
+      # 京喜农场
+      - JXNC_SHARECODES=${JXNC_SHARECODE1}
+
+      # 京东赚赚
+      - JDZZ_SHARECODES=${JDZZ_SHARECODE1}
+
+      # crazyJoy
+      - JDJOY_SHARECODES=${JDJOY_SHARECODE1}
 
       # 闪购盲盒
-      - JDSGMH_SHARECODES=${JDSGMH1}@${JDSGMH2}@${JDSGMH3}@${JDSGMH4}@${JDSGMH5}
+      - JDSGMH_SHARECODES=${JDSGMH_SHARECODE1}
 
-      # 东东农场
-      - FRUITSHARECODES=${DDNC1}@${DDNC2}@${DDNC3}@${DDNC4}@${DDNC5}
-      
       # 财富岛
-      - JDCFD_SHARECODES=${JDCFD1}@${JDCFD2}@${JDCFD3}@${JDCFD4}@${JDCFD5}
+      - JDCFD_SHARECODES=${JDCFD_SHARECODE1}
+
+      # 签到领现金
+      - JD_CASH_SHARECODES=${JD_CASH_SHARECODE1}
 
       #----------------------------Share End------------------------------
 
@@ -104,32 +110,38 @@ services:
 
       #----------------------------Share Start------------------------------
 
-      # 东东工厂
-      - DDFACTORY_SHARECODES=${DDFACTORY1}@${DDFACTORY2}@${DDFACTORY3}@${DDFACTORY4}@${DDFACTORY6}
-
-      # 京喜工厂
-      - DREAM_FACTORY_SHARE_CODES=${DREAM_FACTORY1}@${DREAM_FACTORY2}@${DREAM_FACTORY3}@${DREAM_FACTORY4}@${DREAM_FACTORY6}
-
-      # 京喜农场
-      - JXNC_SHARECODES=${JXNC1}@${JXNC2}@${JXNC3}@${JXNC4}@${JXNC6}
+      # 京东农场
+      - FRUITSHARECODES=${FRUIT_SHARECODE2}
 
       # 京东萌宠
-      - PETSHARECODES=${PETS1}@${PETS2}@${PETS3}@${PETS4}@${PETS6}
+      - PETSHARECODES=${PET_SHARECODE2}
 
       # 种豆得豆
-      - PLANT_BEAN_SHARECODES=${PLANT_BEAN1}@${PLANT_BEAN2}@${PLANT_BEAN3}@${PLANT_BEAN4}@${PLANT_BEAN6}
+      - PLANT_BEAN_SHARECODES=${PLANT_BEAN_SHARECODE2}
 
-      # crazyJoys
-      - JDJOY_SHARECODES=${JDJOY1}@${JDJOY2}@${JDJOY3}@${JDJOY4}@${JDJOY6}
+      # 东东工厂
+      - DDFACTORY_SHARECODES=${DDFACTORY_SHARECODE2}
+
+      # 京喜工厂
+      - DREAM_FACTORY_SHARE_CODES=${DREAM_FACTORY_SHARECODE2}
+
+      # 京喜农场
+      - JXNC_SHARECODES=${JXNC_SHARECODE2}
+
+      # 京东赚赚
+      - JDZZ_SHARECODES=${JDZZ_SHARECODE2}
+
+      # crazyJoy
+      - JDJOY_SHARECODES=${JDJOY_SHARECODE2}
 
       # 闪购盲盒
-      - JDSGMH_SHARECODES=${JDSGMH1}@${JDSGMH2}@${JDSGMH3}@${JDSGMH4}@${JDSGMH6}
+      - JDSGMH_SHARECODES=${JDSGMH_SHARECODE2}
 
-      # 东东农场
-      - FRUITSHARECODES=${DDNC1}@${DDNC2}@${DDNC3}@${DDNC4}@${DDNC6}
-      
       # 财富岛
-      - JDCFD_SHARECODES=${JDCFD1}@${JDCFD2}@${JDCFD3}@${JDCFD4}@${JDCFD6}
+      - JDCFD_SHARECODES=${JDCFD_SHARECODE2}
+
+      # 签到领现金
+      - JD_CASH_SHARECODES=${JD_CASH_SHARECODE2}
 
       #----------------------------Share End------------------------------
 

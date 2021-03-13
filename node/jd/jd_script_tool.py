@@ -1,8 +1,7 @@
 import os
-import copy
 import platform
 
-activitiesEn = {
+activitiesCodes = {
     1: "FRUITSHARECODES",
     2: "PETSHARECODES",
     3: "PLANT_BEAN_SHARECODES",
@@ -14,6 +13,20 @@ activitiesEn = {
     9: "JDSGMH_SHARECODES",
     10: "JDCFD_SHARECODES",
     11: "JD_CASH_SHARECODES"
+}
+
+activitiesEn = {
+    1: "FRUIT",
+    2: "PET",
+    3: "PLANT_BEAN",
+    4: "DDFACTORY",
+    5: "DREAM_FACTORY",
+    6: "JXNC",
+    7: "JDZZ",
+    8: "JDJOY",
+    9: "JDSGMH",
+    10: "JDCFD",
+    11: "JD_CASH"
 }
 
 activitiesZh = {
@@ -31,17 +44,17 @@ activitiesZh = {
 }
 
 activitiesMap = {
-    "FRUITSHARECODES": "京东农场",
-    "PETSHARECODES": "京东萌宠",
-    "PLANT_BEAN_SHARECODES": "种豆得豆",
-    "DDFACTORY_SHARECODES": "东东工厂",
-    "DREAM_FACTORY_SHARE_CODES": "京喜工厂",
-    "JXNC_SHARECODES": "京喜农场",
-    "JDZZ_SHARECODES": "的京东赚赚好友互助码",
-    "JDJOY_SHARECODES": "crazyJoy",
-    "JDSGMH_SHARECODES": "闪购盲盒",
-    "JDCFD_SHARECODES": "财富岛",
-    "JD_CASH_SHARECODES": "签到领现金"
+    "FRUIT": "京东农场",
+    "PET": "京东萌宠",
+    "PLANT_BEAN": "种豆得豆",
+    "DDFACTORY": "东东工厂",
+    "DREAM_FACTORY": "京喜工厂",
+    "JXNC": "京喜农场",
+    "JDZZ": "的京东赚赚好友互助码",
+    "JDJOY": "crazyJoy",
+    "JDSGMH": "闪购盲盒",
+    "JDCFD": "财富岛",
+    "JD_CASH": "签到领现金"
 }
 
 shareCodeFilePaths = []
@@ -62,31 +75,41 @@ def show_menu():
     print("               | |/ _ \ / _ \| |")
     print("               | | (_) | (_) | |")
     print("               |_|\___/ \___/|_|")
-    print("")
-    print("1-全部活动")
-    print("2-查询助力码", "\t\t\t\t", end="")
-    print("3-整理助力码")
+    print("\n")
+    print("1-生成指定账号助力码")
+    print("2-查询自己所有助力码")
+    print("3-整理好友所有助力码")
     print()
-    print("\033[36m@-Help\033[0m", "\t\t\t\t\t", end="")
+    print("\033[36m@-Help\033[0m")
     print("\033[36m0-退出\033[0m")
     print("-" * 50)
 
 
+def singleHandle(infos, cnt, idx, share_code):
+    res = ""
+    for num in range(1, cnt + 1):
+        if idx == num:
+            continue
+        elif share_code + str(num) not in infos or is_han(infos[share_code + str(num)][0]):
+            continue
+        else:
+            res += "${" + share_code + str(num) + "}@"
+
+    return res[:-1]
+
+
 def multiHandle():
-    print("\n\033[33m生成所有活动的助力码格式\033[0m\n")
-    line = input("请按照如下格式输入：1 3 2 代表区间[1,3] 过滤掉2的编号，即 1 3: \n")
-    m, n, f = line.split()[0], line.split()[1], line.split()[2]
+    print("\n\033[33m生成指定账号的助力码格式\033[0m\n")
+    line = input("请输入docker-compose配置中的顺序: \n")
+    n = line.split()[0]
+    print("您输入的编号是:[%s]" % n)
 
     res = ""
     print("\n\033[1;36m助力码生成结果如下：\033[0m\n")
     for i in activitiesEn:
-        for j in range(int(m), int(n) + 1):
-            if str(j) == f:
-                continue
-            res += "${" + activitiesEn[i] + str(j) + "}@"
+        res += "${" + activitiesEn[i] + "_SHARECODE" + str(n) + "}@"
 
-        print("# " + activitiesZh[i] + "\n\033[32m" + "- " +
-              activitiesEn[i] + "=" + res[:-1] + "\033[0m\n")
+        print("# " + activitiesZh[i] + "\n\033[32m" + "- " + activitiesCodes[i] + "=" + res[:-1] + "\033[0m\n")
         res = ""
 
 
@@ -168,6 +191,7 @@ def formatFriendCode(path):
         print(path + " 文件不存在")
         return
     print("开始整理...\n")
+    print("-" * 80)
 
     fo = open(path, "r")
 
@@ -206,44 +230,31 @@ def formatFriendCode(path):
                 infos["USERNAME" +
                       str(cnt)] = getMiddleStr(line, "京东账号：", "\0")
 
-        if "USERNAME" + str(cnt) not in infos.keys():
-            if getMiddleStr(line, "东东工厂】", "\0") != "":
-                if "USERNAME" + str(cnt) in infos:
-                    infos["USERNAME" + str(cnt + 1)
-                          ] = getMiddleStr(line, "【京东账号1（", "）")
-                    cnt += 1
-                else:
-                    infos["USERNAME" +
-                          str(cnt)] = getMiddleStr(line, "【京东账号1（", "）")
-
     print("\n\033[1;36m# 好友助力码整理结果如下：\033[0m")
-    print("\n\033[32m" + "# 助力码顺序" + "\033[0m")
+    print("\n\033[32m" + "# 助力码顺序（推荐按照docker-compose多容器配置顺序整理 friend_code.txt 并生成）" + "\033[0m")
     for i in range(cnt):
         print("# 助力码" + str(i + 1) + "=" + infos["USERNAME" + str(i + 1)])
 
     def printShareCode(arg1, arg2):
         print("\n\033[32m" + "# " + arg2 + "" + "\033[0m")
         for i in range(cnt):
-            if is_han(infos[arg1 + str(i + 1)][0]):
-                print(arg1 + str(i + 1) + "=" + "none")
+            if arg1 + str(i + 1) not in infos:
+                print(arg1 + str(i + 1) + "=" + "没有助力码，请检查friend_code.txt文件")
             else:
                 print(arg1 + str(i + 1) + "=" + infos[arg1 + str(i + 1)])
 
-        print()
-        copy.deepcopy()
-        for i in range(cnt):
-            for j in activitiesEn:
-
-                print("arg1" + str(i + 1) + "=" + )    
-
-    # 打印格式化后的助力码
     for share_code, active_name in activitiesMap.items():
         printShareCode(share_code, active_name)
+
+        # 格式化助力码
+        print()
+        for j in range(cnt):
+            print(share_code + "_SHARECODE" + str(j + 1) + "=" + singleHandle(infos, cnt, j + 1, share_code))
 
 
 def main():
     # 显示功能菜单
-    # show_menu()
+    show_menu()
     while True:
 
         section = input("请选择您要使用的功能：")
