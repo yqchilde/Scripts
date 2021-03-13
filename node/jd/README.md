@@ -32,7 +32,15 @@
 
 # ScreenShot
 
-![a.jpg](https://i.loli.net/2021/03/05/5VSsjLhZKwdtcml.jpg)
+![image.png](https://i.loli.net/2021/03/13/lKThRDeOy6SCHPV.png)
+
+# Running
+
+**注意：** python版本为python3
+
+```bash
+python3 jd_script_tool.py
+```
 
 # Thanks
 
