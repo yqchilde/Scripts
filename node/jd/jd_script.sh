@@ -26,6 +26,8 @@ cp $(find /ybRepo/node/jd/author -type f -name "*.js") /scripts/
   printf "# 京东超市-大转盘\n3 10 * * * node /scripts/z_marketLottery.js >> /scripts/logs/z_marketLottery.log 2>&1\n"
   printf "# 洗护发超级品类日\n13 8,10 8-15 3 *  node /scripts/z_superDay.js >> /scripts/logs/z_superDay.log 2>&1\n"
   printf "# 美的家电节\n15 10 10-31 3 *  node /scripts/z_unionPoster.js >> /scripts/logs/z_unionPoster.log 2>&1\n"
-  printf "# 京东小魔方\n10 10 * * * node /scripts/jd_xmf.js >> /scripts/logs/jd_xmf.log 2>&1\n"
+  printf "# 京东小魔方\n10 10 16-18 * * node /scripts/jd_xmf.js >> /scripts/logs/jd_xmf.log 2>&1\n"
   printf "# 京东众筹-众筹许愿池\n10 10,15 13-20 3 * node /scripts/z_wish.js >> /scripts/logs/z_wish.log 2>&1\n"
+  printf "# 联想集卡活动\n12 15 15-29 3 * node /scripts/z_lenovo.js >> /scripts/logs/z_lenovo.log 2>&1\n"
+  printf "# 新一期母婴-跳一跳\n5 8,14,20 17-25 3 * node /scripts/z_mother_jump.js >> /scripts/logs/z_mother_jump.log 2>&1\n"
 } >> /scripts/docker/merged_list_file.sh
