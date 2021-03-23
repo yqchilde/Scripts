@@ -1,9 +1,13 @@
+var exec = require('child_process').execSync;
+
 const $ = new Env('单独收集电力');
 //此处填写cookie，一个账号
 let currentCookie = process.env.JD_COOKIE;
 //此处url添加抓包的url， 找关键字 CollectCurrentElectricity，下面默认的不通用，需自己单独账号抓包
 if (!process.env.JD_JXFACTORY_HOOK) {
-  console.log('请填写京喜工厂抓包后的URL');
+  console.log('执行该脚本需要补全环境变量，环境变量值是抓包后的URL');
+  var e1 = exec("# 京喜工厂自动收电量");
+  var e2 = exec("crontab -l | grep -v 'node /scripts/jd_dreamFactoryCollectCurrentElectricity.js' | crontab -");
   return
 }
 let url = process.env.JD_JXFACTORY_HOOK
