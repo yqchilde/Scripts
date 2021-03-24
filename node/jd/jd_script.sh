@@ -30,5 +30,4 @@ cp $(find /ybRepo/node/jd/author -type f -name "*.js") /scripts/
   printf "# 金口碑奖投票\n5 10 * 3 * node /scripts/z_mgold.js >> /scripts/logs/z_mgold.log 2>&1\n"
   printf "# 5G超级盲盒\n5 1,6,11,16,21 * 3-4 * node /scripts/z_super5g.js >> /scripts/logs/z_super5g.log 2>&1\n"
   printf "# 答题赢京豆\n5 1 23-25 3 * node /scripts/z_super5g.js >> /scripts/logs/z_super5g.log 2>&1\n"
-  printf "# 京喜工厂自动收电量\n9 */1 * * * node /scripts/jd_dreamFactoryCollectCurrentElectricity.js >> /scripts/logs/jd_dreamFactoryCollectCurrentElectricity.log 2>&1\n"
 } >> /scripts/docker/merged_list_file.sh
