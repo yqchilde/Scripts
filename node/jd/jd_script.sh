@@ -30,4 +30,5 @@ cp $(find /ybRepo/node/jd/author -type f -name "*.js") /scripts/
   printf "# 答题赢京豆\n5 1 23-25 3 * node /scripts/z_super5g.js >> /scripts/logs/z_super5g.log 2>&1\n"
   printf "# 乘风破浪的姐姐\n12 12 24-26 3 * node /scripts/z_sister.js >> /scripts/logs/z_sister.log 2>&1\n"
   printf "# 京东小魔方\n10 10 25-27 3 * node /scripts/z_xmf.js >> /scripts/logs/z_xmf.log 2>&1\n"
+  printf "# 临时红包雨\n1 8-23 * * * node /scripts/lxk0301_live_redrain.js >> /scripts/logs/lxk0301_live_redrain.log 2>&1\n"
 } >> /scripts/docker/merged_list_file.sh
