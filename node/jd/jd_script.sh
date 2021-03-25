@@ -16,8 +16,6 @@ fi
 cp $(find /ybRepo/node/jd/author -type f -name "*.js") /scripts/
 
 {
-
-  printf "# 兑换500豆子\n3,6,9 0 8,16 * * * node /scripts/joy_reward.js >> /scripts/logs/joy_reward.log 2>&1\n"
   printf "# 百变大咖秀\n10 10,11 * * 2-5 node /scripts/jd_entertainment.js >> /scripts/logs/jd_entertainment.log 2>&1\n"
   printf "# 粉丝互动\n3 10 * * * node /scripts/jd_fanslove.js >> /scripts/jd_fanslove.log 2>&1\n"
   printf "# 摇一摇活动\n3 20 * * * node /scripts/jd_shake.js >> /scripts/logs/jd_shake.log 2>&1\n"
@@ -27,8 +25,8 @@ cp $(find /ybRepo/node/jd/author -type f -name "*.js") /scripts/
   printf "# 联想集卡活动\n12 15 15-29 3 * node /scripts/z_lenovo.js >> /scripts/logs/z_lenovo.log 2>&1\n"
   printf "# 母婴-跳一跳\n5 8,14,20 25-31 3 *  node /scripts/z_mother_jump.js >> /scripts/logs/z_mother_jump.log 2>&1\n"
   printf "# 5G超级盲盒\n5 1,6,11,16,21 * 3-4 * node /scripts/z_super5g.js >> /scripts/logs/z_super5g.log 2>&1\n"
-  printf "# 答题赢京豆\n5 1 23-25 3 * node /scripts/z_super5g.js >> /scripts/logs/z_super5g.log 2>&1\n"
+  printf "# 答题赢京豆\n5 1 23-25 3 * node /scripts/z_grassy.js >> /scripts/logs/z_grassy.log 2>&1\n"
   printf "# 乘风破浪的姐姐\n12 12 24-26 3 * node /scripts/z_sister.js >> /scripts/logs/z_sister.log 2>&1\n"
   printf "# 京东小魔方\n10 10 25-27 3 * node /scripts/z_xmf.js >> /scripts/logs/z_xmf.log 2>&1\n"
-  printf "# 临时红包雨\n1 8-23 * * * node /scripts/lxk0301_live_redrain.js >> /scripts/logs/lxk0301_live_redrain.log 2>&1\n"
+  printf "# 一加盲盒\n11 12 17-30 3 *  node /scripts/z_oneplus.js >> /scripts/logs/z_oneplus.log 2>&1\n"
 } >> /scripts/docker/merged_list_file.sh
