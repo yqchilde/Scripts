@@ -25,7 +25,7 @@ cp $(find /ybRepo/node/jd/author -type f -name "*.js") /scripts/
   printf "# 京东超市-大转盘\n3 10 * * * node /scripts/z_marketLottery.js >> /scripts/logs/z_marketLottery.log 2>&1\n"
   printf "# 美的家电节\n15 10 10-31 3 *  node /scripts/z_unionPoster.js >> /scripts/logs/z_unionPoster.log 2>&1\n"
   printf "# 联想集卡活动\n12 15 15-29 3 * node /scripts/z_lenovo.js >> /scripts/logs/z_lenovo.log 2>&1\n"
-  printf "# 新一期母婴-跳一跳\n5 8,14,20 17-25 3 * node /scripts/z_mother_jump.js >> /scripts/logs/z_mother_jump.log 2>&1\n"
+  printf "# 母婴-跳一跳\n5 8,14,20 25-31 3 *  node /scripts/z_mother_jump.js >> /scripts/logs/z_mother_jump.log 2>&1\n"
   printf "# 5G超级盲盒\n5 1,6,11,16,21 * 3-4 * node /scripts/z_super5g.js >> /scripts/logs/z_super5g.log 2>&1\n"
   printf "# 答题赢京豆\n5 1 23-25 3 * node /scripts/z_super5g.js >> /scripts/logs/z_super5g.log 2>&1\n"
   printf "# 乘风破浪的姐姐\n12 12 24-26 3 * node /scripts/z_sister.js >> /scripts/logs/z_sister.log 2>&1\n"
