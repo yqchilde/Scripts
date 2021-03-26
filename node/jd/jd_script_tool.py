@@ -1,60 +1,20 @@
 import os
 import platform
 
-activitiesCodes = {
-    1: "FRUITSHARECODES",
-    2: "PETSHARECODES",
-    3: "PLANT_BEAN_SHARECODES",
-    4: "DDFACTORY_SHARECODES",
-    5: "DREAM_FACTORY_SHARE_CODES",
-    6: "JXNC_SHARECODES",
-    7: "JDZZ_SHARECODES",
-    8: "JDJOY_SHARECODES",
-    9: "JDSGMH_SHARECODES",
-    10: "JDCFD_SHARECODES",
-    11: "JD_CASH_SHARECODES"
-}
-
-activitiesEn = {
-    1: "FRUIT",
-    2: "PET",
-    3: "PLANT_BEAN",
-    4: "DDFACTORY",
-    5: "DREAM_FACTORY",
-    6: "JXNC",
-    7: "JDZZ",
-    8: "JDJOY",
-    9: "JDSGMH",
-    10: "JDCFD",
-    11: "JD_CASH"
-}
-
-activitiesZh = {
-    1: "京东农场",
-    2: "京东萌宠",
-    3: "种豆得豆",
-    4: "东东工厂",
-    5: "京喜工厂",
-    6: "京喜农场",
-    7: "京东赚赚",
-    8: "crazyJoy",
-    9: "闪购盲盒",
-    10: "财富岛",
-    11: "签到领现金"
-}
-
 activitiesMap = {
-    "FRUIT": "京东农场",
-    "PET": "京东萌宠",
-    "PLANT_BEAN": "种豆得豆",
-    "DDFACTORY": "东东工厂",
-    "DREAM_FACTORY": "京喜工厂",
-    "JXNC": "京喜农场",
-    "JDZZ": "的京东赚赚好友互助码",
-    "JDJOY": "crazyJoy",
-    "JDSGMH": "闪购盲盒",
-    "JDCFD": "财富岛",
-    "JD_CASH": "签到领现金"
+    "京东农场": "FRUITSHARECODES",
+    "京东萌宠": "PETSHARECODES",
+    "种豆得豆": "PLANT_BEAN_SHARECODES",
+    "东东工厂": "DDFACTORY_SHARECODES",
+    "京喜工厂": "DREAM_FACTORY_SHARE_CODES",
+    "京喜农场": "JXNC_SHARECODES",
+    "京东赚赚": "JDZZ_SHARECODES",
+    "crazyJoy": "JDJOY_SHARECODES",
+    "闪购盲盒": "JDSGMH_SHARECODES",
+    "财富岛": "JDCFD_SHARECODES",
+    "签到领现金": "JD_CASH_SHARECODES",
+    "环球挑战赛": "JDGLOBAL_SHARECODES",
+    "口袋书店": "BOOKSHOP_SHARECODES",
 }
 
 shareCodeFilePaths = []
@@ -106,10 +66,18 @@ def multiHandle():
 
     res = ""
     print("\n\033[1;36m助力码生成结果如下：\033[0m\n")
-    for i in activitiesEn:
-        res += "${" + activitiesEn[i] + "_SHARECODE" + str(n) + "}@"
+    for k, v in activitiesMap.items():
+        temp = ""
+        if v.__contains__("_SHARE_CODES"):
+            temp = v[:v.index("_SHARE_CODES")]
+        elif v.__contains__("_SHARECODES"):
+            temp = v[:v.index("_SHARECODES")]
+        elif v.__contains__("SHARECODES"):
+            temp = v[:v.index("SHARECODES")]
 
-        print("# " + activitiesZh[i] + "\n\033[32m" + "- " + activitiesCodes[i] + "=" + res[:-1] + "\033[0m\n")
+        res += "${" + temp + str(n) + "}@"
+
+        print("# " + k + "\n\033[32m" + "- " + v + "=" + res[:-1] + "\033[0m\n")
         res = ""
 
 
@@ -160,24 +128,20 @@ def queryAllShareCode(paths):
             line = line.strip()
 
             # 从账号1 start
-            if getMiddleStr(line, "【京东账号1（", "）") != "":
-                infos["USERNAME"] = getMiddleStr(line, "【京东账号1（", "）")
-
-            if "账号1开始" in line:
-                infos["START_LINE"] = line[line.index("="):]
+            if getMiddleStr(line, "【京东账号 1 （", "）") != "":
+                infos["USERNAME"] = getMiddleStr(line, "【京东账号 1 （", "）")
 
             for share_code, active_name in activitiesMap.items():
-                if "【京东账号1" in line and active_name + "】" in line:
-                    infos[share_code] = line[line.index("【京东账号1"):]
+                if "【京东账号 1 （" in line and active_name in line:
+                    infos[share_code] = line
 
         fo.close()
 
         print("\n\033[1;36m" + "京东账号" + "：" + infos["USERNAME"] + "\033[0m")
-        print(infos["START_LINE"])
 
         def printLine(line_name, active_name):
             if line_name not in infos:
-                print("【京东账号1（" + infos["USERNAME"] + "）" + active_name + "】未获取到助力码，可能是账号黑了")
+                print("【京东账号 1 （" + infos["USERNAME"] + "）" + active_name + "好友互助码】未获取到助力码，可能是该项目黑了")
             else:
                 print(infos[line_name])
 
@@ -263,7 +227,7 @@ def main():
         if section == "1":
             multiHandle()
         elif section == "2":
-            searchFile(path="./", file_name="jd_get_share_code.log")
+            searchFile(path="./", file_name="sharecodeCollection.log")
             queryAllShareCode(shareCodeFilePaths)
         elif section == "3":
             formatFriendCode("./friend_code.txt")
