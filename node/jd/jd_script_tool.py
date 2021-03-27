@@ -2,8 +2,8 @@ import os
 import platform
 
 activitiesMap = {
-    "京东农场": "FRUITSHARECODES",
-    "京东萌宠": "PETSHARECODES",
+    "东东农场": "FRUITSHARECODES",
+    "东东萌宠": "PETSHARECODES",
     "种豆得豆": "PLANT_BEAN_SHARECODES",
     "东东工厂": "DDFACTORY_SHARECODES",
     "京喜工厂": "DREAM_FACTORY_SHARE_CODES",
@@ -17,7 +17,6 @@ activitiesMap = {
     "口袋书店": "BOOKSHOP_SHARECODES",
 }
 
-shareCodeFilePaths = []
 filter_list = ["(每次都变化,不影响)"]
 
 
@@ -44,16 +43,26 @@ def show_menu():
     print("\033[36m0-退出\033[0m")
     print("-" * 50)
 
+def processingShareCodeName(share_code):
+    share_code_short = ""
+    if share_code.__contains__("_SHARE_CODES"):
+        share_code_short = share_code[:share_code.index("_SHARE_CODES")]
+    elif share_code.__contains__("_SHARECODES"):
+        share_code_short = share_code[:share_code.index("_SHARECODES")]
+    elif share_code.__contains__("SHARECODES"):
+        share_code_short = share_code[:share_code.index("SHARECODES")]
+    return share_code_short
 
 def singleHandle(infos, cnt, idx, share_code):
     res = ""
+    share_code_short = processingShareCodeName(share_code)
     for num in range(1, cnt + 1):
         if idx == num:
             continue
         elif share_code + str(num) not in infos or is_han(infos[share_code + str(num)][0]):
             continue
         else:
-            res += "${" + share_code + str(num) + "}@"
+            res += "${" + share_code_short + str(num) + "}@"
 
     return res[:-1]
 
@@ -67,15 +76,9 @@ def multiHandle():
     res = ""
     print("\n\033[1;36m助力码生成结果如下：\033[0m\n")
     for k, v in activitiesMap.items():
-        temp = ""
-        if v.__contains__("_SHARE_CODES"):
-            temp = v[:v.index("_SHARE_CODES")]
-        elif v.__contains__("_SHARECODES"):
-            temp = v[:v.index("_SHARECODES")]
-        elif v.__contains__("SHARECODES"):
-            temp = v[:v.index("SHARECODES")]
+        share_code_short = processingShareCodeName(v)
 
-        res += "${" + temp + str(n) + "}@"
+        res += "${" + share_code_short + "_SHARECODE" + str(n) + "}@"
 
         print("# " + k + "\n\033[32m" + "- " + v + "=" + res[:-1] + "\033[0m\n")
         res = ""
@@ -93,17 +96,16 @@ def getMiddleStr(content, startIdx, endIdx):
         return ""
 
 
-def searchFile(path='.', file_name=""):
-    for item in os.listdir(path):
-        item_path = os.path.join(path, item)
+def searchFile(file_name):
+    fo, shareCodeFilePaths = open(file_name, "r"), []
 
-        if os.path.isdir(item_path):
-            searchFile(item_path, file_name)
+    for line in fo.readlines():
+        line = line.strip()
 
-        elif os.path.isfile(item_path):
-            if file_name in item:
-                global shareCodeFilePaths
-                shareCodeFilePaths.append(item_path)
+        if ":/scripts/logs" in line:
+            shareCodeFilePaths.append(getMiddleStr(line, "- ", ":/scripts/logs") + "/sharecodeCollection.log")
+
+    return shareCodeFilePaths
 
 
 def is_han(uchar):
@@ -131,9 +133,9 @@ def queryAllShareCode(paths):
             if getMiddleStr(line, "【京东账号 1 （", "）") != "":
                 infos["USERNAME"] = getMiddleStr(line, "【京东账号 1 （", "）")
 
-            for share_code, active_name in activitiesMap.items():
+            for active_name, share_code in activitiesMap.items():
                 if "【京东账号 1 （" in line and active_name in line:
-                    infos[share_code] = line
+                    infos[share_code] = line.replace(" ", "")
 
         fo.close()
 
@@ -141,11 +143,11 @@ def queryAllShareCode(paths):
 
         def printLine(line_name, active_name):
             if line_name not in infos:
-                print("【京东账号 1 （" + infos["USERNAME"] + "）" + active_name + "好友互助码】未获取到助力码，可能是该项目黑了")
+                print("【京东账号1（" + infos["USERNAME"] + "）" + active_name + "好友互助码】未获取到助力码，可能是该项目黑了")
             else:
                 print(infos[line_name])
 
-        for share_code, active_name in activitiesMap.items():
+        for active_name, share_code in activitiesMap.items():
             printLine(share_code, active_name)
 
 
@@ -157,23 +159,10 @@ def formatFriendCode(path):
     print("开始整理...\n")
     print("-" * 80)
 
-    fo = open(path, "r")
-
-    infos = {}
-    cnt = 1
-
-    def setInfos(arg1, arg2, cnt):
-        if getMiddleStr(line, "" + arg2 + "】", "\0") != "":
-            if arg1 + str(cnt) in infos:
-                infos[arg1 + str(cnt + 1)] = getMiddleStr(line,
-                                                          "" + arg2 + "】", "\0")
-                cnt += 1
-            else:
-                infos[arg1 + str(cnt)] = getMiddleStr(line,
-                                                      "" + arg2 + "】", "\0")
+    fo, infos, cnt = open(path, "r"), {}, 1
 
     for line in fo.readlines():
-        line = line.strip()
+        line = line.strip().replace(" ", "")
 
         # 过滤数据
         if any(dirty in line for dirty in filter_list):
@@ -181,39 +170,40 @@ def formatFriendCode(path):
                 line = line.replace(filter_str, "")
 
         # 填充数据
-        for share_code, active_name in activitiesMap.items():
-            setInfos(share_code, active_name, cnt)
+        for active_name, share_code in activitiesMap.items():
+            if active_name in line:
+                if share_code + str(cnt) in infos:
+                    infos[share_code + str(cnt)] = line[line.index("互助码】") + len("互助码】"):]
+                    cnt += 1
+                else:
+                    infos[share_code + str(cnt)] = line[line.index("互助码】") + len("互助码】"):]
 
         # 定义账号
         if getMiddleStr(line, "京东账号：", "\0") != "":
             if "USERNAME" + str(cnt) in infos:
-                infos["USERNAME" + str(cnt + 1)
-                      ] = getMiddleStr(line, "京东账号：", "\0")
+                infos["USERNAME" + str(cnt + 1)] = getMiddleStr(line, "京东账号：", "\0")
                 cnt += 1
             else:
-                infos["USERNAME" +
-                      str(cnt)] = getMiddleStr(line, "京东账号：", "\0")
+                infos["USERNAME" + str(cnt)] = getMiddleStr(line, "京东账号：", "\0")
 
     print("\n\033[1;36m# 好友助力码整理结果如下：\033[0m")
     print("\n\033[32m" + "# 助力码顺序（推荐按照docker-compose多容器配置顺序整理 friend_code.txt 并生成）" + "\033[0m")
     for i in range(cnt):
         print("# 助力码" + str(i + 1) + "=" + infos["USERNAME" + str(i + 1)])
 
-    def printShareCode(arg1, arg2):
-        print("\n\033[32m" + "# " + arg2 + "" + "\033[0m")
+    for active_name, share_code in activitiesMap.items():
+        print("\n\033[32m" + "# " + active_name + "" + "\033[0m")
+        share_code_short = processingShareCodeName(share_code)
         for i in range(cnt):
-            if arg1 + str(i + 1) not in infos:
-                print(arg1 + str(i + 1) + "=" + "没有助力码，请检查friend_code.txt文件")
+            if share_code + str(i + 1) not in infos:
+                print(share_code_short + str(i + 1) + "=" + "没有助力码，请检查friend_code.txt文件")
             else:
-                print(arg1 + str(i + 1) + "=" + infos[arg1 + str(i + 1)])
-
-    for share_code, active_name in activitiesMap.items():
-        printShareCode(share_code, active_name)
+                print(share_code_short + str(i + 1) + "=" + infos[share_code + str(i + 1)])
 
         # 格式化助力码
         print()
         for j in range(cnt):
-            print(share_code + "_SHARECODE" + str(j + 1) + "=" + singleHandle(infos, cnt, j + 1, share_code))
+            print(share_code + str(j + 1) + "=" + singleHandle(infos, cnt, j + 1, share_code))
 
 
 def main():
@@ -227,8 +217,7 @@ def main():
         if section == "1":
             multiHandle()
         elif section == "2":
-            searchFile(path="./", file_name="sharecodeCollection.log")
-            queryAllShareCode(shareCodeFilePaths)
+            queryAllShareCode(searchFile("./docker-compose.yml"))
         elif section == "3":
             formatFriendCode("./friend_code.txt")
         elif section == "@":
