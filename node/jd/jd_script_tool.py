@@ -17,7 +17,7 @@ activitiesMap = {
     "口袋书店": "BOOKSHOP_SHARECODES",
 }
 
-filter_list = ["(每次都变化,不影响)"]
+filterList = ["(每次都变化,不影响)"]
 
 
 def show_menu():
@@ -165,18 +165,18 @@ def formatFriendCode(path):
         line = line.strip().replace(" ", "")
 
         # 过滤数据
-        if any(dirty in line for dirty in filter_list):
-            for filter_str in filter_list:
+        if any(dirty in line for dirty in filterList):
+            for filter_str in filterList:
                 line = line.replace(filter_str, "")
 
         # 填充数据
         for active_name, share_code in activitiesMap.items():
             if active_name in line:
                 if share_code + str(cnt) in infos:
-                    infos[share_code + str(cnt)] = line[line.index("互助码】") + len("互助码】"):]
+                    infos[share_code + str(cnt)] = line[line.index("】") + len("】"):]
                     cnt += 1
                 else:
-                    infos[share_code + str(cnt)] = line[line.index("互助码】") + len("互助码】"):]
+                    infos[share_code + str(cnt)] = line[line.index("】") + len("】"):]
 
         # 定义账号
         if getMiddleStr(line, "京东账号：", "\0") != "":
@@ -202,7 +202,7 @@ def formatFriendCode(path):
 
         # 格式化助力码
         print()
-        for j in range(cnt):
+        for j in range(len(searchFile("docker-compose.yml"))):
             print(share_code + str(j + 1) + "=" + singleHandle(infos, cnt, j + 1, share_code))
 
 
