@@ -30,4 +30,6 @@ cp $(find /ybRepo/node/jd/author -type f -name "*.js") /scripts/
   printf "# 京东小魔方\n10 10 25-27 3 * node /scripts/z_xmf.js >> /scripts/logs/z_xmf.log 2>&1\n"
   printf "# 一加盲盒\n11 12 17-30 3 * node /scripts/z_oneplus.js >> /scripts/logs/z_oneplus.log 2>&1\n"
   printf "# 店铺大转盘\n3 0,10,23 * * * node /scripts/monk_shop_lottery.js >> /scripts/logs/monk_shop_lottery.log 2>&1\n"
+  printf "# 关注有礼\n15 15 * * * node /scripts/monk_shop_follow_sku.js >> /scripts/logs/monk_shop_follow_sku.log 2>&1\n"
+  printf "# 加购有礼\n15 12 * * * node /scripts/monk_shop_add_to_car.js >> /scripts/logs/monk_shop_add_to_car.log 2>&1\n"
 } >> /scripts/docker/merged_list_file.sh
