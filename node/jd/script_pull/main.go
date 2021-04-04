@@ -32,22 +32,22 @@ func main() {
 	var cronList []string
 
 	// 遍历每个作者项目
-	for gitPath, _ := range gitAuthorRepoMap {
+	for gitPath, gitRepo := range gitAuthorRepoMap {
 		Info("正在处理 %s 的脚本", gitPath)
 
-		//hasGitPath, err := CheckPathExists(gitPath)
-		//CheckIfError(err)
-		//
-		//if !hasGitPath {
-		//	err := CloneScriptRepo(gitRepo, gitPath)
-		//	CheckIfError(err)
-		//} else {
-		//	err := PullScriptRepo(gitPath)
-		//	if err != nil {
-		//		Warning("%s 的仓库没有更新，即将跳过", gitPath)
-		//		continue
-		//	}
-		//}
+		hasGitPath, err := CheckPathExists(gitPath)
+		CheckIfError(err)
+
+		if !hasGitPath {
+			err := CloneScriptRepo(gitRepo, gitPath)
+			CheckIfError(err)
+		} else {
+			err := PullScriptRepo(gitPath)
+			if err != nil {
+				Warning("%s 的仓库没有更新，即将跳过", gitPath)
+				continue
+			}
+		}
 
 		// 开始拷贝文件
 		Info("开始拷贝 %s 脚本", gitPath)
