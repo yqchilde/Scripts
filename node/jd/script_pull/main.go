@@ -8,6 +8,7 @@ import (
 	"os"
 	"os/exec"
 	"path/filepath"
+	"regexp"
 	"strings"
 	"text/template"
 )
@@ -24,9 +25,11 @@ var gitAuthorPathMap = map[string][]string{
 
 // 这里希望写入 [*(所有文件) | @脚本名字(过滤脚本) | 指定脚本名字] 三种方式
 var gitAuthorScripts = map[string][]string{
-	"i-chenzhe":  {"*"},
+	"i-chenzhe":  {"@z_getFanslove.js"},
 	"monk-coder": {"@monk_inter_shop_sign.js"},
 }
+
+const cronRegex = `(((\*|\?|[0-9]{1,2}|[0-9]{1,2}\-[0-9]{1,2}|[0-9]{1,2}\-[0-9]{1,2}\/[0-9]{1,2}|([0-9]{1,2}\,?)*|([0-9]{1,2}\,?)*\-[0-9]{1,2}|([0-9]{1,2}\,?)*\-[0-9]{1,2}\/[0-9]{1,2})+[\s]){5})`
 
 func main() {
 	var cronList []string
@@ -122,9 +125,10 @@ func main() {
 				panic(err)
 			} else {
 				scanner := bufio.NewScanner(file)
+				reg := regexp.MustCompile(cronRegex)
 				for scanner.Scan() {
-					if strings.Contains(scanner.Text(), "cron \"") {
-						cron = strings.Trim(GetBetweenStr(scanner.Text(), "cron \"", "\""), " ")
+					if reg.MatchString(scanner.Text()) {
+						cron = strings.Trim(reg.FindString(scanner.Text()), " ")
 					}
 					if strings.Contains(scanner.Text(), "new Env") {
 						active = strings.Trim(GetBetweenStr(scanner.Text(), "new Env('", "')"), " ")
