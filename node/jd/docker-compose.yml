@@ -23,38 +23,47 @@ services:
 
       #----------------------------Share Start------------------------------
 
-      # 京东农场
-      - FRUITSHARECODES=${FRUIT_SHARECODE1}
+      # 东东农场
+      - FRUITSHARECODES=${FRUITSHARECODES1}
 
-      # 京东萌宠
-      - PETSHARECODES=${PET_SHARECODE1}
+      # 东东萌宠
+      - PETSHARECODES=${PETSHARECODES1}
 
       # 种豆得豆
-      - PLANT_BEAN_SHARECODES=${PLANT_BEAN_SHARECODE1}
+      - PLANT_BEAN_SHARECODES=${PLANT_BEAN_SHARECODES1}
 
       # 东东工厂
-      - DDFACTORY_SHARECODES=${DDFACTORY_SHARECODE1}
+      - DDFACTORY_SHARECODES=${DDFACTORY_SHARECODES1}
 
       # 京喜工厂
-      - DREAM_FACTORY_SHARE_CODES=${DREAM_FACTORY_SHARECODE1}
+      - DREAM_FACTORY_SHARE_CODES=${DREAM_FACTORY_SHARE_CODES1}
 
       # 京喜农场
-      - JXNC_SHARECODES=${JXNC_SHARECODE1}
+      - JXNC_SHARECODES=${JXNC_SHARECODES1}
 
       # 京东赚赚
-      - JDZZ_SHARECODES=${JDZZ_SHARECODE1}
+      - JDZZ_SHARECODES=${JDZZ_SHARECODES1}
 
       # crazyJoy
-      - JDJOY_SHARECODES=${JDJOY_SHARECODE1}
+      - JDJOY_SHARECODES=${JDJOY_SHARECODES1}
 
       # 闪购盲盒
-      - JDSGMH_SHARECODES=${JDSGMH_SHARECODE1}
+      - JDSGMH_SHARECODES=${JDSGMH_SHARECODES1}
 
       # 财富岛
-      - JDCFD_SHARECODES=${JDCFD_SHARECODE1}
+      - JDCFD_SHARECODES=${JDCFD_SHARECODES1}
 
       # 签到领现金
-      - JD_CASH_SHARECODES=${JD_CASH_SHARECODE1}
+      - JD_CASH_SHARECODES=${JD_CASH_SHARECODES1}
+
+      # 环球挑战赛
+      - JDGLOBAL_SHARECODES=${JDGLOBAL_SHARECODES1}
+
+      # 口袋书店
+      - BOOKSHOP_SHARECODES=${BOOKSHOP_SHARECODES1}
+
+      # 京东手机狂欢城
+      - JD818_SHARECODES=${JD818_SHARECODES1}
 
       #----------------------------Share End------------------------------
 
@@ -110,38 +119,47 @@ services:
 
       #----------------------------Share Start------------------------------
 
-      # 京东农场
-      - FRUITSHARECODES=${FRUIT_SHARECODE2}
+      # 东东农场
+      - FRUITSHARECODES=${FRUITSHARECODES2}
 
-      # 京东萌宠
-      - PETSHARECODES=${PET_SHARECODE2}
+      # 东东萌宠
+      - PETSHARECODES=${PETSHARECODES2}
 
       # 种豆得豆
-      - PLANT_BEAN_SHARECODES=${PLANT_BEAN_SHARECODE2}
+      - PLANT_BEAN_SHARECODES=${PLANT_BEAN_SHARECODES2}
 
       # 东东工厂
-      - DDFACTORY_SHARECODES=${DDFACTORY_SHARECODE2}
+      - DDFACTORY_SHARECODES=${DDFACTORY_SHARECODES2}
 
       # 京喜工厂
-      - DREAM_FACTORY_SHARE_CODES=${DREAM_FACTORY_SHARECODE2}
+      - DREAM_FACTORY_SHARE_CODES=${DREAM_FACTORY_SHARE_CODES2}
 
       # 京喜农场
-      - JXNC_SHARECODES=${JXNC_SHARECODE2}
+      - JXNC_SHARECODES=${JXNC_SHARECODES2}
 
       # 京东赚赚
-      - JDZZ_SHARECODES=${JDZZ_SHARECODE2}
+      - JDZZ_SHARECODES=${JDZZ_SHARECODES2}
 
       # crazyJoy
-      - JDJOY_SHARECODES=${JDJOY_SHARECODE2}
+      - JDJOY_SHARECODES=${JDJOY_SHARECODES2}
 
       # 闪购盲盒
-      - JDSGMH_SHARECODES=${JDSGMH_SHARECODE2}
+      - JDSGMH_SHARECODES=${JDSGMH_SHARECODES2}
 
       # 财富岛
-      - JDCFD_SHARECODES=${JDCFD_SHARECODE2}
+      - JDCFD_SHARECODES=${JDCFD_SHARECODES2}
 
       # 签到领现金
-      - JD_CASH_SHARECODES=${JD_CASH_SHARECODE2}
+      - JD_CASH_SHARECODES=${JD_CASH_SHARECODES2}
+
+      # 环球挑战赛
+      - JDGLOBAL_SHARECODES=${JDGLOBAL_SHARECODES2}
+
+      # 口袋书店
+      - BOOKSHOP_SHARECODES=${BOOKSHOP_SHARECODES2}
+
+      # 京东手机狂欢城
+      - JD818_SHARECODES=${JD818_SHARECODES2}
 
       #----------------------------Share End------------------------------
 

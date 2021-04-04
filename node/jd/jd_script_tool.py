@@ -15,6 +15,7 @@ activitiesMap = {
     "签到领现金": "JD_CASH_SHARECODES",
     "环球挑战赛": "JDGLOBAL_SHARECODES",
     "口袋书店": "BOOKSHOP_SHARECODES",
+    "京东手机狂欢城": "JD818_SHARECODES",
 }
 
 filterList = ["(每次都变化,不影响)"]
@@ -76,9 +77,7 @@ def multiHandle():
     res = ""
     print("\n\033[1;36m助力码生成结果如下：\033[0m\n")
     for k, v in activitiesMap.items():
-        share_code_short = processingShareCodeName(v)
-
-        res += "${" + share_code_short + "_SHARECODE" + str(n) + "}@"
+        res += "${" + v + str(n) + "}@"
 
         print("# " + k + "\n\033[32m" + "- " + v + "=" + res[:-1] + "\033[0m\n")
         res = ""
