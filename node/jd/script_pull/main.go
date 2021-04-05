@@ -186,9 +186,8 @@ func PullScriptRepo(gitPath string) error {
 func RunGitCommand(gitPath, name string, arg ...string) (string, error) {
 	cmd := exec.Command(name, arg...)
 	cmd.Dir = gitPath
-	msg, err := cmd.CombinedOutput()
-	CheckIfError(err)
-	err = cmd.Run()
+	msg, _ := cmd.CombinedOutput()
+	err := cmd.Run()
 	return string(msg), err
 }
 
