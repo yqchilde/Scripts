@@ -42,11 +42,12 @@ func main() {
 		CheckIfError(err)
 
 		if !hasGitPath {
-			err := CloneScriptRepo(gitRepo, gitPath)
+			_, err := CloneScriptRepo(gitRepo, gitPath)
 			CheckIfError(err)
 		} else {
-			err := PullScriptRepo(gitPath)
-			if err != nil {
+			ret, err := PullScriptRepo(gitPath)
+			CheckIfError(err)
+			if strings.Contains(ret, "Already up to date") {
 				Warning("%s 的仓库没有更新，即将跳过", gitPath)
 				continue
 			}
@@ -171,24 +172,29 @@ func main() {
 	Info("项目结束")
 }
 
-func CloneScriptRepo(repo, path string) error {
-	_, err := RunGitCommand("./", "git", "clone", repo, path)
-
-	return err
+func CloneScriptRepo(repo, path string) (string, error) {
+	return RunGitCommand("./", "git", "clone", repo, path)
 }
 
-func PullScriptRepo(gitPath string) error {
-	_, err := RunGitCommand(gitPath, "git", "pull", "origin")
-
-	return err
+func PullScriptRepo(gitPath string) (string, error) {
+	return RunGitCommand(gitPath, "git", "pull", "origin")
 }
 
 func RunGitCommand(gitPath, name string, arg ...string) (string, error) {
+	var out bytes.Buffer
+
 	cmd := exec.Command(name, arg...)
+	cmd.Stdout = &out
+	cmd.Stderr = os.Stderr
 	cmd.Dir = gitPath
-	msg, _ := cmd.CombinedOutput()
-	err := cmd.Run()
-	return string(msg), err
+	err := cmd.Start()
+	if err != nil {
+		Warning("exec.Command failed, err: ", err.Error())
+		os.Exit(1)
+	}
+	err = cmd.Wait()
+
+	return out.String(), err
 }
 
 func CheckPathExists(path string) (bool, error) {
