@@ -26,10 +26,13 @@ var gitAuthorPathMap = map[string][]string{
 // 这里希望写入 [*(所有文件) | @脚本名字(过滤脚本) | 指定脚本名字] 三种方式
 var gitAuthorScripts = map[string][]string{
 	"i-chenzhe":  {"@z_getFanslove.js"},
-	"monk-coder": {"@monk_inter_shop_sign.js"},
+	"monk-coder": {"@monk_inter_shop_sign.js", "@monk_skyworth.js"},
 }
 
-const cronRegex = `(((\*|\?|[0-9]{1,2}|[0-9]{1,2}\-[0-9]{1,2}|[0-9]{1,2}\-[0-9]{1,2}\/[0-9]{1,2}|([0-9]{1,2}\,?)*|([0-9]{1,2}\,?)*\-[0-9]{1,2}|([0-9]{1,2}\,?)*\-[0-9]{1,2}\/[0-9]{1,2})+[\s]){5})`
+const (
+	cronRegex   = `(((\*|\?|[0-9]{1,2}|[0-9]{1,2}\-[0-9]{1,2}|[0-9]{1,2}\-[0-9]{1,2}\/[0-9]{1,2}|([0-9]{1,2}\,?)*|([0-9]{1,2}\,?)*\-[0-9]{1,2}|([0-9]{1,2}\,?)*\-[0-9]{1,2}\/[0-9]{1,2})+[\s]){5})`
+	activeRegex = `(?m)new Env\(\"?\'?(.*?)\"?\'?\)`
+)
 
 func main() {
 	var cronList []string
@@ -68,6 +71,7 @@ func main() {
 			} else if scriptFiles[0][0] == '@' {
 				allScriptFiles, _ := filepath.Glob(gitPath + "/" + scriptPaths[i] + "/*.js")
 				for j := range allScriptFiles {
+					var isMatch bool
 					for k := range scriptFiles {
 						if scriptFiles[k][0] != '@' {
 							Warning("%s 的脚本过滤文件规则不一致", gitPath)
@@ -77,8 +81,12 @@ func main() {
 
 						filter := scriptFiles[k][1:]
 						if filepath.Base(allScriptFiles[j]) == filter {
-							continue
+							isMatch = true
+							break
 						}
+					}
+
+					if !isMatch {
 						scriptFilePaths = append(scriptFilePaths, allScriptFiles[j])
 					}
 				}
@@ -126,13 +134,14 @@ func main() {
 				panic(err)
 			} else {
 				scanner := bufio.NewScanner(file)
-				reg := regexp.MustCompile(cronRegex)
+				cronReg := regexp.MustCompile(cronRegex)
+				activeReg := regexp.MustCompile(activeRegex)
 				for scanner.Scan() {
-					if reg.MatchString(scanner.Text()) {
-						cron = strings.Trim(reg.FindString(scanner.Text()), " ")
+					if cronReg.MatchString(scanner.Text()) {
+						cron = strings.Trim(cronReg.FindString(scanner.Text()), " ")
 					}
-					if strings.Contains(scanner.Text(), "new Env") {
-						active = strings.Trim(GetBetweenStr(scanner.Text(), "new Env('", "')"), " ")
+					if activeReg.MatchString(scanner.Text()) {
+						active = strings.Trim(activeReg.FindStringSubmatch(scanner.Text())[1], " ")
 					}
 
 					if cron != "" && active != "" {
