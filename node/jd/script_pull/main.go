@@ -14,8 +14,8 @@ import (
 )
 
 var gitAuthorRepoMap = map[string]string{
-	"i-chenzhe":  "https://github.com/monk-coder/dust.git",
-	"monk-coder": "https://github.com/monk-coder/dust.git",
+	"i-chenzhe":  "git@github.com:monk-coder/dust.git",
+	"monk-coder": "git@github.com:monk-coder/dust.git",
 }
 
 var gitAuthorPathMap = map[string][]string{
