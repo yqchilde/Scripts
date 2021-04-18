@@ -15,32 +15,7 @@
 
 基于 lxk 大佬的 docker 镜像和各路 JD 脚本大佬汇总的 Docker1 一键构建工具，支持多账号
 
-# Struct
-
-```bash
-.
-
-├── .env                // 变量配置文件
-├── README.md
-├── author              // 存档脚本目录
-├── backup              // 过期脚本目录
-├── deploy.sh           // 一键构建脚本(已弃用)
-├── jd_script.sh        // 自定义脚本远程加载脚本, 在环境变量 CUSTOM_LIST_FILE 里配置远程地址
-├── docker-compose.yml  // docker-compose配置模板
-└── jd_script_tool.py   // 脚本相关生成工具
-```
-
-# ScreenShot
-
-![image.png](https://i.loli.net/2021/03/13/X21HjEwLiGhJag4.png)
-
-# Running
-
-**注意：** python版本为python3
-
-```bash
-python3 jd_script_tool.py
-```
+自用
 
 # Thanks
 

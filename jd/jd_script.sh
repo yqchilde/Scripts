@@ -13,7 +13,7 @@ else
    git -C /ybRepo pull --rebase
 fi
 
-cp $(find /ybRepo/node/jd/author -type f -name "*.js") /scripts/
+cp $(find /ybRepo/jd/scripts/author -type f -name "*.js") /scripts/
 
 {
   printf "# 手机狂欢城\n2 0-18/6 1-20 4 * node /scripts/z_carnivalcity.js >> /scripts/logs/z_carnivalcity.log 2>&1\n"

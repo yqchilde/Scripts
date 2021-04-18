@@ -5,8 +5,8 @@
 logs1/*
 logs2/*
 
-# script pull
-script_pull/*/
+# author
+yangtingxiao/*
 
 # python venv
 venv/*
