@@ -535,7 +535,7 @@ services:
       - MARKET_COIN_TO_BEANS=纯甄
 
       #使用自定义定任务追加默认任务之后
-      - CUSTOM_SHELL_FILE=https://gitee.com/yqchilde/Scripts/raw/main/node/jd/jd_script.sh
+      - CUSTOM_SHELL_FILE=https://gitee.com/yqchilde/Scripts/raw/main/jd/jd_script.sh
 
       # 不执行的脚本
       - DO_NOT_RUN_SCRIPTS=jd_family
