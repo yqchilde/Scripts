@@ -49,6 +49,17 @@ const (
 	dotEnvFilePath        = ".env"
 )
 
+var iterate = template.FuncMap{
+	"Iterate": func(count int) []uint {
+		var i uint
+		var Items []uint
+		for i = 1; i <= uint(count); i++ {
+			Items = append(Items, i)
+		}
+		return Items
+	},
+}
+
 // QuerySelfShareCode 查询当前日志中所有的助力码(按照docker-compose.yml文件中顺序)
 func QuerySelfShareCode(paths []string) {
 	if len(paths) == 0 {
@@ -390,36 +401,75 @@ func JDLoginByQrScan() {
 				pkg.Info(jdCookie)
 
 				// 自动替换到docker-compose.yml
-				// 需要知道当前这个账号是哪个docker容器
+				// Condition1 不存在日志的，按顺序添加cookie
+
+				// Condition2 已存在日志的，根据日志中的账号位置自动替换对应cookie
 				jdUserNames := QueryJDNameByDockerCompose(SearchShareCodeCollectionFilePaths())
-				for i := range jdUserNames {
-					if jdUserNames[i] == ptPin {
-						// 写入env
-						for i := range jdUserNames {
-							if jdUserNames[i] == ptPin {
-								// 写入env
-								input, err := ioutil.ReadFile(dotEnvFilePath)
-								if err != nil {
-									pkg.CheckIfError(err)
-								}
+				if len(jdUserNames) == 0 {
+					// 写入env
+					input, err := ioutil.ReadFile(dotEnvFilePath)
+					if err != nil {
+						pkg.CheckIfError(err)
+					}
 
-								lines := strings.Split(string(input), "\n")
+					lines := strings.Split(string(input), "\n")
 
-								for j, line := range lines {
-									if strings.Contains(line, "JD_COOKIE"+strconv.Itoa(i+1)+"=") {
-										lines[j] = "JD_COOKIE" + strconv.Itoa(i+1) + "=" + jdCookie
-									}
-								}
-								output := strings.Join(lines, "\n")
+					lineIdx, ckIdx := 0, 0
+					for j, line := range lines {
+						line = strings.TrimSpace(line)
 
-								if err = ioutil.WriteFile(dotEnvFilePath, []byte(output), 0644); err != nil {
-									pkg.CheckIfError(err)
-								} else {
-									pkg.Info("该账号的Cookie已自动写入到 .env 配置文件中")
-								}
+						if strings.Contains(line, "JD_COOKIE") {
+							ckIdx, _ = strconv.Atoi(pkg.GetBetweenStr(line, "JD_COOKIE", "="))
+							if len(line[len("JD_COOKIE"+strconv.Itoa(ckIdx)+"="):]) == 0 {
+								lines[j] = "JD_COOKIE" + strconv.Itoa(ckIdx) + "=" + jdCookie
+							} else {
+								lineIdx = j
 							}
 						}
-						return
+					}
+
+					if lineIdx != 0 {
+						lines = append(lines, "")
+						copy(lines[lineIdx+1:], lines[lineIdx:])
+						lines[lineIdx+1] = "JD_COOKIE" + strconv.Itoa(ckIdx+1) + "=" + jdCookie
+					}
+
+					output := strings.Join(lines, "\n")
+
+					if err = ioutil.WriteFile(dotEnvFilePath, []byte(output), 0644); err != nil {
+						pkg.CheckIfError(err)
+					} else {
+						pkg.Info("该账号的Cookie已自动写入到 .env 配置文件中")
+					}
+				} else {
+					for i := range jdUserNames {
+						if jdUserNames[i] == ptPin {
+							for i := range jdUserNames {
+								if jdUserNames[i] == ptPin {
+									// 写入env
+									input, err := ioutil.ReadFile(dotEnvFilePath)
+									if err != nil {
+										pkg.CheckIfError(err)
+									}
+
+									lines := strings.Split(string(input), "\n")
+
+									for j, line := range lines {
+										if strings.Contains(line, "JD_COOKIE"+strconv.Itoa(i+1)+"=") {
+											lines[j] = "JD_COOKIE" + strconv.Itoa(i+1) + "=" + jdCookie
+										}
+									}
+									output := strings.Join(lines, "\n")
+
+									if err = ioutil.WriteFile(dotEnvFilePath, []byte(output), 0644); err != nil {
+										pkg.CheckIfError(err)
+									} else {
+										pkg.Info("该账号的Cookie已自动写入到 .env 配置文件中")
+									}
+								}
+							}
+							return
+						}
 					}
 				}
 				return
@@ -441,7 +491,7 @@ func QueryJDNameByDockerCompose(paths []string) []string {
 	var ret []string
 	for _, path := range paths {
 		if file, err := os.Open(path); err != nil {
-			panic(err)
+			return nil
 		} else {
 			scanner := bufio.NewScanner(file)
 			for scanner.Scan() {
@@ -547,17 +597,6 @@ services:
 
 // GenerateDockerComposeTemplate 生成docker-compose.yml
 func GenerateDockerComposeTemplate(num int) {
-	iterate := template.FuncMap{
-		"Iterate": func(count int) []uint {
-			var i uint
-			var Items []uint
-			for i = 1; i <= uint(count); i++ {
-				Items = append(Items, i)
-			}
-			return Items
-		},
-	}
-
 	var buf bytes.Buffer
 
 	parse, err := template.New("docker-compose").Funcs(iterate).Parse(DockerComposeTemplate())
@@ -596,8 +635,9 @@ MEDIAID=
 
 # ------------------------------------------(Cookie分割线，用于自动化生成，误删)------------------------------------------
 
-JD_COOKIE1=
-JD_COOKIE2=
+{{ range $idx := Iterate . -}}
+JD_COOKIE{{$idx}}=
+{{- end}}
 
 # -------------------------------------------(助力码分割线，用于自动化生成，误删)------------------------------------------`
 }
@@ -613,8 +653,8 @@ func GenerateDotEnvFile() {
 	}
 
 	var buf bytes.Buffer
-	t := template.Must(template.New("generate_env").Parse(DotEnvFileTemplate()))
-	err := t.Execute(&buf, nil)
+	t := template.Must(template.New("generate_env").Funcs(iterate).Parse(DotEnvFileTemplate()))
+	err := t.Execute(&buf, len(SearchShareCodeCollectionFilePaths()))
 	pkg.CheckIfError(err)
 
 	if err := ioutil.WriteFile(dotEnvFilePath, buf.Bytes(), 0644); err != nil {
