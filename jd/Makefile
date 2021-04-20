@@ -22,7 +22,7 @@ release:
 		do \
 			GO111MODULE=on go build -ldflags "-w -s -X main.Version=${VERSION}" "./cmd/$$project"; \
 			upx "./$$project"; \
-			tar czvf $$project-mac64-${VERSION}.tar.gz ./$$project; \
+			tar czvf $$project-darwin-amd64.tar.gz ./$$project; \
 		done
 
 
@@ -32,7 +32,7 @@ release:
 		do \
 			CGO_ENABLED=0 GOOS=linux GOARCH=amd64 GO111MODULE=on go build -ldflags "-w -s -X main.Version=${VERSION}" "./cmd/$$project"; \
 			upx "./$$project"; \
-			tar czvf $$project-linux64-${VERSION}.tar.gz ./$$project; \
+			tar czvf $$project-linux-amd64.tar.gz ./$$project; \
 		done
 
 		go clean

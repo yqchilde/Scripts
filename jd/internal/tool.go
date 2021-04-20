@@ -1,12 +1,16 @@
 package internal
 
 import (
+	"archive/tar"
+	"compress/gzip"
 	"fmt"
 	"io"
 	"io/ioutil"
 	"os"
+	"os/exec"
 	"path/filepath"
 	"strings"
+	"syscall"
 	"unicode"
 )
 
@@ -116,4 +120,66 @@ func CopyDir(src string, dst string) (err error) {
 	}
 
 	return
+}
+
+// RestartProcess 重启进程
+func RestartProcess(proName string) error {
+	argv0, err := exec.LookPath(proName)
+	if err != nil {
+		return err
+	}
+
+	return syscall.Exec(argv0, os.Args, os.Environ())
+}
+
+// ClearTerminal 清空终端控制台
+func ClearTerminal(goos string) {
+	switch goos {
+	case "darwin":
+		cmd := exec.Command("clear")
+		cmd.Stdout = os.Stdout
+		_ = cmd.Run()
+	case "linux":
+		cmd := exec.Command("clear")
+		cmd.Stdout = os.Stdout
+		_ = cmd.Run()
+	}
+}
+
+// TarGzDeCompress tar.gz解压函数
+func TarGzDeCompress(tarFile, dest string) error {
+	srcFile, err := os.Open(tarFile)
+	if err != nil {
+		return err
+	}
+	defer srcFile.Close()
+	gr, err := gzip.NewReader(srcFile)
+	if err != nil {
+		return err
+	}
+	defer gr.Close()
+	tr := tar.NewReader(gr)
+	for {
+		hdr, err := tr.Next()
+		if err != nil {
+			if err == io.EOF {
+				break
+			} else {
+				return err
+			}
+		}
+		filename := dest + hdr.Name
+
+		err = os.MkdirAll(string([]rune(filename)[0:strings.LastIndex(filename, "/")]), 0755)
+		if err != nil {
+			return err
+		}
+
+		file, err := os.Create(filename)
+		if err != nil {
+			return err
+		}
+		io.Copy(file, tr)
+	}
+	return nil
 }
