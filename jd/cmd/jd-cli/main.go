@@ -46,13 +46,13 @@ func main() {
 		if err != nil || (input != "y\n" && input != "n\n") || input == "n\n" {
 			return
 		}
-	}
 
-	for _, asset := range release.Assets {
-		sourceName := fmt.Sprintf("jd-cli-%s-%s.tar.gz", runtime.GOOS, runtime.GOARCH)
-		if asset.GetName() == sourceName {
-			ToUpdateProgram(asset.GetBrowserDownloadURL())
-			return
+		for _, asset := range release.Assets {
+			sourceName := fmt.Sprintf("jd-cli-%s-%s.tar.gz", runtime.GOOS, runtime.GOARCH)
+			if asset.GetName() == sourceName {
+				ToUpdateProgram(asset.GetBrowserDownloadURL())
+				return
+			}
 		}
 	}
 
