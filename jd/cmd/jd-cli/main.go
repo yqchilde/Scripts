@@ -5,7 +5,7 @@ import (
 
 	"github.com/AlecAivazis/survey/v2"
 
-	"jd_scripts/pkg"
+	"jd_scripts/internal"
 )
 
 func main() {
@@ -17,7 +17,7 @@ func main() {
 		"5. 整理写入好友所有助力码",
 	}
 
-	Prompt := &pkg.Select{
+	Prompt := &internal.Select{
 		Message: "请选择对应的项目:",
 		Options: answers,
 	}
@@ -35,7 +35,7 @@ func main() {
 		err := survey.AskOne(&survey.Input{
 			Message: "请输入要生成的容器数量",
 		}, &num)
-		pkg.CheckIfError(err)
+		internal.CheckIfError(err)
 		GenerateDockerComposeTemplate(num)
 	case SelectTypeGenerateDotEnvFile:
 		GenerateDotEnvFile()

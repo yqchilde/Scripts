@@ -15,7 +15,7 @@ import (
 	"github.com/mdp/qrterminal/v3"
 	"github.com/yqchilde/Doraemon/ghttp"
 
-	"jd_scripts/pkg"
+	"jd_scripts/internal"
 )
 
 const (
@@ -63,7 +63,7 @@ var iterate = template.FuncMap{
 // QuerySelfShareCode 查询当前日志中所有的助力码(按照docker-compose.yml文件中顺序)
 func QuerySelfShareCode(paths []string) {
 	if len(paths) == 0 {
-		pkg.Warning("在程序运行目录全局搜索没有发现sharecodeCollection.log文件")
+		internal.Warning("在程序运行目录全局搜索没有发现sharecodeCollection.log文件")
 		return
 	}
 
@@ -81,8 +81,8 @@ func QuerySelfShareCode(paths []string) {
 			scanner := bufio.NewScanner(file)
 			for scanner.Scan() {
 				// 收集账号信息
-				if pkg.GetBetweenStr(scanner.Text(), "【京东账号 1 （", "）") != "" {
-					infos["USERNAME"] = pkg.GetBetweenStr(scanner.Text(), "【京东账号 1 （", "）")
+				if internal.GetBetweenStr(scanner.Text(), "【京东账号 1 （", "）") != "" {
+					infos["USERNAME"] = internal.GetBetweenStr(scanner.Text(), "【京东账号 1 （", "）")
 				}
 
 				// 收集活动信息
@@ -93,10 +93,10 @@ func QuerySelfShareCode(paths []string) {
 				}
 			}
 
-			pkg.Info("\n京东账号" + "：" + infos["USERNAME"])
+			internal.Info("\n京东账号" + "：" + infos["USERNAME"])
 			newLines = append(newLines, "京东账号"+"："+infos["USERNAME"])
 
-			mk := pkg.GetKeys(activitiesMap)
+			mk := internal.GetKeys(activitiesMap)
 			sort.Strings(mk)
 			for _, k := range mk {
 				if _, has := infos[k]; has {
@@ -118,7 +118,7 @@ func QuerySelfShareCode(paths []string) {
 	// 写入自己的助力码
 	f, err := os.OpenFile(shareCodeFilePath, os.O_RDWR|os.O_CREATE, 0644)
 	if err != nil {
-		pkg.CheckIfError(err)
+		internal.CheckIfError(err)
 	}
 	defer f.Close()
 
@@ -140,18 +140,18 @@ func QuerySelfShareCode(paths []string) {
 				newLines = append(newLines, oldLines...)
 				output := strings.Join(newLines, "\n")
 				if err = ioutil.WriteFile(shareCodeFilePath, []byte(output), 0644); err != nil {
-					pkg.CheckIfError(err)
+					internal.CheckIfError(err)
 				} else {
-					pkg.Info("\n数据成功写入 %s 文件", shareCodeFilePath)
+					internal.Info("\n数据成功写入 %s 文件", shareCodeFilePath)
 				}
 			}
 		}
 	} else {
 		output := strings.Join(newLines, "\n")
 		if err = ioutil.WriteFile(shareCodeFilePath, []byte(output), 0644); err != nil {
-			pkg.CheckIfError(err)
+			internal.CheckIfError(err)
 		} else {
-			pkg.Info("\n数据成功写入 %s 文件", shareCodeFilePath)
+			internal.Info("\n数据成功写入 %s 文件", shareCodeFilePath)
 		}
 	}
 }
@@ -161,13 +161,13 @@ func SearchShareCodeCollectionFilePaths() []string {
 	var shareCodeFilePaths []string
 
 	if file, err := os.Open(dockerComposeFilePath); err != nil {
-		pkg.CheckIfError(err)
+		internal.CheckIfError(err)
 	} else {
 		defer file.Close()
 		scanner := bufio.NewScanner(file)
 		for scanner.Scan() {
 			if strings.Contains(scanner.Text(), ":/scripts/logs") {
-				shareCodeFilePaths = append(shareCodeFilePaths, pkg.GetBetweenStr(scanner.Text(), "- ", ":/scripts/logs")+"/sharecodeCollection.log")
+				shareCodeFilePaths = append(shareCodeFilePaths, internal.GetBetweenStr(scanner.Text(), "- ", ":/scripts/logs")+"/sharecodeCollection.log")
 			}
 		}
 	}
@@ -177,8 +177,8 @@ func SearchShareCodeCollectionFilePaths() []string {
 
 // FormatFriendShareCode 格式化写入好友助力码到 .env
 func FormatFriendShareCode() {
-	if !pkg.CheckFileExists(shareCodeFilePath) {
-		pkg.Warning(shareCodeFilePath + " 文件不存在")
+	if !internal.CheckFileExists(shareCodeFilePath) {
+		internal.Warning(shareCodeFilePath + " 文件不存在")
 		return
 	}
 
@@ -189,7 +189,7 @@ func FormatFriendShareCode() {
 	)
 
 	if file, err := os.Open(shareCodeFilePath); err != nil {
-		pkg.CheckIfError(err)
+		internal.CheckIfError(err)
 	} else {
 		defer file.Close()
 		scanner := bufio.NewScanner(file)
@@ -207,12 +207,12 @@ func FormatFriendShareCode() {
 			}
 
 			// 整理账号信息
-			if pkg.GetBetweenStr(scanner.Text(), "京东账号：", "") != "" {
+			if internal.GetBetweenStr(scanner.Text(), "京东账号：", "") != "" {
 				if _, has := infos["USERNAME"+strconv.Itoa(cnt)]; has {
-					infos["USERNAME"+strconv.Itoa(cnt+1)] = pkg.GetBetweenStr(scanner.Text(), "京东账号：", "")
+					infos["USERNAME"+strconv.Itoa(cnt+1)] = internal.GetBetweenStr(scanner.Text(), "京东账号：", "")
 					cnt += 1
 				} else {
-					infos["USERNAME"+strconv.Itoa(cnt)] = pkg.GetBetweenStr(scanner.Text(), "京东账号：", "")
+					infos["USERNAME"+strconv.Itoa(cnt)] = internal.GetBetweenStr(scanner.Text(), "京东账号：", "")
 				}
 			}
 		}
@@ -223,7 +223,7 @@ func FormatFriendShareCode() {
 			writeString = append(writeString, "# 助力码"+strconv.Itoa(i+1)+"="+infos["USERNAME"+strconv.Itoa(i+1)])
 		}
 
-		mk := pkg.GetKeys(activitiesMap)
+		mk := internal.GetKeys(activitiesMap)
 		sort.Strings(mk)
 		for _, k := range mk {
 			writeString = append(writeString, "\n# "+activitiesMap[k])
@@ -248,7 +248,7 @@ func FormatFriendShareCode() {
 	// 写入 .env
 	input, err := ioutil.ReadFile(dotEnvFilePath)
 	if err != nil {
-		pkg.CheckIfError(err)
+		internal.CheckIfError(err)
 	}
 
 	var (
@@ -272,9 +272,9 @@ func FormatFriendShareCode() {
 	newLines = append(newLines, writeString...)
 	output := strings.Join(newLines, "\n")
 	if err = ioutil.WriteFile(dotEnvFilePath, []byte(output), 0644); err != nil {
-		pkg.CheckIfError(err)
+		internal.CheckIfError(err)
 	} else {
-		pkg.Info("数据成功写入 %s 文件", dotEnvFilePath)
+		internal.Info("数据成功写入 %s 文件", dotEnvFilePath)
 	}
 }
 
@@ -302,7 +302,7 @@ func JDLoginByQrScan() {
 
 	err := resp.BindJSON(&sTokenStruct)
 	if err != nil {
-		pkg.Warning("JDLoginByQrScan.Step1 bind json failed, err: %s", err.Error())
+		internal.Warning("JDLoginByQrScan.Step1 bind json failed, err: %s", err.Error())
 		return
 	}
 
@@ -338,7 +338,7 @@ func JDLoginByQrScan() {
 
 	err = resp.BindJSON(&mTokenStruct)
 	if err != nil {
-		pkg.Warning("JDLoginByQrScan.Step2 bind json failed, err: %s", err.Error())
+		internal.Warning("JDLoginByQrScan.Step2 bind json failed, err: %s", err.Error())
 		return
 	}
 
@@ -388,17 +388,17 @@ func JDLoginByQrScan() {
 
 			err = resp.BindJSON(&qrScanRes)
 			if err != nil {
-				pkg.Warning("JDLoginByQrScan.Step4 bind json failed, err: %s", err.Error())
+				internal.Warning("JDLoginByQrScan.Step4 bind json failed, err: %s", err.Error())
 				return
 			}
 
 			switch qrScanRes.Errcode {
 			case 0:
-				pkg.Info("\nCookie如下：\n")
+				internal.Info("\nCookie如下：\n")
 				ptKey := resp.Cookies()[1].Value
 				ptPin := resp.Cookies()[2].Value
 				jdCookie := "pt_key=" + ptKey + ";pt_pin=" + ptPin + ";"
-				pkg.Info(jdCookie)
+				internal.Info(jdCookie)
 
 				// 自动替换到docker-compose.yml
 				// Condition1 不存在日志的，按顺序添加cookie
@@ -409,7 +409,7 @@ func JDLoginByQrScan() {
 					// 写入env
 					input, err := ioutil.ReadFile(dotEnvFilePath)
 					if err != nil {
-						pkg.CheckIfError(err)
+						internal.CheckIfError(err)
 					}
 
 					lines := strings.Split(string(input), "\n")
@@ -419,7 +419,7 @@ func JDLoginByQrScan() {
 						line = strings.TrimSpace(line)
 
 						if strings.Contains(line, "JD_COOKIE") {
-							ckIdx, _ = strconv.Atoi(pkg.GetBetweenStr(line, "JD_COOKIE", "="))
+							ckIdx, _ = strconv.Atoi(internal.GetBetweenStr(line, "JD_COOKIE", "="))
 							if len(line[len("JD_COOKIE"+strconv.Itoa(ckIdx)+"="):]) == 0 {
 								lines[j] = "JD_COOKIE" + strconv.Itoa(ckIdx) + "=" + jdCookie
 							} else {
@@ -437,9 +437,9 @@ func JDLoginByQrScan() {
 					output := strings.Join(lines, "\n")
 
 					if err = ioutil.WriteFile(dotEnvFilePath, []byte(output), 0644); err != nil {
-						pkg.CheckIfError(err)
+						internal.CheckIfError(err)
 					} else {
-						pkg.Info("该账号的Cookie已自动写入到 .env 配置文件中")
+						internal.Info("该账号的Cookie已自动写入到 .env 配置文件中")
 					}
 				} else {
 					for i := range jdUserNames {
@@ -449,7 +449,7 @@ func JDLoginByQrScan() {
 									// 写入env
 									input, err := ioutil.ReadFile(dotEnvFilePath)
 									if err != nil {
-										pkg.CheckIfError(err)
+										internal.CheckIfError(err)
 									}
 
 									lines := strings.Split(string(input), "\n")
@@ -462,9 +462,9 @@ func JDLoginByQrScan() {
 									output := strings.Join(lines, "\n")
 
 									if err = ioutil.WriteFile(dotEnvFilePath, []byte(output), 0644); err != nil {
-										pkg.CheckIfError(err)
+										internal.CheckIfError(err)
 									} else {
-										pkg.Info("该账号的Cookie已自动写入到 .env 配置文件中")
+										internal.Info("该账号的Cookie已自动写入到 .env 配置文件中")
 									}
 								}
 							}
@@ -474,12 +474,12 @@ func JDLoginByQrScan() {
 				}
 				return
 			case 21:
-				pkg.Warning("二维码失效")
+				internal.Warning("二维码失效")
 				return
 			case 176:
 			default:
 				// 其他异常
-				pkg.Warning("errcode: %d, message: %s", qrScanRes.Errcode, qrScanRes.Message)
+				internal.Warning("errcode: %d, message: %s", qrScanRes.Errcode, qrScanRes.Message)
 				return
 			}
 		}
@@ -496,8 +496,8 @@ func QueryJDNameByDockerCompose(paths []string) []string {
 			scanner := bufio.NewScanner(file)
 			for scanner.Scan() {
 				// 从账号1 start
-				if pkg.GetBetweenStr(scanner.Text(), "【京东账号 1 （", "）") != "" {
-					ret = append(ret, pkg.GetBetweenStr(scanner.Text(), "【京东账号 1 （", "）"))
+				if internal.GetBetweenStr(scanner.Text(), "【京东账号 1 （", "）") != "" {
+					ret = append(ret, internal.GetBetweenStr(scanner.Text(), "【京东账号 1 （", "）"))
 					break
 				}
 			}
@@ -601,25 +601,25 @@ func GenerateDockerComposeTemplate(num int) {
 
 	parse, err := template.New("docker-compose").Funcs(iterate).Parse(DockerComposeTemplate())
 	if err != nil {
-		pkg.CheckIfError(err)
+		internal.CheckIfError(err)
 	}
 
 	if err = parse.Execute(&buf, num); err != nil {
-		pkg.CheckIfError(err)
+		internal.CheckIfError(err)
 	}
 
 	// 检查当前目录是否有 docker-compose.yml
-	exists := pkg.CheckFileExists(dockerComposeFilePath)
+	exists := internal.CheckFileExists(dockerComposeFilePath)
 	if exists {
-		pkg.Info("发现当前目录存在 %s 文件，故先备份文件为 %s", dockerComposeFilePath, dockerComposeFilePath+".bak")
+		internal.Info("发现当前目录存在 %s 文件，故先备份文件为 %s", dockerComposeFilePath, dockerComposeFilePath+".bak")
 		err := os.Rename(dockerComposeFilePath, dockerComposeFilePath+".bak")
-		pkg.CheckIfError(err)
+		internal.CheckIfError(err)
 	}
 
 	if err := ioutil.WriteFile(dockerComposeFilePath, buf.Bytes(), 0644); err != nil {
-		pkg.CheckIfError(err)
+		internal.CheckIfError(err)
 	} else {
-		pkg.Info("成功生成 %s 文件", dockerComposeFilePath)
+		internal.Info("成功生成 %s 文件", dockerComposeFilePath)
 	}
 }
 
@@ -645,22 +645,22 @@ JD_COOKIE{{$idx}}=
 // GenerateDotEnvFile 生成 .env 配置文件
 func GenerateDotEnvFile() {
 	// 检查当前目录是否有 .env
-	exists := pkg.CheckFileExists(dotEnvFilePath)
+	exists := internal.CheckFileExists(dotEnvFilePath)
 	if exists {
-		pkg.Info("发现当前目录存在 %s 文件，故先备份文件为 %s", dotEnvFilePath, dotEnvFilePath+".bak")
+		internal.Info("发现当前目录存在 %s 文件，故先备份文件为 %s", dotEnvFilePath, dotEnvFilePath+".bak")
 		err := os.Rename(dotEnvFilePath, dotEnvFilePath+".bak")
-		pkg.CheckIfError(err)
+		internal.CheckIfError(err)
 	}
 
 	var buf bytes.Buffer
 	t := template.Must(template.New("generate_env").Funcs(iterate).Parse(DotEnvFileTemplate()))
 	err := t.Execute(&buf, len(SearchShareCodeCollectionFilePaths()))
-	pkg.CheckIfError(err)
+	internal.CheckIfError(err)
 
 	if err := ioutil.WriteFile(dotEnvFilePath, buf.Bytes(), 0644); err != nil {
-		pkg.CheckIfError(err)
+		internal.CheckIfError(err)
 	} else {
-		pkg.Info("成功生成 %s 文件", dotEnvFilePath)
+		internal.Info("成功生成 %s 文件", dotEnvFilePath)
 	}
 }
 
@@ -688,7 +688,7 @@ func singleHandle(infos map[string]string, cnt, idx int, shareCode string) strin
 			continue
 		} else if _, has := infos[shareCode+strconv.Itoa(i)]; !has {
 			continue
-		} else if pkg.IsHan(infos[shareCode+strconv.Itoa(i)][:3]) {
+		} else if internal.IsHan(infos[shareCode+strconv.Itoa(i)][:3]) {
 			continue
 		} else {
 			ret += "${" + shareCodeShort + strconv.Itoa(i) + "}@"

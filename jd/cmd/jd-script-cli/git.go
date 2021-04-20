@@ -5,7 +5,7 @@ import (
 	"os"
 	"os/exec"
 
-	"jd_scripts/pkg"
+	"jd_scripts/internal"
 )
 
 func CloneScriptRepo(repo, path, branch string) (string, error) {
@@ -28,7 +28,7 @@ func RunGitCommand(gitPath, name string, arg ...string) (string, error) {
 	cmd.Dir = gitPath
 	err := cmd.Start()
 	if err != nil {
-		pkg.Warning("exec.Command failed, err: ", err.Error())
+		internal.Warning("exec.Command failed, err: ", err.Error())
 		os.Exit(1)
 	}
 	err = cmd.Wait()

@@ -5,7 +5,7 @@ import (
 
 	"github.com/AlecAivazis/survey/v2"
 
-	"jd_scripts/pkg"
+	"jd_scripts/internal"
 )
 
 func main() {
@@ -15,7 +15,7 @@ func main() {
 		"3. 根据脚本生成jd_script.sh",
 	}
 
-	Prompt := &pkg.Select{
+	Prompt := &internal.Select{
 		Message: "请选择对应的项目:",
 		Options: answers,
 	}

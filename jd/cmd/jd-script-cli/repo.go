@@ -11,7 +11,7 @@ import (
 	"strings"
 	"text/template"
 
-	"jd_scripts/pkg"
+	"jd_scripts/internal"
 )
 
 const (
@@ -73,7 +73,7 @@ func GenerateJDScriptShell() {
 	var cronList []string
 
 	for _, author := range []string{"i-chenzhe", "monk-coder", "yangtingxiao"} {
-		pkg.Info("遍历当前 %s 的脚本并生成对应的cron", author)
+		internal.Info("遍历当前 %s 的脚本并生成对应的cron", author)
 		currentScripts, _ := filepath.Glob("./scripts/author/" + author + "/*.js")
 		for i := range currentScripts {
 			_, fileName := filepath.Split(currentScripts[i])
@@ -105,7 +105,7 @@ func GenerateJDScriptShell() {
 
 	// 先写入文件然后覆盖
 	if len(cronList) != 0 {
-		pkg.Info("重新写入jd_script.sh")
+		internal.Info("重新写入jd_script.sh")
 		type Cron struct {
 			CronList []string
 		}
@@ -115,11 +115,11 @@ func GenerateJDScriptShell() {
 		t := template.Must(template.New("jd_script").Parse(GetScriptTemplate()))
 		err := t.Execute(&buf, cron)
 		if err != nil {
-			pkg.Warning("Executing template:", err)
+			internal.Warning("Executing template:", err)
 		}
 
 		if err = ioutil.WriteFile("./jd_script.sh", buf.Bytes(), 0644); err != nil {
-			pkg.CheckIfError(err)
+			internal.CheckIfError(err)
 		}
 	}
 }
@@ -127,28 +127,28 @@ func GenerateJDScriptShell() {
 // GitCloneRepo ...
 func GitCloneRepo() {
 	for _, author := range []string{"yangtingxiao"} {
-		pkg.Info("正在处理 %s 的脚本", author)
+		internal.Info("正在处理 %s 的脚本", author)
 
-		hasGitPath := pkg.CheckFileExists(author)
+		hasGitPath := internal.CheckFileExists(author)
 		if !hasGitPath {
 			_, err := CloneScriptRepo(gitAuthorRepoMap[author], author, "master")
-			pkg.CheckIfError(err)
+			internal.CheckIfError(err)
 		} else {
 			ret, err := PullScriptRepo(author)
-			pkg.CheckIfError(err)
+			internal.CheckIfError(err)
 			if strings.Contains(ret, "Already up to date") {
-				pkg.Warning("%s 的仓库没有更新，即将跳过", author)
+				internal.Warning("%s 的仓库没有更新，即将跳过", author)
 				continue
 			}
 		}
 
 		// 移除旧文件
-		pkg.Info("移除旧文件")
-		_, err := pkg.CopyFile("scripts/author/"+author, "scripts/backup/"+author)
-		pkg.CheckIfError(err)
+		internal.Info("移除旧文件")
+		_, err := internal.CopyFile("scripts/author/"+author, "scripts/backup/"+author)
+		internal.CheckIfError(err)
 
 		// 开始拷贝文件
-		pkg.Info("开始拷贝 %s 脚本", author)
+		internal.Info("开始拷贝 %s 脚本", author)
 
 		scriptPaths := gitAuthorPathMap[author]
 		scriptFiles := gitAuthorScripts[author]
@@ -163,7 +163,7 @@ func GitCloneRepo() {
 					var isMatch bool
 					for k := range scriptFiles {
 						if scriptFiles[k][0] != '@' {
-							pkg.Warning("%s 的脚本过滤文件规则不一致", k)
+							internal.Warning("%s 的脚本过滤文件规则不一致", k)
 							return nil
 						}
 
@@ -187,18 +187,18 @@ func GitCloneRepo() {
 				}
 				return nil
 			}); err != nil {
-				pkg.CheckIfError(err)
+				internal.CheckIfError(err)
 			}
 		}
 
 		// 将文件移到指定项目目录
-		pkg.Info("将 %s 脚本移到指定项目目录", author)
+		internal.Info("将 %s 脚本移到指定项目目录", author)
 		for i := range scriptFilePaths {
 			_, fileName := filepath.Split(scriptFilePaths[i])
-			exists := pkg.CheckFileExists(scriptFilePaths[i])
+			exists := internal.CheckFileExists(scriptFilePaths[i])
 			if exists {
-				_, err := pkg.CopyFile(scriptFilePaths[i], "./scripts/author/"+author+"/"+fileName)
-				pkg.CheckIfError(err)
+				_, err := internal.CopyFile(scriptFilePaths[i], "./scripts/author/"+author+"/"+fileName)
+				internal.CheckIfError(err)
 			}
 		}
 	}
