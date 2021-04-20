@@ -41,17 +41,20 @@ func main() {
 	release, _, _ := client.Repositories.GetLatestRelease(ctx, "yqchilde", "scripts")
 
 	if Version != release.GetTagName() {
+		fmt.Println(release.GetBody())
 		fmt.Print("发现新版本，是否要更新到", release.GetTagName(), " (y/n): ")
 		input, err := bufio.NewReader(os.Stdin).ReadString('\n')
 		if err != nil || (input != "y\n" && input != "n\n") || input == "n\n" {
-			return
+			internal.ClearTerminal(runtime.GOOS)
 		}
 
-		for _, asset := range release.Assets {
-			sourceName := fmt.Sprintf("jd-cli-%s-%s.tar.gz", runtime.GOOS, runtime.GOARCH)
-			if asset.GetName() == sourceName {
-				ToUpdateProgram(asset.GetBrowserDownloadURL())
-				return
+		if input == "y\n" {
+			for _, asset := range release.Assets {
+				sourceName := fmt.Sprintf("jd-cli-%s-%s.tar.gz", runtime.GOOS, runtime.GOARCH)
+				if asset.GetName() == sourceName {
+					ToUpdateProgram(asset.GetBrowserDownloadURL())
+					return
+				}
 			}
 		}
 	}
