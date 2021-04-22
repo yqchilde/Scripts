@@ -40,7 +40,6 @@ var activitiesMap = map[string]string{
 	"JD_CASH_SHARECODES":        "签到领现金",
 	"JDGLOBAL_SHARECODES":       "环球挑战赛",
 	"BOOKSHOP_SHARECODES":       "口袋书店",
-	"JD818_SHARECODES":          "京东手机狂欢城",
 }
 
 const (
@@ -637,8 +636,7 @@ MEDIAID=
 
 {{ range $idx := Iterate . -}}
 JD_COOKIE{{$idx}}=
-{{- end}}
-
+{{ end }}
 # -------------------------------------------(助力码分割线，用于自动化生成，误删)------------------------------------------`
 }
 
