@@ -511,7 +511,7 @@ func QueryJDNameByDockerCompose(paths []string) []string {
 func DockerComposeTemplate() string {
 	return `version: "3"
 services:
-{{- range $idx := Iterate . }}
+{{- range $idx := Iterate .Number }}
   jd_scripts{{$idx}}:
     image: lxk0301/jd_scripts:latest
     container_name: jd_scripts{{$idx}}
@@ -521,8 +521,8 @@ services:
     tty: true
     extra_hosts:
       - "gitee.com:180.97.125.228"
-      - "github.com:13.229.188.59"
-      - "raw.githubusercontent.com:151.101.228.133"
+      - "github.com:52.74.223.119"
+      - "raw.githubusercontent.com:199.232.96.133"
     environment:
       - REPO_URL=git@gitee.com:lxk0301/jd_scripts.git
 
@@ -532,44 +532,12 @@ services:
       # 企业微信机器人通知
       - QYWX_AM=${CORPID},${CORPSECRET},${TOUSER},${AGENTID},${MEDIAID}
 
-      # 东东农场
-      - FRUITSHARECODES=${FRUITSHARECODES{{$idx}}}
+	  {{- range $shareCode, $activeName := $.Actives }}
 
-      # 东东萌宠
-      - PETSHARECODES=${PETSHARECODES{{$idx}}}
+	  # {{ $activeName }}
+	  - {{ $shareCode }}=${ {{- $shareCode -}}{{ $idx }}}
 
-      # 种豆得豆
-      - PLANT_BEAN_SHARECODES=${PLANT_BEAN_SHARECODES{{$idx}}}
-
-      # 东东工厂
-      - DDFACTORY_SHARECODES=${DDFACTORY_SHARECODES{{$idx}}}
-
-      # 京喜工厂
-      - DREAM_FACTORY_SHARE_CODES=${DREAM_FACTORY_SHARE_CODES{{$idx}}}
-
-      # 京喜农场
-      - JXNC_SHARECODES=${JXNC_SHARECODES{{$idx}}}
-
-      # 京东赚赚
-      - JDZZ_SHARECODES=${JDZZ_SHARECODES{{$idx}}}
-
-      # crazyJoy
-      - JDJOY_SHARECODES=${JDJOY_SHARECODES{{$idx}}}
-
-      # 闪购盲盒
-      - JDSGMH_SHARECODES=${JDSGMH_SHARECODES{{$idx}}}
-
-      # 财富岛
-      - JDCFD_SHARECODES=${JDCFD_SHARECODES{{$idx}}}
-
-      # 签到领现金
-      - JD_CASH_SHARECODES=${JD_CASH_SHARECODES{{$idx}}}
-
-      # 环球挑战赛
-      - JDGLOBAL_SHARECODES=${JDGLOBAL_SHARECODES{{$idx}}}
-
-      # 口袋书店
-      - BOOKSHOP_SHARECODES=${BOOKSHOP_SHARECODES{{$idx}}}
+	  {{- end }}
 
       # 宠汪汪喂食数量
       - JOY_FEED_COUNT=80
@@ -588,19 +556,28 @@ services:
 
       # 取关店铺数量
       - UN_SUBSCRIBES=100&100
-{{- end }}`
+{{ end }}
+`
 }
 
 // GenerateDockerComposeTemplate 生成docker-compose.yml
 func GenerateDockerComposeTemplate(num int) {
 	var buf bytes.Buffer
 
+	composeTemplate := struct {
+		Number  int
+		Actives map[string]string
+	}{
+		Number:  num,
+		Actives: activitiesMap,
+	}
+
 	parse, err := template.New("docker-compose").Funcs(iterate).Parse(DockerComposeTemplate())
 	if err != nil {
 		internal.CheckIfError(err)
 	}
 
-	if err = parse.Execute(&buf, num); err != nil {
+	if err = parse.Execute(&buf, &composeTemplate); err != nil {
 		internal.CheckIfError(err)
 	}
 
