@@ -571,9 +571,6 @@ services:
       # 口袋书店
       - BOOKSHOP_SHARECODES=${BOOKSHOP_SHARECODES{{$idx}}}
 
-      # 京东手机狂欢城
-      - JD818_SHARECODES=${JD818_SHARECODES{{$idx}}}
-
       # 宠汪汪喂食数量
       - JOY_FEED_COUNT=80
 
