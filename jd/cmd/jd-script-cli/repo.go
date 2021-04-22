@@ -20,14 +20,19 @@ const (
 	SelectTypeGenerateJdScriptShell
 )
 
+var gitAuthorList = []string{"nianyuguai"}
+var allAuthorList = []string{"i-chenzhe", "monk-coder", "yangtingxiao", "nianyuguai"}
+
 var gitAuthorRepoMap = map[string]string{
 	"yangtingxiao": "https://github.com/yangtingxiao/QuantumultX.git",
+	"nianyuguai":   "https://github.com/nianyuguai/longzhuzhu.git",
 }
 
 var gitAuthorPathMap = map[string][]string{
 	"i-chenzhe":    {"i-chenzhe"},
 	"monk-coder":   {"car", "member", "normal"},
 	"yangtingxiao": {"scripts"},
+	"nianyuguai":   {"qx"},
 }
 
 // 这里希望写入 [*(所有文件) | @脚本名字(过滤脚本) | 指定脚本名字] 三种方式
@@ -35,6 +40,7 @@ var gitAuthorScripts = map[string][]string{
 	"i-chenzhe":    {"@z_getFanslove.js"},
 	"monk-coder":   {"@monk_skyworth.js"},
 	"yangtingxiao": {"jd_lotteryMachine.js"},
+	"nianyuguai":   {"jd_live_lottery_social.js", "jd_super_redrain.js"},
 }
 
 const (
@@ -72,7 +78,7 @@ cp $(find /ybRepo/jd/scripts/author -type f -name "*.js") /scripts/
 func GenerateJDScriptShell() {
 	var cronList []string
 
-	for _, author := range []string{"i-chenzhe", "monk-coder", "yangtingxiao"} {
+	for _, author := range allAuthorList {
 		internal.Info("遍历当前 %s 的脚本并生成对应的cron", author)
 		currentScripts, _ := filepath.Glob("./scripts/author/" + author + "/*.js")
 		for i := range currentScripts {
@@ -126,12 +132,12 @@ func GenerateJDScriptShell() {
 
 // GitCloneRepo ...
 func GitCloneRepo() {
-	for _, author := range []string{"yangtingxiao"} {
+	for _, author := range gitAuthorList {
 		internal.Info("正在处理 %s 的脚本", author)
 
 		hasGitPath := internal.CheckFileExists(author)
 		if !hasGitPath {
-			_, err := CloneScriptRepo(gitAuthorRepoMap[author], author, "master")
+			_, err := CloneScriptRepo(gitAuthorRepoMap[author], author, "main")
 			internal.CheckIfError(err)
 		} else {
 			ret, err := PullScriptRepo(author)
@@ -144,7 +150,7 @@ func GitCloneRepo() {
 
 		// 移除旧文件
 		internal.Info("移除旧文件")
-		_, err := internal.CopyFile("scripts/author/"+author, "scripts/backup/"+author)
+		err := internal.CopyDir("scripts/author/"+author, "scripts/backup/"+author)
 		internal.CheckIfError(err)
 
 		// 开始拷贝文件
