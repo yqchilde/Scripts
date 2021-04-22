@@ -532,12 +532,12 @@ services:
       # 企业微信机器人通知
       - QYWX_AM=${CORPID},${CORPSECRET},${TOUSER},${AGENTID},${MEDIAID}
 
-	  {{- range $shareCode, $activeName := $.Actives }}
+      {{- range $shareCode, $activeName := $.Actives }}
 
-	  # {{ $activeName }}
-	  - {{ $shareCode }}=${ {{- $shareCode -}}{{ $idx }}}
+      # {{ $activeName }}
+      - {{ $shareCode }}=${ {{- $shareCode -}}{{ $idx }}}
 
-	  {{- end }}
+      {{- end }}
 
       # 宠汪汪喂食数量
       - JOY_FEED_COUNT=80
