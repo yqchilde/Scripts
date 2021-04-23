@@ -529,8 +529,8 @@ services:
       # 京东Cookie
       - JD_COOKIE=${JD_COOKIE{{$idx}}}
 
-      # 企业微信机器人通知
-      - QYWX_AM=${CORPID},${CORPSECRET},${TOUSER},${AGENTID},${MEDIAID}
+      # 企业微信应用消息推送
+      - QYWX_AM=${QYWX_AM{{$idx}}}
 
       {{- range $shareCode, $activeName := $.Actives }}
 
@@ -599,13 +599,10 @@ func GenerateDockerComposeTemplate(num int) {
 // DotEnvFileTemplate .env 配置文件模板
 func DotEnvFileTemplate() string {
 	return `# -------------------------------------------(推送分割线，用于自动化生成，误删)-------------------------------------------
-# 企业微信
-CORPID=
-CORPSECRET=
-TOUSER=
-AGENTID=
-MEDIAID=
-
+# 企业微信应用消息推送
+{{ range $idx := Iterate . -}}
+QYWX_AM{{$idx}}=
+{{ end }}
 # ------------------------------------------(Cookie分割线，用于自动化生成，误删)------------------------------------------
 
 {{ range $idx := Iterate . -}}
