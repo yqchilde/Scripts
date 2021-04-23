@@ -40,6 +40,7 @@ var activitiesMap = map[string]string{
 	"JD_CASH_SHARECODES":        "签到领现金",
 	"JDGLOBAL_SHARECODES":       "环球挑战赛",
 	"BOOKSHOP_SHARECODES":       "口袋书店",
+	"JDHEALTH_SHARECODES":       "东东健康社区",
 }
 
 const (
@@ -75,7 +76,8 @@ func QuerySelfShareCode(paths []string) {
 
 	for _, path := range paths {
 		if file, err := os.Open(path); err != nil {
-			panic(err)
+			internal.Warning("未在运行目录下检测到脚本log目录")
+			os.Exit(1)
 		} else {
 			scanner := bufio.NewScanner(file)
 			for scanner.Scan() {
