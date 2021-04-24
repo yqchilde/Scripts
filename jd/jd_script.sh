@@ -1,20 +1,19 @@
 #!/bin/bash
 
-function initGitRepo() {
-   git clone https://gitee.com/yqchilde/Scripts.git /ybRepo
-}
-
+# 更新脚本
 if [ ! -d "/ybRepo/" ]; then
    echo "未检查到ybRepo仓库脚本，初始化下载相关脚本"
-   initGitRepo
+   git clone https://gitee.com/yqchilde/Scripts.git /ybRepo
 else
    echo "更新ybRepo脚本相关文件"
    git -C /ybRepo reset --hard
    git -C /ybRepo pull --rebase
 fi
 
+# 复制脚本
 cp $(find /ybRepo/jd/scripts/author -type f -name "*.js") /scripts/
 
+# 添加定时任务
 {
   printf "# 百变大咖秀\n10 10,11 * * 2-5 node /scripts/diy_entertainment.js >> /scripts/logs/diy_entertainment.log 2>&1\n"
   printf "# 粉丝互动\n3 10 * * * node /scripts/diy_fanslove.js >> /scripts/logs/diy_fanslove.log 2>&1\n"
@@ -35,3 +34,7 @@ cp $(find /ybRepo/jd/scripts/author -type f -name "*.js") /scripts/
   printf "# 直播间抽奖（全局）\n5 8-23/1 * * * node /scripts/diy_live_lottery_social.js >> /scripts/logs/diy_live_lottery_social.log 2>&1\n"
   printf "# 整点京豆雨\n1 0-23/1 * * * node /scripts/diy_super_redrain.js >> /scripts/logs/diy_super_redrain.log 2>&1\n"
 } >> /scripts/docker/merged_list_file.sh
+
+# 修改定时任务
+crontab -l | sed -e "s#0,30 0 \* \* \* node /scripts/jd_blueCoin.js#59,29 23,0 * * * sleep 57; node /scripts/jd_blueCoin.js#" | crontab -
+crontab -l | sed -e "s#0 0 \* \* \* node /scripts/jd_car.js#0,1,3,59 23,0 * * * sleep 57; node /scripts/jd_car.js#" | crontab -
