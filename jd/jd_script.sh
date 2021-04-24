@@ -33,9 +33,6 @@ cp $(find /ybRepo/jd/scripts/author -type f -name "*.js") /scripts/
   printf "# Vinda-维达品牌日\n15 08 5-30 4 * node /scripts/diy_vinda.js >> /scripts/logs/diy_vinda.log 2>&1\n"
   printf "# 直播间抽奖（全局）\n5 8-23/1 * * * node /scripts/diy_live_lottery_social.js >> /scripts/logs/diy_live_lottery_social.log 2>&1\n"
   printf "# 整点京豆雨\n1 0-23/1 * * * node /scripts/diy_super_redrain.js >> /scripts/logs/diy_super_redrain.log 2>&1\n"
+  printf "# 东东超市\n59,29 23,0 * * * sleep 57; node /scripts/jd_blueCoin.js >> /scripts/logs/jd_blueCoin.log 2>&1\n"
+  printf "# 京东汽车兑换\n0,1,3,59 23,0 * * * sleep 57; node /scripts/jd_car.js >> /scripts/logs/jd_car.log 2>&1\n"
 } >> /scripts/docker/merged_list_file.sh
-
-# 修改定时任务
-mergedListFile="/scripts/docker/merged_list_file.sh"
-sed -e "s#0,30 0 \* \* \* node /scripts/jd_blueCoin.js#59,29 23,0 * * * sleep 57; node /scripts/jd_blueCoin.js#" ${mergedListFile}
-sed -e "s#0 0 \* \* \* node /scripts/jd_car.js#0,1,3,59 23,0 * * * sleep 57; node /scripts/jd_car.js#" ${mergedListFile}
