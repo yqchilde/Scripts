@@ -18,6 +18,7 @@ const (
 	SelectTypePullGitRepo = iota
 	SelectTypeSpiderOtherScript
 	SelectTypeGenerateJdScriptShell
+	SelectTypeScriptFileNameReverse
 )
 
 var gitAuthorList = []string{"nianyuguai"}
@@ -207,5 +208,31 @@ func GitCloneRepo() {
 				internal.CheckIfError(err)
 			}
 		}
+	}
+}
+
+func ReverseAllScriptsFileName() {
+	err := internal.CopyDir("./scripts/author/", "./scripts/news/")
+	internal.CheckIfError(err)
+
+	renameFunc := func(str string) string {
+		if strings.HasPrefix(str, "z_") {
+			return "diy_" + str[len("z_"):]
+		} else if strings.HasPrefix(str, "monk_") {
+			return "diy_" + str[len("monk_"):]
+		} else if strings.HasPrefix(str, "jd_") {
+			return "diy_" + str[len("jd_"):]
+		} else {
+			return str
+		}
+	}
+
+	if err := filepath.Walk("./scripts/news", func(path string, info os.FileInfo, err error) error {
+		if filepath.Ext(path) == ".js" {
+			_ = os.Rename(path, filepath.Dir(path)+"/"+renameFunc(strings.TrimSuffix(filepath.Base(info.Name()), filepath.Ext(info.Name())))+".js")
+		}
+		return nil
+	}); err != nil {
+		internal.CheckIfError(err)
 	}
 }

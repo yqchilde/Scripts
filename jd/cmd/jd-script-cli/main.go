@@ -13,6 +13,7 @@ func main() {
 		"1. 抓取git仓库作者脚本",
 		"2. 抓取其他地址脚本",
 		"3. 根据脚本生成jd_script.sh",
+		"4. 全部文件名反转",
 	}
 
 	Prompt := &internal.Select{
@@ -34,5 +35,7 @@ func main() {
 		SpiderOtherScript()
 	case SelectTypeGenerateJdScriptShell:
 		GenerateJDScriptShell()
+	case SelectTypeScriptFileNameReverse:
+		ReverseAllScriptsFileName()
 	}
 }
