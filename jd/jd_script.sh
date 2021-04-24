@@ -36,5 +36,5 @@ cp $(find /ybRepo/jd/scripts/author -type f -name "*.js") /scripts/
 } >> /scripts/docker/merged_list_file.sh
 
 # 修改定时任务
-crontab -l | sed -e "s#0,30 0 \* \* \* node /scripts/jd_blueCoin.js#59,29 23,0 * * * sleep 57; node /scripts/jd_blueCoin.js#" | crontab -
-crontab -l | sed -e "s#0 0 \* \* \* node /scripts/jd_car.js#0,1,3,59 23,0 * * * sleep 57; node /scripts/jd_car.js#" | crontab -
+sed -e "s#0,30 0 \* \* \* node /scripts/jd_blueCoin.js#59,29 23,0 * * * sleep 57; node /scripts/jd_blueCoin.js#" ${mergedListFile}
+sed -e "s#0 0 \* \* \* node /scripts/jd_car.js#0,1,3,59 23,0 * * * sleep 57; node /scripts/jd_car.js#" ${mergedListFile}
