@@ -31,7 +31,7 @@ cp $(find /ybRepo/jd/scripts/author -type f -name "*.js") /scripts/
   printf "# 店铺大转盘\n3 0,10,23 * * * node /scripts/diy_shop_lottery.js >> /scripts/logs/diy_shop_lottery.log 2>&1\n"
   printf "# 下班全勤奖\n15 08 2-18 4 * node /scripts/diy_skyworth_car.js >> /scripts/logs/diy_skyworth_car.log 2>&1\n"
   printf "# Vinda-维达品牌日\n15 08 5-30 4 * node /scripts/diy_vinda.js >> /scripts/logs/diy_vinda.log 2>&1\n"
-  printf "# 直播间抽奖（全局）\n5 8-23/1 * * * node /scripts/diy_live_lottery_social.js >> /scripts/logs/diy_live_lottery_social.log 2>&1\n"
+  printf "# 半点京豆雨\n30 20-23/1 * * * node /scripts/diy_half_redrain.js >> /scripts/logs/diy_half_redrain.log 2>&1\n"
   printf "# 整点京豆雨\n1 0-23/1 * * * node /scripts/diy_super_redrain.js >> /scripts/logs/diy_super_redrain.log 2>&1\n"
   printf "# 东东超市\n59,29 23,0 * * * sleep 57; node /scripts/jd_blueCoin.js >> /scripts/logs/jd_blueCoin.log 2>&1\n"
   printf "# 京东汽车兑换\n0,1,3,59 23,0 * * * sleep 57; node /scripts/jd_car.js >> /scripts/logs/jd_car.log 2>&1\n"
