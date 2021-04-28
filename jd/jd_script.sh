@@ -15,7 +15,6 @@ cp $(find /ybRepo/jd/scripts/author -type f -name "*.js") /scripts/
 
 # 添加定时任务
 {
-  printf "# 百变大咖秀\n10 10,11 * * 2-5 node /scripts/diy_entertainment.js >> /scripts/logs/diy_entertainment.log 2>&1\n"
   printf "# 粉丝互动\n3 10 * * * node /scripts/diy_fanslove.js >> /scripts/logs/diy_fanslove.log 2>&1\n"
   printf "# 健康社区\n25 10-22/3 * * * node /scripts/diy_health_community.js >> /scripts/logs/diy_health_community.log 2>&1\n"
   printf "# 健康社区收取能量\n25 * * * * node /scripts/diy_health_energy.js >> /scripts/logs/diy_health_energy.log 2>&1\n"
