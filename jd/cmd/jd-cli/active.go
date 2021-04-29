@@ -548,7 +548,10 @@ services:
       - JD_JOY_REWARD_NAME=500
 
       # 东东超市
-      - MARKET_COIN_TO_BEANS=纯甄
+      - MARKET_COIN_TO_BEANS=维他奶
+
+      # 京东领现金红包兑换京豆开关
+      - CASH_EXCHANGE=false
 
       #使用自定义定任务追加默认任务之后
       - CUSTOM_SHELL_FILE=https://gitee.com/yqchilde/Scripts/raw/main/jd/jd_script.sh
