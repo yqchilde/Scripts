@@ -18,7 +18,7 @@ cp $(find /ybRepo/jd/scripts/author -type f -name "*.js") /scripts/
   printf "# 粉丝互动\n3 10 * * * node /scripts/diy_fanslove.js >> /scripts/logs/diy_fanslove.log 2>&1\n"
   printf "# 健康社区\n25 10-22/3 * * * node /scripts/diy_health_community.js >> /scripts/logs/diy_health_community.log 2>&1\n"
   printf "# 健康社区收取能量\n25 * * * * node /scripts/diy_health_energy.js >> /scripts/logs/diy_health_energy.log 2>&1\n"
-  printf "# 京东超市-大转盘\n3 10 * * node /scripts/diy_marketLottery.js >> /scripts/logs/diy_marketLottery.log 2>&1\n"
+  printf "# 京东超市-大转盘\n3 10 * * * node /scripts/diy_marketLottery.js >> /scripts/logs/diy_marketLottery.log 2>&1\n"
   printf "# 母婴跳一跳\n5 8,14,20 * 4 * node /scripts/diy_mother_jump.js >> /scripts/logs/diy_mother_jump.log 2>&1\n"
   printf "# 超级摇一摇\n3 20 * * * node /scripts/diy_shake.js >> /scripts/logs/diy_shake.log 2>&1\n"
   printf "# 5G超级盲盒\n5 1,6,11,16,21 * 3-4 * node /scripts/diy_super5g.js >> /scripts/logs/diy_super5g.log 2>&1\n"

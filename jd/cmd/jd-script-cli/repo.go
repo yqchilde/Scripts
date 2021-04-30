@@ -21,12 +21,20 @@ const (
 	SelectTypeScriptFileNameReverse
 )
 
-var gitAuthorList = []string{"nianyuguai"}
+var gitAuthorList = []string{"i-chenzhe", "monk-coder", "nianyuguai"}
 var allAuthorList = []string{"i-chenzhe", "monk-coder", "yangtingxiao", "nianyuguai"}
 
 var gitAuthorRepoMap = map[string]string{
 	"yangtingxiao": "https://github.com/yangtingxiao/QuantumultX.git",
 	"nianyuguai":   "https://github.com/nianyuguai/longzhuzhu.git",
+	"i-chenzhe":    "https://github.com/monk-coder/dust.git",
+	"monk-coder":   "https://github.com/monk-coder/dust.git",
+}
+
+var gitRepoBranchMap = map[string]string{
+	"nianyuguai": "main",
+	"i-chenzhe":  "dust",
+	"monk-coder": "dust",
 }
 
 var gitAuthorPathMap = map[string][]string{
@@ -39,9 +47,9 @@ var gitAuthorPathMap = map[string][]string{
 // 这里希望写入 [*(所有文件) | @脚本名字(过滤脚本) | 指定脚本名字] 三种方式
 var gitAuthorScripts = map[string][]string{
 	"i-chenzhe":    {"@z_getFanslove.js"},
-	"monk-coder":   {"@monk_skyworth.js"},
+	"monk-coder":   {"*"},
 	"yangtingxiao": {"jd_lotteryMachine.js"},
-	"nianyuguai":   {"jd_live_lottery_social.js", "jd_super_redrain.js"},
+	"nianyuguai":   {"jd_half_redrain.js", "jd_super_redrain.js"},
 }
 
 const (
@@ -139,7 +147,7 @@ func GitCloneRepo() {
 
 		hasGitPath := internal.CheckFileExists(author)
 		if !hasGitPath {
-			_, err := CloneScriptRepo(gitAuthorRepoMap[author], author, "main")
+			_, err := CloneScriptRepo(gitAuthorRepoMap[author], author, gitRepoBranchMap[author])
 			internal.CheckIfError(err)
 		} else {
 			ret, err := PullScriptRepo(author)
@@ -213,8 +221,8 @@ func GitCloneRepo() {
 }
 
 func ReverseAllScriptsFileName() {
-	err := internal.CopyDir("./scripts/author/", "./scripts/news/")
-	internal.CheckIfError(err)
+	//err := internal.CopyDir("./scripts/author/", "./scripts/news/")
+	//internal.CheckIfError(err)
 
 	renameFunc := func(str string) string {
 		if strings.HasPrefix(str, "z_") {
@@ -228,7 +236,7 @@ func ReverseAllScriptsFileName() {
 		}
 	}
 
-	if err := filepath.Walk("./scripts/news", func(path string, info os.FileInfo, err error) error {
+	if err := filepath.Walk("./scripts/author", func(path string, info os.FileInfo, err error) error {
 		if filepath.Ext(path) == ".js" {
 			_ = os.Rename(path, filepath.Dir(path)+"/"+renameFunc(strings.TrimSuffix(filepath.Base(info.Name()), filepath.Ext(info.Name())))+".js")
 		}
