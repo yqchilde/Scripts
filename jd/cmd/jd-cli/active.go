@@ -47,6 +47,7 @@ const (
 	dockerComposeFilePath = "docker-compose.yml"
 	shareCodeFilePath     = "shareCode.txt"
 	dotEnvFilePath        = ".env"
+	dockerComposeTemplate = "docker-compose.tpl"
 )
 
 var iterate = template.FuncMap{
@@ -567,7 +568,10 @@ services:
 
 // GenerateDockerComposeTemplate 生成docker-compose.yml
 func GenerateDockerComposeTemplate(num int) {
-	var buf bytes.Buffer
+	var (
+		buf             bytes.Buffer
+		templateContent string
+	)
 
 	composeTemplate := struct {
 		Number  int
@@ -577,7 +581,20 @@ func GenerateDockerComposeTemplate(num int) {
 		Actives: activitiesMap,
 	}
 
-	parse, err := template.New("docker-compose").Funcs(iterate).Parse(DockerComposeTemplate())
+	// 判断是否存在外部模板
+	exists := internal.CheckFileExists(dockerComposeTemplate)
+	if exists {
+		internal.Info("发现当前目录存在docker-compose模板文件，故选择模板文件渲染")
+
+		b, err := ioutil.ReadFile(dockerComposeTemplate)
+		internal.CheckIfError(err)
+
+		templateContent = string(b)
+	} else {
+		templateContent = DockerComposeTemplate()
+	}
+
+	parse, err := template.New("docker-compose").Funcs(iterate).Parse(templateContent)
 	if err != nil {
 		internal.CheckIfError(err)
 	}
@@ -587,7 +604,7 @@ func GenerateDockerComposeTemplate(num int) {
 	}
 
 	// 检查当前目录是否有 docker-compose.yml
-	exists := internal.CheckFileExists(dockerComposeFilePath)
+	exists = internal.CheckFileExists(dockerComposeFilePath)
 	if exists {
 		internal.Info("发现当前目录存在 %s 文件，故先备份文件为 %s", dockerComposeFilePath, dockerComposeFilePath+".bak")
 		err := os.Rename(dockerComposeFilePath, dockerComposeFilePath+".bak")
