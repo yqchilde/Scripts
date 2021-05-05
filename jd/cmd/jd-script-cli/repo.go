@@ -87,7 +87,7 @@ cp $(find /ybRepo/jd/scripts/author -type f -name "*.js") /scripts/
 # 修改定时任务
 sed -i 's/^0,30 0 \* \* \* node \/scripts\/jd_blueCoin.js/#&/' ${mergedListFile}
 sed -i 's/^0 0 \* \* \* node \/scripts\/jd_car.js/#&/' ${mergedListFile}
-sed -i 's/^1,31 0-23/1 \* \* \* node \/scripts\/jd_live_redrain.js/#&/' ${mergedListFile}
+sed -i 's/^1,31 0-23\/1 \* \* \* node \/scripts\/jd_live_redrain.js/#&/' ${mergedListFile}
 `
 }
 
