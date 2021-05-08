@@ -239,7 +239,7 @@ func ReverseAllScriptsFileName() {
 		} else if strings.HasPrefix(str, "jd_") {
 			return "diy_" + str[len("jd_"):]
 		} else {
-			return str
+			return "diy_" + str
 		}
 	}
 
