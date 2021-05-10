@@ -26,6 +26,7 @@ cp $(find /ybRepo/jd/scripts/author -type f -name "*.js") /scripts/
   printf "# 超级无线组队分京豆\n25 3 * * 2 node /scripts/diy_shop_captain.js >> /scripts/logs/diy_shop_captain.log 2>&1\n"
   printf "# 众筹许愿池\n10 10,15 8-9 5 * node /scripts/diy_wish.js >> /scripts/logs/diy_wish.log 2>&1\n"
   printf "# 京东小魔方\n10 10 * 4 * node /scripts/diy_xmf.js >> /scripts/logs/diy_xmf.log 2>&1\n"
+  printf "# 探秘无限星空\n15 8 9-13 5 * node /scripts/diy_adolf_ETIP.js >> /scripts/logs/diy_adolf_ETIP.log 2>&1\n"
   printf "# 海尔_欢乐大逃亡\n15 8 7-31 5 * node /scripts/diy_adolf_haier.js >> /scripts/logs/diy_adolf_haier.log 2>&1\n"
   printf "# OPPO_刺客567之寻宝\n25 8,12 6-11 5 * node /scripts/diy_adolf_oppo.js >> /scripts/logs/diy_adolf_oppo.log 2>&1\n"
   printf "# interCenter渠道店铺签到\n0 0 * * * node /scripts/diy_inter_shop_sign.js >> /scripts/logs/diy_inter_shop_sign.log 2>&1\n"
