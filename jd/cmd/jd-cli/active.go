@@ -400,7 +400,7 @@ func JDLoginByQrScan() {
 				ptKey := resp.Cookies()[1].Value
 				ptPin := resp.Cookies()[2].Value
 				jdCookie := "pt_key=" + ptKey + ";pt_pin=" + ptPin + ";"
-				internal.Info(jdCookie)
+				internal.Info("%s", jdCookie)
 
 				// 自动替换到docker-compose.yml
 				// Condition1 不存在日志的，按顺序添加cookie
