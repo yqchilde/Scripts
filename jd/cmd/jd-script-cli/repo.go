@@ -22,7 +22,7 @@ const (
 )
 
 var gitAuthorList = []string{"i-chenzhe", "monk-coder", "nianyuguai"}
-var allAuthorList = []string{"i-chenzhe", "monk-coder", "yangtingxiao", "nianyuguai"}
+var allAuthorList = []string{"i-chenzhe", "monk-coder", "yangtingxiao", "nianyuguai", "lxk0301"}
 
 var gitAuthorRepoMap = map[string]string{
 	"yangtingxiao": "https://github.com/yangtingxiao/QuantumultX.git",
@@ -88,6 +88,7 @@ cp $(find /ybRepo/jd/scripts/author -type f -name "*.js") /scripts/
 sed -i 's/^0,30 0 \* \* \* node \/scripts\/jd_blueCoin.js/#&/' ${mergedListFile}
 sed -i 's/^0 0 \* \* \* node \/scripts\/jd_car.js/#&/' ${mergedListFile}
 sed -i 's/^1,31 0-23\/1 \* \* \* node \/scripts\/jd_live_redrain.js/#&/' ${mergedListFile}
+sed -i 's/^20 10 \* \* \* node \/scripts\/jd_bean_change.js/#&/' ${mergedListFile}
 `
 }
 

@@ -34,6 +34,7 @@ cp $(find /ybRepo/jd/scripts/author -type f -name "*.js") /scripts/
   printf "# 店铺大转盘\n3 0,10,23 * * * node /scripts/diy_shop_lottery.js >> /scripts/logs/diy_shop_lottery.log 2>&1\n"
   printf "# 半点京豆雨\n30 20-23/1 * * * node /scripts/diy_half_redrain.js >> /scripts/logs/diy_half_redrain.log 2>&1\n"
   printf "# 整点京豆雨\n1 0-23/1 * * * node /scripts/diy_super_redrain.js >> /scripts/logs/diy_super_redrain.log 2>&1\n"
+  printf "# 京东资产变动通知\n20 10 * * node /scripts/diy_all_bean_change.js >> /scripts/logs/diy_all_bean_change.log 2>&1\n"
   printf "# 东东超市\n59,29 23,0 * * * sleep 57; node /scripts/jd_blueCoin.js >> /scripts/logs/jd_blueCoin.log 2>&1\n"
   printf "# 京东汽车兑换\n0,1,3,59 23,0 * * * sleep 57; node /scripts/jd_car.js >> /scripts/logs/jd_car.log 2>&1\n"
 } >> ${mergedListFile}
@@ -42,3 +43,4 @@ cp $(find /ybRepo/jd/scripts/author -type f -name "*.js") /scripts/
 sed -i 's/^0,30 0 \* \* \* node \/scripts\/jd_blueCoin.js/#&/' ${mergedListFile}
 sed -i 's/^0 0 \* \* \* node \/scripts\/jd_car.js/#&/' ${mergedListFile}
 sed -i 's/^1,31 0-23\/1 \* \* \* node \/scripts\/jd_live_redrain.js/#&/' ${mergedListFile}
+sed -i 's/^20 10 \* \* \* node \/scripts\/jd_bean_change.js/#&/' ${mergedListFile}
