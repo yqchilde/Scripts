@@ -11,7 +11,7 @@
 网页查看地址 : https://bean.m.jd.com/beanDetail/index.action?resourceValue=bean
 支持京东双账号
 [Script]
-cron 20 10 * * * tag=京东资产变动通知
+0 8 * * * tag=京东资产变动通知
  */
 
 const $ = new Env('京东资产变动通知');
