@@ -32,15 +32,12 @@ var activitiesMap = map[string]string{
 	"PLANT_BEAN_SHARECODES":     "种豆得豆",
 	"DDFACTORY_SHARECODES":      "东东工厂",
 	"DREAM_FACTORY_SHARE_CODES": "京喜工厂",
-	"JXNC_SHARECODES":           "京喜农场",
 	"JDZZ_SHARECODES":           "京东赚赚",
 	"JDJOY_SHARECODES":          "crazyJoy",
 	"JDSGMH_SHARECODES":         "闪购盲盒",
 	"JDCFD_SHARECODES":          "财富岛",
-	"JD_CASH_SHARECODES":        "签到领现金",
-	"JDGLOBAL_SHARECODES":       "环球挑战赛",
-	"BOOKSHOP_SHARECODES":       "口袋书店",
 	"JDHEALTH_SHARECODES":       "东东健康社区",
+	"CITY_SHARECODES":           "城城领现金",
 }
 
 const (
