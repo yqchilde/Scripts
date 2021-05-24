@@ -35,6 +35,14 @@ release:
 			tar czvf $$project-linux-amd64.tar.gz ./$$project; \
 		done
 
+		# Build for windows
+		@for project in $$(ls cmd); \
+		do \
+			CGO_ENABLED=0 GOOS=windows GOARCH=amd64 GO111MODULE=on go build -ldflags "-w -s -X main.Version=${VERSION}" "./cmd/$$project"; \
+			upx "./$$project".exe; \
+			tar czvf $$project-windows-amd64.tar.gz ./$$project.exe; \
+		done
+
 		go clean
 
 # Cleans our projects: deletes binaries
@@ -42,6 +50,7 @@ clean:
 		@for project in $$(ls cmd); \
 		do \
 			rm -rf $$project; \
+			rm -rf $$project.exe; \
 		done
 		go clean
 		rm -rf *.gz
