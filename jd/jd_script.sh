@@ -18,6 +18,7 @@ cp $(find /ybRepo/jd/scripts/author -type f -name "*.js") /scripts/
 # 添加定时任务
 {
   printf "# 手机狂欢城\n2 0-18/6 * 5 * node /scripts/diy_carnivalcity.js >> /scripts/logs/diy_carnivalcity.log 2>&1\n"
+  printf "# 城城分现金\n1 0-23/4 * 5,6 * node /scripts/diy_city_cash.js >> /scripts/logs/diy_city_cash.log 2>&1\n"
   printf "# 粉丝互动\n3 10 * * * node /scripts/diy_fanslove.js >> /scripts/logs/diy_fanslove.log 2>&1\n"
   printf "# 健康社区\n25 10-22/3 * * * node /scripts/diy_health_community.js >> /scripts/logs/diy_health_community.log 2>&1\n"
   printf "# 健康社区收取能量\n25 * * * * node /scripts/diy_health_energy.js >> /scripts/logs/diy_health_energy.log 2>&1\n"
@@ -33,6 +34,7 @@ cp $(find /ybRepo/jd/scripts/author -type f -name "*.js") /scripts/
   printf "# 赢一加新品手机\n25 9 * 5,6 * node /scripts/diy_adolf_oneplus.js >> /scripts/logs/diy_adolf_oneplus.log 2>&1\n"
   printf "# OPPO_刺客567之寻宝\n25 8,12 6-11 5 * node /scripts/diy_adolf_oppo.js >> /scripts/logs/diy_adolf_oppo.log 2>&1\n"
   printf "# 京享值PK\n15 8,13,18 17-31 5 * node /scripts/diy_adolf_pk.js >> /scripts/logs/diy_adolf_pk.log 2>&1\n"
+  printf "# 京东超级盒子\n15 9,20 * 5,6 * node /scripts/diy_adolf_superbox.js >> /scripts/logs/diy_adolf_superbox.log 2>&1\n"
   printf "# 坐等更新\n28 9 18-26 5 * node /scripts/diy_adolf_urge.js >> /scripts/logs/diy_adolf_urge.log 2>&1\n"
   printf "# interCenter渠道店铺签到\n0 0 * * * node /scripts/diy_inter_shop_sign.js >> /scripts/logs/diy_inter_shop_sign.log 2>&1\n"
   printf "# 有机牧场\n0 0,1-22/2 1-31 4-7 * node /scripts/diy_pasture.js >> /scripts/logs/diy_pasture.log 2>&1\n"
