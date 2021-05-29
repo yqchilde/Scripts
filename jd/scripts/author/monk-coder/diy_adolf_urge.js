@@ -1,7 +1,7 @@
 /*
 坐等更新
 活动地址：我也不知道
-活动日期：2021-05-18 至 2021-05-26
+活动日期：2021-05-18 至 2021-05-31
 
 脚本默认不做加购任务。
 环境变量 export ADOLF_ADDSKU="true"//执行加购任务
@@ -10,14 +10,14 @@
 ============Quantumultx===============
 [task_local]
 #坐等更新
-28 9 18-26 5 * https://raw.githubusercontent.com/monk-coder/dust/dust/normal/adolf_urge.js, tag=坐等更新,  enabled=true
+28 9 * 5 * https://raw.githubusercontent.com/monk-coder/dust/dust/normal/adolf_urge.js, tag=坐等更新,  enabled=true
 ================Loon==============
 [Script]
-cron "28 9 18-26 5 *" script-path=https://raw.githubusercontent.com/monk-coder/dust/dust/normal/adolf_urge.js,tag=坐等更新
+cron "28 9 * 5 *" script-path=https://raw.githubusercontent.com/monk-coder/dust/dust/normal/adolf_urge.js,tag=坐等更新
 ===============Surge=================
-坐等更新 = type=cron,cronexp="28 9 18-26 5 *",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/monk-coder/dust/dust/normal/adolf_urge.js
+坐等更新 = type=cron,cronexp="28 9 * 5 *",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/monk-coder/dust/dust/normal/adolf_urge.js
 ============小火箭=========
-坐等更新 = type=cron,script-path=https://raw.githubusercontent.com/monk-coder/dust/dust/normal/adolf_urge.js, cronexpr="28 9 18-26 5 *", timeout=3600, enable=true
+坐等更新 = type=cron,script-path=https://raw.githubusercontent.com/monk-coder/dust/dust/normal/adolf_urge.js, cronexpr="28 9 * 5 *", timeout=3600, enable=true
 */
 const $ = new Env("坐等更新");
 const jdCookieNode = $.isNode() ? require('./jdCookie.js') : '';
