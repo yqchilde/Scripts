@@ -52,3 +52,6 @@ sed -i 's/^0,30 0 \* \* \* node \/scripts\/jd_blueCoin.js/#&/' ${mergedListFile}
 sed -i 's/^0 0 \* \* \* node \/scripts\/jd_car.js/#&/' ${mergedListFile}
 sed -i 's/^1,31 0-23\/1 \* \* \* node \/scripts\/jd_live_redrain.js/#&/' ${mergedListFile}
 sed -i 's/^20 10 \* \* \* node \/scripts\/jd_bean_change.js/#&/' ${mergedListFile}
+
+# 京喜工厂开团ID
+export TUAN_ACTIVEID="P6Nwt8wkOa-cyMNFcmhNZw=="
