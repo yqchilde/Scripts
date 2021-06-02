@@ -43,6 +43,7 @@ cp $(find /ybRepo/jd/scripts/author -type f -name "*.js") /scripts/
   printf "# 半点京豆雨\n30 16-23/1 * * * node /scripts/diy_half_redrain.js >> /scripts/logs/diy_half_redrain.log 2>&1\n"
   printf "# 整点京豆雨\n1 0-23/1 * * * node /scripts/diy_super_redrain.js >> /scripts/logs/diy_super_redrain.log 2>&1\n"
   printf "# 京东资产变动通知\n0 9 * * * node /scripts/diy_all_bean_change.js >> /scripts/logs/diy_all_bean_change.log 2>&1\n"
+  printf "# 总裁送好礼\n30 9,10 * * * node /scripts/diy_babelDiy.js >> /scripts/logs/diy_babelDiy.log 2>&1\n"
   printf "# 东东超市\n59,29 23,0 * * * sleep 57; node /scripts/jd_blueCoin.js >> /scripts/logs/jd_blueCoin.log 2>&1\n"
   printf "# 京东汽车兑换\n0,1,3,59 23,0 * * * sleep 57; node /scripts/jd_car.js >> /scripts/logs/jd_car.log 2>&1\n"
 } >>${mergedListFile}

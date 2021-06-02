@@ -64,12 +64,12 @@ mergedListFile="/scripts/docker/merged_list_file.sh"
 
 # 更新脚本
 if [ ! -d "/ybRepo/" ]; then
-   echo "未检查到ybRepo仓库脚本，初始化下载相关脚本"
-   git clone https://gitee.com/yqchilde/Scripts.git /ybRepo
+  echo "未检查到ybRepo仓库脚本，初始化下载相关脚本"
+  git clone https://gitee.com/yqchilde/Scripts.git /ybRepo
 else
-   echo "更新ybRepo脚本相关文件"
-   git -C /ybRepo reset --hard
-   git -C /ybRepo pull --rebase
+  echo "更新ybRepo脚本相关文件"
+  git -C /ybRepo reset --hard
+  git -C /ybRepo pull --rebase
 fi
 
 # 复制脚本
@@ -82,7 +82,7 @@ cp $(find /ybRepo/jd/scripts/author -type f -name "*.js") /scripts/
   {{- end }}
   printf "# 东东超市\n59,29 23,0 * * * sleep 57; node /scripts/jd_blueCoin.js >> /scripts/logs/jd_blueCoin.log 2>&1\n"
   printf "# 京东汽车兑换\n0,1,3,59 23,0 * * * sleep 57; node /scripts/jd_car.js >> /scripts/logs/jd_car.log 2>&1\n"
-} >> ${mergedListFile}
+} >>${mergedListFile}
 
 # 修改定时任务
 sed -i 's/^0,30 0 \* \* \* node \/scripts\/jd_blueCoin.js/#&/' ${mergedListFile}
