@@ -21,20 +21,24 @@ const (
 	SelectTypeScriptFileNameReverse
 )
 
-var gitAuthorList = []string{"i-chenzhe", "monk-coder", "nianyuguai"}
-var allAuthorList = []string{"i-chenzhe", "monk-coder", "yangtingxiao", "nianyuguai", "lxk0301"}
+var gitAuthorList = []string{"zooPanda", "yangtingxiao"}
+
+var allAuthorList = []string{"i-chenzhe", "monk-coder", "yangtingxiao", "nianyuguai", "lxk0301", "zooPanda"}
 
 var gitAuthorRepoMap = map[string]string{
 	"yangtingxiao": "https://github.com/yangtingxiao/QuantumultX.git",
 	"nianyuguai":   "https://github.com/nianyuguai/longzhuzhu.git",
 	"i-chenzhe":    "https://github.com/monk-coder/dust.git",
 	"monk-coder":   "https://github.com/monk-coder/dust.git",
+	"zooPanda":     "https://github.com/zooPanda/zoo.git",
 }
 
 var gitRepoBranchMap = map[string]string{
-	"nianyuguai": "main",
-	"i-chenzhe":  "dust",
-	"monk-coder": "dust",
+	"nianyuguai":   "main",
+	"i-chenzhe":    "dust",
+	"monk-coder":   "dust",
+	"zooPanda":     "dev",
+	"yangtingxiao": "master",
 }
 
 var gitAuthorPathMap = map[string][]string{
@@ -42,18 +46,21 @@ var gitAuthorPathMap = map[string][]string{
 	"monk-coder":   {"car", "member", "normal"},
 	"yangtingxiao": {"scripts"},
 	"nianyuguai":   {"qx"},
+	"zooPanda":     {"/"},
 }
 
 // 这里希望写入 [*(所有文件) | @脚本名字(过滤脚本) | 指定脚本名字] 三种方式
 var gitAuthorScripts = map[string][]string{
 	"i-chenzhe":    {"@z_getFanslove.js"},
 	"monk-coder":   {"*"},
-	"yangtingxiao": {"jd_lotteryMachine.js"},
+	"yangtingxiao": {"jd_starStore.js"},
 	"nianyuguai":   {"jd_half_redrain.js", "jd_super_redrain.js"},
+	"zooPanda":     {"*"},
 }
 
 const (
-	cronRegex   = `(((\*|\?|[0-9]{1,2}|[0-9]{1,2}\-[0-9]{1,2}|[0-9]{1,2}\-[0-9]{1,2}\/[0-9]{1,2}|([0-9]{1,2}\,?)*|([0-9]{1,2}\,?)*\-[0-9]{1,2}|([0-9]{1,2}\,?)*\-[0-9]{1,2}\/[0-9]{1,2})+[\s]){5})`
+	//cronRegex   = `(((\*|\?|[0-9]{1,2}|[0-9]{1,2}\-[0-9]{1,2}|[0-9]{1,2}\-[0-9]{1,2}\/[0-9]{1,2}|([0-9]{1,2}\,?)*|([0-9]{1,2}\,?)*\-[0-9]{1,2}|([0-9]{1,2}\,?)*\-[0-9]{1,2}\/[0-9]{1,2})+[\s]){5})`
+	cronRegex   = `(((\*|\?|[0-9]{1,2}|[0-9]{1,2}\-[0-9]{1,2}|[0-9]{1,2}\-[0-9]{1,2}\/[0-9]{1,2}|([0-9]{1,2}\,?)*|([0-9]{1,2}\,?)*\-[0-9]{1,2}|([0-9]{1,2}\,?)*\-[0-9]{1,2}\/[0-9]{1,2})+[\s]){4}((\*|\?|[0-9]{1,2}|[0-9]{1,2}\-[0-9]{1,2}|[0-9]{1,2}\-[0-9]{1,2}\/[0-9]{1,2}|([0-9]{1,2}\,?)*|([0-9]{1,2}\,?)*\-[0-9]{1,2}|([0-9]{1,2}\,?)*\-[0-9]{1,2}\/[0-9]{1,2})+){1})`
 	activeRegex = `(?m)new Env\(\"?\'?(.*?)\"?\'?\)`
 )
 
@@ -111,10 +118,14 @@ func GenerateJDScriptShell() {
 				activeReg := regexp.MustCompile(activeRegex)
 				for scanner.Scan() {
 					if cronReg.MatchString(scanner.Text()) {
-						cron = strings.Trim(cronReg.FindString(scanner.Text()), " ")
+						if cron == "" {
+							cron = strings.Trim(cronReg.FindString(scanner.Text()), " ")
+						}
 					}
 					if activeReg.MatchString(scanner.Text()) {
-						active = strings.Trim(activeReg.FindStringSubmatch(scanner.Text())[1], " ")
+						if active == "" {
+							active = strings.Trim(activeReg.FindStringSubmatch(scanner.Text())[1], " ")
+						}
 					}
 
 					if cron != "" && active != "" {
@@ -226,6 +237,8 @@ func GitCloneRepo() {
 			}
 		}
 	}
+
+	ReverseAllScriptsFileName()
 }
 
 func ReverseAllScriptsFileName() {
