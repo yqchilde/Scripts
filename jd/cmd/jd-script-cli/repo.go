@@ -21,20 +21,20 @@ const (
 	SelectTypeScriptFileNameReverse
 )
 
-var gitAuthorList = []string{"zooPanda", "yangtingxiao"}
+var gitAuthorList = []string{"zooPanda", "yangtingxiao", "longzhuzhu"}
 
-var allAuthorList = []string{"i-chenzhe", "monk-coder", "yangtingxiao", "nianyuguai", "lxk0301", "zooPanda"}
+var allAuthorList = []string{"i-chenzhe", "monk-coder", "yangtingxiao", "longzhuzhu", "lxk0301", "zooPanda"}
 
 var gitAuthorRepoMap = map[string]string{
 	"yangtingxiao": "https://github.com/yangtingxiao/QuantumultX.git",
-	"nianyuguai":   "https://github.com/nianyuguai/longzhuzhu.git",
+	"longzhuzhu":   "https://github.com/longzhuzhu/nianyu.git",
 	"i-chenzhe":    "https://github.com/monk-coder/dust.git",
 	"monk-coder":   "https://github.com/monk-coder/dust.git",
 	"zooPanda":     "https://github.com/zooPanda/zoo.git",
 }
 
 var gitRepoBranchMap = map[string]string{
-	"nianyuguai":   "main",
+	"longzhuzhu":   "main",
 	"i-chenzhe":    "dust",
 	"monk-coder":   "dust",
 	"zooPanda":     "dev",
@@ -45,7 +45,7 @@ var gitAuthorPathMap = map[string][]string{
 	"i-chenzhe":    {"i-chenzhe"},
 	"monk-coder":   {"car", "member", "normal"},
 	"yangtingxiao": {"scripts"},
-	"nianyuguai":   {"qx"},
+	"longzhuzhu":   {"qx"},
 	"zooPanda":     {"/"},
 }
 
@@ -54,8 +54,8 @@ var gitAuthorScripts = map[string][]string{
 	"i-chenzhe":    {"@z_getFanslove.js"},
 	"monk-coder":   {"*"},
 	"yangtingxiao": {"jd_starStore.js"},
-	"nianyuguai":   {"jd_half_redrain.js", "jd_super_redrain.js"},
-	"zooPanda":     {"*"},
+	"longzhuzhu":   {"*"},
+	"zooPanda":     {"@zooOpencard01.js", "@zooOpencard02.js", "@zooOpencard03.js", "@zooOpencard04.js", "@zooOpencard05.js"},
 }
 
 const (
@@ -251,6 +251,8 @@ func ReverseAllScriptsFileName() {
 			return "diy_" + str[len("monk_"):]
 		} else if strings.HasPrefix(str, "jd_") {
 			return "diy_" + str[len("jd_"):]
+		} else if strings.HasPrefix(str, "long_") {
+			return "diy_" + str[len("long_"):]
 		} else if strings.HasPrefix(str, "diy_") {
 			return str
 		} else {
