@@ -43,7 +43,6 @@ cp $(find /ybRepo/jd/scripts/author -type f -name "*.js") /scripts/
   printf "# 总裁送好礼\n30 9,10 * * * node /scripts/diy_babelDiy.js >> /scripts/logs/diy_babelDiy.log 2>&1\n"
   printf "# 宝洁消消乐\n18 9 1-18 6 * node /scripts/diy_zooBaojiexiaoxiaole.js >> /scripts/logs/diy_zooBaojiexiaoxiaole.log 2>&1\n"
   printf "# 新潮品牌狂欢\n15 9 1-18 6 * node /scripts/diy_zooBrandcity.js >> /scripts/logs/diy_zooBrandcity.log 2>&1\n"
-  printf "# GNC组队瓜分京豆\n0 19 * * * node /scripts/diy_zooJointeam01.js >> /scripts/logs/diy_zooJointeam01.log 2>&1\n"
   printf "# 限时盲盒\n15 12 1-18 6 * node /scripts/diy_zooLimitbox.js >> /scripts/logs/diy_zooLimitbox.log 2>&1\n"
   printf "# 与'粽'不同\n15 13 1-18 6 * node /scripts/diy_zooLongzhou.js >> /scripts/logs/diy_zooLongzhou.log 2>&1\n"
   printf "# 东东超市\n59,29 23,0 * * * sleep 57; node /scripts/jd_blueCoin.js >> /scripts/logs/jd_blueCoin.log 2>&1\n"
