@@ -22,7 +22,7 @@ cron "5-45/20 * * * *" script-path=https://gitee.com/lxk0301/jd_scripts/raw/mast
 东东健康社区收集能量 = type=cron,script-path=https://gitee.com/lxk0301/jd_scripts/raw/master/jd_health_collect.js, cronexpr="5-45/20 * * * *", timeout=3600, enable=true
  */
 const $ = new Env("东东健康社区收集能量收集");
-const jdCookieNode = $.isNode() ? require("./jdCookie.js") : "";
+const jdCookieNode = $.isNode() ? require("../../jdCookie.js") : "";
 let cookiesArr = [],
 	cookie = "",
 	message;
@@ -113,7 +113,7 @@ function taskUrl(function_id, body = {}) {
 			"User-Agent": $.isNode()
 				? process.env.JD_USER_AGENT
 					? process.env.JD_USER_AGENT
-					: require("./USER_AGENTS").USER_AGENT
+					: require("../../USER_AGENTS").USER_AGENT
 				: $.getdata("JDUA")
 				? $.getdata("JDUA")
 				: "jdapp;iPhone;9.4.4;14.3;network/4g;Mozilla/5.0 (iPhone; CPU iPhone OS 14_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148;supportJDSHWK/1",
