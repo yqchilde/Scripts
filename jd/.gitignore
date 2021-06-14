@@ -1,12 +1,2 @@
-# Pycharm
-.idea/*
-
-# logs test dir
-logs1/*
-logs2/*
-
-# author
-yangtingxiao/*
-
-# python venv
-venv/*
+# Goland
+.idea
