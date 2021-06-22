@@ -10,8 +10,11 @@
 统计红包以及过期红包
 网页查看地址 : https://bean.m.jd.com/beanDetail/index.action?resourceValue=bean
 支持京东双账号
+[task_local]
+0 9 * * *
+
 [Script]
-0 9 * * * tag=京东资产变动通知
+cron "0 9 * * *"
  */
 
 const $ = new Env('京东资产变动通知');
