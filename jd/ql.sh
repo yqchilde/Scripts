@@ -10,6 +10,5 @@ ql repo https://github.com/star261/jd.git "scripts" "code"
 ql repo https://github.com/zooPanda/zoo.git "" "do_not_use" "" "dev"
 ql repo https://github.com/Ariszy/Private-Script.git "JD"
 ql repo https://github.com/ZCY01/daily_scripts.git "jd_"
-ql repo https://github.com/curtinlv/JD-Script.git
 ql repo https://github.com/moposmall/Script.git "Me"
 ql repo https://github.com/photonmang/quantumultX.git "JDscripts"
