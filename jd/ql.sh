@@ -8,11 +8,11 @@ dir_scripts=/ql/scripts
 author_repo="curtinlv_JD-Script panghu999_panghu Wenmoux_scripts hyzaw_scripts star261_jd zooPanda_zoo"
 
 del_cron() {
-    local detail=""
-    local ids=""
     echo -e "开始尝试自动删除不正经的定时任务...\n"
 
     for author in $author_repo; do
+      detail=""
+      ids=""
       echo -e "开始尝试删除 $author 的不正经脚本"
 
       for cron in $(ls $dir_scripts/$author* | sed -e "s/^\/ql\/scripts\///"); do
