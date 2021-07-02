@@ -5,7 +5,7 @@ dir_shell=/ql/shell
 . $dir_shell/api.sh
 dir_scripts=/ql/scripts
 
-author_repo="curtinlv_JD-Script panghu999_panghu Wenmoux_scripts hyzaw_scripts star261_jd zooPanda_zoo"
+author_repo="curtinlv_JD-Script panghu999_panghu Wenmoux_scripts hyzaw_scripts star261_jd zooPanda_zoo he1pu_JDHelp"
 
 del_cron() {
     echo -e "开始尝试自动删除不正经的定时任务...\n"
@@ -45,8 +45,7 @@ del_cron() {
 
 ql_repo() {
   echo -e "开始从所有收集的脚本仓库拉取脚本"
-  ql repo https://github.com/yqchilde/Scripts.git "jd_|jx_|diy_|getJDCookie" "backup" "^jd[^_]|USER" "jd"
-  ql repo https://github.com/he1pu/JDHelp.git "jd_|jx_|getJDCookie" "activity|backUp|jd_delCoupon" "^jd[^_]|USER"
+  ql repo https://github.com/yqchilde/Scripts.git "jd_|jx_|getJDCookie" "backup" "^jd[^_]|USER" "jd"
   ql repo https://github.com/longzhuzhu/nianyu.git "qx"
   ql repo https://github.com/whyour/hundun.git "quanx" "tokens|caiyun|didi|donate|fold|Env"
   ql repo https://github.com/Ariszy/Private-Script.git "JD"
