@@ -44,6 +44,7 @@ del_cron() {
 }
 
 ql_repo() {
+  echo -e "开始从所有收集的脚本仓库拉取脚本"
   ql repo https://github.com/yqchilde/Scripts.git "jd_|jx_|diy_|getJDCookie" "backup" "^jd[^_]|USER" "jd"
   ql repo https://github.com/he1pu/JDHelp.git "jd_|jx_|getJDCookie" "activity|backUp|jd_delCoupon" "^jd[^_]|USER"
   ql repo https://github.com/longzhuzhu/nianyu.git "qx"
