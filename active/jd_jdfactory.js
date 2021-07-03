@@ -26,9 +26,6 @@ cron "10 * * * *" script-path=jd_jdfactory.js,tag=东东工厂
 东东工厂 = type=cron,script-path=jd_jdfactory.js, cronexpr="10 * * * *", timeout=3600, enable=true
  */
 const $ = new Env('东东工厂');
-
-console.log('\n====================Hello World====================\n')
-
 const notify = $.isNode() ? require('./sendNotify') : '';
 //Node.js用户请在jdCookie.js处填写京东ck;
 const jdCookieNode = $.isNode() ? require('./jdCookie.js') : '';
@@ -649,6 +646,7 @@ function readShareCode() {
     resolve()
   })
 }
+
 //提交互助码
 function submitCode() {
   return new Promise(async resolve => {
@@ -673,6 +671,7 @@ function submitCode() {
     resolve()
   })
 }
+
 //格式化助力码
 function shareCodesFormat() {
   return new Promise(async resolve => {
