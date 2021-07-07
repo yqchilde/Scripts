@@ -39,7 +39,9 @@ del_cron() {
           result=$(del_cron_api "$ids")
           echo -e "$author 删除任务${result}"
           echo -e "$detail"
-          notify "$author 删除任务${result}" "$detail"
+          if [[ $result == "成功" ]]; then
+              notify "$author 删除任务${result}" "$detail"
+          fi
       fi
     done
 
@@ -71,7 +73,9 @@ del_cron() {
           result=$(del_cron_api "$ids")
           echo -e "$file 单脚本删除${result}"
           echo -e "$detail"
-          notify "$file 单脚本删除${result}" "$detail"
+          if [[ $result == "成功" ]]; then
+              notify "$file 单脚本删除${result}" "$detail"
+          fi
       fi
     done
 }
