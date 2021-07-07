@@ -5,8 +5,8 @@ dir_shell=/ql/shell
 . $dir_shell/api.sh
 dir_scripts=/ql/scripts
 
-author_repo="curtinlv_JD-Script Wenmoux_scripts hyzaw_scripts star261_jd zooPanda_zoo he1pu_JDHelp"
-script_file=""
+author_repo="cdle_jd_study"
+script_file="raw_jd_getFollowGift.py raw_jd_zjd.py"
 
 del_cron() {
     echo -e "开始尝试自动删除不正经的定时任务...\n"
@@ -86,9 +86,7 @@ ql_repo() {
   ql repo https://github.com/moposmall/Script.git "Me"
   ql repo https://github.com/photonmang/quantumultX.git "JDscripts"
   ql repo https://github.com/panghu999/panghu.git "jd_"
-  ql repo https://github.com/cdle/jd_study.git
-  ql raw https://raw.githubusercontent.com/curtinlv/JD-Script/main/jd_zjd.py
-  ql raw https://raw.githubusercontent.com/curtinlv/JD-Script/main/getFollowGifts/jd_getFollowGift.py
+  ql raw https://raw.githubusercontent.com/curtinlv/JD-Script/main/jd_qjd.py
 }
 
 ql_repo
