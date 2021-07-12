@@ -92,25 +92,47 @@ function exec_ql_repo() {
 }
 
 function add_python_model() {
+  local add_model_detail=""
   for python_model in $python_models; do
     if ! python3 -c "import $python_model" 2>/dev/null; then
       echo "检测到Python环境中 $python_model 模块不存在，尝试安装"
       if pip3 install "$python_model" 2>/dev/null; then
-        notify "Python环境尝试添加模块成功" "$python_model"
+        if [[ $add_model_detail ]]; then
+          add_model_detail="${add_model_detail}\n${python_model}"
+        else
+          add_model_detail="${python_model}"
+        fi
       fi
+    else
+      echo "当前Python环境没有未安装的模块"
     fi
   done
+  if [ -n "$add_model_detail" ]; then
+    echo -e "Python环境尝试添加模块成功\n$add_model_detail"
+    notify "Python环境尝试添加模块成功" "$add_model_detail"
+  fi
 }
 
 function add_node_model() {
+  local add_model_detail=""
   for node_model in $node_models; do
-    if ! npm list $node_model 1>/dev/null; then
+    if ! npm list "$node_model" 1>/dev/null; then
       echo "检测到Node环境中 $node_model 模块不存在，尝试安装"
-      if npm i png-js 2>/dev/null; then
-        notify "Node环境尝试添加模块成功" "$node_model"
+      if npm i "$node_model" 2>/dev/null; then
+        if [[ $add_model_detail ]]; then
+          add_model_detail="${add_model_detail}\n${node_model}"
+        else
+          add_model_detail="${node_model}"
+        fi
       fi
+    else
+      echo "当前Node环境没有未安装的模块"
     fi
   done
+  if [ -n "$add_model_detail" ]; then
+    echo -e "Node环境尝试添加模块成功\n$add_model_detail"
+    notify "Node环境尝试添加模块成功" "$add_model_detail"
+  fi
 }
 
 function main() {
