@@ -81,7 +81,7 @@ function del_ql_cron() {
 }
 
 function exec_ql_repo() {
-  ql repo https://github.com/yqchilde/Scripts.git "jd_|jx_|getJDCookie" "backup" "^jd[^_]|USER" "jd"
+  ql repo https://github.com/yqchilde/Scripts.git "jd_|jx_|getJDCookie" "backup" "^jd[^_]|USER|MovementFaker|JDJRValidator_Pure|sign_graphics_validate|ZooFaker_Necklace" "jd"
   ql repo https://github.com/longzhuzhu/nianyu.git "qx"
   ql repo https://github.com/whyour/hundun.git "quanx" "tokens|caiyun|didi|donate|fold|Env"
   ql repo https://github.com/Ariszy/Private-Script.git "JD"
@@ -90,6 +90,7 @@ function exec_ql_repo() {
   ql repo https://github.com/photonmang/quantumultX.git "JDscripts"
   ql repo https://github.com/panghu999/panghu.git "jd_"
   ql repo https://github.com/smiek2221/scripts.git "jd_" "" "ZooFaker_Necklace.js|JDJRValidator_Pure.js|sign_graphics_validate.js"
+  ql repo https://github.com/Tsukasa007/my_script.git "" "jdCookie|USER_AGENTS|sendNotify|backup" "" "master"
 }
 
 function add_python_model() {
