@@ -7,10 +7,10 @@ dir_scripts=/ql/scripts
 
 author_repo=""
 script_file="jd_qjd.py"
+python_models="requests"
+node_models="png-js"
 
-del_cron() {
-    echo -e "开始尝试自动删除不正经的定时任务...\n"
-
+function del_ql_cron() {
     for author in $author_repo; do
       detail=""
       ids=""
@@ -80,8 +80,7 @@ del_cron() {
     done
 }
 
-ql_repo() {
-  echo -e "开始从所有收集的脚本仓库拉取脚本"
+function exec_ql_repo() {
   ql repo https://github.com/yqchilde/Scripts.git "jd_|jx_|getJDCookie" "backup" "^jd[^_]|USER" "jd"
   ql repo https://github.com/longzhuzhu/nianyu.git "qx"
   ql repo https://github.com/whyour/hundun.git "quanx" "tokens|caiyun|didi|donate|fold|Env"
@@ -93,7 +92,45 @@ ql_repo() {
   ql repo https://github.com/smiek2221/scripts.git "jd_" "" "ZooFaker_Necklace.js|JDJRValidator_Pure.js|sign_graphics_validate.js"
 }
 
-ql_repo
-del_cron
+function add_python_model() {
+  for python_model in $python_models; do
+    if ! python3 -c "import $python_model" 2>/dev/null; then
+      echo "检测到Python环境中 $python_model 模块不存在，尝试安装"
+      if pip3 install "$python_model" 2>/dev/null; then
+        notify "Python环境尝试添加模块成功" "$python_model"
+      fi
+    fi
+  done
+}
 
+function add_node_model() {
+  for node_model in $node_models; do
+    if ! npm list $node_model 1>/dev/null; then
+      echo "检测到Node环境中 $node_model 模块不存在，尝试安装"
+      if npm i png-js 2>/dev/null; then
+        notify "Node环境尝试添加模块成功" "$node_model"
+      fi
+    fi
+  done
+}
+
+function main() {
+  # 删除任务
+  echo -e "\n开始尝试自动删除不正经的定时任务\n"
+  del_ql_cron
+
+  # 安装python依赖
+  echo -e "\n开始检测Python依赖\n"
+  add_python_model
+
+  # 安装Node依赖
+  echo -e "\n开始检测Node依赖\n"
+  add_node_model
+
+  # 青龙拉取
+  echo -e "\n开始从所有收集的脚本仓库拉取脚本\n"
+  exec_ql_repo
+}
+
+main
 exit 0
