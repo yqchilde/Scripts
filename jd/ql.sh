@@ -90,7 +90,7 @@ function exec_ql_repo() {
   ql repo https://github.com/photonmang/quantumultX.git "JDscripts"
   ql repo https://github.com/panghu999/panghu.git "jd_"
   ql repo https://github.com/smiek2221/scripts.git "jd_" "" "ZooFaker_Necklace.js|JDJRValidator_Pure.js|sign_graphics_validate.js"
-  ql repo https://github.com/Tsukasa007/my_script.git "" "jdCookie|USER_AGENTS|sendNotify|backup" "" "master"
+  ql repo https://github.com/Tsukasa007/my_script.git "" "jdCookie|USER_AGENTS|sendNotify|backup|zlmjh|smzdm_mission" "" "master"
 }
 
 function add_python_model() {
