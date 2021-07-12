@@ -5,7 +5,7 @@ dir_shell=/ql/shell
 . $dir_shell/api.sh
 dir_scripts=/ql/scripts
 
-author_repos=""
+author_repos="moposmall_Script"
 script_files="raw_jd_qjd.py raw_jd_zjd.py"
 python_models="requests"
 node_models="png-js"
@@ -85,7 +85,6 @@ function exec_ql_repo() {
   ql repo https://github.com/whyour/hundun.git "quanx" "tokens|caiyun|didi|donate|fold|Env"
   ql repo https://github.com/Ariszy/Private-Script.git "JD"
   ql repo https://github.com/ZCY01/daily_scripts.git "jd_"
-  ql repo https://github.com/moposmall/Script.git "Me"
   ql repo https://github.com/photonmang/quantumultX.git "JDscripts"
   ql repo https://github.com/panghu999/panghu.git "jd_"
   ql repo https://github.com/smiek2221/scripts.git "jd_" "" "ZooFaker_Necklace.js|JDJRValidator_Pure.js|sign_graphics_validate.js"
