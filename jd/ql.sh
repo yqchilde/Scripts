@@ -20,6 +20,7 @@ function del_ql_cron() {
     # 特判
     files=$(ls $dir_scripts/$author* 2>/dev/null | sed -e "s/^\/ql\/scripts\///" | wc -l)
     if [[ "$files" == "0" ]]; then
+      echo "未发现 $author 仓库脚本，跳过"
       continue
     fi
     echo -e "开始尝试删除 $author 的不正经脚本"
@@ -55,6 +56,7 @@ function del_ql_cron() {
   for file in $script_files; do
     # 特判
     if [[ ! -f $file ]]; then
+      echo "未发现 $file 脚本，跳过"
       continue
     fi
     echo -e "开始尝试删除 $file 单脚本"
