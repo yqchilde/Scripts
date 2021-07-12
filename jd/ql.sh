@@ -5,79 +5,78 @@ dir_shell=/ql/shell
 . $dir_shell/api.sh
 dir_scripts=/ql/scripts
 
-author_repo=""
-script_file="jd_qjd.py"
+author_repos=""
+script_files="raw_jd_qjd.py raw_jd_zjd.py"
 python_models="requests"
 node_models="png-js"
 
 function del_ql_cron() {
-    for author in $author_repo; do
-      detail=""
-      ids=""
-      echo -e "开始尝试删除 $author 的不正经脚本"
+  local del_repo_detail=""
+  local del_repo_ids=""
+  local del_single_detail=""
+  local del_single_ids=""
 
-      for cron in $(ls $dir_scripts/$author* | sed -e "s/^\/ql\/scripts\///"); do
-        local id=$(cat $list_crontab_user | grep -E "$cmd_task $cron" | perl -pe "s|.*ID=(.*) $cmd_task $cron|\1|" | xargs | sed 's/ /","/g' | head -1)
-        if [[ $ids ]]; then
-            ids="$ids,\"$id\""
-        else
-            ids="\"$id\""
-        fi
-        cron_file="$dir_scripts/${cron}"
-        if [[ -f $cron_file ]]; then
-            cron_name=$(grep "new Env" $cron_file | awk -F "\(" '{print $2}' | awk -F "\)" '{print $1}' | sed 's:^.\(.*\).$:\1:' | head -1)
-            rm -f $cron_file
-        fi
-        [[ -z $cron_name ]] && cron_name="$cron"
-        if [[ $detail ]]; then
-            detail="${detail}\n${cron_name}"
-        else
-            detail="${cron_name}"
-        fi
-      done
-      if [[ $ids ]]; then
-          result=$(del_cron_api "$ids")
-          echo -e "$author 删除任务${result}"
-          echo -e "$detail"
-          if [[ $result == "成功" ]]; then
-              notify "$author 删除任务${result}" "$detail"
-          fi
+  for author in $author_repos; do
+    echo -e "开始尝试删除 $author 的不正经脚本"
+    for cron in $(ls $dir_scripts/$author* | sed -e "s/^\/ql\/scripts\///"); do
+      del_repo_id=$(cat $list_crontab_user | grep -E "task $cron" | perl -pe "s|.*ID=(.*) task $cron|\1|" | xargs | sed 's/ /","/g' | head -1)
+      if [[ $del_repo_ids ]]; then
+        del_repo_ids="$del_repo_ids,\"$del_repo_id\""
+      else
+        del_repo_ids="\"$del_repo_id\""
+      fi
+      cron_file="$dir_scripts/${cron}"
+      if [[ -f $cron_file ]]; then
+        cron_name=$(grep "new Env" "$cron_file" | awk -F "\(" '{print $2}' | awk -F "\)" '{print $1}' | sed 's:^.\(.*\).$:\1:' | head -1)
+        rm -f "$cron_file"
+      fi
+      [[ -z $cron_name ]] && cron_name="$cron"
+      if [[ $del_repo_detail ]]; then
+        del_repo_detail="${del_repo_detail}\n${cron_name}"
+      else
+        del_repo_detail="${cron_name}"
       fi
     done
+    if [[ $del_repo_ids ]]; then
+      result=$(del_cron_api "$del_repo_ids")
+      echo -e "$author 删除任务${result}"
+      echo -e "$del_repo_detail"
+      if [[ $result == "成功" ]]; then
+        notify "$author 删除任务${result}" "$del_repo_detail"
+      fi
+    fi
+  done
 
-    for file in $script_file; do
-      detail=""
-      ids=""
-      echo -e "开始尝试删除 $file 单脚本"
-
-      for cron in $file; do
-        local id2=$(cat $list_crontab_user | grep -E "$cmd_task $cron" | perl -pe "s|.*ID=(.*) $cmd_task $cron|\1|" | xargs | sed 's/ /","/g' | head -1)
-        if [[ $ids ]]; then
-            ids="$ids,\"$id2\""
-        else
-            ids="\"$id2\""
-        fi
-        cron_file="$dir_scripts/${cron}"
-        if [[ -f $cron_file ]]; then
-            cron_name=$(grep "new Env" $cron_file | awk -F "\(" '{print $2}' | awk -F "\)" '{print $1}' | sed 's:^.\(.*\).$:\1:' | head -1)
-            rm -f $cron_file
-        fi
-        [[ -z $cron_name ]] && cron_name="$cron"
-        if [[ $detail ]]; then
-            detail="${detail}\n${cron_name}"
-        else
-            detail="${cron_name}"
-        fi
-      done
-      if [[ $ids ]]; then
-          result=$(del_cron_api "$ids")
-          echo -e "$file 单脚本删除${result}"
-          echo -e "$detail"
-          if [[ $result == "成功" ]]; then
-              notify "$file 单脚本删除${result}" "$detail"
-          fi
+  for file in $script_files; do
+    echo -e "开始尝试删除 $file 单脚本"
+    for cron in $file; do
+      del_single_id=$(cat $list_crontab_user | grep -E "task $cron" | perl -pe "s|.*ID=(.*) task $cron|\1|" | xargs | sed 's/ /","/g' | head -1)
+      if [[ $del_single_ids ]]; then
+        del_single_ids="$del_single_ids,\"$del_single_id\""
+      else
+        del_single_ids="\"$del_single_id\""
+      fi
+      cron_file="$dir_scripts/${cron}"
+      if [[ -f $cron_file ]]; then
+        cron_name=$(grep "new Env" "$cron_file" | awk -F "\(" '{print $2}' | awk -F "\)" '{print $1}' | sed 's:^.\(.*\).$:\1:' | head -1)
+        rm -f "$cron_file"
+      fi
+      [[ -z $cron_name ]] && cron_name="$cron"
+      if [[ $del_single_detail ]]; then
+        del_single_detail="${del_single_detail}\n${cron_name}"
+      else
+        del_single_detail="${cron_name}"
       fi
     done
+  done
+  if [[ $del_single_ids ]]; then
+    result=$(del_cron_api "$del_single_ids")
+    echo -e "单脚本删除${result}"
+    echo -e "$del_single_detail"
+    if [[ $result == "成功" ]]; then
+      notify "单脚本删除${result}" "$del_single_detail"
+    fi
+  fi
 }
 
 function exec_ql_repo() {
