@@ -17,6 +17,11 @@ function del_ql_cron() {
   local del_single_ids=""
 
   for author in $author_repos; do
+    # 特判
+    files=$(ls $dir_scripts/$author* 2>/dev/null | sed -e "s/^\/ql\/scripts\///" | wc -l)
+    if [[ "$files" == "0" ]]; then
+      continue
+    fi
     echo -e "开始尝试删除 $author 的不正经脚本"
     for cron in $(ls $dir_scripts/$author* | sed -e "s/^\/ql\/scripts\///"); do
       del_repo_id=$(cat $list_crontab_user | grep -E "task $cron" | perl -pe "s|.*ID=(.*) task $cron|\1|" | xargs | sed 's/ /","/g' | head -1)
@@ -48,6 +53,10 @@ function del_ql_cron() {
   done
 
   for file in $script_files; do
+    # 特判
+    if [[ ! -f $file ]]; then
+      continue
+    fi
     echo -e "开始尝试删除 $file 单脚本"
     for cron in $file; do
       del_single_id=$(cat $list_crontab_user | grep -E "task $cron" | perl -pe "s|.*ID=(.*) task $cron|\1|" | xargs | sed 's/ /","/g' | head -1)
