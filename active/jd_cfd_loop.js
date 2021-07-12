@@ -1,22 +1,8 @@
 /**
 * 财富岛热气球挂后台
-财富岛热气球挂后台
-============QuantumultX==============
-[task_local]
-#财富岛热气球挂后台
-1 1-23/1 * * * jd_cfd_loop.js, tag=财富岛热气球挂后台, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/jd.png, enabled=true
-================Loon===============
-[Script]
-cron "1 1-23/1 * * *" script-path=jd_cfd_loop.js, tag=财富岛热气球挂后台
-=============Surge===========
-[Script]
-财富岛热气球挂后台 = type=cron,cronexp="1 1-23/1 * * *",wake-system=1,timeout=3600,script-path=jd_cfd_loop.js
-
-============小火箭=========
-财富岛热气球挂后台 = type=cron,script-path=jd_cfd_loop.js, cronexpr="1 1-23/1 * * *", timeout=3600, enable=true
 */
 
-const $ = new Env('财富岛热气球挂后台');
+const $ = new Env('财富岛热气球挂后台(请手动执行)');
 const {format} = require('date-fns');
 const axios = require('axios');
 const USER_AGENT = require('./USER_AGENTS').USER_AGENT;
