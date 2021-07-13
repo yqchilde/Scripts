@@ -8,7 +8,7 @@ dir_scripts=/ql/scripts
 author_repos="moposmall_Script"
 script_files="raw_jd_qjd.py raw_jd_zjd.py"
 python_models="requests"
-node_models="png-js axios"
+node_models="png-js axios date-fns"
 
 function del_ql_cron() {
   local del_repo_detail=""
