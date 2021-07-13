@@ -25,6 +25,9 @@ const CryptoJS = require('crypto-js')
 
 let appId = 10028, fingerprint, token, enCryptMethodJD;
 let cookie= '', cookiesArr= [], res = '', shareCodes = [];
+let myShareCode = '';
+let shareCodeDic = {};
+let currentIndex = 0;
 
 let UserName, index, isLogin, nickName;
 !(async () => {
@@ -38,35 +41,14 @@ let UserName, index, isLogin, nickName;
         isLogin = true;
         nickName = '';
         await TotalBean();
+        currentIndex = i;
         console.log(`\n开始【京东账号${index}】${nickName || UserName}\n`);
 
+        await readShareCode();
         await makeShareCodes();
 
         // 任务1
         let tasks;
-        /*
-         tasks= await api('story/GetActTask', '_cfd_t,bizCode,dwEnv,ptag,source,strZone')
-        for (let t of tasks.Data.TaskList) {
-          if (t.dwCompleteNum === t.dwTargetNum && t.dwAwardStatus === 2) {
-            res = await api('Award', '_cfd_t,bizCode,dwEnv,ptag,source,strZone,taskId', {taskId: t.ddwTaskId})
-            if (res.ret === 0) {
-              console.log(`${t.strTaskName}领奖成功:`, res.data.prizeInfo)
-            }
-            await wait(1000)
-          }
-        }
-         */
-
-
-        // res = await api('story/SpecialUserOper',
-        //   '_cfd_t,bizCode,ddwTriggerDay,dwEnv,dwType,ptag,source,strStoryId,strZone,triggerType',
-        //   {strStoryId: 'stroy_1626065998453014_1', dwType: '2', triggerType: 0, ddwTriggerDay: 1626019200})
-        // console.log('船到:', res)
-        // await wait(31000)
-        // res = await api('story/SpecialUserOper',
-        //   '_cfd_t,bizCode,ddwTriggerDay,dwEnv,dwType,ptag,source,strStoryId,strZone,triggerType',
-        //   {strStoryId: 'stroy_1626065998453014_1', dwType: '3', triggerType: 0, ddwTriggerDay: 1626019200})
-        // console.log('下船:', res)
 
         // 导游
         res = await api('user/EmployTourGuideInfo', '_cfd_t,bizCode,dwEnv,ptag,source,strZone')
@@ -74,6 +56,7 @@ let UserName, index, isLogin, nickName;
             console.log('账号尚未完成新手指引，跳过账号')
             continue
         }
+        await submitCode(myShareCode);
         for (let e of res.TourGuideList) {
             if (e.strBuildIndex !== 'food' && e.ddwRemainTm === 0) {
                 let employ = await api('user/EmployTourGuide', '_cfd_t,bizCode,ddwConsumeCoin,dwEnv,dwIsFree,ptag,source,strBuildIndex,strZone',
@@ -124,9 +107,9 @@ let UserName, index, isLogin, nickName;
 
     // }
     for (let i = 0; i < cookiesArr.length; i++) {
-        for (let j = 0; j < shareCodes.length; j++) {
+        for (let j = 0; j < shareCodeDic[`${i}`].length; j++) {
             cookie = cookiesArr[i]
-            res = await api('story/helpbystage', '_cfd_t,bizCode,dwEnv,ptag,source,strShareId,strZone', {strShareId: shareCodes[j]})
+            res = await api('story/helpbystage', '_cfd_t,bizCode,dwEnv,ptag,source,strShareId,strZone', {strShareId: shareCodeDic[`${i}`][j]})
             console.log(res)
             await wait(1000)
             if (Number(res.iRet) === 2235) {
@@ -136,22 +119,6 @@ let UserName, index, isLogin, nickName;
         }
     }
 })()
-
-// interface Params {
-//   strBuildIndex?: string,
-//   ddwCostCoin?: number,
-//   taskId?: number,
-//   dwType?: string,
-//   configExtra?: string,
-//   strStoryId?: string,
-//   triggerType?: number,
-//   ddwTriggerDay?: number,
-//   ddwConsumeCoin?: number,
-//   dwIsFree?: number,
-//   ddwTaskId?: string,
-//   strShareId?: string,
-//   strMarkList?: string
-// }
 
 function api(fn, stk, params = {}) {
     return new Promise(async resolve => {
@@ -209,11 +176,68 @@ function makeShareCodes() {
     return new Promise(async resolve => {
         res = await api('user/QueryUserInfo', '_cfd_t,bizCode,ddwTaskId,dwEnv,ptag,source,strShareId,strZone', {ddwTaskId: '', strShareId: '', strMarkList: 'undefined'})
         console.log('助力码:', res.strMyShareId)
-        shareCodes.push(Math.random() > 0.5 ? res.strMyShareId : '9BA4E10331B63F7501C7F9F00889E35CC648012DEAD86B71DB3EAC56591A2AFB')
+        myShareCode = res.strMyShareId;
         resolve()
     })
 }
 
+//提交互助码
+function submitCode(myInviteCode) {
+    return new Promise(async resolve => {
+        $.get({url: `https://api.yqqy.top/jd/submit?active=jx_cfd&code=${myInviteCode}`, timeout: 10000}, (err, resp, data) => {
+            try {
+                if (err) {
+                    console.log(`${JSON.stringify(err)}`)
+                    console.log(`${$.name} API请求失败，请检查网路重试`)
+                } else {
+                    if (data) {
+                        //console.log(`随机取个${randomCount}码放到您固定的互助码后面(不影响已有固定互助)`)
+                        data = JSON.parse(data);
+                        if (data.code === 300) {
+                            console.log("🏝互助码已提交🏝");
+                        }else if (data.code === 200) {
+                            console.log("🏝互助码提交成功🏝");
+                        }
+                    }
+                }
+            } catch (e) {
+                $.logErr(e, resp)
+            } finally {
+                resolve(data);
+            }
+        })
+        //await $.wait(15000);
+        resolve()
+    })
+}
+function readShareCode() {
+    return new Promise(async resolve => {
+        $.get({
+            url: `https://api.yqqy.top/jd/getCode?active=jx_cfd&num=10`,
+            'timeout': 10000
+        }, (err, resp, data) => {
+            try {
+                if (err) {
+                    console.log(`${JSON.stringify(err)}`)
+                    console.log(`${$.name} API请求失败，请检查网路重试`)
+                } else {
+                    if (data) {
+                        data = JSON.parse(data);
+                        console.log(`随机取10个码放到您固定的互助码后面(不影响已有固定互助)`);
+                        shareCodeDic[`${currentIndex}`] = data.data;
+                        console.log(`${data.data}`);
+                    }
+                }
+            } catch (e) {
+                $.logErr(e, resp)
+            } finally {
+                resolve(data);
+            }
+        })
+        //await $.wait(2000);
+        resolve()
+    })
+}
 async function requestAlgo() {
     fingerprint = await generateFp();
     return new Promise(async resolve => {
