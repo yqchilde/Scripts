@@ -1,5 +1,13 @@
 #!/usr/bin/env bash
 
+#Author: Yqchilde
+#FileName:ql.sh
+#Description: 青龙面板extra.sh内添加脚本
+#Usage: curl https://gitee.com/yqchilde/Scripts/raw/main/jd/ql.sh | bash
+#URL(github): https://raw.githubusercontent.com/yqchilde/Scripts/main/jd/ql.sh
+#URL(gitee): https://gitee.com/yqchilde/Scripts/raw/main/jd/ql.sh
+#UpdateDate: 2021-07-13 08:21:02
+
 dir_shell=/ql/shell
 . $dir_shell/share.sh
 . $dir_shell/api.sh
