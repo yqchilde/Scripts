@@ -6,7 +6,7 @@
 #Usage: /bin/bash -c "$(curl -fsSL https://gitee.com/yqchilde/Scripts/raw/main/jd/extra.sh)"
 #URL(github): https://raw.githubusercontent.com/yqchilde/Scripts/main/jd/extra.sh
 #URL(gitee): https://gitee.com/yqchilde/Scripts/raw/main/jd/extra.sh
-#UpdateDate: 2021-07-13 19:27:03
+#UpdateDate: 2021-07-14 11:04:13
 
 dir_shell=/ql/shell
 . $dir_shell/share.sh
@@ -120,13 +120,13 @@ function add_python_model() {
           add_model_detail="${python_model}"
         fi
       fi
-    else
-      echo "当前Python环境没有未安装的模块"
     fi
   done
   if [ -n "$add_model_detail" ]; then
     echo -e "Python环境尝试添加模块成功\n$add_model_detail"
     notify "Python环境尝试添加模块成功" "$add_model_detail"
+  else
+    echo "当前Python环境没有未安装的模块"
   fi
 }
 
@@ -142,13 +142,13 @@ function add_node_model() {
           add_model_detail="${node_model}"
         fi
       fi
-    else
-      echo "当前Node环境没有未安装的模块"
     fi
   done
   if [ -n "$add_model_detail" ]; then
     echo -e "Node环境尝试添加模块成功\n$add_model_detail"
     notify "Node环境尝试添加模块成功" "$add_model_detail"
+  else
+    echo "当前Node环境没有未安装的模块"
   fi
 }
 
