@@ -28,10 +28,10 @@ function del_ql_cron() {
     # 特判
     files=$(ls $dir_scripts/$author* 2>/dev/null | sed -e "s/^\/ql\/scripts\///" | wc -l)
     if [[ "$files" == "0" ]]; then
-      echo "未发现 $author 仓库脚本，跳过"
+      echo "🙅‍️ 未发现 $author 仓库脚本，跳过"
       continue
     fi
-    echo -e "开始尝试删除 $author 的不正经脚本"
+    echo -e "👉 开始尝试删除 $author 的不正经脚本"
     for cron in $(ls $dir_scripts/$author* | sed -e "s/^\/ql\/scripts\///"); do
       del_repo_id=$(cat $list_crontab_user | grep -E "task $cron" | perl -pe "s|.*ID=(.*) task $cron|\1|" | xargs | sed 's/ /","/g' | head -1)
       if [[ $del_repo_ids ]]; then
@@ -53,7 +53,7 @@ function del_ql_cron() {
     done
     if [[ $del_repo_ids ]]; then
       result=$(del_cron_api "$del_repo_ids")
-      echo -e "$author 删除任务${result}"
+      echo -e "👇 $author 删除任务${result}"
       echo -e "$del_repo_detail"
       if [[ $result == "成功" ]]; then
         notify "$author 删除任务${result}" "$del_repo_detail"
@@ -64,10 +64,10 @@ function del_ql_cron() {
   for file in $script_files; do
     # 特判
     if [[ ! -f $file ]]; then
-      echo "未发现 $file 脚本，跳过"
+      echo "🙅 未发现 $file 脚本，跳过"
       continue
     fi
-    echo -e "开始尝试删除 $file 单脚本"
+    echo -e "👉 开始尝试删除 $file 单脚本"
     for cron in $file; do
       del_single_id=$(cat $list_crontab_user | grep -E "task $cron" | perl -pe "s|.*ID=(.*) task $cron|\1|" | xargs | sed 's/ /","/g' | head -1)
       if [[ $del_single_ids ]]; then
@@ -90,7 +90,7 @@ function del_ql_cron() {
   done
   if [[ $del_single_ids ]]; then
     result=$(del_cron_api "$del_single_ids")
-    echo -e "单脚本删除${result}"
+    echo -e "👇 单脚本删除${result}"
     echo -e "$del_single_detail"
     if [[ $result == "成功" ]]; then
       notify "单脚本删除${result}" "$del_single_detail"
@@ -112,7 +112,7 @@ function add_python_model() {
   local add_model_detail=""
   for python_model in $python_models; do
     if ! python3 -c "import $python_model" 2>/dev/null; then
-      echo "检测到Python环境中 $python_model 模块不存在，尝试安装"
+      echo "👀 检测到Python环境中 $python_model 模块不存在，尝试安装"
       if pip3 install "$python_model" 2>/dev/null; then
         if [[ $add_model_detail ]]; then
           add_model_detail="${add_model_detail}\n${python_model}"
@@ -123,10 +123,10 @@ function add_python_model() {
     fi
   done
   if [ -n "$add_model_detail" ]; then
-    echo -e "Python环境尝试添加模块成功\n$add_model_detail"
+    echo -e "🙆 Python环境尝试添加模块成功\n$add_model_detail"
     notify "Python环境尝试添加模块成功" "$add_model_detail"
   else
-    echo "当前Python环境没有未安装的模块"
+    echo "🙅 当前Python环境没有未安装的模块"
   fi
 }
 
@@ -134,7 +134,7 @@ function add_node_model() {
   local add_model_detail=""
   for node_model in $node_models; do
     if ! npm list "$node_model" 1>/dev/null; then
-      echo "检测到Node环境中 $node_model 模块不存在，尝试安装"
+      echo "👀 检测到Node环境中 $node_model 模块不存在，尝试安装"
       if npm i "$node_model" 2>/dev/null; then
         if [[ $add_model_detail ]]; then
           add_model_detail="${add_model_detail}\n${node_model}"
@@ -145,28 +145,28 @@ function add_node_model() {
     fi
   done
   if [ -n "$add_model_detail" ]; then
-    echo -e "Node环境尝试添加模块成功\n$add_model_detail"
+    echo -e "🙆 Node环境尝试添加模块成功\n$add_model_detail"
     notify "Node环境尝试添加模块成功" "$add_model_detail"
   else
-    echo "当前Node环境没有未安装的模块"
+    echo "🙅 当前Node环境没有未安装的模块"
   fi
 }
 
 function main() {
   # 删除任务
-  echo -e "\n开始尝试自动删除不正经的定时任务\n"
+  echo -e "\n️1️⃣ 🙋 开始尝试自动删除不正经的定时任务\n"
   del_ql_cron
 
   # 安装python依赖
-  echo -e "\n开始检测Python依赖\n"
+  echo -e "\n2️⃣ 🙋 开始检测Python依赖\n"
   add_python_model
 
   # 安装Node依赖
-  echo -e "\n开始检测Node依赖\n"
+  echo -e "\n️️3️⃣ 🙋 开始检测Node依赖\n"
   add_node_model
 
   # 青龙拉取
-  echo -e "\n开始从所有收集的脚本仓库拉取脚本\n"
+  echo -e "\n️4️⃣ 🙋 开始从所有收集的脚本仓库拉取脚本\n"
   exec_ql_repo
 }
 
