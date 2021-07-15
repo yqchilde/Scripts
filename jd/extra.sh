@@ -9,14 +9,26 @@
 #UpdateDate: 2021-07-14 11:04:13
 
 dir_shell=/ql/shell
+dir_scripts=/ql/scripts
+dir_config=/ql/config
 . $dir_shell/share.sh
 . $dir_shell/api.sh
-dir_scripts=/ql/scripts
+. $dir_config/config.sh
 
 author_repos="whyour_hundun"
 script_files="raw_jd_qjd.py raw_jd_zjd.py"
 python_models="requests"
 node_models="png-js axios date-fns"
+declare -A scriptCronMap=(
+  ["yqchilde_Scripts_jd_jd_cfd_loop.js"]="6 */2 * * *"
+)
+
+function notify() {
+  title=$(echo -e "$1")
+  msg=$(echo -e "$2")
+
+  node ${dir_shell}/notify.js "$title" "$msg"
+}
 
 function del_ql_cron() {
   local del_repo_detail=""
@@ -33,7 +45,7 @@ function del_ql_cron() {
     fi
     echo -e "👉 开始尝试删除 $author 的不正经脚本"
     for cron in $(ls $dir_scripts/$author* | sed -e "s/^\/ql\/scripts\///"); do
-      del_repo_id=$(cat $list_crontab_user | grep -E "task $cron" | perl -pe "s|.*ID=(.*) task $cron|\1|" | xargs | sed 's/ /","/g' | head -1)
+      del_repo_id=$(cat $list_crontab_user | grep -E "$cmd_task $cron" | perl -pe "s|.*ID=(.*) $cmd_task $cron|\1|" | xargs | sed 's/ /","/g' | head -1)
       if [[ $del_repo_ids ]]; then
         del_repo_ids="$del_repo_ids,\"$del_repo_id\""
       else
@@ -69,7 +81,7 @@ function del_ql_cron() {
     fi
     echo -e "👉 开始尝试删除 $file 单脚本"
     for cron in $file; do
-      del_single_id=$(cat $list_crontab_user | grep -E "task $cron" | perl -pe "s|.*ID=(.*) task $cron|\1|" | xargs | sed 's/ /","/g' | head -1)
+      del_single_id=$(cat $list_crontab_user | grep -E "$cmd_task $cron" | perl -pe "s|.*ID=(.*) $cmd_task $cron|\1|" | xargs | sed 's/ /","/g' | head -1)
       if [[ $del_single_ids ]]; then
         del_single_ids="$del_single_ids,\"$del_single_id\""
       else
@@ -151,6 +163,44 @@ function add_node_model() {
   fi
 }
 
+function modify_script_cron() {
+  if [[ "${#scriptCronMap[@]}" == "0" ]]; then
+    echo "🙅 当前没有需要修改定时的脚本"
+    return
+  fi
+
+  local modify_cron_detail=""
+  for script in "${!scriptCronMap[@]}"; do
+    cron_new_exp="${scriptCronMap[$script]}"
+    cron_old_exp=$(cat $list_crontab_user | grep -E "$cmd_task $script" | perl -pe "s|(.*) ID=(.*) $cmd_task $script\.*|\1|" | head -1)
+    cron_id=$(cat $list_crontab_user | grep -E "$cmd_task $script" | perl -pe "s|.*ID=(.*) $cmd_task $script\.*|\1|" | head -1) && cd "$dir_scripts"
+    cron_name=$(grep "new Env" "$script" | awk -F "\(" '{print $2}' | awk -F "\)" '{print $1}' | sed 's:^.\(.*\).$:\1:' | head -1) && cd "$dir_config"
+    [[ -z $cron_name ]] && cron_name="$script"
+    if [[ ${cron_new_exp} =~ ${cron_old_exp} ]]; then
+      echo "🤷 ${cron_name} 与当前cron一致，跳过"
+      continue
+    fi
+    if [[ -n $cron_id ]]; then
+      result=$(update_cron_api "$cron_new_exp:$cmd_task $script:$cron_name:$cron_id")
+      if [[ $result == *成功* ]]; then
+        if [[ $modify_cron_detail ]]; then
+          modify_cron_detail="${modify_cron_detail}\n${cron_name} -> cron(${cron_new_exp})"
+        else
+          modify_cron_detail="${cron_name} -> cron(${cron_new_exp})"
+        fi
+      else
+        echo "❌ $result"
+      fi
+    fi
+  done
+  if [ -n "$modify_cron_detail" ]; then
+    echo -e "👉 cron表达式测试地址：https://crontab.guru\n👇 以下脚本修改定时成功\n\n${modify_cron_detail}"
+    notify "脚本Cron表达式修改通知" "👉 cron表达式测试地址：https://crontab.guru\n👇 以下脚本修改定时成功\n\n${modify_cron_detail}"
+  else
+    echo "🙅 当前没有需要修改定时的脚本"
+  fi
+}
+
 function main() {
   # 删除任务
   echo -e "\n️1️⃣ 🙋 开始尝试自动删除不正经的定时任务\n"
@@ -164,8 +214,12 @@ function main() {
   echo -e "\n️️3️⃣ 🙋 开始检测Node依赖\n"
   add_node_model
 
+  # 修改脚本定时
+  echo -e "\n️4️⃣ 🙋 开始检查脚本定时是否有修改\n"
+  modify_script_cron
+
   # 青龙拉取
-  echo -e "\n️4️⃣ 🙋 开始从所有收集的脚本仓库拉取脚本\n"
+  echo -e "\n️5️⃣ 🙋 开始从所有收集的脚本仓库拉取脚本\n"
   exec_ql_repo
 }
 
