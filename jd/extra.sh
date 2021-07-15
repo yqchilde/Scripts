@@ -176,7 +176,7 @@ function modify_script_cron() {
     cron_id=$(cat $list_crontab_user | grep -E "$cmd_task $script" | perl -pe "s|.*ID=(.*) $cmd_task $script\.*|\1|" | head -1) && cd "$dir_scripts"
     cron_name=$(grep "new Env" "$script" | awk -F "\(" '{print $2}' | awk -F "\)" '{print $1}' | sed 's:^.\(.*\).$:\1:' | head -1) && cd "$dir_config"
     [[ -z $cron_name ]] && cron_name="$script"
-    if [[ ${cron_new_exp} =~ ${cron_old_exp} ]]; then
+    if [[ ${cron_old_exp} == ${cron_new_exp} ]]; then
       echo "🤷 ${cron_name} 与当前cron一致，跳过"
       continue
     fi
