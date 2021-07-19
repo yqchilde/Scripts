@@ -115,11 +115,11 @@ function del_ql_cron() {
 }
 
 function exec_ql_repo() {
-  ql repo https://github.com/yqchilde/Scripts.git "jd_|jx_|getJDCookie" "backup" "^jd[^_]|USER|MovementFaker|JDJRValidator_Pure|sign_graphics_validate|ZooFaker_Necklace" "jd"
+  ql repo https://github.com/yqchilde/Scripts.git "jd_|jx_|getJDCookie" "" "^jd[^_]|USER|utils" "jd"
   ql repo https://github.com/longzhuzhu/nianyu.git "qx"
   ql repo https://github.com/ZCY01/daily_scripts.git "jd_"
   ql repo https://github.com/panghu999/panghu.git "jd_" "jd_cfdqiqiu"
-  ql repo https://github.com/smiek2221/scripts.git "jd_" "gua_wealth_island" "ZooFaker_Necklace.js|JDJRValidator_Pure.js|sign_graphics_validate.js"
+  ql repo https://github.com/smiek2221/scripts.git "jd_" "gua_wealth_island"
   ql repo https://github.com/Tsukasa007/my_script.git "" "jdCookie|USER_AGENTS|sendNotify|backup|zlmjh|smzdm_mission" "" "master"
 }
 
