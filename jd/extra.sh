@@ -6,7 +6,7 @@
 #Usage: /bin/bash -c "$(curl -fsSL https://gitee.com/yqchilde/Scripts/raw/main/jd/extra.sh)"
 #URL(github): https://raw.githubusercontent.com/yqchilde/Scripts/main/jd/extra.sh
 #URL(gitee): https://gitee.com/yqchilde/Scripts/raw/main/jd/extra.sh
-#UpdateDate: 2021-07-19 12:38:19
+#UpdateDate: 2021-07-19 21:09:05
 
 dir_shell=/ql/shell
 dir_scripts=/ql/scripts
@@ -119,7 +119,7 @@ function exec_ql_repo() {
   ql repo https://github.com/longzhuzhu/nianyu.git "qx"
   ql repo https://github.com/ZCY01/daily_scripts.git "jd_"
   ql repo https://github.com/panghu999/panghu.git "jd_" "jd_cfdqiqiu"
-  ql repo https://github.com/smiek2221/scripts.git "jd_" "gua_wealth_island"
+  ql repo https://github.com/smiek2221/scripts.git "jd_" "gua_wealth_island|jd_joy"
   ql repo https://github.com/Tsukasa007/my_script.git "" "jdCookie|USER_AGENTS|sendNotify|backup|zlmjh|smzdm_mission" "" "master"
 }
 
@@ -150,7 +150,7 @@ function add_node_model() {
   for node_model in $node_models; do
     if ! npm list "$node_model" 1>/dev/null; then
       echo "👀 检测到Node环境中 $node_model 模块不存在，尝试安装"
-      if npm i "$node_model" 2>/dev/null; then
+      if npm i -S "$node_model" 2>/dev/null; then
         if [[ $add_model_detail ]]; then
           add_model_detail="${add_model_detail}\n${node_model}"
         else
