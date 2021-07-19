@@ -109,6 +109,9 @@ function del_ql_cron() {
       notify "单脚本删除${result}" "$del_single_detail"
     fi
   fi
+  if [[ -z "$del_repo_detail" && -z "$del_single_detail" ]]; then
+    echo "🙅 当前没有需要删除的脚本"
+  fi
 }
 
 function exec_ql_repo() {
@@ -204,7 +207,7 @@ function modify_script_cron() {
 
 function main() {
   # 删除任务
-  echo -e "\n️1️⃣ 🙋 开始尝试自动删除不正经的定时任务\n"
+  echo -e "\n️1️⃣ 🙋 开始检测是否存在需要删除的脚本\n"
   del_ql_cron
 
   # 安装python依赖
