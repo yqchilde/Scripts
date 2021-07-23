@@ -6,7 +6,7 @@
 #Usage: /bin/bash -c "$(curl -fsSL https://gitee.com/yqchilde/Scripts/raw/main/jd/extra.sh)"
 #URL(github): https://raw.githubusercontent.com/yqchilde/Scripts/main/jd/extra.sh
 #URL(gitee): https://gitee.com/yqchilde/Scripts/raw/main/jd/extra.sh
-#UpdateDate: 2021-07-19 21:09:05
+#UpdateDate: 2021-07-23 23:32:44
 
 dir_shell=/ql/shell
 dir_scripts=/ql/scripts
@@ -22,6 +22,7 @@ node_models="png-js axios date-fns"
 declare -A scriptCronMap=(
   ["yqchilde_Scripts_jd_jd_blueCoin.js"]="59,0,1 59,0 0,23 * * *"
   ["yqchilde_Scripts_jd_jd_car_exchange.js"]="59,0,1 59,0 0,23 * * *"
+  ["yqchilde_Scripts_jd_jd_bean_home.js"]="23 1,12,22 * * *"
 )
 
 function notify() {
@@ -119,7 +120,7 @@ function exec_ql_repo() {
   ql repo https://github.com/longzhuzhu/nianyu.git "qx"
   ql repo https://github.com/ZCY01/daily_scripts.git "jd_"
   ql repo https://github.com/panghu999/panghu.git "jd_" "jd_cfdqiqiu"
-  ql repo https://github.com/smiek2221/scripts.git "jd_" "gua_wealth_island|jd_joy|jd_joy_steal"
+  ql repo https://github.com/smiek2221/scripts.git "jd_" "gua_wealth_island|jd_joy|jd_joy_steal|jd_necklace"
   ql repo https://github.com/Tsukasa007/my_script.git "" "jdCookie|USER_AGENTS|sendNotify|backup|zlmjh|smzdm_mission" "" "master"
 }
 
