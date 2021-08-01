@@ -15,7 +15,7 @@ dir_config=/ql/config
 . $dir_shell/api.sh
 . $dir_config/config.sh
 
-author_repos=""
+author_repos="panghu999_panghu"
 script_files=""
 python_models="requests"
 node_models="png-js axios date-fns"
@@ -118,7 +118,6 @@ function exec_ql_repo() {
   ql repo https://github.com/yqchilde/Scripts.git "jd_|jx_|getJDCookie" "" "^jd[^_]|USER|utils" "jd"
   ql repo https://github.com/longzhuzhu/nianyu.git "qx"
   ql repo https://github.com/ZCY01/daily_scripts.git "jd_"
-  ql repo https://github.com/panghu999/panghu.git "jd_" "jd_cfdqiqiu|jd_getCookie|jddj_*"
   ql repo https://github.com/smiek2221/scripts.git "jd_" "gua_wealth_island|jd_joy|jd_joy_steal|jd_necklace"
   ql repo https://github.com/Tsukasa007/my_script.git "" "jdCookie|USER_AGENTS|sendNotify|backup|zlmjh|smzdm_mission" "" "master"
 }
