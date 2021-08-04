@@ -6,7 +6,7 @@
 #Usage: /bin/bash -c "$(curl -fsSL https://gitee.com/yqchilde/Scripts/raw/main/jd/extra.sh)"
 #URL(github): https://raw.githubusercontent.com/yqchilde/Scripts/main/jd/extra.sh
 #URL(gitee): https://gitee.com/yqchilde/Scripts/raw/main/jd/extra.sh
-#UpdateDate: 2021-08-01 10:10:35
+#UpdateDate: 2021-08-04 13:46:15
 
 dir_shell=/ql/shell
 dir_scripts=/ql/scripts
@@ -15,7 +15,7 @@ dir_config=/ql/config
 . $dir_shell/api.sh
 . $dir_config/config.sh
 
-author_repos="panghu999_panghu"
+author_repos=""
 script_files=""
 python_models="requests"
 node_models="png-js axios date-fns"
