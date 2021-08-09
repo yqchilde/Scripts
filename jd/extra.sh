@@ -6,7 +6,7 @@
 #Usage: /bin/bash -c "$(curl -fsSL https://gitee.com/yqchilde/Scripts/raw/main/jd/extra.sh)"
 #URL(github): https://raw.githubusercontent.com/yqchilde/Scripts/main/jd/extra.sh
 #URL(gitee): https://gitee.com/yqchilde/Scripts/raw/main/jd/extra.sh
-#UpdateDate: 2021-08-04 13:46:15
+#UpdateDate: 2021-08-09 09:12:36
 
 dir_shell=/ql/shell
 dir_scripts=/ql/scripts
@@ -119,7 +119,7 @@ function exec_ql_repo() {
   ql repo https://github.com/longzhuzhu/nianyu.git "qx"
   ql repo https://github.com/ZCY01/daily_scripts.git "jd_"
   ql repo https://github.com/smiek2221/scripts.git "jd_" "gua_wealth_island|jd_joy|jd_joy_steal|jd_necklace"
-  ql repo https://github.com/Tsukasa007/my_script.git "" "jdCookie|USER_AGENTS|sendNotify|backup|zlmjh|smzdm_mission" "" "master"
+  ql repo https://github.com/Tsukasa007/my_script.git "" "jdCookie|USER_AGENTS|sendNotify|backup|zlmjh|smzdm_mission|jd_qjd" "" "master"
 }
 
 function add_python_model() {
