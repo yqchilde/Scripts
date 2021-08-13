@@ -22,7 +22,7 @@ node_models="png-js axios date-fns"
 declare -A scriptCronMap=(
   ["yqchilde_Scripts_jd_jd_blueCoin.js"]="59,0,1 59,0 0,23 * * *"
   ["yqchilde_Scripts_jd_jd_car_exchange.js"]="59,0,1 59,0 0,23 * * *"
-  ["task yqchilde_Scripts_jd_jd_wxFans.js"]="34 5,17 * * *"
+  ["yqchilde_Scripts_jd_jd_wxFans.js"]="34 5,17 * * *"
 )
 
 function notify() {
