@@ -120,7 +120,7 @@ function exec_ql_repo() {
   ql repo https://github.com/longzhuzhu/nianyu.git "qx"
   ql repo https://github.com/ZCY01/daily_scripts.git "jd_"
   ql repo https://github.com/smiek2221/scripts.git "jd_|gua_" "gua_wealth_island*|jd_joy|jd_joy_steal|jd_necklace|gua_carnivalcity" "sign_graphics_validate.js"
-  ql repo https://github.com/Tsukasa007/my_script.git "" "jdCookie|USER_AGENTS|sendNotify|backup|zlmjh|smzdm_mission|jd_qjd" "" "master"
+  ql repo https://github.com/Tsukasa007/my_script.git "" "jdCookie|USER_AGENTS|sendNotify|backup|zlmjh|smzdm_mission|jd_qjd|jd_cookieCheck" "" "master"
 }
 
 function add_python_model() {
