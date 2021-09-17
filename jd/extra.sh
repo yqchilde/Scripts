@@ -6,7 +6,7 @@
 #Usage: /bin/bash -c "$(curl -fsSL https://gitee.com/yqchilde/Scripts/raw/main/jd/extra.sh)"
 #URL(github): https://raw.githubusercontent.com/yqchilde/Scripts/main/jd/extra.sh
 #URL(gitee): https://gitee.com/yqchilde/Scripts/raw/main/jd/extra.sh
-#UpdateDate: 2021-09-09 21:01:32
+#UpdateDate: 2021-09-17 09:39:14
 
 dir_shell=/ql/shell
 dir_scripts=/ql/scripts
@@ -22,7 +22,8 @@ node_models="png-js axios date-fns"
 declare -A scriptCronMap=(
   ["yqchilde_Scripts_jd_jd_blueCoin.js"]="59,0,1 59,0 0,23 * * *"
   ["yqchilde_Scripts_jd_jd_car_exchange.js"]="59,0,1 59,0 0,23 * * *"
-  ["yqchilde_Scripts_jd_jd_jin_tie.js"]="10 15 * * *"
+  ["yqchilde_Scripts_jd_jd_fcdyj.js"]="1 0,13 * * *"
+  ["yqchilde_Scripts_jd_jd_live.js"]="50 12-14 * * *"
 )
 
 function notify() {
