@@ -6,7 +6,7 @@
 #Usage: /bin/bash -c "$(curl -fsSL https://gitee.com/yqchilde/Scripts/raw/main/jd/extra.sh)"
 #URL(github): https://raw.githubusercontent.com/yqchilde/Scripts/main/jd/extra.sh
 #URL(gitee): https://gitee.com/yqchilde/Scripts/raw/main/jd/extra.sh
-#UpdateDate: 2021-09-17 09:39:14
+#UpdateDate: 2021-09-23 09:42:41
 
 dir_shell=/ql/shell
 dir_scripts=/ql/scripts
@@ -22,8 +22,6 @@ node_models="png-js axios date-fns"
 declare -A scriptCronMap=(
   ["yqchilde_Scripts_jd_jd_blueCoin.js"]="59,0,1 59,0 0,23 * * *"
   ["yqchilde_Scripts_jd_jd_car_exchange.js"]="59,0,1 59,0 0,23 * * *"
-  ["yqchilde_Scripts_jd_jd_fcdyj.js"]="1 0,13 * * *"
-  ["yqchilde_Scripts_jd_jd_live.js"]="50 12-14 * * *"
 )
 
 function notify() {
@@ -121,7 +119,7 @@ function exec_ql_repo() {
   ql repo https://github.com/longzhuzhu/nianyu.git "qx"
   ql repo https://github.com/ZCY01/daily_scripts.git "jd_"
   ql repo https://github.com/smiek2221/scripts.git "jd_|gua_" "gua_wealth_island*|jd_joy|jd_joy_steal|jd_necklace|gua_carnivalcity" "sign_graphics_validate.js"
-  ql repo https://github.com/Tsukasa007/my_script.git "" "jdCookie|USER_AGENTS|sendNotify|backup|zlmjh|smzdm_mission|jd_qjd|jd_cookieCheck" "" "master"
+  ql repo https://github.com/Tsukasa007/my_script.git "" "jdCookie|USER_AGENTS|sendNotify|backup|zlmjh|smzdm_mission|jd_qjd|jd_cookieCheck|jd_joypark_open" "" "master"
 }
 
 function add_python_model() {
