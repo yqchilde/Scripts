@@ -852,12 +852,6 @@
 		"brandName": "都顿品牌会员"
 	},
 	{
-		"shopId": "10309032",
-		"shopName": "奈力士旗舰店",
-		"brandId": "10518928",
-		"brandName": "奈力士会员中心"
-	},
-	{
 		"shopId": "10309506",
 		"shopName": "博锐POREE官方旗舰店",
 		"brandId": "10518649",
@@ -2062,12 +2056,6 @@
 		"shopName": "雀巢咖啡饮料京东自营旗舰店",
 		"brandId": "1000278417",
 		"brandName": "雀巢"
-	},
-	{
-		"shopId": "1000282404",
-		"shopName": "玄谷村京东自营旗舰店",
-		"brandId": "1000282404",
-		"brandName": "玄谷村"
 	},
 	{
 		"shopId": "1000298761",
