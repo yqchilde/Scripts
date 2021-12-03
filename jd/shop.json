@@ -732,6 +732,12 @@
 		"brandName": ""
 	},
 	{
+		"shopId": "10059709",
+		"shopName": "五粮液同心悦专卖店",
+		"brandId": "10194827",
+		"brandName": ""
+	},
+	{
 		"shopId": "10067380",
 		"shopName": "四川水井坊股份有限公司",
 		"brandId": "10202804",
@@ -1140,6 +1146,12 @@
 		"brandName": ""
 	},
 	{
+		"shopId": "1000001123",
+		"shopName": "汉客京东自营旗舰店",
+		"brandId": "1000001123",
+		"brandName": ""
+	},
+	{
 		"shopId": "1000001163",
 		"shopName": "金万年京东自营官方旗舰店",
 		"brandId": "1000001163",
@@ -1506,6 +1518,12 @@
 		"brandName": ""
 	},
 	{
+		"shopId": "1000012961",
+		"shopName": "纽仕兰（Theland）京东自营旗舰店",
+		"brandId": "1000012961",
+		"brandName": ""
+	},
+	{
 		"shopId": "1000013261",
 		"shopName": "伯力斯自营旗舰店",
 		"brandId": "1000013261",
@@ -1662,6 +1680,12 @@
 		"brandName": ""
 	},
 	{
+		"shopId": "1000074984",
+		"shopName": "点盛玩具京东自营官方旗舰店",
+		"brandId": "1000074984",
+		"brandName": ""
+	},
+	{
 		"shopId": "1000075282",
 		"shopName": "粮全其美自营旗舰店",
 		"brandId": "1000075282",
@@ -1728,9 +1752,27 @@
 		"brandName": ""
 	},
 	{
+		"shopId": "1000079284",
+		"shopName": "5100品牌京东自营旗舰店",
+		"brandId": "1000079284",
+		"brandName": ""
+	},
+	{
+		"shopId": "1000080629",
+		"shopName": "船歌鱼水饺京东自营旗舰店",
+		"brandId": "1000080629",
+		"brandName": ""
+	},
+	{
 		"shopId": "1000080683",
 		"shopName": "欣和京东自营旗舰店",
 		"brandId": "1000080683",
+		"brandName": ""
+	},
+	{
+		"shopId": "1000080881",
+		"shopName": "太湖雪家纺京东自营旗舰店",
+		"brandId": "1000080881",
 		"brandName": ""
 	},
 	{
@@ -1908,6 +1950,12 @@
 		"brandName": ""
 	},
 	{
+		"shopId": "1000092101",
+		"shopName": "呼伦贝尔农垦京东自营旗舰店",
+		"brandId": "1000092101",
+		"brandName": ""
+	},
+	{
 		"shopId": "1000092169",
 		"shopName": "伊利冰淇淋自营旗舰店",
 		"brandId": "1000092169",
@@ -1995,6 +2043,12 @@
 		"shopId": "1000097182",
 		"shopName": "界界乐京东自营旗舰店",
 		"brandId": "1000097182",
+		"brandName": ""
+	},
+	{
+		"shopId": "1000097203",
+		"shopName": "香丹清京东自营旗舰店",
+		"brandId": "1000097203",
 		"brandName": ""
 	},
 	{
@@ -2136,6 +2190,12 @@
 		"brandName": ""
 	},
 	{
+		"shopId": "1000114761",
+		"shopName": "圣芝葡萄酒京东自营旗舰店",
+		"brandId": "1000114761",
+		"brandName": ""
+	},
+	{
 		"shopId": "1000114841",
 		"shopName": "大喜大京东自营官方旗舰店",
 		"brandId": "1000114841",
@@ -2163,6 +2223,12 @@
 		"shopId": "1000117009",
 		"shopName": "迪彩京东自营旗舰店",
 		"brandId": "1000117009",
+		"brandName": ""
+	},
+	{
+		"shopId": "1000118182",
+		"shopName": "拜宠清京东自营旗舰店",
+		"brandId": "1000118182",
 		"brandName": ""
 	},
 	{
@@ -2259,6 +2325,12 @@
 		"shopId": "1000147961",
 		"shopName": "高魅（gourmet）京东自营旗舰店",
 		"brandId": "1000147961",
+		"brandName": ""
+	},
+	{
+		"shopId": "1000164381",
+		"shopName": "希杰（CJ）京东自营旗舰店",
+		"brandId": "1000164381",
 		"brandName": ""
 	},
 	{
