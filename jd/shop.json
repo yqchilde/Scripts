@@ -198,6 +198,12 @@
 		"brandName": "品立官方旗舰店"
 	},
 	{
+		"shopId": "119183",
+		"shopName": "信德营养保健专营店",
+		"brandId": "122530",
+		"brandName": "信德健康生活"
+	},
+	{
 		"shopId": "120660",
 		"shopName": "思沃官方旗舰店",
 		"brandId": "123484",
@@ -256,6 +262,12 @@
 		"shopName": "酒街网官方旗舰店",
 		"brandId": "174346",
 		"brandName": "酒街网会员"
+	},
+	{
+		"shopId": "171976",
+		"shopName": "尚古堂食品官方旗舰店",
+		"brandId": "178164",
+		"brandName": "尚古堂旗舰店"
 	},
 	{
 		"shopId": "174391",
@@ -1660,6 +1672,12 @@
 		"shopName": "亚麻公社京东自营旗舰店",
 		"brandId": "1000076645",
 		"brandName": "亚麻公社"
+	},
+	{
+		"shopId": "1000076821",
+		"shopName": "必品阁自营旗舰店",
+		"brandId": "1000076821",
+		"brandName": "希杰食品"
 	},
 	{
 		"shopId": "1000077352",
