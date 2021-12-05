@@ -36,6 +36,12 @@
 		"brandName": "丸美官方旗舰店"
 	},
 	{
+		"shopId": "20956",
+		"shopName": "邦怡官方旗舰店",
+		"brandId": "21547",
+		"brandName": "邦怡官方旗舰店"
+	},
+	{
 		"shopId": "26858",
 		"shopName": "巴拉巴拉官方旗舰店",
 		"brandId": "27396",
@@ -106,6 +112,12 @@
 		"shopName": "凤佳运动户外专营店",
 		"brandId": "54197",
 		"brandName": "凤佳运动会员卡"
+	},
+	{
+		"shopId": "54866",
+		"shopName": "万度旗舰店",
+		"brandId": "58961",
+		"brandName": "万度黑卡会员"
 	},
 	{
 		"shopId": "54985",
@@ -298,12 +310,6 @@
 		"shopName": "善草纪官方旗舰店",
 		"brandId": "192982",
 		"brandName": "善草纪花窝"
-	},
-	{
-		"shopId": "185645",
-		"shopName": "卡西欧宝亮专卖店",
-		"brandId": "193385",
-		"brandName": "卡西欧宝亮钟表"
 	},
 	{
 		"shopId": "185661",
@@ -690,12 +696,6 @@
 		"brandName": "问雪家居旗舰店"
 	},
 	{
-		"shopId": "10041571",
-		"shopName": "233621官方旗舰店",
-		"brandId": "10176670",
-		"brandName": "官方旗舰店"
-	},
-	{
 		"shopId": "10050273",
 		"shopName": "郎牌特曲官方旗舰店",
 		"brandId": "10185454",
@@ -742,12 +742,6 @@
 		"shopName": "奇姬官方旗舰店",
 		"brandId": "10211994",
 		"brandName": "奇姬"
-	},
-	{
-		"shopId": "10085940",
-		"shopName": "广州五羊化妆品有限公司",
-		"brandId": "10219129",
-		"brandName": "五羊会员卡"
 	},
 	{
 		"shopId": "10086308",
@@ -888,16 +882,16 @@
 		"brandName": "域发"
 	},
 	{
-		"shopId": "10227299",
-		"shopName": "片仔癀思卓专卖店",
-		"brandId": "10375910",
-		"brandName": "专享价+优惠券"
-	},
-	{
 		"shopId": "10243705",
 		"shopName": "Klean Kanteen旗舰店",
 		"brandId": "10392023",
 		"brandName": "会员卡"
+	},
+	{
+		"shopId": "10249497",
+		"shopName": "SHENGSHISABER箱包旗舰店",
+		"brandId": "10396588",
+		"brandName": "优惠卡"
 	},
 	{
 		"shopId": "10250212",
@@ -994,6 +988,12 @@
 		"shopName": "乐扣乐扣京东自营官方旗舰店",
 		"brandId": "10537468",
 		"brandName": "乐扣乐扣"
+	},
+	{
+		"shopId": "10336346",
+		"shopName": "狮王品牌会员",
+		"brandId": "10548554",
+		"brandName": "狮王自营会员"
 	},
 	{
 		"shopId": "10336800",
@@ -1254,12 +1254,6 @@
 		"brandName": "欧珀莱"
 	},
 	{
-		"shopId": "1000002596",
-		"shopName": "格力·TOSOT生活电器京东自营旗舰店",
-		"brandId": "1000002596",
-		"brandName": "格力电器"
-	},
-	{
 		"shopId": "1000002701",
 		"shopName": "君乐宝京东自营旗舰店",
 		"brandId": "1000002701",
@@ -1402,12 +1396,6 @@
 		"shopName": "海氏海诺京东自营旗舰店",
 		"brandId": "1000006462",
 		"brandName": "海氏海诺旗舰店"
-	},
-	{
-		"shopId": "1000006467",
-		"shopName": "五羊京东自营旗舰店",
-		"brandId": "1000006467",
-		"brandName": "五羊会员卡"
 	},
 	{
 		"shopId": "1000006643",
@@ -1632,12 +1620,6 @@
 		"brandName": "四特"
 	},
 	{
-		"shopId": "1000016366",
-		"shopName": "MOVADO京东自营旗舰店",
-		"brandId": "1000016366",
-		"brandName": "摩凡陀腕表"
-	},
-	{
 		"shopId": "1000016385",
 		"shopName": "劲牌京东自营官方旗舰店",
 		"brandId": "1000016385",
@@ -1714,12 +1696,6 @@
 		"shopName": "必品阁自营旗舰店",
 		"brandId": "1000076821",
 		"brandName": "希杰食品"
-	},
-	{
-		"shopId": "1000077352",
-		"shopName": "丽芝士（Richeese）京东自营旗舰店",
-		"brandId": "1000077352",
-		"brandName": "丽芝士会员卡"
 	},
 	{
 		"shopId": "1000077424",
