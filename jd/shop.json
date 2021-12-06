@@ -42,6 +42,12 @@
 		"brandName": "邦怡官方旗舰店"
 	},
 	{
+		"shopId": "24299",
+		"shopName": "来伊份旗舰店",
+		"brandId": "24827",
+		"brandName": "来伊份旗舰店"
+	},
+	{
 		"shopId": "26858",
 		"shopName": "巴拉巴拉官方旗舰店",
 		"brandId": "27396",
@@ -526,6 +532,12 @@
 		"shopName": "劲牌官方旗舰店",
 		"brandId": "719465",
 		"brandName": "劲牌官方旗舰店"
+	},
+	{
+		"shopId": "721647",
+		"shopName": "天骄美家居专营店",
+		"brandId": "726514",
+		"brandName": "天骄美家居"
 	},
 	{
 		"shopId": "728640",
