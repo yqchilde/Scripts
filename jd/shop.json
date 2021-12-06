@@ -216,12 +216,6 @@
 		"brandName": "品立官方旗舰店"
 	},
 	{
-		"shopId": "119183",
-		"shopName": "信德营养保健专营店",
-		"brandId": "122530",
-		"brandName": "信德健康生活"
-	},
-	{
 		"shopId": "120660",
 		"shopName": "思沃官方旗舰店",
 		"brandId": "123484",
@@ -346,12 +340,6 @@
 		"shopName": "九孚旗舰店",
 		"brandId": "592591",
 		"brandName": "九孚旗舰店"
-	},
-	{
-		"shopId": "584665",
-		"shopName": "隆泰祥茶业专营店",
-		"brandId": "593073",
-		"brandName": "隆泰祥茶业"
 	},
 	{
 		"shopId": "585640",
@@ -696,12 +684,6 @@
 		"brandName": "安怡官方旗舰店"
 	},
 	{
-		"shopId": "10029392",
-		"shopName": "古井罍旗舰店",
-		"brandId": "10163707",
-		"brandName": "古井罍旗舰店"
-	},
-	{
 		"shopId": "10039578",
 		"shopName": "问雪家居旗舰店",
 		"brandId": "10174550",
@@ -712,12 +694,6 @@
 		"shopName": "郎牌特曲官方旗舰店",
 		"brandId": "10185454",
 		"brandName": "郎牌特曲VIP"
-	},
-	{
-		"shopId": "10051829",
-		"shopName": "归星葡萄酒京东自营旗舰店",
-		"brandId": "10182329",
-		"brandName": "归星会员卡"
 	},
 	{
 		"shopId": "10052669",
@@ -820,12 +796,6 @@
 		"shopName": "金沙回沙酒官方旗舰店",
 		"brandId": "10321993",
 		"brandName": "金沙VIP"
-	},
-	{
-		"shopId": "10185519",
-		"shopName": "星象葡萄酒旗舰店",
-		"brandId": "10321564",
-		"brandName": "星象尊享会员"
 	},
 	{
 		"shopId": "10202535",
@@ -1030,12 +1000,6 @@
 		"shopName": "时七旗舰店",
 		"brandId": "10556991",
 		"brandName": "时七旗舰店"
-	},
-	{
-		"shopId": "10359224",
-		"shopName": "茅台醇旗舰店",
-		"brandId": "10571875",
-		"brandName": "茅台醇会员卡"
 	},
 	{
 		"shopId": "10361992",
@@ -1314,12 +1278,6 @@
 		"brandName": "韩束"
 	},
 	{
-		"shopId": "1000003445",
-		"shopName": "格力京东自营旗舰店",
-		"brandId": "1000003445",
-		"brandName": "格力电器"
-	},
-	{
 		"shopId": "1000003448",
 		"shopName": "好孩子京东自营官方旗舰店",
 		"brandId": "1000003448",
@@ -1434,12 +1392,6 @@
 		"brandName": "霸王洗发水"
 	},
 	{
-		"shopId": "1000008721",
-		"shopName": "京东商城家用中央空调京东自营旗舰店",
-		"brandId": "1000008721",
-		"brandName": "格力电器"
-	},
-	{
 		"shopId": "1000008983",
 		"shopName": "脉动京东自营旗舰店",
 		"brandId": "1000008983",
@@ -1504,12 +1456,6 @@
 		"shopName": "忆江南京东自营旗舰店",
 		"brandId": "1000011225",
 		"brandName": "忆江南会员"
-	},
-	{
-		"shopId": "1000011242",
-		"shopName": "格力·晶弘冰箱洗衣机京东自营旗舰店",
-		"brandId": "1000011242",
-		"brandName": "格力电器"
 	},
 	{
 		"shopId": "1000012961",
@@ -2058,6 +2004,12 @@
 		"brandName": "盛宝"
 	},
 	{
+		"shopId": "1000099547",
+		"shopName": "云米智能京东自营旗舰店",
+		"brandId": "1000099547",
+		"brandName": "云米会员"
+	},
+	{
 		"shopId": "1000100295",
 		"shopName": "阿尔发京东自营旗舰店",
 		"brandId": "1000100295",
@@ -2410,6 +2362,12 @@
 		"shopName": "小白心里软食品京东自营旗舰店",
 		"brandId": "1000302045",
 		"brandName": "小白心里软"
+	},
+	{
+		"shopId": "1000304221",
+		"shopName": "伊利奶酪京东自营旗舰店",
+		"brandId": "1000304221",
+		"brandName": "伊利会员卡"
 	},
 	{
 		"shopId": "1000307901",
