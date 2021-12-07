@@ -168,6 +168,12 @@
 		"brandName": "TATA木门"
 	},
 	{
+		"shopId": "70605",
+		"shopName": "露安适官方旗舰店",
+		"brandId": "74119",
+		"brandName": "露安适旗舰店"
+	},
+	{
 		"shopId": "70932",
 		"shopName": "贝因美官方旗舰店",
 		"brandId": "74508",
@@ -190,6 +196,12 @@
 		"shopName": "betu百图旗舰店",
 		"brandId": "88277",
 		"brandName": "betu百图"
+	},
+	{
+		"shopId": "90169",
+		"shopName": "古井贡酒官方旗舰店",
+		"brandId": "92739",
+		"brandName": "古井贡酒VIP"
 	},
 	{
 		"shopId": "91408",
@@ -220,6 +232,12 @@
 		"shopName": "思沃官方旗舰店",
 		"brandId": "123484",
 		"brandName": "思沃口罩入会"
+	},
+	{
+		"shopId": "120948",
+		"shopName": "jissbon杰士邦官方旗舰店",
+		"brandId": "121385",
+		"brandName": "杰士邦"
 	},
 	{
 		"shopId": "130904",
@@ -256,6 +274,12 @@
 		"shopName": "泰山原浆啤酒官方旗舰店",
 		"brandId": "150259",
 		"brandName": "泰山原浆会员"
+	},
+	{
+		"shopId": "155108",
+		"shopName": "TELESIN旗舰店",
+		"brandId": "159908",
+		"brandName": "会员享优惠"
 	},
 	{
 		"shopId": "155756",
@@ -474,6 +498,12 @@
 		"brandName": "五色养生鲜"
 	},
 	{
+		"shopId": "697146",
+		"shopName": "振德官方旗舰店",
+		"brandId": "701317",
+		"brandName": "振德品牌会员"
+	},
+	{
 		"shopId": "697724",
 		"shopName": "威露士个护旗舰店",
 		"brandId": "702076",
@@ -540,6 +570,12 @@
 		"brandName": "派嘉宠物生活"
 	},
 	{
+		"shopId": "740909",
+		"shopName": "丹泉官方旗舰店",
+		"brandId": "744959",
+		"brandName": "丹泉品牌会员"
+	},
+	{
 		"shopId": "742142",
 		"shopName": "吉香居食品旗舰店",
 		"brandId": "746810",
@@ -574,6 +610,12 @@
 		"shopName": "自嗨锅旗舰店",
 		"brandId": "756351",
 		"brandName": "自嗨锅旗舰店"
+	},
+	{
+		"shopId": "752168",
+		"shopName": "思念官方旗舰店",
+		"brandId": "756324",
+		"brandName": "思念食品"
 	},
 	{
 		"shopId": "770786",
@@ -628,6 +670,12 @@
 		"shopName": "A21童装旗舰店",
 		"brandId": "826431",
 		"brandName": "A21"
+	},
+	{
+		"shopId": "828064",
+		"shopName": "Sunglass Hut旗舰店",
+		"brandId": "829029",
+		"brandName": "SGH会员卡"
 	},
 	{
 		"shopId": "828144",
@@ -906,6 +954,12 @@
 		"brandName": "黄飞红功夫家族"
 	},
 	{
+		"shopId": "10279784",
+		"shopName": "一兰旗舰店",
+		"brandId": "10488455",
+		"brandName": "一兰旗舰店"
+	},
+	{
 		"shopId": "10286691",
 		"shopName": "Little Freddie 品牌会员",
 		"brandId": "10497126",
@@ -916,6 +970,12 @@
 		"shopName": "潮宏基会员",
 		"brandId": "10497960",
 		"brandName": "潮宏基会员"
+	},
+	{
+		"shopId": "10296499",
+		"shopName": "武陵酒类旗舰店",
+		"brandId": "10503441",
+		"brandName": "武陵酒类旗舰店"
 	},
 	{
 		"shopId": "10302300",
@@ -1012,6 +1072,12 @@
 		"shopName": "名流会员",
 		"brandId": "10579592",
 		"brandName": "VIP"
+	},
+	{
+		"shopId": "10366121",
+		"shopName": "婺燕堂旗舰店",
+		"brandId": "10580568",
+		"brandName": "婺燕堂旗舰店"
 	},
 	{
 		"shopId": "10366224",
@@ -1132,6 +1198,12 @@
 		"shopName": "斯利安京东自营旗舰店",
 		"brandId": "1000001293",
 		"brandName": "斯利安会员"
+	},
+	{
+		"shopId": "1000001381",
+		"shopName": "康比特京东自营旗舰店",
+		"brandId": "1000001381",
+		"brandName": "康比特会员"
 	},
 	{
 		"shopId": "1000001395",
@@ -1608,6 +1680,12 @@
 		"brandName": "福临门米面"
 	},
 	{
+		"shopId": "1000072609",
+		"shopName": "澳雪京东自营官方旗舰店",
+		"brandId": "1000072609",
+		"brandName": "澳雪专享会员卡"
+	},
+	{
 		"shopId": "1000072726",
 		"shopName": "采埃孚京东自营旗舰店",
 		"brandId": "1000072726",
@@ -1848,6 +1926,12 @@
 		"brandName": "疯狂小狗"
 	},
 	{
+		"shopId": "1000089541",
+		"shopName": "车丽友京东自营旗舰店",
+		"brandId": "1000089541",
+		"brandName": "车丽友品牌会员"
+	},
+	{
 		"shopId": "1000089744",
 		"shopName": "雅培血糖仪京东自营旗舰店",
 		"brandId": "1000089744",
@@ -1882,6 +1966,12 @@
 		"shopName": "君乐宝乳品京东自营旗舰店",
 		"brandId": "1000090824",
 		"brandName": "君乐宝乳品"
+	},
+	{
+		"shopId": "1000091081",
+		"shopName": "ROCK京东自营旗舰店",
+		"brandId": "1000091081",
+		"brandName": "ROCK会员"
 	},
 	{
 		"shopId": "1000092101",
@@ -1954,6 +2044,12 @@
 		"shopName": "梅林京东自营旗舰店",
 		"brandId": "1000097079",
 		"brandName": "梅林"
+	},
+	{
+		"shopId": "1000097152",
+		"shopName": "鸥露京东自营旗舰店",
+		"brandId": "1000097152",
+		"brandName": "鸥露会员卡"
 	},
 	{
 		"shopId": "1000097156",
@@ -2176,6 +2272,12 @@
 		"shopName": "拜宠清京东自营旗舰店",
 		"brandId": "1000118182",
 		"brandName": "拜宠清"
+	},
+	{
+		"shopId": "1000118610",
+		"shopName": "张裕（CHANGYU）先锋葡萄酒京东自营旗舰店",
+		"brandId": "1000118610",
+		"brandName": "张裕先锋会员卡"
 	},
 	{
 		"shopId": "1000118667",
