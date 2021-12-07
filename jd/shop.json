@@ -42,6 +42,12 @@
 		"brandName": "邦怡官方旗舰店"
 	},
 	{
+		"shopId": "23130",
+		"shopName": "Kappa官方旗舰店",
+		"brandId": "23744",
+		"brandName": "Kappa官方"
+	},
+	{
 		"shopId": "24299",
 		"shopName": "来伊份旗舰店",
 		"brandId": "24827",
@@ -306,6 +312,12 @@
 		"brandName": "尚古堂旗舰店"
 	},
 	{
+		"shopId": "172740",
+		"shopName": "合生元母婴官方旗舰店",
+		"brandId": "179146",
+		"brandName": "合生元尊享会员"
+	},
+	{
 		"shopId": "174391",
 		"shopName": "TUMI官方旗舰店",
 		"brandId": "180870",
@@ -334,6 +346,12 @@
 		"shopName": "善草纪官方旗舰店",
 		"brandId": "192982",
 		"brandName": "善草纪花窝"
+	},
+	{
+		"shopId": "185645",
+		"shopName": "卡西欧宝亮专卖店",
+		"brandId": "193385",
+		"brandName": "卡西欧宝亮钟表"
 	},
 	{
 		"shopId": "185661",
@@ -406,6 +424,12 @@
 		"shopName": "十月稻田官方旗舰店",
 		"brandId": "613263",
 		"brandName": "十月稻田"
+	},
+	{
+		"shopId": "607732",
+		"shopName": "得宝旗舰店",
+		"brandId": "615253",
+		"brandName": "得宝旗舰店"
 	},
 	{
 		"shopId": "625105",
@@ -520,6 +544,12 @@
 		"shopName": "杜康官方旗舰店",
 		"brandId": "704713",
 		"brandName": "杜康"
+	},
+	{
+		"shopId": "704622",
+		"shopName": "金徽白酒旗舰店",
+		"brandId": "708833",
+		"brandName": "金徽酒会员卡"
 	},
 	{
 		"shopId": "708522",
@@ -754,12 +784,6 @@
 		"shopName": "红星酒类旗舰店",
 		"brandId": "10190392",
 		"brandName": "红星二锅头"
-	},
-	{
-		"shopId": "10056716",
-		"shopName": "易荣天母婴专营店",
-		"brandId": "10191312",
-		"brandName": "京东易荣天母婴"
 	},
 	{
 		"shopId": "10059709",
@@ -1036,12 +1060,6 @@
 		"shopName": "狮王品牌会员",
 		"brandId": "10548554",
 		"brandName": "狮王自营会员"
-	},
-	{
-		"shopId": "10336800",
-		"shopName": "君乐宝悦鲜达专卖店",
-		"brandId": "10549286",
-		"brandName": "君乐宝悦鲜达"
 	},
 	{
 		"shopId": "10338866",
@@ -1842,6 +1860,12 @@
 		"brandName": "广州酒家"
 	},
 	{
+		"shopId": "1000085423",
+		"shopName": "肌肉科技京东自营旗舰店",
+		"brandId": "1000085423",
+		"brandName": "肌肉科技"
+	},
+	{
 		"shopId": "1000085508",
 		"shopName": "潮香村京东自营旗舰店",
 		"brandId": "1000085508",
@@ -1950,10 +1974,10 @@
 		"brandName": "汾酒"
 	},
 	{
-		"shopId": "1000090684",
-		"shopName": "长白山京东自营旗舰店",
-		"brandId": "1000090684",
-		"brandName": "长白山"
+		"shopId": "1000090729",
+		"shopName": "BOOX京东自营旗舰店",
+		"brandId": "1000090729",
+		"brandName": "文石精选会员"
 	},
 	{
 		"shopId": "1000090823",
@@ -2176,6 +2200,12 @@
 		"shopName": "天然博士京东自营旗舰店",
 		"brandId": "1000101952",
 		"brandName": "天然博士CRM"
+	},
+	{
+		"shopId": "1000102232",
+		"shopName": "Ocean Spray京东自营旗舰店",
+		"brandId": "1000102232",
+		"brandName": "优鲜沛"
 	},
 	{
 		"shopId": "1000102442",
@@ -2418,6 +2448,18 @@
 		"brandName": "仙维娜会员卡"
 	},
 	{
+		"shopId": "1000221688",
+		"shopName": "四季宝（SKIPPY）生鲜京东自营旗舰店",
+		"brandId": "1000221688",
+		"brandName": "四季宝店铺会员"
+	},
+	{
+		"shopId": "1000221762",
+		"shopName": "艾斯臣（ACESC）京东自营旗舰店",
+		"brandId": "1000221762",
+		"brandName": "艾斯臣会员"
+	},
+	{
 		"shopId": "1000224066",
 		"shopName": "天缘道大米京东自营旗舰店",
 		"brandId": "1000224066",
@@ -2590,12 +2632,6 @@
 		"shopName": "小角楼京东自营旗舰店",
 		"brandId": "1000352110",
 		"brandName": "小角楼·京东"
-	},
-	{
-		"shopId": "1000352167",
-		"shopName": "快克官方旗舰店",
-		"brandId": "1000352167",
-		"brandName": "快克官方旗舰店"
 	},
 	{
 		"shopId": "1000353364",
