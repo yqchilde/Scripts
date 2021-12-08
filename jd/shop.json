@@ -252,6 +252,12 @@
 		"brandName": "黄飞红功夫家族"
 	},
 	{
+		"shopId": "137782",
+		"shopName": "巴九灵康旗舰店",
+		"brandId": "140749",
+		"brandName": "巴九灵康会员"
+	},
+	{
 		"shopId": "138540",
 		"shopName": "戴尔官方旗舰店",
 		"brandId": "143080",
@@ -478,6 +484,12 @@
 		"shopName": "古井贡酒年份原浆官方旗舰店",
 		"brandId": "663861",
 		"brandName": "年份原浆官旗"
+	},
+	{
+		"shopId": "662490",
+		"shopName": "卡西欧手表官方旗舰店",
+		"brandId": "667324",
+		"brandName": "卡西欧"
 	},
 	{
 		"shopId": "666817",
@@ -792,6 +804,12 @@
 		"brandName": "五粮液专卖店"
 	},
 	{
+		"shopId": "10063613",
+		"shopName": "麦芽小考拉图书官方旗舰店",
+		"brandId": "10187429",
+		"brandName": "麦芽小考拉"
+	},
+	{
 		"shopId": "10067380",
 		"shopName": "四川水井坊股份有限公司",
 		"brandId": "10202804",
@@ -1002,6 +1020,12 @@
 		"brandName": "武陵酒类旗舰店"
 	},
 	{
+		"shopId": "10300831",
+		"shopName": "蓬松生活旗舰店",
+		"brandId": "10511164",
+		"brandName": "蓬松生活"
+	},
+	{
 		"shopId": "10302300",
 		"shopName": "tumi",
 		"brandId": "10514104",
@@ -1188,6 +1212,12 @@
 		"brandName": "网件自营旗舰店"
 	},
 	{
+		"shopId": "1000000829",
+		"shopName": "有品京东自营旗舰店",
+		"brandId": "1000000829",
+		"brandName": "有品会员卡"
+	},
+	{
 		"shopId": "1000001120",
 		"shopName": "格之格耗材京东自营旗舰店",
 		"brandId": "1000001120",
@@ -1300,6 +1330,12 @@
 		"shopName": "三星家电京东自营旗舰店",
 		"brandId": "1000002367",
 		"brandName": "星星卡"
+	},
+	{
+		"shopId": "1000002497",
+		"shopName": "九阳onecup京东自营旗舰店",
+		"brandId": "1000002497",
+		"brandName": "Onecup"
 	},
 	{
 		"shopId": "1000002499",
@@ -1522,6 +1558,12 @@
 		"shopName": "蜀道香京东自营旗舰店",
 		"brandId": "1000010104",
 		"brandName": "蜀道香会员"
+	},
+	{
+		"shopId": "1000010124",
+		"shopName": "北纯京东自营旗舰店",
+		"brandId": "1000010124",
+		"brandName": "北纯会员"
 	},
 	{
 		"shopId": "1000010181",
@@ -1752,6 +1794,12 @@
 		"brandName": "希杰食品"
 	},
 	{
+		"shopId": "1000077407",
+		"shopName": "春禾秋牧自营旗舰店",
+		"brandId": "1000077407",
+		"brandName": "春禾秋牧会员卡"
+	},
+	{
 		"shopId": "1000077424",
 		"shopName": "宝力臣京东自营旗舰店",
 		"brandId": "1000077424",
@@ -1774,6 +1822,12 @@
 		"shopName": "通化葡萄酒京东自营旗舰店",
 		"brandId": "1000078445",
 		"brandName": "通化品牌VIP"
+	},
+	{
+		"shopId": "1000078964",
+		"shopName": "阿迪达斯（adidas）童装童鞋京东自营专区",
+		"brandId": "1000078964",
+		"brandName": "阿迪达斯儿童"
 	},
 	{
 		"shopId": "1000079284",
@@ -2352,10 +2406,28 @@
 		"brandName": "三元奶粉"
 	},
 	{
+		"shopId": "1000124462",
+		"shopName": "阿华田（Ovaltine）京东自营旗舰店",
+		"brandId": "1000124462",
+		"brandName": "阿华田"
+	},
+	{
+		"shopId": "1000125001",
+		"shopName": "贵酒京东自营旗舰店",
+		"brandId": "1000125001",
+		"brandName": "贵酒自营VIP"
+	},
+	{
 		"shopId": "1000125002",
 		"shopName": "奥兰葡萄酒京东自营旗舰店",
 		"brandId": "1000125002",
 		"brandName": "奥兰品牌会员"
+	},
+	{
+		"shopId": "1000126881",
+		"shopName": "美极（Maggi）京东自营旗舰店",
+		"brandId": "1000126881",
+		"brandName": "美极尊享会员"
 	},
 	{
 		"shopId": "1000132124",
