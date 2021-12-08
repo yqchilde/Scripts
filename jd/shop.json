@@ -198,6 +198,12 @@
 		"brandName": "领誉旗舰店"
 	},
 	{
+		"shopId": "82933",
+		"shopName": "优卡莲瑜伽用品官方旗舰店",
+		"brandId": "85986",
+		"brandName": "优卡莲旗舰店"
+	},
+	{
 		"shopId": "85499",
 		"shopName": "betu百图旗舰店",
 		"brandId": "88277",
@@ -442,6 +448,12 @@
 		"shopName": "中国特产·新疆农特产馆",
 		"brandId": "630410",
 		"brandName": "新疆农特产馆"
+	},
+	{
+		"shopId": "630478",
+		"shopName": "麦芽小达人官方旗舰店",
+		"brandId": "634958",
+		"brandName": "麦芽小达人会员"
 	},
 	{
 		"shopId": "632597",
@@ -696,12 +708,6 @@
 		"brandName": "戴尔直营显示器"
 	},
 	{
-		"shopId": "820980",
-		"shopName": "加护灵旗舰店",
-		"brandId": "822341",
-		"brandName": "加护灵品牌会员"
-	},
-	{
 		"shopId": "822448",
 		"shopName": "戴尔商用华东专卖店",
 		"brandId": "823804",
@@ -822,6 +828,12 @@
 		"brandName": "奇姬"
 	},
 	{
+		"shopId": "10082419",
+		"shopName": "洋河酒类京东自营旗舰店",
+		"brandId": "10209653",
+		"brandName": "洋河"
+	},
+	{
 		"shopId": "10086308",
 		"shopName": "CJ食品旗舰店",
 		"brandId": "10222935",
@@ -886,6 +898,12 @@
 		"shopName": "金沙回沙酒官方旗舰店",
 		"brandId": "10321993",
 		"brandName": "金沙VIP"
+	},
+	{
+		"shopId": "10197603",
+		"shopName": "阿特纳运动专营店",
+		"brandId": "10342761",
+		"brandName": "阿特纳Vip"
 	},
 	{
 		"shopId": "10202535",
@@ -1752,6 +1770,12 @@
 		"brandName": "采埃孚京东自营"
 	},
 	{
+		"shopId": "1000074722",
+		"shopName": "黄老五京东自营旗舰店",
+		"brandId": "1000074722",
+		"brandName": "黄老五会员卡"
+	},
+	{
 		"shopId": "1000074823",
 		"shopName": "维他奶京东自营旗舰店",
 		"brandId": "1000074823",
@@ -2050,6 +2074,12 @@
 		"shopName": "ROCK京东自营旗舰店",
 		"brandId": "1000091081",
 		"brandName": "ROCK会员"
+	},
+	{
+		"shopId": "1000091184",
+		"shopName": "稻花香京东自营旗舰店",
+		"brandId": "1000091184",
+		"brandName": "稻花香白酒"
 	},
 	{
 		"shopId": "1000092101",
