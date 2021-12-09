@@ -246,6 +246,12 @@
 		"brandName": "思沃口罩入会"
 	},
 	{
+		"shopId": "120907",
+		"shopName": "5号酒库旗舰店",
+		"brandId": "124276",
+		"brandName": "5号酒库VIP"
+	},
+	{
 		"shopId": "120948",
 		"shopName": "jissbon杰士邦官方旗舰店",
 		"brandId": "121385",
@@ -316,6 +322,12 @@
 		"shopName": "酒街网官方旗舰店",
 		"brandId": "174346",
 		"brandName": "酒街网会员"
+	},
+	{
+		"shopId": "170127",
+		"shopName": "益京母婴专营店",
+		"brandId": "176277",
+		"brandName": "益京母婴专营店"
 	},
 	{
 		"shopId": "171976",
@@ -826,6 +838,12 @@
 		"shopName": "奇姬官方旗舰店",
 		"brandId": "10211994",
 		"brandName": "奇姬"
+	},
+	{
+		"shopId": "10075676",
+		"shopName": "矿泉贡米京东自营官方旗舰店",
+		"brandId": "10209734",
+		"brandName": "贡米会员"
 	},
 	{
 		"shopId": "10082419",
@@ -1404,6 +1422,12 @@
 		"brandName": "科沃斯会员卡"
 	},
 	{
+		"shopId": "1000003003",
+		"shopName": "小迷糊京东自营旗舰店",
+		"brandId": "1000003003",
+		"brandName": "小迷糊会员"
+	},
+	{
 		"shopId": "1000003026",
 		"shopName": "妙思乐京东自营旗舰店",
 		"brandId": "1000003026",
@@ -1818,6 +1842,12 @@
 		"brandName": "希杰食品"
 	},
 	{
+		"shopId": "1000077352",
+		"shopName": "丽芝士（Richeese）京东自营旗舰店",
+		"brandId": "1000077352",
+		"brandName": "丽芝士会员卡"
+	},
+	{
 		"shopId": "1000077407",
 		"shopName": "春禾秋牧自营旗舰店",
 		"brandId": "1000077407",
@@ -2128,6 +2158,12 @@
 		"shopName": "澳牧京东自营旗舰店",
 		"brandId": "1000093828",
 		"brandName": "澳牧会员"
+	},
+	{
+		"shopId": "1000093883",
+		"shopName": "咪鼠科技京东自营旗舰店",
+		"brandId": "1000093883",
+		"brandName": "咪鼠之家"
 	},
 	{
 		"shopId": "1000094028",
