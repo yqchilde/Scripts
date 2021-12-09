@@ -126,6 +126,12 @@
 		"brandName": "凤佳运动会员卡"
 	},
 	{
+		"shopId": "52112",
+		"shopName": "SWISS MILITARY旗舰店",
+		"brandId": "56210",
+		"brandName": "瑞士军表旗舰店"
+	},
+	{
 		"shopId": "54866",
 		"shopName": "万度旗舰店",
 		"brandId": "58961",
@@ -216,12 +222,6 @@
 		"brandName": "古井贡酒VIP"
 	},
 	{
-		"shopId": "91408",
-		"shopName": "wua.wua旗舰店",
-		"brandId": "93944",
-		"brandName": "哇哇会员"
-	},
-	{
 		"shopId": "97574",
 		"shopName": "alandv旗舰店",
 		"brandId": "99428",
@@ -298,6 +298,12 @@
 		"shopName": "泰山原浆啤酒官方旗舰店",
 		"brandId": "150259",
 		"brandName": "泰山原浆会员"
+	},
+	{
+		"shopId": "152292",
+		"shopName": "山业电脑办公旗舰店",
+		"brandId": "147691",
+		"brandName": ""
 	},
 	{
 		"shopId": "155108",
@@ -426,12 +432,6 @@
 		"brandName": "五色养会员"
 	},
 	{
-		"shopId": "594956",
-		"shopName": "爱奇艺旗舰店",
-		"brandId": "603006",
-		"brandName": "爱奇艺旗舰店"
-	},
-	{
 		"shopId": "596914",
 		"shopName": "fjallraven旗舰店",
 		"brandId": "604634",
@@ -492,12 +492,6 @@
 		"brandName": "蓝河会员卡"
 	},
 	{
-		"shopId": "657927",
-		"shopName": "玖姿官方旗舰店",
-		"brandId": "662688",
-		"brandName": "玖姿会员卡"
-	},
-	{
 		"shopId": "659245",
 		"shopName": "富邑葡萄酒集团旗舰店",
 		"brandId": "664270",
@@ -532,6 +526,12 @@
 		"shopName": "疯狂小狗旗舰店",
 		"brandId": "686353",
 		"brandName": "疯狂小狗旗舰店"
+	},
+	{
+		"shopId": "685392",
+		"shopName": "糖村旗舰店",
+		"brandId": "689317",
+		"brandName": "糖村旗舰店"
 	},
 	{
 		"shopId": "685798",
@@ -700,12 +700,6 @@
 		"shopName": "水军食品旗舰店",
 		"brandId": "793047",
 		"brandName": "水军旗舰店"
-	},
-	{
-		"shopId": "804482",
-		"shopName": "戴·可·思官方旗舰店",
-		"brandId": "806829",
-		"brandName": "戴可思品牌会员"
 	},
 	{
 		"shopId": "808397",
@@ -894,6 +888,12 @@
 		"brandName": "第6感"
 	},
 	{
+		"shopId": "10104261",
+		"shopName": "拼惠美旗舰店",
+		"brandId": "10237817",
+		"brandName": "拼惠美旗舰店"
+	},
+	{
 		"shopId": "10138259",
 		"shopName": "雀巢母婴旗舰店",
 		"brandId": "10274676",
@@ -1066,12 +1066,6 @@
 		"shopName": "tumi",
 		"brandId": "10514104",
 		"brandName": "TUMI"
-	},
-	{
-		"shopId": "10303978",
-		"shopName": "都顿京东自营旗舰店",
-		"brandId": "10509322",
-		"brandName": "都顿品牌会员"
 	},
 	{
 		"shopId": "10309032",
@@ -1278,12 +1272,6 @@
 		"brandName": "金万年"
 	},
 	{
-		"shopId": "1000001293",
-		"shopName": "斯利安京东自营旗舰店",
-		"brandId": "1000001293",
-		"brandName": "斯利安会员"
-	},
-	{
 		"shopId": "1000001381",
 		"shopName": "康比特京东自营旗舰店",
 		"brandId": "1000001381",
@@ -1372,12 +1360,6 @@
 		"shopName": "九阳onecup京东自营旗舰店",
 		"brandId": "1000002497",
 		"brandName": "Onecup"
-	},
-	{
-		"shopId": "1000002499",
-		"shopName": "OLAY玉兰油京东自营旗舰店",
-		"brandId": "1000002499",
-		"brandName": "OLAY玉兰油"
 	},
 	{
 		"shopId": "1000002520",
@@ -1662,12 +1644,6 @@
 		"brandName": "悦诗风吟尊享会"
 	},
 	{
-		"shopId": "1000014142",
-		"shopName": "十月稻田京东自营旗舰店",
-		"brandId": "1000014142",
-		"brandName": "十月稻田"
-	},
-	{
 		"shopId": "1000014143",
 		"shopName": "柴火大院京东自营旗舰店",
 		"brandId": "1000014143",
@@ -1720,12 +1696,6 @@
 		"shopName": "三全食品京东自营旗舰店",
 		"brandId": "1000015504",
 		"brandName": "三全"
-	},
-	{
-		"shopId": "1000015664",
-		"shopName": "习酒京东自营旗舰店",
-		"brandId": "1000015664",
-		"brandName": "习酒"
 	},
 	{
 		"shopId": "1000015761",
@@ -1860,6 +1830,12 @@
 		"brandName": "宝力臣VIP"
 	},
 	{
+		"shopId": "1000078145",
+		"shopName": "霍尼韦尔京东自营旗舰店",
+		"brandId": "1000078145",
+		"brandName": "霍尼韦尔旗舰店"
+	},
+	{
 		"shopId": "1000078201",
 		"shopName": "福来恩京东自营旗舰店",
 		"brandId": "1000078201",
@@ -1924,6 +1900,12 @@
 		"shopName": "沙驰官方京东自营旗舰店",
 		"brandId": "1000082470",
 		"brandName": "沙驰自营VIP"
+	},
+	{
+		"shopId": "1000082781",
+		"shopName": "美加佳京东自营旗舰店",
+		"brandId": "1000082781",
+		"brandName": "美加佳品牌会员"
 	},
 	{
 		"shopId": "1000083421",
@@ -2088,12 +2070,6 @@
 		"brandName": "文石精选会员"
 	},
 	{
-		"shopId": "1000090823",
-		"shopName": "天莱香牛京东自营旗舰店",
-		"brandId": "1000090823",
-		"brandName": "天莱香牛"
-	},
-	{
 		"shopId": "1000090824",
 		"shopName": "君乐宝乳品京东自营旗舰店",
 		"brandId": "1000090824",
@@ -2110,6 +2086,12 @@
 		"shopName": "稻花香京东自营旗舰店",
 		"brandId": "1000091184",
 		"brandName": "稻花香白酒"
+	},
+	{
+		"shopId": "1000092091",
+		"shopName": "大龍燚京东自营旗舰店",
+		"brandId": "1000092091",
+		"brandName": "大龍燚店铺会员"
 	},
 	{
 		"shopId": "1000092101",
@@ -2758,6 +2740,12 @@
 		"shopName": "联合利华个护海外京东自营旗舰店",
 		"brandId": "1000350522",
 		"brandName": "联合利华个护"
+	},
+	{
+		"shopId": "1000351887",
+		"shopName": "欣奕（SAYYES）京东自营旗舰店",
+		"brandId": "1000351887",
+		"brandName": "欣奕京东自营店"
 	},
 	{
 		"shopId": "1000351891",
