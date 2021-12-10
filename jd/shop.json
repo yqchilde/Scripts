@@ -432,6 +432,12 @@
 		"brandName": "五色养会员"
 	},
 	{
+		"shopId": "596586",
+		"shopName": "Thinkfun旗舰店",
+		"brandId": "604156",
+		"brandName": "美国益智玩具"
+	},
+	{
 		"shopId": "596914",
 		"shopName": "fjallraven旗舰店",
 		"brandId": "604634",
@@ -682,6 +688,12 @@
 		"shopName": "思念官方旗舰店",
 		"brandId": "756324",
 		"brandName": "思念食品"
+	},
+	{
+		"shopId": "753354",
+		"shopName": "联合利华官方旗舰店",
+		"brandId": "757508",
+		"brandName": "联合利华会员卡"
 	},
 	{
 		"shopId": "770786",
@@ -1764,6 +1776,12 @@
 		"brandName": "采埃孚京东自营"
 	},
 	{
+		"shopId": "1000072728",
+		"shopName": "书包京东自营专区",
+		"brandId": "1000072728",
+		"brandName": "书包京东自营专区"
+	},
+	{
 		"shopId": "1000074722",
 		"shopName": "黄老五京东自营旗舰店",
 		"brandId": "1000074722",
@@ -1816,6 +1834,12 @@
 		"shopName": "丽芝士（Richeese）京东自营旗舰店",
 		"brandId": "1000077352",
 		"brandName": "丽芝士会员卡"
+	},
+	{
+		"shopId": "1000077368",
+		"shopName": "亲皙（ARAU）自营官方旗舰店",
+		"brandId": "1000077368",
+		"brandName": "亲皙品牌会员"
 	},
 	{
 		"shopId": "1000077407",
@@ -2026,6 +2050,12 @@
 		"shopName": "京东自营小糊涂仙旗舰店",
 		"brandId": "1000088382",
 		"brandName": "小糊涂仙京东"
+	},
+	{
+		"shopId": "1000088409",
+		"shopName": "京东自营赖茅旗舰店",
+		"brandId": "1000088409",
+		"brandName": "赖茅京东自营店"
 	},
 	{
 		"shopId": "1000088849",
@@ -2278,6 +2308,18 @@
 		"shopName": "振德（ZHENDE）京东自营旗舰店",
 		"brandId": "1000101209",
 		"brandName": "振德"
+	},
+	{
+		"shopId": "1000101244",
+		"shopName": "D-cal迪巧官方旗舰店",
+		"brandId": "1000101244",
+		"brandName": "D-cal迪巧"
+	},
+	{
+		"shopId": "1000101425",
+		"shopName": "罗莎庄园葡萄酒京东自营旗舰店",
+		"brandId": "1000101425",
+		"brandName": "罗莎庄园葡萄酒"
 	},
 	{
 		"shopId": "1000101481",
