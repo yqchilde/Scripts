@@ -138,12 +138,6 @@
 		"brandName": "品立官方旗舰店"
 	},
 	{
-		"shopId": "120660",
-		"shopName": "思沃官方旗舰店",
-		"brandId": "123484",
-		"brandName": "思沃口罩入会"
-	},
-	{
 		"shopId": "120907",
 		"shopName": "5号酒库旗舰店",
 		"brandId": "124276",
@@ -184,12 +178,6 @@
 		"shopName": "沱牌舍得官方旗舰店",
 		"brandId": "149101",
 		"brandName": "舍得酒官方会员"
-	},
-	{
-		"shopId": "145384",
-		"shopName": "泰山原浆啤酒官方旗舰店",
-		"brandId": "150259",
-		"brandName": "泰山原浆会员"
 	},
 	{
 		"shopId": "152292",
@@ -340,12 +328,6 @@
 		"shopName": "卡西欧手表官方旗舰店",
 		"brandId": "667324",
 		"brandName": "卡西欧"
-	},
-	{
-		"shopId": "682597",
-		"shopName": "疯狂小狗旗舰店",
-		"brandId": "686353",
-		"brandName": "疯狂小狗旗舰店"
 	},
 	{
 		"shopId": "685392",
@@ -546,22 +528,10 @@
 		"brandName": "郎牌特曲VIP"
 	},
 	{
-		"shopId": "10052669",
-		"shopName": "金沙酒旗舰店",
-		"brandId": "10188022",
-		"brandName": "金沙"
-	},
-	{
 		"shopId": "10056387",
 		"shopName": "红星酒类旗舰店",
 		"brandId": "10190392",
 		"brandName": "红星二锅头"
-	},
-	{
-		"shopId": "10059709",
-		"shopName": "五粮液同心悦专卖店",
-		"brandId": "10194827",
-		"brandName": "五粮液专卖店"
 	},
 	{
 		"shopId": "10063613",
@@ -744,12 +714,6 @@
 		"brandName": "希杰食品"
 	},
 	{
-		"shopId": "10314911",
-		"shopName": "宽森计生情趣专营店",
-		"brandId": "10520232",
-		"brandName": "宽森计生情趣"
-	},
-	{
 		"shopId": "10320956",
 		"shopName": "五粮液仙林官方旗舰店",
 		"brandId": "10531658",
@@ -880,18 +844,6 @@
 		"shopName": "格之格耗材京东自营旗舰店",
 		"brandId": "1000001120",
 		"brandName": "格之格VIP"
-	},
-	{
-		"shopId": "1000001123",
-		"shopName": "汉客京东自营旗舰店",
-		"brandId": "1000001123",
-		"brandName": "汉客VIP会员"
-	},
-	{
-		"shopId": "1000001139",
-		"shopName": "毕亚兹(BIAZE)京东自营旗舰店",
-		"brandId": "1000001139",
-		"brandName": "会员专享"
 	},
 	{
 		"shopId": "1000001381",
@@ -1032,6 +984,12 @@
 		"brandName": "小迷糊会员"
 	},
 	{
+		"shopId": "1000003111",
+		"shopName": "贝因美京东自营旗舰店",
+		"brandId": "1000003111",
+		"brandName": "贝因美"
+	},
+	{
 		"shopId": "1000003218",
 		"shopName": "KANS韩束京东自营旗舰店",
 		"brandId": "1000003218",
@@ -1072,12 +1030,6 @@
 		"shopName": "百草味京东自营旗舰店",
 		"brandId": "1000003685",
 		"brandName": "百草味"
-	},
-	{
-		"shopId": "1000003819",
-		"shopName": "国誉文具京东自营官方旗舰店",
-		"brandId": "1000003819",
-		"brandName": "KOKUYO"
 	},
 	{
 		"shopId": "1000003829",
@@ -1138,12 +1090,6 @@
 		"shopName": "霸王(BAWANG)京东自营旗舰店",
 		"brandId": "1000008082",
 		"brandName": "霸王洗发水"
-	},
-	{
-		"shopId": "1000008983",
-		"shopName": "脉动京东自营旗舰店",
-		"brandId": "1000008983",
-		"brandName": "脉动"
 	},
 	{
 		"shopId": "1000009402",
@@ -1326,12 +1272,6 @@
 		"brandName": "维他奶"
 	},
 	{
-		"shopId": "1000074984",
-		"shopName": "点盛玩具京东自营官方旗舰店",
-		"brandId": "1000074984",
-		"brandName": "点盛会员"
-	},
-	{
 		"shopId": "1000075282",
 		"shopName": "粮全其美自营旗舰店",
 		"brandId": "1000075282",
@@ -1392,12 +1332,6 @@
 		"brandName": "欣和品牌会员"
 	},
 	{
-		"shopId": "1000080881",
-		"shopName": "太湖雪家纺京东自营旗舰店",
-		"brandId": "1000080881",
-		"brandName": "太湖雪会员卡"
-	},
-	{
 		"shopId": "1000081681",
 		"shopName": "阿道夫京东自营官方旗舰店",
 		"brandId": "1000081681",
@@ -1426,6 +1360,12 @@
 		"shopName": "黄飞红京东自营旗舰店",
 		"brandId": "1000083766",
 		"brandName": "黄飞红功夫家族"
+	},
+	{
+		"shopId": "1000084006",
+		"shopName": "PUMA内衣京东自营旗舰店",
+		"brandId": "1000084006",
+		"brandName": "PUMA自营"
 	},
 	{
 		"shopId": "1000084051",
@@ -1542,12 +1482,6 @@
 		"brandName": "大龍燚店铺会员"
 	},
 	{
-		"shopId": "1000092101",
-		"shopName": "呼伦贝尔农垦京东自营旗舰店",
-		"brandId": "1000092101",
-		"brandName": "苍茫谣旗舰会员"
-	},
-	{
 		"shopId": "1000092169",
 		"shopName": "伊利冰淇淋自营旗舰店",
 		"brandId": "1000092169",
@@ -1630,12 +1564,6 @@
 		"shopName": "露安适京东自营官方旗舰店",
 		"brandId": "1000097201",
 		"brandName": "露安适会员卡"
-	},
-	{
-		"shopId": "1000097203",
-		"shopName": "香丹清京东自营旗舰店",
-		"brandId": "1000097203",
-		"brandName": "香丹清"
 	},
 	{
 		"shopId": "1000098706",
@@ -1752,12 +1680,6 @@
 		"brandName": "亮荘会员卡"
 	},
 	{
-		"shopId": "1000111643",
-		"shopName": "挂绿京东自营旗舰店",
-		"brandId": "1000111643",
-		"brandName": "挂绿自营会员"
-	},
-	{
 		"shopId": "1000114761",
 		"shopName": "圣芝葡萄酒京东自营旗舰店",
 		"brandId": "1000114761",
@@ -1780,12 +1702,6 @@
 		"shopName": "HomeFacialPro京东自营旗舰店",
 		"brandId": "1000115184",
 		"brandName": "HFP"
-	},
-	{
-		"shopId": "1000115561",
-		"shopName": "雷允上京东自营旗舰店",
-		"brandId": "1000115561",
-		"brandName": "雷允上"
 	},
 	{
 		"shopId": "1000116982",
