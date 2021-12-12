@@ -222,6 +222,12 @@
 		"brandName": "奢态度尊享会员"
 	},
 	{
+		"shopId": "164760",
+		"shopName": "燕塘旗舰店",
+		"brandId": "170258",
+		"brandName": "燕塘"
+	},
+	{
 		"shopId": "169582",
 		"shopName": "酒街网官方旗舰店",
 		"brandId": "174346",
@@ -448,6 +454,12 @@
 		"shopName": "美德乐官方旗舰店",
 		"brandId": "774927",
 		"brandName": "美德乐"
+	},
+	{
+		"shopId": "802686",
+		"shopName": "元顺生鲜专营店",
+		"brandId": "805029",
+		"brandName": "元顺生鲜专营店"
 	},
 	{
 		"shopId": "808397",
@@ -684,6 +696,12 @@
 		"brandName": "亨氏"
 	},
 	{
+		"shopId": "10244494",
+		"shopName": "中国特产·白山助农馆 ",
+		"brandId": "10392818",
+		"brandName": "林谷森园"
+	},
+	{
 		"shopId": "10249497",
 		"shopName": "SHENGSHISABER箱包旗舰店",
 		"brandId": "10396588",
@@ -730,6 +748,12 @@
 		"shopName": "宽森计生情趣专营店",
 		"brandId": "10520232",
 		"brandName": "宽森计生情趣"
+	},
+	{
+		"shopId": "10320956",
+		"shopName": "五粮液仙林官方旗舰店",
+		"brandId": "10531658",
+		"brandName": "仙林官方旗舰店"
 	},
 	{
 		"shopId": "10325961",
@@ -784,6 +808,12 @@
 		"shopName": "天纵易康益肤官方旗舰店",
 		"brandId": "10580548",
 		"brandName": "益肤美肤VIP"
+	},
+	{
+		"shopId": "10366925",
+		"shopName": "畅世生鲜专营店",
+		"brandId": "10580491",
+		"brandName": "阿旗馆"
 	},
 	{
 		"shopId": "10376536",
@@ -906,6 +936,12 @@
 		"brandName": "TENGA"
 	},
 	{
+		"shopId": "1000001576",
+		"shopName": "博世家电京东自营旗舰店",
+		"brandId": "1000001576",
+		"brandName": "博世冰洗自营"
+	},
+	{
 		"shopId": "1000001638",
 		"shopName": "伯纳天纯 京东自营旗舰店",
 		"brandId": "1000001638",
@@ -946,6 +982,12 @@
 		"shopName": "尤妮佳moony京东自营官方旗舰店",
 		"brandId": "1000002002",
 		"brandName": "moony"
+	},
+	{
+		"shopId": "1000002270",
+		"shopName": "多乐士京东自营旗舰店",
+		"brandId": "1000002270",
+		"brandName": "多多宠粉卡"
 	},
 	{
 		"shopId": "1000002367",
@@ -1054,6 +1096,12 @@
 		"shopName": "乐扣乐扣母婴京东自营旗舰店",
 		"brandId": "1000004647",
 		"brandName": "乐扣乐扣"
+	},
+	{
+		"shopId": "1000004718",
+		"shopName": "张裕葡萄酒京东自营旗舰店",
+		"brandId": "1000004718",
+		"brandName": "张裕葡萄酒"
 	},
 	{
 		"shopId": "1000005165",
@@ -1204,6 +1252,12 @@
 		"shopName": "三全食品京东自营旗舰店",
 		"brandId": "1000015504",
 		"brandName": "三全"
+	},
+	{
+		"shopId": "1000015664",
+		"shopName": "习酒京东自营旗舰店",
+		"brandId": "1000015664",
+		"brandName": "习酒"
 	},
 	{
 		"shopId": "1000015761",
@@ -1804,6 +1858,12 @@
 		"shopName": "五粮浓香京东自营旗舰店",
 		"brandId": "1000133084",
 		"brandName": "五粮浓香"
+	},
+	{
+		"shopId": "1000139925",
+		"shopName": "卡比兽京东自营旗舰店",
+		"brandId": "1000139925",
+		"brandName": "卡比兽旗舰店"
 	},
 	{
 		"shopId": "1000147303",
