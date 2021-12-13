@@ -30,18 +30,6 @@
 		"brandName": "来伊份旗舰店"
 	},
 	{
-		"shopId": "28522",
-		"shopName": "多特思官方旗舰店",
-		"brandId": "29344",
-		"brandName": "多特思会员"
-	},
-	{
-		"shopId": "29612",
-		"shopName": "登登妈官方旗舰店",
-		"brandId": "30617",
-		"brandName": "亨氏"
-	},
-	{
 		"shopId": "32494",
 		"shopName": "麦富迪官方旗舰店",
 		"brandId": "33957",
@@ -76,12 +64,6 @@
 		"shopName": "SWISS MILITARY旗舰店",
 		"brandId": "56210",
 		"brandName": "瑞士军表旗舰店"
-	},
-	{
-		"shopId": "54866",
-		"shopName": "万度旗舰店",
-		"brandId": "58961",
-		"brandName": "万度黑卡会员"
 	},
 	{
 		"shopId": "59323",
@@ -232,12 +214,6 @@
 		"shopName": "燕塘旗舰店",
 		"brandId": "170258",
 		"brandName": "燕塘"
-	},
-	{
-		"shopId": "169582",
-		"shopName": "酒街网官方旗舰店",
-		"brandId": "174346",
-		"brandName": "酒街网会员"
 	},
 	{
 		"shopId": "170127",
@@ -480,12 +456,6 @@
 		"brandName": "青花郎"
 	},
 	{
-		"shopId": "822231",
-		"shopName": "塞巴斯汀旗舰店",
-		"brandId": "823628",
-		"brandName": "塞巴斯汀旗舰店"
-	},
-	{
 		"shopId": "822448",
 		"shopName": "戴尔商用华东专卖店",
 		"brandId": "823804",
@@ -532,12 +502,6 @@
 		"shopName": "雀巢咖啡品牌",
 		"brandId": "10039599",
 		"brandName": "雀巢"
-	},
-	{
-		"shopId": "10022748",
-		"shopName": "onmyoji旗舰店",
-		"brandId": "10157147",
-		"brandName": "VIP"
 	},
 	{
 		"shopId": "10039578",
@@ -820,12 +784,6 @@
 		"shopName": "汾酒会员",
 		"brandId": "10590258",
 		"brandName": "汾酒"
-	},
-	{
-		"shopId": "10378386",
-		"shopName": "蓝河会员卡",
-		"brandId": "10597325",
-		"brandName": "蓝河会员卡"
 	},
 	{
 		"shopId": "1000000193",
@@ -1206,12 +1164,6 @@
 		"brandName": "柴火大院"
 	},
 	{
-		"shopId": "1000014286",
-		"shopName": "可口可乐京东自营旗舰店",
-		"brandId": "1000014286",
-		"brandName": "可口可乐"
-	},
-	{
 		"shopId": "1000014746",
 		"shopName": "润本京东自营官方旗舰店",
 		"brandId": "1000014746",
@@ -1410,12 +1362,6 @@
 		"brandName": "PUMA自营"
 	},
 	{
-		"shopId": "1000084051",
-		"shopName": "拉菲罗斯柴尔德葡萄酒京东自营专卖店",
-		"brandId": "1000084051",
-		"brandName": "拉菲会员体系"
-	},
-	{
 		"shopId": "1000084104",
 		"shopName": "康师傅方便面京东自营官方旗舰店",
 		"brandId": "1000084104",
@@ -1546,12 +1492,6 @@
 		"shopName": "桂冠京东自营旗舰店",
 		"brandId": "1000092977",
 		"brandName": "桂冠美食卡"
-	},
-	{
-		"shopId": "1000093247",
-		"shopName": "周黑鸭京东自营旗舰店",
-		"brandId": "1000093247",
-		"brandName": "周黑鸭会员"
 	},
 	{
 		"shopId": "1000093692",
