@@ -60,6 +60,12 @@
 		"brandName": "A21"
 	},
 	{
+		"shopId": "40040",
+		"shopName": "蕉下官方旗舰店",
+		"brandId": "42264",
+		"brandName": "蕉下会员店"
+	},
+	{
 		"shopId": "43023",
 		"shopName": "威莱官方旗舰店",
 		"brandId": "45773",
@@ -102,6 +108,12 @@
 		"brandName": "露安适旗舰店"
 	},
 	{
+		"shopId": "70932",
+		"shopName": "贝因美官方旗舰店",
+		"brandId": "74508",
+		"brandName": "贝因美"
+	},
+	{
 		"shopId": "80632",
 		"shopName": "领誉旗舰店",
 		"brandId": "83768",
@@ -130,6 +142,12 @@
 		"shopName": "天地精华食品旗舰店",
 		"brandId": "112508",
 		"brandName": "天地精华"
+	},
+	{
+		"shopId": "113775",
+		"shopName": "联想众信授权专卖店",
+		"brandId": "116691",
+		"brandName": "联想众信专卖店"
 	},
 	{
 		"shopId": "118590",
@@ -318,6 +336,12 @@
 		"brandName": "富邑葡萄酒会员"
 	},
 	{
+		"shopId": "661451",
+		"shopName": "雷佰户外旗舰店",
+		"brandId": "666192",
+		"brandName": "雷佰户外旗舰店"
+	},
+	{
 		"shopId": "662324",
 		"shopName": "古井贡酒年份原浆官方旗舰店",
 		"brandId": "663861",
@@ -436,6 +460,12 @@
 		"shopName": "美德乐官方旗舰店",
 		"brandId": "774927",
 		"brandName": "美德乐"
+	},
+	{
+		"shopId": "795098",
+		"shopName": "伊舟YIZHOU旗舰店",
+		"brandId": "798974",
+		"brandName": "伊舟家具旗舰店"
 	},
 	{
 		"shopId": "802686",
@@ -682,6 +712,12 @@
 		"shopName": "贝伊丝京东自营旗舰店",
 		"brandId": "10394874",
 		"brandName": "贝伊丝会员卡"
+	},
+	{
+		"shopId": "10265391",
+		"shopName": "MedRepair米蓓尔官方旗舰店",
+		"brandId": "10412889",
+		"brandName": "米蓓尔会员卡"
 	},
 	{
 		"shopId": "10279784",
@@ -1092,6 +1128,12 @@
 		"brandName": "霸王洗发水"
 	},
 	{
+		"shopId": "1000008122",
+		"shopName": "蕉下京东自营旗舰店",
+		"brandId": "1000008122",
+		"brandName": "蕉下会员店"
+	},
+	{
 		"shopId": "1000009402",
 		"shopName": "添宁京东自营旗舰店",
 		"brandId": "1000009402",
@@ -1450,6 +1492,12 @@
 		"shopName": "汾酒京东自营官方旗舰店",
 		"brandId": "1000090461",
 		"brandName": "汾酒"
+	},
+	{
+		"shopId": "1000090487",
+		"shopName": "悠珂思（ukiss）京东自营旗舰店",
+		"brandId": "1000090487",
+		"brandName": "悠粉"
 	},
 	{
 		"shopId": "1000090729",
@@ -1828,6 +1876,12 @@
 		"shopName": "玄谷村京东自营旗舰店",
 		"brandId": "1000282404",
 		"brandName": "玄谷村"
+	},
+	{
+		"shopId": "1000300180",
+		"shopName": "卡乐优（Coloyou）京东自营官方旗舰店",
+		"brandId": "1000300180",
+		"brandName": "卡乐优品牌会员"
 	},
 	{
 		"shopId": "1000300485",
