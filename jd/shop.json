@@ -630,6 +630,12 @@
 		"brandName": "拼惠美旗舰店"
 	},
 	{
+		"shopId": "10135928",
+		"shopName": "仰韶酒类旗舰店",
+		"brandId": "10265490",
+		"brandName": "仰韶酒类旗舰店"
+	},
+	{
 		"shopId": "10166162",
 		"shopName": "华都酒类官方旗舰店",
 		"brandId": "10304539",
@@ -1066,6 +1072,12 @@
 		"shopName": "百草味京东自营旗舰店",
 		"brandId": "1000003685",
 		"brandName": "百草味"
+	},
+	{
+		"shopId": "1000003819",
+		"shopName": "国誉文具京东自营官方旗舰店",
+		"brandId": "1000003819",
+		"brandName": "KOKUYO"
 	},
 	{
 		"shopId": "1000003829",
@@ -1810,6 +1822,12 @@
 		"shopName": "贵酒京东自营旗舰店",
 		"brandId": "1000125001",
 		"brandName": "贵酒自营VIP"
+	},
+	{
+		"shopId": "1000125002",
+		"shopName": "奥兰葡萄酒京东自营旗舰店",
+		"brandId": "1000125002",
+		"brandName": "奥兰品牌会员"
 	},
 	{
 		"shopId": "1000126881",
