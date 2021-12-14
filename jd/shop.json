@@ -18,12 +18,6 @@
 		"brandName": "丸美官方旗舰店"
 	},
 	{
-		"shopId": "20956",
-		"shopName": "邦怡官方旗舰店",
-		"brandId": "21547",
-		"brandName": "邦怡官方旗舰店"
-	},
-	{
 		"shopId": "23130",
 		"shopName": "Kappa官方旗舰店",
 		"brandId": "23744",
@@ -414,12 +408,6 @@
 		"brandName": "笙岩农业旗舰店"
 	},
 	{
-		"shopId": "721647",
-		"shopName": "天骄美家居专营店",
-		"brandId": "726514",
-		"brandName": "天骄美家居"
-	},
-	{
 		"shopId": "728640",
 		"shopName": "百山祖食品官方旗舰店",
 		"brandId": "732750",
@@ -714,16 +702,16 @@
 		"brandName": "亨氏"
 	},
 	{
+		"shopId": "10243732",
+		"shopName": "Nanlite官方旗舰店",
+		"brandId": "10391872",
+		"brandName": "南光官方旗舰店"
+	},
+	{
 		"shopId": "10244494",
 		"shopName": "中国特产·白山助农馆 ",
 		"brandId": "10392818",
 		"brandName": "林谷森园"
-	},
-	{
-		"shopId": "10249497",
-		"shopName": "SHENGSHISABER箱包旗舰店",
-		"brandId": "10396588",
-		"brandName": "优惠卡"
 	},
 	{
 		"shopId": "10250212",
@@ -742,6 +730,12 @@
 		"shopName": "一兰旗舰店",
 		"brandId": "10488455",
 		"brandName": "一兰旗舰店"
+	},
+	{
+		"shopId": "10285153",
+		"shopName": "天地精华旗舰店",
+		"brandId": "10495187",
+		"brandName": "天地精华"
 	},
 	{
 		"shopId": "10296499",
@@ -946,6 +940,12 @@
 		"shopName": "博世家电京东自营旗舰店",
 		"brandId": "1000001576",
 		"brandName": "博世冰洗自营"
+	},
+	{
+		"shopId": "1000001627",
+		"shopName": "美之高（MZG）京东自营专区",
+		"brandId": "1000001627",
+		"brandName": "美之高自营会员"
 	},
 	{
 		"shopId": "1000001638",
@@ -1266,6 +1266,12 @@
 		"brandName": "三只松鼠"
 	},
 	{
+		"shopId": "1000015372",
+		"shopName": "李锦记京东自营旗舰店",
+		"brandId": "1000015372",
+		"brandName": "李锦记"
+	},
+	{
 		"shopId": "1000015463",
 		"shopName": "洽洽京东自营旗舰店",
 		"brandId": "1000015463",
@@ -1362,6 +1368,12 @@
 		"brandName": "周六福"
 	},
 	{
+		"shopId": "1000075608",
+		"shopName": "8H京东自营旗舰店",
+		"brandId": "1000075608",
+		"brandName": "8H旗舰店会员"
+	},
+	{
 		"shopId": "1000076821",
 		"shopName": "必品阁自营旗舰店",
 		"brandId": "1000076821",
@@ -1420,6 +1432,12 @@
 		"shopName": "吉香居京东自营旗舰店",
 		"brandId": "1000081881",
 		"brandName": "吉香居品牌会员"
+	},
+	{
+		"shopId": "1000082761",
+		"shopName": "敖东京东自营旗舰店",
+		"brandId": "1000082761",
+		"brandName": "敖东品牌会员"
 	},
 	{
 		"shopId": "1000082781",
