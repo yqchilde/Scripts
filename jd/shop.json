@@ -1,5 +1,11 @@
 [
 	{
+		"shopId": "17039",
+		"shopName": "HARIO旗舰店",
+		"brandId": "17830",
+		"brandName": "正田"
+	},
+	{
 		"shopId": "17153",
 		"shopName": "百草味官方旗舰店",
 		"brandId": "17934",
@@ -418,6 +424,12 @@
 		"shopName": "百山祖食品官方旗舰店",
 		"brandId": "732750",
 		"brandName": "百山祖旗舰店"
+	},
+	{
+		"shopId": "730330",
+		"shopName": "金广隆清洁专营店",
+		"brandId": "734679",
+		"brandName": "金广隆专营店"
 	},
 	{
 		"shopId": "740909",
@@ -1188,6 +1200,12 @@
 		"brandName": "忆江南会员"
 	},
 	{
+		"shopId": "1000011463",
+		"shopName": "智灵通母婴健康京东自营旗舰店",
+		"brandId": "1000011463",
+		"brandName": "智灵通会员卡"
+	},
+	{
 		"shopId": "1000012961",
 		"shopName": "纽仕兰（Theland）京东自营旗舰店",
 		"brandId": "1000012961",
@@ -1240,6 +1258,12 @@
 		"shopName": "禾泱泱京东自营旗舰店",
 		"brandId": "1000014989",
 		"brandName": "禾泱泱品牌会员"
+	},
+	{
+		"shopId": "1000015268",
+		"shopName": "三只松鼠京东自营旗舰店",
+		"brandId": "1000015268",
+		"brandName": "三只松鼠"
 	},
 	{
 		"shopId": "1000015463",
@@ -1762,6 +1786,12 @@
 		"shopName": "HomeFacialPro京东自营旗舰店",
 		"brandId": "1000115184",
 		"brandName": "HFP"
+	},
+	{
+		"shopId": "1000115561",
+		"shopName": "雷允上京东自营旗舰店",
+		"brandId": "1000115561",
+		"brandName": "雷允上"
 	},
 	{
 		"shopId": "1000116982",
