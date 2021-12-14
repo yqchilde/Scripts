@@ -12,6 +12,12 @@
 		"brand_name": "THERA彩宝"
 	},
 	{
+		"shop_id": "17039",
+		"shop_name": "HARIO旗舰店",
+		"brand_id": "17830",
+		"brand_name": "正田"
+	},
+	{
 		"shop_id": "17153",
 		"shop_name": "百草味官方旗舰店",
 		"brand_id": "17934",
@@ -754,6 +760,12 @@
 		"shop_name": "百山祖食品官方旗舰店",
 		"brand_id": "732750",
 		"brand_name": "百山祖旗舰店"
+	},
+	{
+		"shop_id": "730330",
+		"shop_name": "金广隆清洁专营店",
+		"brand_id": "734679",
+		"brand_name": "金广隆专营店"
 	},
 	{
 		"shop_id": "734123",
@@ -2004,6 +2016,12 @@
 		"brand_name": "格力电器"
 	},
 	{
+		"shop_id": "1000011463",
+		"shop_name": "智灵通母婴健康京东自营旗舰店",
+		"brand_id": "1000011463",
+		"brand_name": "智灵通会员卡"
+	},
+	{
 		"shop_id": "1000012961",
 		"shop_name": "纽仕兰（Theland）京东自营旗舰店",
 		"brand_id": "1000012961",
@@ -2080,6 +2098,12 @@
 		"shop_name": "禾泱泱京东自营旗舰店",
 		"brand_id": "1000014989",
 		"brand_name": "禾泱泱品牌会员"
+	},
+	{
+		"shop_id": "1000015268",
+		"shop_name": "三只松鼠京东自营旗舰店",
+		"brand_id": "1000015268",
+		"brand_name": "三只松鼠"
 	},
 	{
 		"shop_id": "1000015372",
