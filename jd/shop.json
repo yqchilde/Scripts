@@ -330,6 +330,12 @@
 		"brandName": "麦芽小达人会员"
 	},
 	{
+		"shopId": "632482",
+		"shopName": "外星人官方旗舰店",
+		"brandId": "637147",
+		"brandName": "外星人官方会员"
+	},
+	{
 		"shopId": "632597",
 		"shopName": "柴火大院官方旗舰店",
 		"brandId": "637151",
@@ -370,6 +376,12 @@
 		"shopName": "卡西欧手表官方旗舰店",
 		"brandId": "667324",
 		"brandName": "卡西欧"
+	},
+	{
+		"shopId": "670597",
+		"shopName": "习酒官方旗舰店",
+		"brandId": "661035",
+		"brandName": "习酒"
 	},
 	{
 		"shopId": "685392",
@@ -1396,12 +1408,6 @@
 		"shopName": "粮全其美自营旗舰店",
 		"brandId": "1000075282",
 		"brandName": "粮全其美会员"
-	},
-	{
-		"shopId": "1000075555",
-		"shopName": "周六福珠宝京东自营旗舰店",
-		"brandId": "1000075555",
-		"brandName": "周六福"
 	},
 	{
 		"shopId": "1000075608",
