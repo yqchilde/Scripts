@@ -234,6 +234,12 @@
 		"brandName": "燕塘"
 	},
 	{
+		"shopId": "167368",
+		"shopName": "巧妈妈官方旗舰店",
+		"brandId": "173294",
+		"brandName": "巧妈妈布丁"
+	},
+	{
 		"shopId": "169582",
 		"shopName": "酒街网官方旗舰店",
 		"brandId": "174346",
@@ -268,6 +274,18 @@
 		"shopName": "卡西欧宝亮专卖店",
 		"brandId": "193385",
 		"brandName": "卡西欧宝亮钟表"
+	},
+	{
+		"shopId": "197353",
+		"shopName": "大麦宠物用品专营店",
+		"brandId": "206659",
+		"brandName": "大麦宠物会员卡"
+	},
+	{
+		"shopId": "584303",
+		"shopName": "九孚旗舰店",
+		"brandId": "592591",
+		"brandName": "九孚旗舰店"
 	},
 	{
 		"shopId": "585640",
@@ -756,6 +774,12 @@
 		"brandName": "TUMI"
 	},
 	{
+		"shopId": "10308966",
+		"shopName": "雅士利奶粉旗舰店",
+		"brandId": "10517793",
+		"brandName": "别提多美会员"
+	},
+	{
 		"shopId": "10309908",
 		"shopName": "希杰VIP会员",
 		"brandId": "10520129",
@@ -796,6 +820,12 @@
 		"shopName": "酒连酒官方旗舰店",
 		"brandId": "10546998",
 		"brandName": "酒连酒官旗舰店"
+	},
+	{
+		"shopId": "10359224",
+		"shopName": "茅台醇旗舰店",
+		"brandId": "10571875",
+		"brandName": "茅台醇会员卡"
 	},
 	{
 		"shopId": "10361992",
@@ -1192,6 +1222,12 @@
 		"shopName": "洁客京东自营旗舰店",
 		"brandId": "1000010181",
 		"brandName": "洁客会员卡"
+	},
+	{
+		"shopId": "1000010481",
+		"shopName": "百事可乐京东自营旗舰店",
+		"brandId": "1000010481",
+		"brandName": "百事可乐"
 	},
 	{
 		"shopId": "1000011225",
@@ -1908,6 +1944,12 @@
 		"brandName": "雀巢"
 	},
 	{
+		"shopId": "1000183895",
+		"shopName": "凡可奇京东自营旗舰店",
+		"brandId": "1000183895",
+		"brandName": "凡可奇会员"
+	},
+	{
 		"shopId": "1000204438",
 		"shopName": "A21童装京东自营旗舰店",
 		"brandId": "1000204438",
@@ -1996,6 +2038,12 @@
 		"shopName": "枝户折野京东自营旗舰店",
 		"brandId": "1000336384",
 		"brandName": "枝户折野"
+	},
+	{
+		"shopId": "1000338161",
+		"shopName": "倔强的尾巴京东自营旗舰店",
+		"brandId": "1000338161",
+		"brandName": "倔强的尾巴会员"
 	},
 	{
 		"shopId": "1000351887",
