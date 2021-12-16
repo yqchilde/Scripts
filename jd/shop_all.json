@@ -324,6 +324,12 @@
 		"brand_name": "杰士邦"
 	},
 	{
+		"shop_id": "130496",
+		"shop_name": "测试店铺sop1",
+		"brand_id": "134766",
+		"brand_name": "雅诗兰黛"
+	},
+	{
 		"shop_id": "130628",
 		"shop_name": "大金旗舰店",
 		"brand_id": "132551",
@@ -750,6 +756,12 @@
 		"brand_name": "杜康"
 	},
 	{
+		"shop_id": "703279",
+		"shop_name": "骁龙旗舰店",
+		"brand_id": "707261",
+		"brand_name": "骁龙会员"
+	},
+	{
 		"shop_id": "704622",
 		"shop_name": "金徽白酒旗舰店",
 		"brand_id": "708833",
@@ -982,6 +994,12 @@
 		"shop_name": "中粮罐头官方旗舰店",
 		"brand_id": "10014585",
 		"brand_name": "中粮罐头旗舰店"
+	},
+	{
+		"shop_id": "853400",
+		"shop_name": "简爱旗舰店",
+		"brand_id": "10016421",
+		"brand_name": "简爱旗舰店"
 	},
 	{
 		"shop_id": "860474",
@@ -1242,6 +1260,12 @@
 		"brand_name": "锋味旗舰店"
 	},
 	{
+		"shop_id": "10209780",
+		"shop_name": "回味赞旗舰店",
+		"brand_id": "10355490",
+		"brand_name": "回味赞旗舰店"
+	},
+	{
 		"shop_id": "10213158",
 		"shop_name": "当娃成人用品专营店",
 		"brand_id": "10359892",
@@ -1270,6 +1294,12 @@
 		"shop_name": "劲牌品牌会员",
 		"brand_id": "10371088",
 		"brand_name": "劲牌品牌会员"
+	},
+	{
+		"shop_id": "10223471",
+		"shop_name": "立白集团品牌会员",
+		"brand_id": "10371393",
+		"brand_name": "立白\u0026好爸爸"
 	},
 	{
 		"shop_id": "10223680",
