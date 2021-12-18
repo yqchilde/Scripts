@@ -1032,6 +1032,12 @@
 		"brand_name": "简爱旗舰店"
 	},
 	{
+		"shop_id": "857641",
+		"shop_name": "VERSACE手表旗舰店",
+		"brand_id": "10020401",
+		"brand_name": "VERSACE"
+	},
+	{
 		"shop_id": "860474",
 		"shop_name": "河套酒业京东自营酒类旗舰店",
 		"brand_id": "817711",
@@ -1272,6 +1278,12 @@
 		"brand_name": "星象尊享会员"
 	},
 	{
+		"shop_id": "10191052",
+		"shop_name": "养生堂韩旭专卖店",
+		"brand_id": "10336301",
+		"brand_name": "养生堂韩旭专卖"
+	},
+	{
 		"shop_id": "10197603",
 		"shop_name": "阿特纳运动专营店",
 		"brand_id": "10342761",
@@ -1288,6 +1300,12 @@
 		"shop_name": "佰酒汇酒水专营店",
 		"brand_id": "10352509",
 		"brand_name": "佰酒汇-白酒店"
+	},
+	{
+		"shop_id": "10206850",
+		"shop_name": "小狗当家宠物用品专营店",
+		"brand_id": "10353058",
+		"brand_name": "小狗当家京东店"
 	},
 	{
 		"shop_id": "10208902",
@@ -1480,6 +1498,12 @@
 		"shop_name": "都顿京东自营旗舰店",
 		"brand_id": "10509322",
 		"brand_name": "都顿品牌会员"
+	},
+	{
+		"shop_id": "10305272",
+		"shop_name": "壹号卖家母婴旗舰店",
+		"brand_id": "10516596",
+		"brand_name": "壹号卖家母婴"
 	},
 	{
 		"shop_id": "10308966",
@@ -3106,6 +3130,12 @@
 		"shop_name": "挂绿京东自营旗舰店",
 		"brand_id": "1000111643",
 		"brand_name": "挂绿自营会员"
+	},
+	{
+		"shop_id": "1000112452",
+		"shop_name": "宝家洁京东自营旗舰店",
+		"brand_id": "1000112452",
+		"brand_name": "宝家洁VIP"
 	},
 	{
 		"shop_id": "1000114761",
