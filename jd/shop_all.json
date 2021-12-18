@@ -258,6 +258,12 @@
 		"brand_name": "betu百图"
 	},
 	{
+		"shop_id": "88156",
+		"shop_name": "迈拓维矩专卖店",
+		"brand_id": "90824",
+		"brand_name": "迈拓维矩"
+	},
+	{
 		"shop_id": "90169",
 		"shop_name": "古井贡酒官方旗舰店",
 		"brand_id": "92739",
@@ -454,6 +460,12 @@
 		"shop_name": "TUMI官方旗舰店",
 		"brand_id": "180870",
 		"brand_name": "TUMI"
+	},
+	{
+		"shop_id": "175123",
+		"shop_name": "美之高旗舰店",
+		"brand_id": "181678",
+		"brand_name": "美之高品牌会员"
 	},
 	{
 		"shop_id": "176265",
@@ -1374,6 +1386,12 @@
 		"brand_name": "林谷森园"
 	},
 	{
+		"shop_id": "10248187",
+		"shop_name": "丽朗博兰旗舰店",
+		"brand_id": "10395243",
+		"brand_name": "丽朗博兰VIP"
+	},
+	{
 		"shop_id": "10249497",
 		"shop_name": "SHENGSHISABER箱包旗舰店",
 		"brand_id": "10396588",
@@ -2098,6 +2116,12 @@
 		"shop_name": "京东商城家用中央空调京东自营旗舰店",
 		"brand_id": "1000008721",
 		"brand_name": "格力电器"
+	},
+	{
+		"shop_id": "1000008722",
+		"shop_name": "爱思贝京东官方自营旗舰店",
+		"brand_id": "1000008722",
+		"brand_name": "爱思贝会员卡"
 	},
 	{
 		"shop_id": "1000008983",
@@ -3036,6 +3060,12 @@
 		"brand_name": "潮宏基会员"
 	},
 	{
+		"shop_id": "1000105757",
+		"shop_name": "旗牌京东自营官方旗舰店",
+		"brand_id": "1000105757",
+		"brand_name": "旗牌文具VIP"
+	},
+	{
 		"shop_id": "1000105841",
 		"shop_name": "魔爪京东自营旗舰店",
 		"brand_id": "1000105841",
@@ -3466,6 +3496,12 @@
 		"shop_name": "梅见京东自营旗舰店",
 		"brand_id": "1000334325",
 		"brand_name": "梅见品鉴官"
+	},
+	{
+		"shop_id": "1000334707",
+		"shop_name": "京玺（JINGXI）消防科技京东自营旗舰店",
+		"brand_id": "1000334707",
+		"brand_name": "京玺消防科技"
 	},
 	{
 		"shop_id": "1000334713",
