@@ -72,6 +72,12 @@
 		"brandName": "威莱官方旗舰店"
 	},
 	{
+		"shopId": "48551",
+		"shopName": "狮王官方旗舰店",
+		"brandId": "52108",
+		"brandName": "狮王自营会员"
+	},
+	{
 		"shopId": "52112",
 		"shopName": "SWISS MILITARY旗舰店",
 		"brandId": "56210",
@@ -124,6 +130,12 @@
 		"shopName": "领誉旗舰店",
 		"brandId": "83768",
 		"brandName": "领誉旗舰店"
+	},
+	{
+		"shopId": "88156",
+		"shopName": "迈拓维矩专卖店",
+		"brandId": "90824",
+		"brandName": "迈拓维矩"
 	},
 	{
 		"shopId": "90169",
@@ -252,6 +264,12 @@
 		"brandName": "TUMI"
 	},
 	{
+		"shopId": "175123",
+		"shopName": "美之高旗舰店",
+		"brandId": "181678",
+		"brandName": "美之高品牌会员"
+	},
+	{
 		"shopId": "176265",
 		"shopName": "乐扣乐扣官方旗舰店",
 		"brandId": "182872",
@@ -316,6 +334,12 @@
 		"shopName": "fjallraven旗舰店",
 		"brandId": "604634",
 		"brandName": "北极狐旗舰店"
+	},
+	{
+		"shopId": "601923",
+		"shopName": "小角楼官方旗舰店",
+		"brandId": "609367",
+		"brandName": "小角楼会员卡"
 	},
 	{
 		"shopId": "619043",
@@ -754,6 +778,12 @@
 		"shopName": "中国特产·白山助农馆 ",
 		"brandId": "10392818",
 		"brandName": "林谷森园"
+	},
+	{
+		"shopId": "10248187",
+		"shopName": "丽朗博兰旗舰店",
+		"brandId": "10395243",
+		"brandName": "丽朗博兰VIP"
 	},
 	{
 		"shopId": "10250212",
@@ -1224,6 +1254,12 @@
 		"brandName": "第6感"
 	},
 	{
+		"shopId": "1000007622",
+		"shopName": "汇源京东自营官方旗舰店",
+		"brandId": "1000007622",
+		"brandName": "100%果汁"
+	},
+	{
 		"shopId": "1000008082",
 		"shopName": "霸王(BAWANG)京东自营旗舰店",
 		"brandId": "1000008082",
@@ -1234,6 +1270,12 @@
 		"shopName": "蕉下京东自营旗舰店",
 		"brandId": "1000008122",
 		"brandName": "蕉下会员店"
+	},
+	{
+		"shopId": "1000008722",
+		"shopName": "爱思贝京东官方自营旗舰店",
+		"brandId": "1000008722",
+		"brandName": "爱思贝会员卡"
 	},
 	{
 		"shopId": "1000009402",
@@ -1848,6 +1890,12 @@
 		"brandName": "潮宏基会员"
 	},
 	{
+		"shopId": "1000105757",
+		"shopName": "旗牌京东自营官方旗舰店",
+		"brandId": "1000105757",
+		"brandName": "旗牌文具VIP"
+	},
+	{
 		"shopId": "1000106848",
 		"shopName": "奔图打印京东自营旗舰店",
 		"brandId": "1000106848",
@@ -2110,6 +2158,12 @@
 		"shopName": "梅见京东自营旗舰店",
 		"brandId": "1000334325",
 		"brandName": "梅见品鉴官"
+	},
+	{
+		"shopId": "1000334707",
+		"shopName": "京玺（JINGXI）消防科技京东自营旗舰店",
+		"brandId": "1000334707",
+		"brandName": "京玺消防科技"
 	},
 	{
 		"shopId": "1000334713",
