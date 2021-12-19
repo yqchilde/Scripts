@@ -516,6 +516,12 @@
 		"brand_name": "梦百合品牌会员"
 	},
 	{
+		"shop_id": "192079",
+		"shop_name": "名流官方旗舰店",
+		"brand_id": "200730",
+		"brand_name": "VIP"
+	},
+	{
 		"shop_id": "197353",
 		"shop_name": "大麦宠物用品专营店",
 		"brand_id": "206659",
@@ -2076,6 +2082,12 @@
 		"brand_name": "张裕葡萄酒"
 	},
 	{
+		"shop_id": "1000004719",
+		"shop_name": "长城葡萄酒京东自营旗舰店",
+		"brand_id": "1000004719",
+		"brand_name": "长城葡萄酒"
+	},
+	{
 		"shop_id": "1000005165",
 		"shop_name": "小龙哈彼京东自营官方旗舰店",
 		"brand_id": "1000005165",
@@ -3100,6 +3112,12 @@
 		"shop_name": "奔图打印京东自营旗舰店",
 		"brand_id": "1000106848",
 		"brand_name": "奔图VIP"
+	},
+	{
+		"shop_id": "1000109703",
+		"shop_name": "袋鼠医生（DR.ROOS）京东自营旗舰店",
+		"brand_id": "1000109703",
+		"brand_name": "袋鼠医生"
 	},
 	{
 		"shop_id": "1000110084",
