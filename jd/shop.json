@@ -276,6 +276,12 @@
 		"brandName": "宏盛源母婴"
 	},
 	{
+		"shopId": "192079",
+		"shopName": "名流官方旗舰店",
+		"brandId": "200730",
+		"brandName": "VIP"
+	},
+	{
 		"shopId": "197353",
 		"shopName": "大麦宠物用品专营店",
 		"brandId": "206659",
@@ -1224,6 +1230,12 @@
 		"brandName": "张裕葡萄酒"
 	},
 	{
+		"shopId": "1000004719",
+		"shopName": "长城葡萄酒京东自营旗舰店",
+		"brandId": "1000004719",
+		"brandName": "长城葡萄酒"
+	},
+	{
 		"shopId": "1000005165",
 		"shopName": "小龙哈彼京东自营官方旗舰店",
 		"brandId": "1000005165",
@@ -1854,6 +1866,12 @@
 		"brandName": "奔图VIP"
 	},
 	{
+		"shopId": "1000109703",
+		"shopName": "袋鼠医生（DR.ROOS）京东自营旗舰店",
+		"brandId": "1000109703",
+		"brandName": "袋鼠医生"
+	},
+	{
 		"shopId": "1000110084",
 		"shopName": "亮荘京东自营旗舰店",
 		"brandId": "1000110084",
@@ -2052,6 +2070,12 @@
 		"brandName": "京东自营旗舰店"
 	},
 	{
+		"shopId": "1000278417",
+		"shopName": "雀巢咖啡饮料京东自营旗舰店",
+		"brandId": "1000278417",
+		"brandName": "雀巢"
+	},
+	{
 		"shopId": "1000282404",
 		"shopName": "玄谷村京东自营旗舰店",
 		"brandId": "1000282404",
@@ -2112,6 +2136,12 @@
 		"brandName": "大悦会员"
 	},
 	{
+		"shopId": "1000333009",
+		"shopName": "雀巢冰淇淋官方京东自营旗舰店",
+		"brandId": "1000333009",
+		"brandName": "雀巢"
+	},
+	{
 		"shopId": "1000334325",
 		"shopName": "梅见京东自营旗舰店",
 		"brandId": "1000334325",
@@ -2140,6 +2170,12 @@
 		"shopName": "倔强的尾巴京东自营旗舰店",
 		"brandId": "1000338161",
 		"brandName": "倔强的尾巴会员"
+	},
+	{
+		"shopId": "1000340841",
+		"shopName": "春光食品京东自营旗舰店",
+		"brandId": "1000340841",
+		"brandName": "春光"
 	},
 	{
 		"shopId": "1000344444",
