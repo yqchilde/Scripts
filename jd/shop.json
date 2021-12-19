@@ -216,12 +216,6 @@
 		"brandName": "坤格会员卡"
 	},
 	{
-		"shopId": "160353",
-		"shopName": "奢de态度官方旗舰店",
-		"brandId": "165882",
-		"brandName": "奢态度尊享会员"
-	},
-	{
 		"shopId": "164760",
 		"shopName": "燕塘旗舰店",
 		"brandId": "170258",
@@ -316,12 +310,6 @@
 		"shopName": "LEXINGTON旗舰店",
 		"brandId": "601463",
 		"brandName": "莱克星顿"
-	},
-	{
-		"shopId": "596586",
-		"shopName": "Thinkfun旗舰店",
-		"brandId": "604156",
-		"brandName": "美国益智玩具"
 	},
 	{
 		"shopId": "596914",
@@ -490,12 +478,6 @@
 		"shopName": "自嗨锅旗舰店",
 		"brandId": "756351",
 		"brandName": "自嗨锅旗舰店"
-	},
-	{
-		"shopId": "753354",
-		"shopName": "联合利华官方旗舰店",
-		"brandId": "757508",
-		"brandName": "联合利华会员卡"
 	},
 	{
 		"shopId": "770786",
@@ -678,12 +660,6 @@
 		"brandName": "仰韶酒类旗舰店"
 	},
 	{
-		"shopId": "10166162",
-		"shopName": "华都酒类官方旗舰店",
-		"brandId": "10304539",
-		"brandName": "华都酒业"
-	},
-	{
 		"shopId": "10167572",
 		"shopName": "资生堂专业美发京东自营旗舰店",
 		"brandId": "10301399",
@@ -700,6 +676,12 @@
 		"shopName": "养生堂韩旭专卖店",
 		"brandId": "10336301",
 		"brandName": "养生堂韩旭专卖"
+	},
+	{
+		"shopId": "10197603",
+		"shopName": "阿特纳运动专营店",
+		"brandId": "10342761",
+		"brandName": "阿特纳Vip"
 	},
 	{
 		"shopId": "10206850",
@@ -1194,12 +1176,6 @@
 		"brandName": "狮王自营会员"
 	},
 	{
-		"shopId": "1000004328",
-		"shopName": "汉米尔顿京东自营品牌授权旗舰店",
-		"brandId": "1000004328",
-		"brandName": "汉米尔顿"
-	},
-	{
 		"shopId": "1000004342",
 		"shopName": "大行京东自营官方旗舰店",
 		"brandId": "1000004342",
@@ -1584,12 +1560,6 @@
 		"brandName": "康师傅方便面"
 	},
 	{
-		"shopId": "1000085423",
-		"shopName": "肌肉科技京东自营旗舰店",
-		"brandId": "1000085423",
-		"brandName": "肌肉科技"
-	},
-	{
 		"shopId": "1000085823",
 		"shopName": "Zespri佳沛京东自营旗舰店",
 		"brandId": "1000085823",
@@ -1630,12 +1600,6 @@
 		"shopName": "京东自营小糊涂仙旗舰店",
 		"brandId": "1000088382",
 		"brandName": "小糊涂仙京东"
-	},
-	{
-		"shopId": "1000088409",
-		"shopName": "京东自营赖茅旗舰店",
-		"brandId": "1000088409",
-		"brandName": "赖茅京东自营店"
 	},
 	{
 		"shopId": "1000088881",
@@ -1792,12 +1756,6 @@
 		"shopName": "宝乐星京东自营官方旗舰店",
 		"brandId": "1000100948",
 		"brandName": "宝乐星会员"
-	},
-	{
-		"shopId": "1000101244",
-		"shopName": "D-cal迪巧官方旗舰店",
-		"brandId": "1000101244",
-		"brandName": "D-cal迪巧"
 	},
 	{
 		"shopId": "1000101248",
