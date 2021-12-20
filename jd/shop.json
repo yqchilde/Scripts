@@ -180,6 +180,12 @@
 		"brandName": "杰士邦"
 	},
 	{
+		"shopId": "123495",
+		"shopName": "有友食品旗舰店",
+		"brandId": "127034",
+		"brandName": "有友食品旗舰店"
+	},
+	{
 		"shopId": "130496",
 		"shopName": "测试店铺sop1",
 		"brandId": "134766",
@@ -292,6 +298,12 @@
 		"shopName": "S17测试店铺5171_T",
 		"brandId": "225266",
 		"brandName": "怀庄窖酒旗舰店"
+	},
+	{
+		"shopId": "581657",
+		"shopName": "咕咕官方旗舰店",
+		"brandId": "589672",
+		"brandName": "咕咕官方旗舰店"
 	},
 	{
 		"shopId": "584303",
@@ -660,6 +672,12 @@
 		"brandName": "第6感"
 	},
 	{
+		"shopId": "10121412",
+		"shopName": "文曲星手表京东自营旗舰店",
+		"brandId": "10258402",
+		"brandName": "手表尊享卡"
+	},
+	{
 		"shopId": "10135928",
 		"shopName": "仰韶酒类旗舰店",
 		"brandId": "10265490",
@@ -868,6 +886,12 @@
 		"shopName": "酒连酒官方旗舰店",
 		"brandId": "10546998",
 		"brandName": "酒连酒官旗舰店"
+	},
+	{
+		"shopId": "10343682",
+		"shopName": "大晟滋补养生旗舰店",
+		"brandId": "10557247",
+		"brandName": "大晟滋补旗舰店"
 	},
 	{
 		"shopId": "10351149",
@@ -1300,6 +1324,12 @@
 		"shopName": "洁客京东自营旗舰店",
 		"brandId": "1000010181",
 		"brandName": "洁客会员卡"
+	},
+	{
+		"shopId": "1000010410",
+		"shopName": "得宝京东自营官方旗舰店",
+		"brandId": "1000010410",
+		"brandName": "得宝品牌会员卡"
 	},
 	{
 		"shopId": "1000010481",
@@ -2064,6 +2094,12 @@
 		"brandName": "蓝河会员卡"
 	},
 	{
+		"shopId": "1000301061",
+		"shopName": "开山当道京东自营旗舰店",
+		"brandId": "1000301061",
+		"brandName": "开山酒品牌会员"
+	},
+	{
 		"shopId": "1000304221",
 		"shopName": "伊利奶酪京东自营旗舰店",
 		"brandId": "1000304221",
@@ -2104,6 +2140,12 @@
 		"shopName": "大悦京东自营旗舰店",
 		"brandId": "1000332288",
 		"brandName": "大悦会员"
+	},
+	{
+		"shopId": "1000332882",
+		"shopName": "拜耳医药保健京东自营旗舰店",
+		"brandId": "1000332882",
+		"brandName": "拜耳医药会员卡"
 	},
 	{
 		"shopId": "1000333009",
