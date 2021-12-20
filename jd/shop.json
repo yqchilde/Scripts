@@ -30,18 +30,6 @@
 		"brandName": "来伊份旗舰店"
 	},
 	{
-		"shopId": "28522",
-		"shopName": "多特思官方旗舰店",
-		"brandId": "29344",
-		"brandName": "多特思会员"
-	},
-	{
-		"shopId": "29612",
-		"shopName": "登登妈官方旗舰店",
-		"brandId": "30617",
-		"brandName": "亨氏"
-	},
-	{
 		"shopId": "32494",
 		"shopName": "麦富迪官方旗舰店",
 		"brandId": "33957",
@@ -138,22 +126,10 @@
 		"brandName": "迈拓维矩"
 	},
 	{
-		"shopId": "90169",
-		"shopName": "古井贡酒官方旗舰店",
-		"brandId": "92739",
-		"brandName": "古井贡酒VIP"
-	},
-	{
 		"shopId": "97574",
 		"shopName": "alandv旗舰店",
 		"brandId": "99428",
 		"brandName": "alandv"
-	},
-	{
-		"shopId": "109832",
-		"shopName": "天地精华食品旗舰店",
-		"brandId": "112508",
-		"brandName": "天地精华"
 	},
 	{
 		"shopId": "113775",
@@ -222,12 +198,6 @@
 		"brandName": "碧芭旗舰店"
 	},
 	{
-		"shopId": "159888",
-		"shopName": "坤格官方旗舰店",
-		"brandId": "165341",
-		"brandName": "坤格会员卡"
-	},
-	{
 		"shopId": "164760",
 		"shopName": "燕塘旗舰店",
 		"brandId": "170258",
@@ -294,6 +264,12 @@
 		"brandName": "大麦宠物会员卡"
 	},
 	{
+		"shopId": "217049",
+		"shopName": "卡西欧汉宇专卖店",
+		"brandId": "221929",
+		"brandName": "卡西欧汉宇专卖"
+	},
+	{
 		"shopId": "217136",
 		"shopName": "S17测试店铺5171_T",
 		"brandId": "225266",
@@ -322,12 +298,6 @@
 		"shopName": "五色养旗舰店",
 		"brandId": "595652",
 		"brandName": "五色养会员"
-	},
-	{
-		"shopId": "596429",
-		"shopName": "LEXINGTON旗舰店",
-		"brandId": "601463",
-		"brandName": "莱克星顿"
 	},
 	{
 		"shopId": "596914",
@@ -522,12 +492,6 @@
 		"brandName": "青花郎"
 	},
 	{
-		"shopId": "822231",
-		"shopName": "塞巴斯汀旗舰店",
-		"brandId": "823628",
-		"brandName": "塞巴斯汀旗舰店"
-	},
-	{
 		"shopId": "822448",
 		"shopName": "戴尔商用华东专卖店",
 		"brandId": "823804",
@@ -612,12 +576,6 @@
 		"brandName": "问雪家居旗舰店"
 	},
 	{
-		"shopId": "10044221",
-		"shopName": "谭八爷旗舰店",
-		"brandId": "10179646",
-		"brandName": "谭八爷"
-	},
-	{
 		"shopId": "10050273",
 		"shopName": "郎牌特曲官方旗舰店",
 		"brandId": "10185454",
@@ -658,12 +616,6 @@
 		"shopName": "天津顶益食品有限公司北京分公司",
 		"brandId": "10229084",
 		"brandName": "康师傅方便面"
-	},
-	{
-		"shopId": "10098128",
-		"shopName": "南雪医疗器械旗舰店",
-		"brandId": "10235035",
-		"brandName": "南雪健康会员卡"
 	},
 	{
 		"shopId": "10103007",
@@ -804,6 +756,12 @@
 		"brandName": "米蓓尔会员卡"
 	},
 	{
+		"shopId": "10276102",
+		"shopName": "黄飞红品牌会员",
+		"brandId": "10425402",
+		"brandName": "黄飞红功夫家族"
+	},
+	{
 		"shopId": "10279784",
 		"shopName": "一兰旗舰店",
 		"brandId": "10488455",
@@ -850,12 +808,6 @@
 		"shopName": "多燕瘦品牌",
 		"brandId": "10526825",
 		"brandName": "DYESOO"
-	},
-	{
-		"shopId": "10320956",
-		"shopName": "五粮液仙林官方旗舰店",
-		"brandId": "10531658",
-		"brandName": "仙林官方旗舰店"
 	},
 	{
 		"shopId": "10325961",
@@ -928,12 +880,6 @@
 		"shopName": "天纵易康益肤官方旗舰店",
 		"brandId": "10580548",
 		"brandName": "益肤美肤VIP"
-	},
-	{
-		"shopId": "10366925",
-		"shopName": "畅世生鲜专营店",
-		"brandId": "10580491",
-		"brandName": "阿旗馆"
 	},
 	{
 		"shopId": "10376536",
@@ -1174,12 +1120,6 @@
 		"shopName": "伊利母婴京东自营旗舰店",
 		"brandId": "1000003570",
 		"brandName": "伊利金领冠"
-	},
-	{
-		"shopId": "1000003577",
-		"shopName": "博世汽车配件京东自营旗舰店",
-		"brandId": "1000003577",
-		"brandName": "博世汽配自营"
 	},
 	{
 		"shopId": "1000003588",
@@ -1920,12 +1860,6 @@
 		"brandName": "嫚熙自营旗舰店"
 	},
 	{
-		"shopId": "1000116982",
-		"shopName": "安可新京东自营旗舰店",
-		"brandId": "1000116982",
-		"brandName": "安可新"
-	},
-	{
 		"shopId": "1000117009",
 		"shopName": "迪彩京东自营旗舰店",
 		"brandId": "1000117009",
@@ -2056,12 +1990,6 @@
 		"shopName": "四季宝（SKIPPY）生鲜京东自营旗舰店",
 		"brandId": "1000221688",
 		"brandName": "四季宝店铺会员"
-	},
-	{
-		"shopId": "1000221762",
-		"shopName": "艾斯臣（ACESC）京东自营旗舰店",
-		"brandId": "1000221762",
-		"brandName": "艾斯臣会员"
 	},
 	{
 		"shopId": "1000224066",
