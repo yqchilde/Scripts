@@ -84,6 +84,12 @@
 		"brandName": "万度黑卡会员"
 	},
 	{
+		"shopId": "54985",
+		"shopName": "潮宏基京东旗舰店",
+		"brandId": "59151",
+		"brandName": "潮宏基会员"
+	},
+	{
 		"shopId": "59323",
 		"shopName": "郎酒官方旗舰店",
 		"brandId": "63461",
@@ -2002,6 +2008,12 @@
 		"shopName": "A21童装京东自营旗舰店",
 		"brandId": "1000204438",
 		"brandName": "A21"
+	},
+	{
+		"shopId": "1000204748",
+		"shopName": "竹π京东自营旗舰店",
+		"brandId": "1000204748",
+		"brandName": "竹πVIP"
 	},
 	{
 		"shopId": "1000208883",
