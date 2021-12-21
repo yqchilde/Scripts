@@ -120,6 +120,18 @@
 		"brandName": "领誉旗舰店"
 	},
 	{
+		"shopId": "85675",
+		"shopName": "好得睐官方旗舰店",
+		"brandId": "88547",
+		"brandName": "好得睐会员卡"
+	},
+	{
+		"shopId": "86619",
+		"shopName": "粮全其美官方旗舰店",
+		"brandId": "89315",
+		"brandName": "粮全其美会员"
+	},
+	{
 		"shopId": "88156",
 		"shopName": "迈拓维矩专卖店",
 		"brandId": "90824",
@@ -258,6 +270,12 @@
 		"brandName": "VIP"
 	},
 	{
+		"shopId": "196512",
+		"shopName": "大自然官方旗舰店",
+		"brandId": "205578",
+		"brandName": "大自然地板"
+	},
+	{
 		"shopId": "197353",
 		"shopName": "大麦宠物用品专营店",
 		"brandId": "206659",
@@ -286,6 +304,12 @@
 		"shopName": "九孚旗舰店",
 		"brandId": "592591",
 		"brandName": "九孚旗舰店"
+	},
+	{
+		"shopId": "585437",
+		"shopName": "真静坊官方旗舰店",
+		"brandId": "593583",
+		"brandName": "真静坊"
 	},
 	{
 		"shopId": "585640",
@@ -432,6 +456,12 @@
 		"brandName": "笙岩农业旗舰店"
 	},
 	{
+		"shopId": "721420",
+		"shopName": "劲牌官方旗舰店",
+		"brandId": "719465",
+		"brandName": "劲牌官方旗舰店"
+	},
+	{
 		"shopId": "728640",
 		"shopName": "百山祖食品官方旗舰店",
 		"brandId": "732750",
@@ -508,6 +538,12 @@
 		"shopName": "益肤官方旗舰店",
 		"brandId": "829096",
 		"brandName": "益肤品牌会员"
+	},
+	{
+		"shopId": "831582",
+		"shopName": "SIGMAX旗舰店",
+		"brandId": "832838",
+		"brandName": "SIGMAX"
 	},
 	{
 		"shopId": "839033",
@@ -588,6 +624,12 @@
 		"brandName": "红星二锅头"
 	},
 	{
+		"shopId": "10058871",
+		"shopName": "禹峨茗茶官方旗舰店",
+		"brandId": "10194360",
+		"brandName": "禹峨茶友汇"
+	},
+	{
 		"shopId": "10075479",
 		"shopName": "奇姬官方旗舰店",
 		"brandId": "10211994",
@@ -598,6 +640,12 @@
 		"shopName": "CJ食品旗舰店",
 		"brandId": "10222935",
 		"brandName": "希杰食品"
+	},
+	{
+		"shopId": "10088516",
+		"shopName": "五色养（WUSEYANG）京东自营旗舰店",
+		"brandId": "10221129",
+		"brandName": "五色养"
 	},
 	{
 		"shopId": "10090034",
@@ -1026,6 +1074,12 @@
 		"brandName": "乐扣乐扣"
 	},
 	{
+		"shopId": "1000001737",
+		"shopName": "澳柯玛京东自营官方旗舰店",
+		"brandId": "1000001737",
+		"brandName": "澳柯玛京东自营"
+	},
+	{
 		"shopId": "1000001759",
 		"shopName": "立白京东自营旗舰店",
 		"brandId": "1000001759",
@@ -1060,6 +1114,12 @@
 		"shopName": "三星家电京东自营旗舰店",
 		"brandId": "1000002367",
 		"brandName": "星星卡"
+	},
+	{
+		"shopId": "1000002441",
+		"shopName": "洁婷京东自营官方旗舰店",
+		"brandId": "1000002441",
+		"brandName": "洁婷会员卡"
 	},
 	{
 		"shopId": "1000002454",
@@ -1800,6 +1860,12 @@
 		"brandName": "奔图VIP"
 	},
 	{
+		"shopId": "1000107810",
+		"shopName": "优佳（Ultrasun）京东自营旗舰店",
+		"brandId": "1000107810",
+		"brandName": "优佳"
+	},
+	{
 		"shopId": "1000109703",
 		"shopName": "袋鼠医生（DR.ROOS）京东自营旗舰店",
 		"brandId": "1000109703",
@@ -1920,6 +1986,12 @@
 		"brandName": "美极尊享会员"
 	},
 	{
+		"shopId": "1000130821",
+		"shopName": "执手礼（ZHI SHOU LI）创意礼品京东自营旗舰店",
+		"brandId": "1000130821",
+		"brandName": "执手礼VIP"
+	},
+	{
 		"shopId": "1000133084",
 		"shopName": "五粮浓香京东自营旗舰店",
 		"brandId": "1000133084",
@@ -2014,6 +2086,12 @@
 		"shopName": "卡乐优（Coloyou）京东自营官方旗舰店",
 		"brandId": "1000300180",
 		"brandName": "卡乐优品牌会员"
+	},
+	{
+		"shopId": "1000300336",
+		"shopName": "可拉奥京东自营旗舰店",
+		"brandId": "1000300336",
+		"brandName": "可拉奥尊享会员"
 	},
 	{
 		"shopId": "1000300485",
