@@ -258,6 +258,18 @@
 		"brand_name": "betu百图"
 	},
 	{
+		"shop_id": "85675",
+		"shop_name": "好得睐官方旗舰店",
+		"brand_id": "88547",
+		"brand_name": "好得睐会员卡"
+	},
+	{
+		"shop_id": "86619",
+		"shop_name": "粮全其美官方旗舰店",
+		"brand_id": "89315",
+		"brand_name": "粮全其美会员"
+	},
+	{
 		"shop_id": "88156",
 		"shop_name": "迈拓维矩专卖店",
 		"brand_id": "90824",
@@ -528,6 +540,12 @@
 		"brand_name": "VIP"
 	},
 	{
+		"shop_id": "196512",
+		"shop_name": "大自然官方旗舰店",
+		"brand_id": "205578",
+		"brand_name": "大自然地板"
+	},
+	{
 		"shop_id": "197353",
 		"shop_name": "大麦宠物用品专营店",
 		"brand_id": "206659",
@@ -580,6 +598,12 @@
 		"shop_name": "多燕瘦旗舰店",
 		"brand_id": "593411",
 		"brand_name": "DYESOO"
+	},
+	{
+		"shop_id": "585437",
+		"shop_name": "真静坊官方旗舰店",
+		"brand_id": "593583",
+		"brand_name": "真静坊"
 	},
 	{
 		"shop_id": "585640",
@@ -1014,6 +1038,12 @@
 		"brand_name": "益肤品牌会员"
 	},
 	{
+		"shop_id": "831582",
+		"shop_name": "SIGMAX旗舰店",
+		"brand_id": "832838",
+		"brand_name": "SIGMAX"
+	},
+	{
 		"shop_id": "832761",
 		"shop_name": "玛伦萨旗舰店",
 		"brand_id": "833939",
@@ -1150,6 +1180,12 @@
 		"shop_name": "易荣天母婴专营店",
 		"brand_id": "10191312",
 		"brand_name": "京东易荣天母婴"
+	},
+	{
+		"shop_id": "10058871",
+		"shop_name": "禹峨茗茶官方旗舰店",
+		"brand_id": "10194360",
+		"brand_name": "禹峨茶友汇"
 	},
 	{
 		"shop_id": "10059709",
@@ -1884,6 +1920,12 @@
 		"brand_name": "乐扣乐扣"
 	},
 	{
+		"shop_id": "1000001737",
+		"shop_name": "澳柯玛京东自营官方旗舰店",
+		"brand_id": "1000001737",
+		"brand_name": "澳柯玛京东自营"
+	},
+	{
 		"shop_id": "1000001759",
 		"shop_name": "立白京东自营旗舰店",
 		"brand_id": "1000001759",
@@ -1918,6 +1960,12 @@
 		"shop_name": "三星家电京东自营旗舰店",
 		"brand_id": "1000002367",
 		"brand_name": "星星卡"
+	},
+	{
+		"shop_id": "1000002441",
+		"shop_name": "洁婷京东自营官方旗舰店",
+		"brand_id": "1000002441",
+		"brand_name": "洁婷会员卡"
 	},
 	{
 		"shop_id": "1000002454",
@@ -3150,6 +3198,12 @@
 		"brand_name": "奔图VIP"
 	},
 	{
+		"shop_id": "1000107810",
+		"shop_name": "优佳（Ultrasun）京东自营旗舰店",
+		"brand_id": "1000107810",
+		"brand_name": "优佳"
+	},
+	{
 		"shop_id": "1000109703",
 		"shop_name": "袋鼠医生（DR.ROOS）京东自营旗舰店",
 		"brand_id": "1000109703",
@@ -3318,6 +3372,12 @@
 		"brand_name": "美极尊享会员"
 	},
 	{
+		"shop_id": "1000130821",
+		"shop_name": "执手礼（ZHI SHOU LI）创意礼品京东自营旗舰店",
+		"brand_id": "1000130821",
+		"brand_name": "执手礼VIP"
+	},
+	{
 		"shop_id": "1000132124",
 		"shop_name": "妆蕾RAY京东自营旗舰店",
 		"brand_id": "1000132124",
@@ -3472,6 +3532,12 @@
 		"shop_name": "卡乐优（Coloyou）京东自营官方旗舰店",
 		"brand_id": "1000300180",
 		"brand_name": "卡乐优品牌会员"
+	},
+	{
+		"shop_id": "1000300336",
+		"shop_name": "可拉奥京东自营旗舰店",
+		"brand_id": "1000300336",
+		"brand_name": "可拉奥尊享会员"
 	},
 	{
 		"shop_id": "1000300485",
