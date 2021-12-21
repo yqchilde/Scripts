@@ -1500,6 +1500,12 @@
 		"brand_name": "百事可乐"
 	},
 	{
+		"shop_id": "10259827",
+		"shop_name": "第一江南旗舰店",
+		"brand_id": "10399814",
+		"brand_name": "第一江南旗舰店"
+	},
+	{
 		"shop_id": "10265391",
 		"shop_name": "MedRepair米蓓尔官方旗舰店",
 		"brand_id": "10412889",
@@ -2200,6 +2206,12 @@
 		"shop_name": "雪肌精京东自营官方旗舰店",
 		"brand_id": "1000006643",
 		"brand_name": "雪肌精"
+	},
+	{
+		"shop_id": "1000006644",
+		"shop_name": "a2至初自营官方旗舰店",
+		"brand_id": "1000006644",
+		"brand_name": "a2至初"
 	},
 	{
 		"shop_id": "1000007024",
