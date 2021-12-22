@@ -348,6 +348,12 @@
 		"brand_name": "有友食品旗舰店"
 	},
 	{
+		"shop_id": "129506",
+		"shop_name": "KELME官方旗舰店",
+		"brand_id": "133509",
+		"brand_name": "卡尔美旗舰店"
+	},
+	{
 		"shop_id": "130496",
 		"shop_name": "测试店铺sop1",
 		"brand_id": "134766",
@@ -528,6 +534,12 @@
 		"brand_name": "宏盛源母婴"
 	},
 	{
+		"shop_id": "189096",
+		"shop_name": "绿尔康保健品专营店",
+		"brand_id": "197497",
+		"brand_name": "绿尔康保健品"
+	},
+	{
 		"shop_id": "191423",
 		"shop_name": "Mlily梦百合旗舰店",
 		"brand_id": "199995",
@@ -676,6 +688,18 @@
 		"shop_name": "中国特产·新疆农特产馆",
 		"brand_id": "630410",
 		"brand_name": "新疆农特产馆"
+	},
+	{
+		"shop_id": "629516",
+		"shop_name": "爱思贝官方旗舰店",
+		"brand_id": "633931",
+		"brand_name": "爱思贝旗舰店"
+	},
+	{
+		"shop_id": "629543",
+		"shop_name": "艺鸟家居旗舰店",
+		"brand_id": "634101",
+		"brand_name": "艺鸟家居旗舰店"
 	},
 	{
 		"shop_id": "630478",
@@ -946,6 +970,12 @@
 		"shop_name": "联合利华官方旗舰店",
 		"brand_id": "757508",
 		"brand_name": "联合利华会员卡"
+	},
+	{
+		"shop_id": "760035",
+		"shop_name": "洞庭湖官方旗舰店",
+		"brand_id": "764693",
+		"brand_name": "洞庭湖旗舰店"
 	},
 	{
 		"shop_id": "770786",
@@ -1530,6 +1560,12 @@
 		"brand_name": "一兰旗舰店"
 	},
 	{
+		"shop_id": "10284435",
+		"shop_name": "蕉下户外旗舰店",
+		"brand_id": "10494532",
+		"brand_name": "蕉下会员店"
+	},
+	{
 		"shop_id": "10285153",
 		"shop_name": "天地精华旗舰店",
 		"brand_id": "10495187",
@@ -1546,6 +1582,12 @@
 		"shop_name": "潮宏基会员",
 		"brand_id": "10497960",
 		"brand_name": "潮宏基会员"
+	},
+	{
+		"shop_id": "10289793",
+		"shop_name": "柴火大院",
+		"brand_id": "10499372",
+		"brand_name": "柴火大院"
 	},
 	{
 		"shop_id": "10296499",
@@ -1956,6 +1998,12 @@
 		"brand_name": "moony"
 	},
 	{
+		"shop_id": "1000002252",
+		"shop_name": "惠普存储京东自营旗舰店",
+		"brand_id": "1000002252",
+		"brand_name": "惠普存储会员"
+	},
+	{
 		"shop_id": "1000002270",
 		"shop_name": "多乐士京东自营旗舰店",
 		"brand_id": "1000002270",
@@ -2026,6 +2074,12 @@
 		"shop_name": "创维酷开京东自营旗舰店",
 		"brand_id": "1000002812",
 		"brand_name": "创维酷开潮玩粉"
+	},
+	{
+		"shop_id": "1000002826",
+		"shop_name": "创维电视京东自营旗舰店",
+		"brand_id": "1000002826",
+		"brand_name": "VIP管家"
 	},
 	{
 		"shop_id": "1000002833",
@@ -3186,6 +3240,12 @@
 		"brand_name": "亨利摩根"
 	},
 	{
+		"shop_id": "1000104146",
+		"shop_name": "全友家居京东自营旗舰店",
+		"brand_id": "1000104146",
+		"brand_name": "全友家居友粉"
+	},
+	{
 		"shop_id": "1000104643",
 		"shop_name": "潮宏基京东自营旗舰店",
 		"brand_id": "1000104643",
@@ -3646,6 +3706,12 @@
 		"shop_name": "大悦京东自营旗舰店",
 		"brand_id": "1000332288",
 		"brand_name": "大悦会员"
+	},
+	{
+		"shop_id": "1000332881",
+		"shop_name": "晖致京东自营旗舰店",
+		"brand_id": "1000332881",
+		"brand_name": "晖致"
 	},
 	{
 		"shop_id": "1000332882",
