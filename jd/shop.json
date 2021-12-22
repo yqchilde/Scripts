@@ -108,12 +108,6 @@
 		"brandName": "露安适旗舰店"
 	},
 	{
-		"shopId": "70932",
-		"shopName": "贝因美官方旗舰店",
-		"brandId": "74508",
-		"brandName": "贝因美"
-	},
-	{
 		"shopId": "80632",
 		"shopName": "领誉旗舰店",
 		"brandId": "83768",
@@ -406,12 +400,6 @@
 		"shopName": "富邑葡萄酒集团旗舰店",
 		"brandId": "664270",
 		"brandName": "富邑葡萄酒会员"
-	},
-	{
-		"shopId": "661451",
-		"shopName": "雷佰户外旗舰店",
-		"brandId": "666192",
-		"brandName": "雷佰户外旗舰店"
 	},
 	{
 		"shopId": "662324",
@@ -718,12 +706,6 @@
 		"shopName": "文曲星手表京东自营旗舰店",
 		"brandId": "10258402",
 		"brandName": "手表尊享卡"
-	},
-	{
-		"shopId": "10135928",
-		"shopName": "仰韶酒类旗舰店",
-		"brandId": "10265490",
-		"brandName": "仰韶酒类旗舰店"
 	},
 	{
 		"shopId": "10167572",
@@ -1248,12 +1230,6 @@
 		"brandName": "百草味"
 	},
 	{
-		"shopId": "1000003819",
-		"shopName": "国誉文具京东自营官方旗舰店",
-		"brandId": "1000003819",
-		"brandName": "KOKUYO"
-	},
-	{
 		"shopId": "1000003829",
 		"shopName": "狮王京东自营旗舰店",
 		"brandId": "1000003829",
@@ -1486,6 +1462,12 @@
 		"shopName": "三全食品京东自营旗舰店",
 		"brandId": "1000015504",
 		"brandName": "三全"
+	},
+	{
+		"shopId": "1000015664",
+		"shopName": "习酒京东自营旗舰店",
+		"brandId": "1000015664",
+		"brandName": "习酒"
 	},
 	{
 		"shopId": "1000015761",
@@ -2052,6 +2034,12 @@
 		"brandName": "执手礼VIP"
 	},
 	{
+		"shopId": "1000131364",
+		"shopName": "汉凯葡萄酒京东自营旗舰店",
+		"brandId": "1000131364",
+		"brandName": "汉凯"
+	},
+	{
 		"shopId": "1000133084",
 		"shopName": "五粮浓香京东自营旗舰店",
 		"brandId": "1000133084",
@@ -2172,6 +2160,12 @@
 		"brandName": "开山酒品牌会员"
 	},
 	{
+		"shopId": "1000301853",
+		"shopName": "菊乐（JULE）京东自营旗舰店",
+		"brandId": "1000301853",
+		"brandName": "菊乐"
+	},
+	{
 		"shopId": "1000304221",
 		"shopName": "伊利奶酪京东自营旗舰店",
 		"brandId": "1000304221",
@@ -2182,6 +2176,12 @@
 		"shopName": "兰蔻京东自营官方旗舰店",
 		"brandId": "1000306683",
 		"brandName": "兰蔻"
+	},
+	{
+		"shopId": "1000307901",
+		"shopName": "仰韶京东自营旗舰店",
+		"brandId": "1000307901",
+		"brandName": "仰韶彩陶坊"
 	},
 	{
 		"shopId": "1000308921",
