@@ -426,6 +426,12 @@
 		"brand_name": "碧芭旗舰店"
 	},
 	{
+		"shop_id": "156435",
+		"shop_name": "国保保密柜旗舰店",
+		"brand_id": "161910",
+		"brand_name": "国保旗舰店"
+	},
+	{
 		"shop_id": "159888",
 		"shop_name": "坤格官方旗舰店",
 		"brand_id": "165341",
@@ -454,6 +460,12 @@
 		"shop_name": "巧妈妈官方旗舰店",
 		"brand_id": "173294",
 		"brand_name": "巧妈妈布丁"
+	},
+	{
+		"shop_id": "168606",
+		"shop_name": "达而稳数码旗舰店",
+		"brand_id": "174504",
+		"brand_name": "达而稳旗舰店"
 	},
 	{
 		"shop_id": "169582",
@@ -3492,6 +3504,12 @@
 		"brand_name": "五粮浓香"
 	},
 	{
+		"shop_id": "1000134961",
+		"shop_name": "途明（TUMI）官方京东自营旗舰店",
+		"brand_id": "1000134961",
+		"brand_name": "TUMI"
+	},
+	{
 		"shop_id": "1000139445",
 		"shop_name": "雪菲（CHEFAVOUR）京东自营旗舰店",
 		"brand_id": "1000139445",
@@ -3532,6 +3550,12 @@
 		"shop_name": "高魅（gourmet）京东自营旗舰店",
 		"brand_id": "1000147961",
 		"brand_name": "希杰食品"
+	},
+	{
+		"shop_id": "1000159541",
+		"shop_name": "袋鼠爸爸（EURO KIDS）京东自营旗舰店",
+		"brand_id": "1000159541",
+		"brand_name": "袋鼠爸爸会员"
 	},
 	{
 		"shop_id": "1000164381",
