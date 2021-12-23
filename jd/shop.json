@@ -1,11 +1,5 @@
 [
 	{
-		"shopId": "17039",
-		"shopName": "HARIO旗舰店",
-		"brandId": "17830",
-		"brandName": "正田"
-	},
-	{
 		"shopId": "17153",
 		"shopName": "百草味官方旗舰店",
 		"brandId": "17934",
@@ -22,12 +16,6 @@
 		"shopName": "Kappa官方旗舰店",
 		"brandId": "23744",
 		"brandName": "Kappa官方"
-	},
-	{
-		"shopId": "24299",
-		"shopName": "来伊份旗舰店",
-		"brandId": "24827",
-		"brandName": "来伊份旗舰店"
 	},
 	{
 		"shopId": "32494",
@@ -222,10 +210,22 @@
 		"brandName": "碧芭旗舰店"
 	},
 	{
+		"shopId": "156435",
+		"shopName": "国保保密柜旗舰店",
+		"brandId": "161910",
+		"brandName": "国保旗舰店"
+	},
+	{
 		"shopId": "167368",
 		"shopName": "巧妈妈官方旗舰店",
 		"brandId": "173294",
 		"brandName": "巧妈妈布丁"
+	},
+	{
+		"shopId": "168606",
+		"shopName": "达而稳数码旗舰店",
+		"brandId": "174504",
+		"brandName": "达而稳旗舰店"
 	},
 	{
 		"shopId": "169582",
@@ -318,12 +318,6 @@
 		"brandName": "咕咕官方旗舰店"
 	},
 	{
-		"shopId": "584303",
-		"shopName": "九孚旗舰店",
-		"brandId": "592591",
-		"brandName": "九孚旗舰店"
-	},
-	{
 		"shopId": "585147",
 		"shopName": "多燕瘦旗舰店",
 		"brandId": "593411",
@@ -406,12 +400,6 @@
 		"shopName": "blueriver蓝河母婴旗舰店",
 		"brandId": "658812",
 		"brandName": "蓝河会员卡"
-	},
-	{
-		"shopId": "659245",
-		"shopName": "富邑葡萄酒集团旗舰店",
-		"brandId": "664270",
-		"brandName": "富邑葡萄酒会员"
 	},
 	{
 		"shopId": "662324",
@@ -808,12 +796,6 @@
 		"shopName": "域发官方旗舰店",
 		"brandId": "10374948",
 		"brandName": "域发"
-	},
-	{
-		"shopId": "10243732",
-		"shopName": "Nanlite官方旗舰店",
-		"brandId": "10391872",
-		"brandName": "南光官方旗舰店"
 	},
 	{
 		"shopId": "10244494",
@@ -1458,12 +1440,6 @@
 		"brandName": "A21"
 	},
 	{
-		"shopId": "1000014989",
-		"shopName": "禾泱泱京东自营旗舰店",
-		"brandId": "1000014989",
-		"brandName": "禾泱泱品牌会员"
-	},
-	{
 		"shopId": "1000015268",
 		"shopName": "三只松鼠京东自营旗舰店",
 		"brandId": "1000015268",
@@ -2076,6 +2052,12 @@
 		"brandName": "五粮浓香"
 	},
 	{
+		"shopId": "1000134961",
+		"shopName": "途明（TUMI）官方京东自营旗舰店",
+		"brandId": "1000134961",
+		"brandName": "TUMI"
+	},
+	{
 		"shopId": "1000139829",
 		"shopName": "AGM京东自营官方旗舰店",
 		"brandId": "1000139829",
@@ -2098,6 +2080,12 @@
 		"shopName": "卡士（CLASSY.KISS）京东自营旗舰店",
 		"brandId": "1000147303",
 		"brandName": "卡士酸奶会员卡"
+	},
+	{
+		"shopId": "1000159541",
+		"shopName": "袋鼠爸爸（EURO KIDS）京东自营旗舰店",
+		"brandId": "1000159541",
+		"brandName": "袋鼠爸爸会员"
 	},
 	{
 		"shopId": "1000168862",
