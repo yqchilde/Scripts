@@ -228,6 +228,12 @@
 		"brandName": "巧妈妈布丁"
 	},
 	{
+		"shopId": "169582",
+		"shopName": "酒街网官方旗舰店",
+		"brandId": "174346",
+		"brandName": "酒街网会员"
+	},
+	{
 		"shopId": "170127",
 		"shopName": "益京母婴专营店",
 		"brandId": "176277",
@@ -352,6 +358,12 @@
 		"shopName": "小角楼官方旗舰店",
 		"brandId": "609367",
 		"brandName": "小角楼会员卡"
+	},
+	{
+		"shopId": "617465",
+		"shopName": "BROSWAY旗舰店",
+		"brandId": "623891",
+		"brandName": "宝思薇旗舰店"
 	},
 	{
 		"shopId": "619043",
@@ -526,6 +538,12 @@
 		"shopName": "洞庭湖官方旗舰店",
 		"brandId": "764693",
 		"brandName": "洞庭湖旗舰店"
+	},
+	{
+		"shopId": "765997",
+		"shopName": "沂蒙仁和堂大药房旗舰店",
+		"brandId": "761386",
+		"brandName": "沂蒙仁和堂"
 	},
 	{
 		"shopId": "770786",
@@ -1422,6 +1440,12 @@
 		"brandName": "可口可乐"
 	},
 	{
+		"shopId": "1000014525",
+		"shopName": "舒可曼京东自营旗舰店",
+		"brandId": "1000014525",
+		"brandName": "舒可曼品牌会员"
+	},
+	{
 		"shopId": "1000014746",
 		"shopName": "润本京东自营官方旗舰店",
 		"brandId": "1000014746",
@@ -1756,6 +1780,12 @@
 		"shopName": "桂林三花京东自营官方旗舰店",
 		"brandId": "1000094028",
 		"brandName": "桂林品牌会员"
+	},
+	{
+		"shopId": "1000095543",
+		"shopName": "加州乐事葡萄酒京东自营旗舰店",
+		"brandId": "1000095543",
+		"brandName": "加州乐事自营"
 	},
 	{
 		"shopId": "1000097079",
@@ -2188,6 +2218,12 @@
 		"shopName": "Bb LABORATORIES京东自营旗舰店",
 		"brandId": "1000308921",
 		"brandName": "BbLab"
+	},
+	{
+		"shopId": "1000311299",
+		"shopName": "毛戈平（MAOGEPING）京东自营旗舰店",
+		"brandId": "1000311299",
+		"brandName": "毛戈平"
 	},
 	{
 		"shopId": "1000325341",
