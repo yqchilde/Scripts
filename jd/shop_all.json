@@ -678,6 +678,12 @@
 		"brand_name": "得宝旗舰店"
 	},
 	{
+		"shop_id": "617465",
+		"shop_name": "BROSWAY旗舰店",
+		"brand_id": "623891",
+		"brand_name": "宝思薇旗舰店"
+	},
+	{
 		"shop_id": "619043",
 		"shop_name": "九甄选酒类专营店",
 		"brand_id": "624299",
@@ -976,6 +982,12 @@
 		"shop_name": "洞庭湖官方旗舰店",
 		"brand_id": "764693",
 		"brand_name": "洞庭湖旗舰店"
+	},
+	{
+		"shop_id": "765997",
+		"shop_name": "沂蒙仁和堂大药房旗舰店",
+		"brand_id": "761386",
+		"brand_name": "沂蒙仁和堂"
 	},
 	{
 		"shop_id": "770786",
@@ -2448,6 +2460,12 @@
 		"brand_name": "可口可乐"
 	},
 	{
+		"shop_id": "1000014525",
+		"shop_name": "舒可曼京东自营旗舰店",
+		"brand_id": "1000014525",
+		"brand_name": "舒可曼品牌会员"
+	},
+	{
 		"shop_id": "1000014746",
 		"shop_name": "润本京东自营官方旗舰店",
 		"brand_id": "1000014746",
@@ -3066,6 +3084,12 @@
 		"brand_name": "攀升自营会员"
 	},
 	{
+		"shop_id": "1000095543",
+		"shop_name": "加州乐事葡萄酒京东自营旗舰店",
+		"brand_id": "1000095543",
+		"brand_name": "加州乐事自营"
+	},
+	{
 		"shop_id": "1000097079",
 		"shop_name": "梅林京东自营旗舰店",
 		"brand_id": "1000097079",
@@ -3664,6 +3688,12 @@
 		"shop_name": "Bb LABORATORIES京东自营旗舰店",
 		"brand_id": "1000308921",
 		"brand_name": "BbLab"
+	},
+	{
+		"shop_id": "1000311299",
+		"shop_name": "毛戈平（MAOGEPING）京东自营旗舰店",
+		"brand_id": "1000311299",
+		"brand_name": "毛戈平"
 	},
 	{
 		"shop_id": "1000324022",
