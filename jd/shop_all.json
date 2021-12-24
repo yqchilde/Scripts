@@ -306,6 +306,12 @@
 		"brand_name": "小牛一郎会员"
 	},
 	{
+		"shop_id": "113400",
+		"shop_name": "茵茵官方旗舰店",
+		"brand_id": "116292",
+		"brand_name": "茵茵官方旗舰店"
+	},
+	{
 		"shop_id": "113775",
 		"shop_name": "联想众信授权专卖店",
 		"brand_id": "116691",
@@ -1008,6 +1014,12 @@
 		"brand_name": "美德乐"
 	},
 	{
+		"shop_id": "771416",
+		"shop_name": "种着玩官方旗舰店",
+		"brand_id": "775228",
+		"brand_name": "种着玩会员"
+	},
+	{
 		"shop_id": "783093",
 		"shop_name": "征途者线缆官方旗舰店",
 		"brand_id": "787408",
@@ -1702,6 +1714,12 @@
 		"shop_name": "乐扣乐扣京东自营官方旗舰店",
 		"brand_id": "10537468",
 		"brand_name": "乐扣乐扣"
+	},
+	{
+		"shop_id": "10331954",
+		"shop_name": "SALONIA旗舰店",
+		"brand_id": "10544342",
+		"brand_name": "SALONIA"
 	},
 	{
 		"shop_id": "10336346",
@@ -3298,6 +3316,12 @@
 		"shop_name": "魔爪京东自营旗舰店",
 		"brand_id": "1000105841",
 		"brand_name": "魔爪"
+	},
+	{
+		"shop_id": "1000106300",
+		"shop_name": "大宠爱 京东自营旗舰店",
+		"brand_id": "1000106300",
+		"brand_name": "大宠爱"
 	},
 	{
 		"shop_id": "1000106848",
