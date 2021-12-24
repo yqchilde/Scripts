@@ -132,6 +132,12 @@
 		"brandName": "alandv"
 	},
 	{
+		"shopId": "113400",
+		"shopName": "茵茵官方旗舰店",
+		"brandId": "116292",
+		"brandName": "茵茵官方旗舰店"
+	},
+	{
 		"shopId": "113775",
 		"shopName": "联想众信授权专卖店",
 		"brandId": "116691",
@@ -316,6 +322,12 @@
 		"shopName": "咕咕官方旗舰店",
 		"brandId": "589672",
 		"brandName": "咕咕官方旗舰店"
+	},
+	{
+		"shopId": "584303",
+		"shopName": "九孚旗舰店",
+		"brandId": "592591",
+		"brandName": "九孚旗舰店"
 	},
 	{
 		"shopId": "585147",
@@ -540,6 +552,12 @@
 		"brandName": "美德乐"
 	},
 	{
+		"shopId": "771416",
+		"shopName": "种着玩官方旗舰店",
+		"brandId": "775228",
+		"brandName": "种着玩会员"
+	},
+	{
 		"shopId": "795098",
 		"shopName": "伊舟YIZHOU旗舰店",
 		"brandId": "798974",
@@ -676,6 +694,12 @@
 		"shopName": "CJ食品旗舰店",
 		"brandId": "10222935",
 		"brandName": "希杰食品"
+	},
+	{
+		"shopId": "10086998",
+		"shopName": "苏和盛素植专卖店",
+		"brandId": "10223688",
+		"brandName": "苏和盛素植专卖"
 	},
 	{
 		"shopId": "10088516",
@@ -910,6 +934,12 @@
 		"shopName": "乐扣乐扣京东自营官方旗舰店",
 		"brandId": "10537468",
 		"brandName": "乐扣乐扣"
+	},
+	{
+		"shopId": "10331954",
+		"shopName": "SALONIA旗舰店",
+		"brandId": "10544342",
+		"brandName": "SALONIA"
 	},
 	{
 		"shopId": "10336346",
@@ -1794,6 +1824,12 @@
 		"brandName": "露安适会员卡"
 	},
 	{
+		"shopId": "1000097462",
+		"shopName": "保乐力加洋酒京东自营店",
+		"brandId": "1000097462",
+		"brandName": "保乐力加会员"
+	},
+	{
 		"shopId": "1000098145",
 		"shopName": "璇信京东自营旗舰店",
 		"brandId": "1000098145",
@@ -1900,6 +1936,12 @@
 		"shopName": "旗牌京东自营官方旗舰店",
 		"brandId": "1000105757",
 		"brandName": "旗牌文具VIP"
+	},
+	{
+		"shopId": "1000106300",
+		"shopName": "大宠爱 京东自营旗舰店",
+		"brandId": "1000106300",
+		"brandName": "大宠爱"
 	},
 	{
 		"shopId": "1000106848",
@@ -2314,6 +2356,12 @@
 		"shopName": "澳谷京东自营旗舰店",
 		"brandId": "1000351891",
 		"brandName": "澳谷"
+	},
+	{
+		"shopId": "1000353465",
+		"shopName": "海洋丝缎京东自营旗舰店",
+		"brandId": "1000353465",
+		"brandName": "海洋丝缎"
 	},
 	{
 		"shopId": "1000364203",
