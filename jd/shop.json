@@ -222,12 +222,6 @@
 		"brandName": "国保旗舰店"
 	},
 	{
-		"shopId": "167368",
-		"shopName": "巧妈妈官方旗舰店",
-		"brandId": "173294",
-		"brandName": "巧妈妈布丁"
-	},
-	{
 		"shopId": "168606",
 		"shopName": "达而稳数码旗舰店",
 		"brandId": "174504",
@@ -276,12 +270,6 @@
 		"brandName": "卡西欧宝亮钟表"
 	},
 	{
-		"shopId": "188769",
-		"shopName": "宏盛源母婴专营店",
-		"brandId": "197224",
-		"brandName": "宏盛源母婴"
-	},
-	{
 		"shopId": "189096",
 		"shopName": "绿尔康保健品专营店",
 		"brandId": "197497",
@@ -310,12 +298,6 @@
 		"shopName": "卡西欧汉宇专卖店",
 		"brandId": "221929",
 		"brandName": "卡西欧汉宇专卖"
-	},
-	{
-		"shopId": "217136",
-		"shopName": "S17测试店铺5171_T",
-		"brandId": "225266",
-		"brandName": "怀庄窖酒旗舰店"
 	},
 	{
 		"shopId": "581657",
@@ -900,12 +882,6 @@
 		"brandName": "壹号卖家母婴"
 	},
 	{
-		"shopId": "10308966",
-		"shopName": "雅士利奶粉旗舰店",
-		"brandId": "10517793",
-		"brandName": "别提多美会员"
-	},
-	{
 		"shopId": "10309908",
 		"shopName": "希杰VIP会员",
 		"brandId": "10520129",
@@ -970,12 +946,6 @@
 		"shopName": "哲高玩具旗舰店",
 		"brandId": "10567962",
 		"brandName": "哲高玩具旗舰店"
-	},
-	{
-		"shopId": "10359224",
-		"shopName": "茅台醇旗舰店",
-		"brandId": "10571875",
-		"brandName": "茅台醇会员卡"
 	},
 	{
 		"shopId": "10361992",
@@ -1110,12 +1080,6 @@
 		"brandName": "博世冰洗自营"
 	},
 	{
-		"shopId": "1000001627",
-		"shopName": "美之高（MZG）京东自营专区",
-		"brandId": "1000001627",
-		"brandName": "美之高自营会员"
-	},
-	{
 		"shopId": "1000001638",
 		"shopName": "伯纳天纯 京东自营旗舰店",
 		"brandId": "1000001638",
@@ -1216,12 +1180,6 @@
 		"shopName": "科沃斯京东自营旗舰店",
 		"brandId": "1000002989",
 		"brandName": "科沃斯会员卡"
-	},
-	{
-		"shopId": "1000003111",
-		"shopName": "贝因美京东自营旗舰店",
-		"brandId": "1000003111",
-		"brandName": "贝因美"
 	},
 	{
 		"shopId": "1000003218",
@@ -1342,6 +1300,12 @@
 		"shopName": "汇源京东自营官方旗舰店",
 		"brandId": "1000007622",
 		"brandName": "100%果汁"
+	},
+	{
+		"shopId": "1000007826",
+		"shopName": "巴拉巴拉京东自营旗舰店",
+		"brandId": "1000007826",
+		"brandName": "巴拉巴拉会员"
 	},
 	{
 		"shopId": "1000008082",
@@ -2044,12 +2008,6 @@
 		"shopName": "三七京东自营旗舰店",
 		"brandId": "1000121761",
 		"brandName": "云南三七牙膏"
-	},
-	{
-		"shopId": "1000123965",
-		"shopName": "三元奶粉自营官方旗舰店",
-		"brandId": "1000123965",
-		"brandName": "三元奶粉"
 	},
 	{
 		"shopId": "1000124462",
