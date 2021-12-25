@@ -1416,6 +1416,12 @@
 		"brand_name": "妙贝亲VIP"
 	},
 	{
+		"shop_id": "10176932",
+		"shop_name": "乎兮官方旗舰店",
+		"brand_id": "10316242",
+		"brand_name": "乎兮品牌会员"
+	},
+	{
 		"shop_id": "10179659",
 		"shop_name": "ABCFIT官方旗舰店",
 		"brand_id": "10319921",
@@ -1618,6 +1624,12 @@
 		"shop_name": "黄飞红品牌会员",
 		"brand_id": "10425402",
 		"brand_name": "黄飞红功夫家族"
+	},
+	{
+		"shop_id": "10279617",
+		"shop_name": "森娅电器专营店",
+		"brand_id": "10488802",
+		"brand_name": "森娅电器专营店"
 	},
 	{
 		"shop_id": "10279784",
