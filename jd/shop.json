@@ -360,12 +360,6 @@
 		"brandName": "宝思薇旗舰店"
 	},
 	{
-		"shopId": "619043",
-		"shopName": "九甄选酒类专营店",
-		"brandId": "624299",
-		"brandName": "九甄选"
-	},
-	{
 		"shopId": "629516",
 		"shopName": "爱思贝官方旗舰店",
 		"brandId": "633931",
@@ -418,12 +412,6 @@
 		"shopName": "习酒官方旗舰店",
 		"brandId": "661035",
 		"brandName": "习酒"
-	},
-	{
-		"shopId": "685798",
-		"shopName": "move it官方旗舰店",
-		"brandId": "689122",
-		"brandName": "Move it"
 	},
 	{
 		"shopId": "691842",
@@ -594,12 +582,6 @@
 		"brandName": "SIGMAX"
 	},
 	{
-		"shopId": "839033",
-		"shopName": "港湘湾官方旗舰店",
-		"brandId": "10004408",
-		"brandName": "港湘湾官方旗舰店"
-	},
-	{
 		"shopId": "839983",
 		"shopName": "竹叶青酒官方旗舰店",
 		"brandId": "10001946",
@@ -616,12 +598,6 @@
 		"shopName": "中粮罐头官方旗舰店",
 		"brandId": "10014585",
 		"brandName": "中粮罐头旗舰店"
-	},
-	{
-		"shopId": "853400",
-		"shopName": "简爱旗舰店",
-		"brandId": "10016421",
-		"brandName": "简爱旗舰店"
 	},
 	{
 		"shopId": "857641",
@@ -750,6 +726,12 @@
 		"brandName": "资生堂自营旗舰"
 	},
 	{
+		"shopId": "10176932",
+		"shopName": "乎兮官方旗舰店",
+		"brandId": "10316242",
+		"brandName": "乎兮品牌会员"
+	},
+	{
 		"shopId": "10181475",
 		"shopName": "金沙回沙酒官方旗舰店",
 		"brandId": "10321993",
@@ -780,12 +762,6 @@
 		"brandName": "锋味旗舰店"
 	},
 	{
-		"shopId": "10209780",
-		"shopName": "回味赞旗舰店",
-		"brandId": "10355490",
-		"brandName": "回味赞旗舰店"
-	},
-	{
 		"shopId": "10213158",
 		"shopName": "当娃成人用品专营店",
 		"brandId": "10359892",
@@ -808,12 +784,6 @@
 		"shopName": "劲牌品牌会员",
 		"brandId": "10371088",
 		"brandName": "劲牌品牌会员"
-	},
-	{
-		"shopId": "10223471",
-		"shopName": "立白集团品牌会员",
-		"brandId": "10371393",
-		"brandName": "立白\u0026好爸爸"
 	},
 	{
 		"shopId": "10225220",
@@ -868,6 +838,12 @@
 		"shopName": "黄飞红品牌会员",
 		"brandId": "10425402",
 		"brandName": "黄飞红功夫家族"
+	},
+	{
+		"shopId": "10279617",
+		"shopName": "森娅电器专营店",
+		"brandId": "10488802",
+		"brandName": "森娅电器专营店"
 	},
 	{
 		"shopId": "10279784",
@@ -1056,22 +1032,10 @@
 		"brandName": "美德乐"
 	},
 	{
-		"shopId": "1000000930",
-		"shopName": "华帝京东自营旗舰店",
-		"brandId": "1000000930",
-		"brandName": "华帝京东自营店"
-	},
-	{
 		"shopId": "1000001120",
 		"shopName": "格之格耗材京东自营旗舰店",
 		"brandId": "1000001120",
 		"brandName": "格之格VIP"
-	},
-	{
-		"shopId": "1000001293",
-		"shopName": "斯利安京东自营旗舰店",
-		"brandId": "1000001293",
-		"brandName": "斯利安会员"
 	},
 	{
 		"shopId": "1000001395",
@@ -1146,12 +1110,6 @@
 		"brandName": "澳柯玛京东自营"
 	},
 	{
-		"shopId": "1000001759",
-		"shopName": "立白京东自营旗舰店",
-		"brandId": "1000001759",
-		"brandName": "立白\u0026好爸爸"
-	},
-	{
 		"shopId": "1000001782",
 		"shopName": "海尔京东自营旗舰店",
 		"brandId": "1000001782",
@@ -1186,12 +1144,6 @@
 		"shopName": "洁婷京东自营官方旗舰店",
 		"brandId": "1000002441",
 		"brandName": "洁婷会员卡"
-	},
-	{
-		"shopId": "1000002454",
-		"shopName": "皓乐齿（Ora2）京东自营官方旗舰店",
-		"brandId": "1000002454",
-		"brandName": "皓乐齿"
 	},
 	{
 		"shopId": "1000002826",
@@ -1276,12 +1228,6 @@
 		"shopName": "大行京东自营官方旗舰店",
 		"brandId": "1000004342",
 		"brandName": "大行VIP"
-	},
-	{
-		"shopId": "1000004451",
-		"shopName": "斯伯丁京东自营专卖店",
-		"brandId": "1000004451",
-		"brandName": "篮球使徒斯伯丁"
 	},
 	{
 		"shopId": "1000004647",
@@ -1558,12 +1504,6 @@
 		"shopName": "中粮福临门米面京东自营旗舰店",
 		"brandId": "1000040105",
 		"brandName": "福临门米面"
-	},
-	{
-		"shopId": "1000072622",
-		"shopName": "好爸爸京东自营旗舰店",
-		"brandId": "1000072622",
-		"brandName": "立白\u0026好爸爸"
 	},
 	{
 		"shopId": "1000072703",
@@ -1848,12 +1788,6 @@
 		"brandName": "保乐力加会员"
 	},
 	{
-		"shopId": "1000098145",
-		"shopName": "璇信京东自营旗舰店",
-		"brandId": "1000098145",
-		"brandName": "璇信京东自营"
-	},
-	{
 		"shopId": "1000098706",
 		"shopName": "盛宝京东自营旗舰店",
 		"brandId": "1000098706",
@@ -1992,12 +1926,6 @@
 		"brandName": "亮荘会员卡"
 	},
 	{
-		"shopId": "1000111067",
-		"shopName": "梅林 京东自营旗舰店",
-		"brandId": "1000111067",
-		"brandName": "梅林会员"
-	},
-	{
 		"shopId": "1000112452",
 		"shopName": "宝家洁京东自营旗舰店",
 		"brandId": "1000112452",
@@ -2032,12 +1960,6 @@
 		"shopName": "雷允上京东自营旗舰店",
 		"brandId": "1000115561",
 		"brandName": "雷允上"
-	},
-	{
-		"shopId": "1000116826",
-		"shopName": "EMXEE嫚熙自营旗舰店",
-		"brandId": "1000116826",
-		"brandName": "嫚熙自营旗舰店"
 	},
 	{
 		"shopId": "1000117009",
