@@ -318,6 +318,12 @@
 		"brand_name": "联想众信专卖店"
 	},
 	{
+		"shop_id": "117815",
+		"shop_name": "京糖我要酒旗舰店",
+		"brand_id": "120858",
+		"brand_name": "京糖我要酒"
+	},
+	{
 		"shop_id": "118590",
 		"shop_name": "品立旗舰店",
 		"brand_id": "121665",
@@ -864,6 +870,12 @@
 		"brand_name": "安佳官方旗舰店"
 	},
 	{
+		"shop_id": "698888",
+		"shop_name": "伤迪官方旗舰店",
+		"brand_id": "702976",
+		"brand_name": "伤迪会员卡"
+	},
+	{
 		"shop_id": "700393",
 		"shop_name": "杜康官方旗舰店",
 		"brand_id": "704713",
@@ -1248,6 +1260,12 @@
 		"brand_name": "京东易荣天母婴"
 	},
 	{
+		"shop_id": "10057269",
+		"shop_name": "其在官方旗舰店",
+		"brand_id": "10192885",
+		"brand_name": "其在官方旗舰店"
+	},
+	{
 		"shop_id": "10058871",
 		"shop_name": "禹峨茗茶官方旗舰店",
 		"brand_id": "10194360",
@@ -1264,6 +1282,12 @@
 		"shop_name": "麦芽小考拉图书官方旗舰店",
 		"brand_id": "10187429",
 		"brand_name": "麦芽小考拉"
+	},
+	{
+		"shop_id": "10066809",
+		"shop_name": "红星京东自营旗舰店",
+		"brand_id": "10198052",
+		"brand_name": "红星京东自营店"
 	},
 	{
 		"shop_id": "10067380",
@@ -1572,6 +1596,12 @@
 		"brand_name": "第一江南旗舰店"
 	},
 	{
+		"shop_id": "10260050",
+		"shop_name": "联想爱特家专卖店",
+		"brand_id": "10403274",
+		"brand_name": "爱特家专属会员"
+	},
+	{
 		"shop_id": "10265391",
 		"shop_name": "MedRepair米蓓尔官方旗舰店",
 		"brand_id": "10412889",
@@ -1744,6 +1774,12 @@
 		"shop_name": "酒连酒官方旗舰店",
 		"brand_id": "10546998",
 		"brand_name": "酒连酒官旗舰店"
+	},
+	{
+		"shop_id": "10339708",
+		"shop_name": "杨国福旗舰店",
+		"brand_id": "10552556",
+		"brand_name": "杨国福旗舰店"
 	},
 	{
 		"shop_id": "10343682",
@@ -2386,6 +2422,12 @@
 		"shop_name": "百岁山京东自营官方旗舰店",
 		"brand_id": "1000009782",
 		"brand_name": "百岁山"
+	},
+	{
+		"shop_id": "1000010062",
+		"shop_name": "益米玩具京东自营官方旗舰店",
+		"brand_id": "1000010062",
+		"brand_name": "益米会员"
 	},
 	{
 		"shop_id": "1000010104",
@@ -3282,6 +3324,12 @@
 		"brand_name": "天然博士CRM"
 	},
 	{
+		"shop_id": "1000102206",
+		"shop_name": "古胶京东自营旗舰店",
+		"brand_id": "1000102206",
+		"brand_name": "古胶vip"
+	},
+	{
 		"shop_id": "1000102232",
 		"shop_name": "Ocean Spray京东自营旗舰店",
 		"brand_id": "1000102232",
@@ -3436,6 +3484,12 @@
 		"shop_name": "拜宠清京东自营旗舰店",
 		"brand_id": "1000118182",
 		"brand_name": "拜宠清"
+	},
+	{
+		"shop_id": "1000118323",
+		"shop_name": "folca京东自营旗舰店",
+		"brand_id": "1000118323",
+		"brand_name": "呵护每一个家庭"
 	},
 	{
 		"shop_id": "1000118610",
