@@ -144,6 +144,12 @@
 		"brandName": "联想众信专卖店"
 	},
 	{
+		"shopId": "117815",
+		"shopName": "京糖我要酒旗舰店",
+		"brandId": "120858",
+		"brandName": "京糖我要酒"
+	},
+	{
 		"shopId": "118590",
 		"shopName": "品立旗舰店",
 		"brandId": "121665",
@@ -450,6 +456,12 @@
 		"brandName": "威露士个护店"
 	},
 	{
+		"shopId": "698888",
+		"shopName": "伤迪官方旗舰店",
+		"brandId": "702976",
+		"brandName": "伤迪会员卡"
+	},
+	{
 		"shopId": "703279",
 		"shopName": "骁龙旗舰店",
 		"brandId": "707261",
@@ -660,10 +672,22 @@
 		"brandName": "红星二锅头"
 	},
 	{
+		"shopId": "10057269",
+		"shopName": "其在官方旗舰店",
+		"brandId": "10192885",
+		"brandName": "其在官方旗舰店"
+	},
+	{
 		"shopId": "10058871",
 		"shopName": "禹峨茗茶官方旗舰店",
 		"brandId": "10194360",
 		"brandName": "禹峨茶友汇"
+	},
+	{
+		"shopId": "10066809",
+		"shopName": "红星京东自营旗舰店",
+		"brandId": "10198052",
+		"brandName": "红星京东自营店"
 	},
 	{
 		"shopId": "10075479",
@@ -828,6 +852,12 @@
 		"brandName": "第一江南旗舰店"
 	},
 	{
+		"shopId": "10260050",
+		"shopName": "联想爱特家专卖店",
+		"brandId": "10403274",
+		"brandName": "爱特家专属会员"
+	},
+	{
 		"shopId": "10265391",
 		"shopName": "MedRepair米蓓尔官方旗舰店",
 		"brandId": "10412889",
@@ -928,6 +958,12 @@
 		"shopName": "酒连酒官方旗舰店",
 		"brandId": "10546998",
 		"brandName": "酒连酒官旗舰店"
+	},
+	{
+		"shopId": "10339708",
+		"shopName": "杨国福旗舰店",
+		"brandId": "10552556",
+		"brandName": "杨国福旗舰店"
 	},
 	{
 		"shopId": "10343682",
@@ -1182,6 +1218,12 @@
 		"brandName": "科沃斯会员卡"
 	},
 	{
+		"shopId": "1000003003",
+		"shopName": "小迷糊京东自营旗舰店",
+		"brandId": "1000003003",
+		"brandName": "小迷糊会员"
+	},
+	{
 		"shopId": "1000003218",
 		"shopName": "KANS韩束京东自营旗舰店",
 		"brandId": "1000003218",
@@ -1216,6 +1258,12 @@
 		"shopName": "百草味京东自营旗舰店",
 		"brandId": "1000003685",
 		"brandName": "百草味"
+	},
+	{
+		"shopId": "1000003819",
+		"shopName": "国誉文具京东自营官方旗舰店",
+		"brandId": "1000003819",
+		"brandName": "KOKUYO"
 	},
 	{
 		"shopId": "1000003829",
@@ -1348,6 +1396,12 @@
 		"shopName": "百岁山京东自营官方旗舰店",
 		"brandId": "1000009782",
 		"brandName": "百岁山"
+	},
+	{
+		"shopId": "1000010062",
+		"shopName": "益米玩具京东自营官方旗舰店",
+		"brandId": "1000010062",
+		"brandName": "益米会员"
 	},
 	{
 		"shopId": "1000010181",
@@ -1872,6 +1926,12 @@
 		"brandName": "天然博士CRM"
 	},
 	{
+		"shopId": "1000102206",
+		"shopName": "古胶京东自营旗舰店",
+		"brandId": "1000102206",
+		"brandName": "古胶vip"
+	},
+	{
 		"shopId": "1000102442",
 		"shopName": "厨邦京东自营旗舰店",
 		"brandId": "1000102442",
@@ -1990,6 +2050,12 @@
 		"shopName": "拜宠清京东自营旗舰店",
 		"brandId": "1000118182",
 		"brandName": "拜宠清"
+	},
+	{
+		"shopId": "1000118323",
+		"shopName": "folca京东自营旗舰店",
+		"brandId": "1000118323",
+		"brandName": "呵护每一个家庭"
 	},
 	{
 		"shopId": "1000121162",
