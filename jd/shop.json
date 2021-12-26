@@ -300,6 +300,12 @@
 		"brandName": "大麦宠物会员卡"
 	},
 	{
+		"shopId": "204661",
+		"shopName": "续酒缘旗舰店",
+		"brandId": "208991",
+		"brandName": "续酒缘会员卡"
+	},
+	{
 		"shopId": "217049",
 		"shopName": "卡西欧汉宇专卖店",
 		"brandId": "221929",
@@ -558,6 +564,12 @@
 		"brandName": "青花郎"
 	},
 	{
+		"shopId": "822231",
+		"shopName": "塞巴斯汀旗舰店",
+		"brandId": "823628",
+		"brandName": "塞巴斯汀旗舰店"
+	},
+	{
 		"shopId": "822448",
 		"shopName": "戴尔商用华东专卖店",
 		"brandId": "823804",
@@ -700,6 +712,12 @@
 		"shopName": "武汉杰士邦卫生用品有限公司",
 		"brandId": "10228602",
 		"brandName": "杰士邦"
+	},
+	{
+		"shopId": "10092786",
+		"shopName": "皇台酒类旗舰店",
+		"brandId": "10229745",
+		"brandName": "皇台酒贵宾酒卡"
 	},
 	{
 		"shopId": "10092827",
@@ -2296,6 +2314,18 @@
 		"shopName": "连花京东自营旗舰店",
 		"brandId": "1000345162",
 		"brandName": "连花VIP"
+	},
+	{
+		"shopId": "1000347101",
+		"shopName": "蕉下户外京东自营旗舰店",
+		"brandId": "1000347101",
+		"brandName": "蕉下会员店"
+	},
+	{
+		"shopId": "1000349621",
+		"shopName": "伤迪京东自营旗舰店",
+		"brandId": "1000349621",
+		"brandName": "伤迪会员"
 	},
 	{
 		"shopId": "1000351891",
