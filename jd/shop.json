@@ -96,6 +96,12 @@
 		"brandName": "露安适旗舰店"
 	},
 	{
+		"shopId": "77456",
+		"shopName": "想念挂面官方旗舰店",
+		"brandId": "80670",
+		"brandName": "想念"
+	},
+	{
 		"shopId": "80632",
 		"shopName": "领誉旗舰店",
 		"brandId": "83768",
@@ -112,12 +118,6 @@
 		"shopName": "粮全其美官方旗舰店",
 		"brandId": "89315",
 		"brandName": "粮全其美会员"
-	},
-	{
-		"shopId": "88156",
-		"shopName": "迈拓维矩专卖店",
-		"brandId": "90824",
-		"brandName": "迈拓维矩"
 	},
 	{
 		"shopId": "91408",
@@ -256,12 +256,6 @@
 		"shopName": "TUMI官方旗舰店",
 		"brandId": "180870",
 		"brandName": "TUMI"
-	},
-	{
-		"shopId": "175123",
-		"shopName": "美之高旗舰店",
-		"brandId": "181678",
-		"brandName": "美之高品牌会员"
 	},
 	{
 		"shopId": "176265",
@@ -594,12 +588,6 @@
 		"brandName": "中粮罐头旗舰店"
 	},
 	{
-		"shopId": "857641",
-		"shopName": "VERSACE手表旗舰店",
-		"brandId": "10020401",
-		"brandName": "VERSACE"
-	},
-	{
 		"shopId": "878597",
 		"shopName": "雀巢咖啡品牌",
 		"brandId": "10039599",
@@ -732,22 +720,10 @@
 		"brandName": "金沙VIP"
 	},
 	{
-		"shopId": "10191052",
-		"shopName": "养生堂韩旭专卖店",
-		"brandId": "10336301",
-		"brandName": "养生堂韩旭专卖"
-	},
-	{
 		"shopId": "10197603",
 		"shopName": "阿特纳运动专营店",
 		"brandId": "10342761",
 		"brandName": "阿特纳Vip"
-	},
-	{
-		"shopId": "10206850",
-		"shopName": "小狗当家宠物用品专营店",
-		"brandId": "10353058",
-		"brandName": "小狗当家京东店"
 	},
 	{
 		"shopId": "10208902",
@@ -796,12 +772,6 @@
 		"shopName": "中国特产·白山助农馆 ",
 		"brandId": "10392818",
 		"brandName": "林谷森园"
-	},
-	{
-		"shopId": "10248187",
-		"shopName": "丽朗博兰旗舰店",
-		"brandId": "10395243",
-		"brandName": "丽朗博兰VIP"
 	},
 	{
 		"shopId": "10250212",
@@ -1866,12 +1836,6 @@
 		"brandName": "潮宏基会员"
 	},
 	{
-		"shopId": "1000105757",
-		"shopName": "旗牌京东自营官方旗舰店",
-		"brandId": "1000105757",
-		"brandName": "旗牌文具VIP"
-	},
-	{
 		"shopId": "1000106300",
 		"shopName": "大宠爱 京东自营旗舰店",
 		"brandId": "1000106300",
@@ -1900,12 +1864,6 @@
 		"shopName": "亮荘京东自营旗舰店",
 		"brandId": "1000110084",
 		"brandName": "亮荘会员卡"
-	},
-	{
-		"shopId": "1000112452",
-		"shopName": "宝家洁京东自营旗舰店",
-		"brandId": "1000112452",
-		"brandName": "宝家洁VIP"
 	},
 	{
 		"shopId": "1000114761",
