@@ -894,6 +894,12 @@
 		"brand_name": "杜康"
 	},
 	{
+		"shop_id": "700678",
+		"shop_name": "永丰源旗舰店",
+		"brand_id": "704858",
+		"brand_name": "永丰源旗舰店"
+	},
+	{
 		"shop_id": "703279",
 		"shop_name": "骁龙旗舰店",
 		"brand_id": "707261",
@@ -1614,6 +1620,12 @@
 		"brand_name": "百事可乐"
 	},
 	{
+		"shop_id": "10256778",
+		"shop_name": "瑞诚康盛大药房旗舰店",
+		"brand_id": "10403411",
+		"brand_name": "瑞诚康盛大药房"
+	},
+	{
 		"shop_id": "10259827",
 		"shop_name": "第一江南旗舰店",
 		"brand_id": "10399814",
@@ -1690,6 +1702,12 @@
 		"shop_name": "武陵酒类旗舰店",
 		"brand_id": "10503441",
 		"brand_name": "武陵酒类旗舰店"
+	},
+	{
+		"shop_id": "10296609",
+		"shop_name": "臻茶荟茶叶旗舰店",
+		"brand_id": "10508693",
+		"brand_name": "臻茶荟"
 	},
 	{
 		"shop_id": "10300831",
