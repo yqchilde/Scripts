@@ -300,12 +300,6 @@
 		"brandName": "卡西欧汉宇专卖"
 	},
 	{
-		"shopId": "581657",
-		"shopName": "咕咕官方旗舰店",
-		"brandId": "589672",
-		"brandName": "咕咕官方旗舰店"
-	},
-	{
 		"shopId": "584303",
 		"shopName": "九孚旗舰店",
 		"brandId": "592591",
@@ -394,6 +388,12 @@
 		"shopName": "古井贡酒年份原浆官方旗舰店",
 		"brandId": "663861",
 		"brandName": "年份原浆官旗"
+	},
+	{
+		"shopId": "664798",
+		"shopName": "北菜园官方旗舰店",
+		"brandId": "669033",
+		"brandName": "北菜园会员卡"
 	},
 	{
 		"shopId": "670597",
@@ -564,6 +564,12 @@
 		"brandName": "A21"
 	},
 	{
+		"shopId": "826889",
+		"shopName": "对啊网图书旗舰店",
+		"brandId": "828095",
+		"brandName": "对啊网"
+	},
+	{
 		"shopId": "828144",
 		"shopName": "益肤官方旗舰店",
 		"brandId": "829096",
@@ -654,6 +660,12 @@
 		"brandName": "奇姬"
 	},
 	{
+		"shopId": "10082419",
+		"shopName": "洋河酒类京东自营旗舰店",
+		"brandId": "10209653",
+		"brandName": "洋河"
+	},
+	{
 		"shopId": "10086308",
 		"shopName": "CJ食品旗舰店",
 		"brandId": "10222935",
@@ -726,10 +738,10 @@
 		"brandName": "金沙VIP"
 	},
 	{
-		"shopId": "10197603",
-		"shopName": "阿特纳运动专营店",
-		"brandId": "10342761",
-		"brandName": "阿特纳Vip"
+		"shopId": "10205567",
+		"shopName": "鲜感觉官方旗舰店",
+		"brandId": "10352471",
+		"brandName": "鲜感觉会员卡"
 	},
 	{
 		"shopId": "10208902",
