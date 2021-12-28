@@ -438,6 +438,12 @@
 		"brandName": "伤迪会员卡"
 	},
 	{
+		"shopId": "700678",
+		"shopName": "永丰源旗舰店",
+		"brandId": "704858",
+		"brandName": "永丰源旗舰店"
+	},
+	{
 		"shopId": "703279",
 		"shopName": "骁龙旗舰店",
 		"brandId": "707261",
@@ -780,6 +786,12 @@
 		"brandName": "贝伊丝会员卡"
 	},
 	{
+		"shopId": "10256778",
+		"shopName": "瑞诚康盛大药房旗舰店",
+		"brandId": "10403411",
+		"brandName": "瑞诚康盛大药房"
+	},
+	{
 		"shopId": "10259827",
 		"shopName": "第一江南旗舰店",
 		"brandId": "10399814",
@@ -838,6 +850,12 @@
 		"shopName": "柴火大院",
 		"brandId": "10499372",
 		"brandName": "柴火大院"
+	},
+	{
+		"shopId": "10296609",
+		"shopName": "臻茶荟茶叶旗舰店",
+		"brandId": "10508693",
+		"brandName": "臻茶荟"
 	},
 	{
 		"shopId": "10302300",
@@ -1102,6 +1120,12 @@
 		"shopName": "洁婷京东自营官方旗舰店",
 		"brandId": "1000002441",
 		"brandName": "洁婷会员卡"
+	},
+	{
+		"shopId": "1000002499",
+		"shopName": "OLAY玉兰油京东自营旗舰店",
+		"brandId": "1000002499",
+		"brandName": "OLAY玉兰油"
 	},
 	{
 		"shopId": "1000002826",
