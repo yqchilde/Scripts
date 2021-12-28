@@ -810,6 +810,12 @@
 		"brand_name": "卡西欧"
 	},
 	{
+		"shop_id": "664798",
+		"shop_name": "北菜园官方旗舰店",
+		"brand_id": "669033",
+		"brand_name": "北菜园会员卡"
+	},
+	{
 		"shop_id": "666817",
 		"shop_name": "梓旭家居专营店",
 		"brand_id": "671035",
@@ -1120,6 +1126,12 @@
 		"shop_name": "A21童装旗舰店",
 		"brand_id": "826431",
 		"brand_name": "A21"
+	},
+	{
+		"shop_id": "826889",
+		"shop_name": "对啊网图书旗舰店",
+		"brand_id": "828095",
+		"brand_name": "对啊网"
 	},
 	{
 		"shop_id": "828064",
@@ -1486,6 +1498,12 @@
 		"shop_name": "佰酒汇酒水专营店",
 		"brand_id": "10352509",
 		"brand_name": "佰酒汇-白酒店"
+	},
+	{
+		"shop_id": "10205567",
+		"shop_name": "鲜感觉官方旗舰店",
+		"brand_id": "10352471",
+		"brand_name": "鲜感觉会员卡"
 	},
 	{
 		"shop_id": "10206850",
