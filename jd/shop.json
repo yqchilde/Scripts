@@ -306,12 +306,6 @@
 		"brandName": "续酒缘会员卡"
 	},
 	{
-		"shopId": "217049",
-		"shopName": "卡西欧汉宇专卖店",
-		"brandId": "221929",
-		"brandName": "卡西欧汉宇专卖"
-	},
-	{
 		"shopId": "584303",
 		"shopName": "九孚旗舰店",
 		"brandId": "592591",
@@ -972,12 +966,6 @@
 		"brandName": "杨国福旗舰店"
 	},
 	{
-		"shopId": "10343682",
-		"shopName": "大晟滋补养生旗舰店",
-		"brandId": "10557247",
-		"brandName": "大晟滋补旗舰店"
-	},
-	{
 		"shopId": "10354824",
 		"shopName": "哲高玩具旗舰店",
 		"brandId": "10567962",
@@ -1336,12 +1324,6 @@
 		"shopName": "蕉下京东自营旗舰店",
 		"brandId": "1000008122",
 		"brandName": "蕉下会员店"
-	},
-	{
-		"shopId": "1000008722",
-		"shopName": "爱思贝京东官方自营旗舰店",
-		"brandId": "1000008722",
-		"brandName": "爱思贝会员卡"
 	},
 	{
 		"shopId": "1000009402",
@@ -1714,12 +1696,6 @@
 		"shopName": "汾酒京东自营官方旗舰店",
 		"brandId": "1000090461",
 		"brandName": "汾酒"
-	},
-	{
-		"shopId": "1000090729",
-		"shopName": "BOOX京东自营旗舰店",
-		"brandId": "1000090729",
-		"brandName": "文石精选会员"
 	},
 	{
 		"shopId": "1000090824",
