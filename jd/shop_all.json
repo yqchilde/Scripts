@@ -48,6 +48,12 @@
 		"brand_name": "邦怡官方旗舰店"
 	},
 	{
+		"shop_id": "23045",
+		"shop_name": "德力西官方旗舰店",
+		"brand_id": "23631",
+		"brand_name": "德力西官方店"
+	},
+	{
 		"shop_id": "23130",
 		"shop_name": "Kappa官方旗舰店",
 		"brand_id": "23744",
@@ -486,6 +492,12 @@
 		"brand_name": "达而稳旗舰店"
 	},
 	{
+		"shop_id": "169311",
+		"shop_name": "锦秋堂陶瓷官方旗舰店",
+		"brand_id": "175399",
+		"brand_name": "锦秋堂陶瓷"
+	},
+	{
 		"shop_id": "169582",
 		"shop_name": "酒街网官方旗舰店",
 		"brand_id": "174346",
@@ -640,6 +652,12 @@
 		"shop_name": "隆泰祥茶业专营店",
 		"brand_id": "593073",
 		"brand_name": "隆泰祥茶业"
+	},
+	{
+		"shop_id": "584835",
+		"shop_name": "金城堡官方旗舰店",
+		"brand_id": "593265",
+		"brand_name": "金城堡会员"
 	},
 	{
 		"shop_id": "585147",
@@ -952,6 +970,12 @@
 		"shop_name": "天骄美家居专营店",
 		"brand_id": "726514",
 		"brand_name": "天骄美家居"
+	},
+	{
+		"shop_id": "723031",
+		"shop_name": "举朋居家日用专营店",
+		"brand_id": "728226",
+		"brand_name": "举朋居家日用"
 	},
 	{
 		"shop_id": "728640",
@@ -1684,6 +1708,12 @@
 		"shop_name": "一兰旗舰店",
 		"brand_id": "10488455",
 		"brand_name": "一兰旗舰店"
+	},
+	{
+		"shop_id": "10282699",
+		"shop_name": "臻雅茶叶专营店",
+		"brand_id": "10491909",
+		"brand_name": "宝臻号"
 	},
 	{
 		"shop_id": "10284435",
@@ -3000,6 +3030,12 @@
 		"brand_name": "佳沛"
 	},
 	{
+		"shop_id": "1000085824",
+		"shop_name": "ICERS京东自营旗舰店",
+		"brand_id": "1000085824",
+		"brand_name": "ICERS自营"
+	},
+	{
 		"shop_id": "1000086084",
 		"shop_name": "水井坊京东自营旗舰店",
 		"brand_id": "1000086084",
@@ -3502,6 +3538,12 @@
 		"shop_name": "圣芝葡萄酒京东自营旗舰店",
 		"brand_id": "1000114761",
 		"brand_name": "圣芝会员"
+	},
+	{
+		"shop_id": "1000114764",
+		"shop_name": "雪铁纳京东自营旗舰店",
+		"brand_id": "1000114764",
+		"brand_name": "瑞士雪铁纳"
 	},
 	{
 		"shop_id": "1000114841",
