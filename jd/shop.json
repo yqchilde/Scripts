@@ -12,6 +12,12 @@
 		"brandName": "丸美官方旗舰店"
 	},
 	{
+		"shopId": "23045",
+		"shopName": "德力西官方旗舰店",
+		"brandId": "23631",
+		"brandName": "德力西官方店"
+	},
+	{
 		"shopId": "23130",
 		"shopName": "Kappa官方旗舰店",
 		"brandId": "23744",
@@ -234,6 +240,12 @@
 		"brandName": "达而稳旗舰店"
 	},
 	{
+		"shopId": "169311",
+		"shopName": "锦秋堂陶瓷官方旗舰店",
+		"brandId": "175399",
+		"brandName": "锦秋堂陶瓷"
+	},
+	{
 		"shopId": "169582",
 		"shopName": "酒街网官方旗舰店",
 		"brandId": "174346",
@@ -304,6 +316,12 @@
 		"shopName": "九孚旗舰店",
 		"brandId": "592591",
 		"brandName": "九孚旗舰店"
+	},
+	{
+		"shopId": "584835",
+		"shopName": "金城堡官方旗舰店",
+		"brandId": "593265",
+		"brandName": "金城堡会员"
 	},
 	{
 		"shopId": "585147",
@@ -472,6 +490,12 @@
 		"shopName": "劲牌官方旗舰店",
 		"brandId": "719465",
 		"brandName": "劲牌官方旗舰店"
+	},
+	{
+		"shopId": "723031",
+		"shopName": "举朋居家日用专营店",
+		"brandId": "728226",
+		"brandName": "举朋居家日用"
 	},
 	{
 		"shopId": "728640",
@@ -840,6 +864,12 @@
 		"brandName": "一兰旗舰店"
 	},
 	{
+		"shopId": "10282699",
+		"shopName": "臻雅茶叶专营店",
+		"brandId": "10491909",
+		"brandName": "宝臻号"
+	},
+	{
 		"shopId": "10284435",
 		"shopName": "蕉下户外旗舰店",
 		"brandId": "10494532",
@@ -880,6 +910,12 @@
 		"shopName": "壹号卖家母婴旗舰店",
 		"brandId": "10516596",
 		"brandName": "壹号卖家母婴"
+	},
+	{
+		"shopId": "10308966",
+		"shopName": "雅士利奶粉旗舰店",
+		"brandId": "10517793",
+		"brandName": "别提多美会员"
 	},
 	{
 		"shopId": "10309908",
@@ -1614,6 +1650,12 @@
 		"brandName": "佳沛"
 	},
 	{
+		"shopId": "1000085824",
+		"shopName": "ICERS京东自营旗舰店",
+		"brandId": "1000085824",
+		"brandName": "ICERS自营"
+	},
+	{
 		"shopId": "1000086162",
 		"shopName": "爱舒乐京东自营旗舰店",
 		"brandId": "1000086162",
@@ -1906,6 +1948,12 @@
 		"shopName": "圣芝葡萄酒京东自营旗舰店",
 		"brandId": "1000114761",
 		"brandName": "圣芝会员"
+	},
+	{
+		"shopId": "1000114764",
+		"shopName": "雪铁纳京东自营旗舰店",
+		"brandId": "1000114764",
+		"brandName": "瑞士雪铁纳"
 	},
 	{
 		"shopId": "1000114841",
