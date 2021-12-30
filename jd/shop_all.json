@@ -756,6 +756,12 @@
 		"brand_name": "新疆农特产馆"
 	},
 	{
+		"shop_id": "625274",
+		"shop_name": "紫蓝花海官方旗舰店",
+		"brand_id": "630340",
+		"brand_name": "紫蓝花海VIP"
+	},
+	{
 		"shop_id": "629516",
 		"shop_name": "爱思贝官方旗舰店",
 		"brand_id": "633931",
@@ -1302,6 +1308,12 @@
 		"brand_name": "谭八爷"
 	},
 	{
+		"shop_id": "10045073",
+		"shop_name": "蕉下服饰旗舰店",
+		"brand_id": "10180424",
+		"brand_name": "蕉下品牌会员"
+	},
+	{
 		"shop_id": "10050273",
 		"shop_name": "郎牌特曲官方旗舰店",
 		"brand_id": "10185454",
@@ -1366,6 +1378,12 @@
 		"shop_name": "四川水井坊股份有限公司",
 		"brand_id": "10202804",
 		"brand_name": "水井坊"
+	},
+	{
+		"shop_id": "10071926",
+		"shop_name": "PowerBlock健身训练旗舰店",
+		"brand_id": "10207895",
+		"brand_name": "PB旗舰店"
 	},
 	{
 		"shop_id": "10075479",
@@ -1966,6 +1984,12 @@
 		"shop_name": "畅世生鲜专营店",
 		"brand_id": "10580491",
 		"brand_name": "阿旗馆"
+	},
+	{
+		"shop_id": "10370169",
+		"shop_name": "特仑苏官方旗舰店",
+		"brand_id": "10584915",
+		"brand_name": "特仑苏会员卡"
 	},
 	{
 		"shop_id": "10376536",
@@ -3594,6 +3618,12 @@
 		"brand_name": "HFP"
 	},
 	{
+		"shop_id": "1000115421",
+		"shop_name": "久光制药（Hisamitsu）京东自营旗舰店",
+		"brand_id": "1000115421",
+		"brand_name": "久光制药"
+	},
+	{
 		"shop_id": "1000115561",
 		"shop_name": "雷允上京东自营旗舰店",
 		"brand_id": "1000115561",
@@ -3784,6 +3814,12 @@
 		"shop_name": "希杰（CJ）京东自营旗舰店",
 		"brand_id": "1000164381",
 		"brand_name": "希杰食品"
+	},
+	{
+		"shop_id": "1000164422",
+		"shop_name": "BeautyBuffet京东自营旗舰店",
+		"brand_id": "1000164422",
+		"brand_name": "VIP"
 	},
 	{
 		"shop_id": "1000165282",
