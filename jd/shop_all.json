@@ -288,6 +288,12 @@
 		"brand_name": "迈拓维矩"
 	},
 	{
+		"shop_id": "89460",
+		"shop_name": "泰山啤酒专卖店",
+		"brand_id": "91414",
+		"brand_name": "泰山啤酒vip"
+	},
+	{
 		"shop_id": "90169",
 		"shop_name": "古井贡酒官方旗舰店",
 		"brand_id": "92739",
@@ -792,6 +798,12 @@
 		"brand_name": "酒食人生"
 	},
 	{
+		"shop_id": "652421",
+		"shop_name": "霸王醉官方旗舰店",
+		"brand_id": "656920",
+		"brand_name": "霸王醉"
+	},
+	{
 		"shop_id": "654200",
 		"shop_name": "blueriver蓝河母婴旗舰店",
 		"brand_id": "658812",
@@ -838,6 +850,12 @@
 		"shop_name": "梓旭家居专营店",
 		"brand_id": "671035",
 		"brand_name": "宝贝故事"
+	},
+	{
+		"shop_id": "667076",
+		"shop_name": "i-baby官方旗舰店",
+		"brand_id": "671430",
+		"brand_name": "i-baby"
 	},
 	{
 		"shop_id": "668195",
@@ -1390,6 +1408,12 @@
 		"shop_name": "五色养（WUSEYANG）京东自营旗舰店",
 		"brand_id": "10221129",
 		"brand_name": "五色养"
+	},
+	{
+		"shop_id": "10089149",
+		"shop_name": "艾素官方旗舰店",
+		"brand_id": "10225764",
+		"brand_name": "艾素官方旗舰店"
 	},
 	{
 		"shop_id": "10090034",
@@ -3186,6 +3210,12 @@
 		"brand_name": "稻花香白酒"
 	},
 	{
+		"shop_id": "1000091274",
+		"shop_name": "Chali京东自营旗舰店",
+		"brand_id": "1000091274",
+		"brand_name": "茶里专属会员卡"
+	},
+	{
 		"shop_id": "1000092091",
 		"shop_name": "大龍燚京东自营旗舰店",
 		"brand_id": "1000092091",
@@ -3948,6 +3978,12 @@
 		"brand_name": "臻宠会员"
 	},
 	{
+		"shop_id": "1000331923",
+		"shop_name": "张裕葡萄酒京东自营专卖店",
+		"brand_id": "1000331923",
+		"brand_name": "张裕葡萄酒会员"
+	},
+	{
 		"shop_id": "1000332081",
 		"shop_name": "北井稻京东自营旗舰店",
 		"brand_id": "1000332081",
@@ -4060,6 +4096,12 @@
 		"shop_name": "蕉下户外京东自营旗舰店",
 		"brand_id": "1000347101",
 		"brand_name": "蕉下会员店"
+	},
+	{
+		"shop_id": "1000348365",
+		"shop_name": "红狗（RedDog）京东自营旗舰店",
+		"brand_id": "1000348365",
+		"brand_name": "红狗VIP"
 	},
 	{
 		"shop_id": "1000349621",
