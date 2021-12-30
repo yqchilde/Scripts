@@ -126,6 +126,12 @@
 		"brandName": "粮全其美会员"
 	},
 	{
+		"shopId": "89460",
+		"shopName": "泰山啤酒专卖店",
+		"brandId": "91414",
+		"brandName": "泰山啤酒vip"
+	},
+	{
 		"shopId": "91408",
 		"shopName": "wua.wua旗舰店",
 		"brandId": "93944",
@@ -270,10 +276,22 @@
 		"brandName": "TUMI"
 	},
 	{
+		"shopId": "175123",
+		"shopName": "美之高旗舰店",
+		"brandId": "181678",
+		"brandName": "美之高品牌会员"
+	},
+	{
 		"shopId": "176265",
 		"shopName": "乐扣乐扣官方旗舰店",
 		"brandId": "182872",
 		"brandName": "乐扣乐扣"
+	},
+	{
+		"shopId": "185645",
+		"shopName": "卡西欧宝亮专卖店",
+		"brandId": "193385",
+		"brandName": "卡西欧宝亮钟表"
 	},
 	{
 		"shopId": "189096",
@@ -390,6 +408,12 @@
 		"brandName": "利其尔旗舰店"
 	},
 	{
+		"shopId": "652421",
+		"shopName": "霸王醉官方旗舰店",
+		"brandId": "656920",
+		"brandName": "霸王醉"
+	},
+	{
 		"shopId": "654200",
 		"shopName": "blueriver蓝河母婴旗舰店",
 		"brandId": "658812",
@@ -406,6 +430,12 @@
 		"shopName": "北菜园官方旗舰店",
 		"brandId": "669033",
 		"brandName": "北菜园会员卡"
+	},
+	{
+		"shopId": "667076",
+		"shopName": "i-baby官方旗舰店",
+		"brandId": "671430",
+		"brandName": "i-baby"
 	},
 	{
 		"shopId": "670597",
@@ -702,6 +732,12 @@
 		"brandName": "五色养"
 	},
 	{
+		"shopId": "10089149",
+		"shopName": "艾素官方旗舰店",
+		"brandId": "10225764",
+		"brandName": "艾素官方旗舰店"
+	},
+	{
 		"shopId": "10090034",
 		"shopName": "BEBETOUR母婴旗舰店",
 		"brandId": "10226475",
@@ -766,6 +802,12 @@
 		"shopName": "锋味旗舰店",
 		"brandId": "10355281",
 		"brandName": "锋味旗舰店"
+	},
+	{
+		"shopId": "10209780",
+		"shopName": "回味赞旗舰店",
+		"brandId": "10355490",
+		"brandName": "回味赞旗舰店"
 	},
 	{
 		"shopId": "10213158",
@@ -1704,6 +1746,12 @@
 		"brandName": "君乐宝乳品"
 	},
 	{
+		"shopId": "1000091274",
+		"shopName": "Chali京东自营旗舰店",
+		"brandId": "1000091274",
+		"brandName": "茶里专属会员卡"
+	},
+	{
 		"shopId": "1000092169",
 		"shopName": "伊利冰淇淋自营旗舰店",
 		"brandId": "1000092169",
@@ -2052,6 +2100,12 @@
 		"brandName": "卡比兽旗舰店"
 	},
 	{
+		"shopId": "1000146828",
+		"shopName": "澳芝曼（G\u0026M）京东自营官方旗舰店",
+		"brandId": "1000146828",
+		"brandName": "澳芝曼会员卡"
+	},
+	{
 		"shopId": "1000147183",
 		"shopName": "追风京东自营旗舰店",
 		"brandId": "1000147183",
@@ -2214,6 +2268,12 @@
 		"brandName": "汾酒"
 	},
 	{
+		"shopId": "1000331923",
+		"shopName": "张裕葡萄酒京东自营专卖店",
+		"brandId": "1000331923",
+		"brandName": "张裕葡萄酒会员"
+	},
+	{
 		"shopId": "1000332288",
 		"shopName": "大悦京东自营旗舰店",
 		"brandId": "1000332288",
@@ -2302,6 +2362,12 @@
 		"shopName": "蕉下户外京东自营旗舰店",
 		"brandId": "1000347101",
 		"brandName": "蕉下会员店"
+	},
+	{
+		"shopId": "1000348365",
+		"shopName": "红狗（RedDog）京东自营旗舰店",
+		"brandId": "1000348365",
+		"brandName": "红狗VIP"
 	},
 	{
 		"shopId": "1000349621",
