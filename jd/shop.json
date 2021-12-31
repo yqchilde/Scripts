@@ -168,12 +168,6 @@
 		"brandName": "品立官方旗舰店"
 	},
 	{
-		"shopId": "120660",
-		"shopName": "思沃官方旗舰店",
-		"brandId": "123484",
-		"brandName": "思沃口罩入会"
-	},
-	{
 		"shopId": "120907",
 		"shopName": "5号酒库旗舰店",
 		"brandId": "124276",
@@ -240,6 +234,12 @@
 		"brandName": "国保旗舰店"
 	},
 	{
+		"shopId": "168198",
+		"shopName": "石花官方旗舰店",
+		"brandId": "174020",
+		"brandName": "湖北石花"
+	},
+	{
 		"shopId": "168606",
 		"shopName": "达而稳数码旗舰店",
 		"brandId": "174504",
@@ -294,12 +294,6 @@
 		"brandName": "卡西欧宝亮钟表"
 	},
 	{
-		"shopId": "189096",
-		"shopName": "绿尔康保健品专营店",
-		"brandId": "197497",
-		"brandName": "绿尔康保健品"
-	},
-	{
 		"shopId": "191423",
 		"shopName": "Mlily梦百合旗舰店",
 		"brandId": "199995",
@@ -342,12 +336,6 @@
 		"brandName": "金城堡会员"
 	},
 	{
-		"shopId": "585147",
-		"shopName": "多燕瘦旗舰店",
-		"brandId": "593411",
-		"brandName": "DYESOO"
-	},
-	{
 		"shopId": "585640",
 		"shopName": "第6感官方旗舰店",
 		"brandId": "593208",
@@ -388,12 +376,6 @@
 		"shopName": "紫蓝花海官方旗舰店",
 		"brandId": "630340",
 		"brandName": "紫蓝花海VIP"
-	},
-	{
-		"shopId": "629516",
-		"shopName": "爱思贝官方旗舰店",
-		"brandId": "633931",
-		"brandName": "爱思贝旗舰店"
 	},
 	{
 		"shopId": "629543",
@@ -564,16 +546,16 @@
 		"brandName": "雀巢"
 	},
 	{
+		"shopId": "751847",
+		"shopName": "ThinkPad重庆授权专卖店",
+		"brandId": "755997",
+		"brandName": "Think重庆"
+	},
+	{
 		"shopId": "752101",
 		"shopName": "自嗨锅旗舰店",
 		"brandId": "756351",
 		"brandName": "自嗨锅旗舰店"
-	},
-	{
-		"shopId": "760035",
-		"shopName": "洞庭湖官方旗舰店",
-		"brandId": "764693",
-		"brandName": "洞庭湖旗舰店"
 	},
 	{
 		"shopId": "765997",
@@ -894,6 +876,12 @@
 		"brandName": "贝伊丝会员卡"
 	},
 	{
+		"shopId": "10254275",
+		"shopName": "华美食品官方旗舰店",
+		"brandId": "10401078",
+		"brandName": "华美食品"
+	},
+	{
 		"shopId": "10256778",
 		"shopName": "瑞诚康盛大药房旗舰店",
 		"brandId": "10403411",
@@ -916,6 +904,12 @@
 		"shopName": "MedRepair米蓓尔官方旗舰店",
 		"brandId": "10412889",
 		"brandName": "米蓓尔会员卡"
+	},
+	{
+		"shopId": "10267433",
+		"shopName": "Tiny Love旗舰店",
+		"brandId": "10415068",
+		"brandName": "乐享成长"
 	},
 	{
 		"shopId": "10276102",
@@ -994,12 +988,6 @@
 		"shopName": "希杰VIP会员",
 		"brandId": "10520129",
 		"brandName": "希杰食品"
-	},
-	{
-		"shopId": "10315387",
-		"shopName": "多燕瘦品牌",
-		"brandId": "10526825",
-		"brandName": "DYESOO"
 	},
 	{
 		"shopId": "10325961",
@@ -1366,12 +1354,6 @@
 		"shopName": "海氏海诺京东自营旗舰店",
 		"brandId": "1000006462",
 		"brandName": "海氏海诺旗舰店"
-	},
-	{
-		"shopId": "1000006644",
-		"shopName": "a2至初自营官方旗舰店",
-		"brandId": "1000006644",
-		"brandName": "a2至初"
 	},
 	{
 		"shopId": "1000007024",
@@ -2356,12 +2338,6 @@
 		"shopName": "大悦京东自营旗舰店",
 		"brandId": "1000332288",
 		"brandName": "大悦会员"
-	},
-	{
-		"shopId": "1000332881",
-		"shopName": "晖致京东自营旗舰店",
-		"brandId": "1000332881",
-		"brandName": "晖致"
 	},
 	{
 		"shopId": "1000332882",
