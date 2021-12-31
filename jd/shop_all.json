@@ -504,6 +504,12 @@
 		"brand_name": "巧妈妈布丁"
 	},
 	{
+		"shop_id": "168198",
+		"shop_name": "石花官方旗舰店",
+		"brand_id": "174020",
+		"brand_name": "湖北石花"
+	},
+	{
 		"shop_id": "168606",
 		"shop_name": "达而稳数码旗舰店",
 		"brand_id": "174504",
@@ -1078,6 +1084,12 @@
 		"shop_name": "欧丽薇兰旗舰店",
 		"brand_id": "755827",
 		"brand_name": "欧丽薇兰旗舰店"
+	},
+	{
+		"shop_id": "751847",
+		"shop_name": "ThinkPad重庆授权专卖店",
+		"brand_id": "755997",
+		"brand_name": "Think重庆"
 	},
 	{
 		"shop_id": "752101",
@@ -1734,6 +1746,12 @@
 		"brand_name": "李子柒"
 	},
 	{
+		"shop_id": "10254275",
+		"shop_name": "华美食品官方旗舰店",
+		"brand_id": "10401078",
+		"brand_name": "华美食品"
+	},
+	{
 		"shop_id": "10254655",
 		"shop_name": "百事可乐官方旗舰店",
 		"brand_id": "10401241",
@@ -1762,6 +1780,12 @@
 		"shop_name": "MedRepair米蓓尔官方旗舰店",
 		"brand_id": "10412889",
 		"brand_name": "米蓓尔会员卡"
+	},
+	{
+		"shop_id": "10267433",
+		"shop_name": "Tiny Love旗舰店",
+		"brand_id": "10415068",
+		"brand_name": "乐享成长"
 	},
 	{
 		"shop_id": "10273932",
