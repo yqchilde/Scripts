@@ -12,6 +12,12 @@
 		"brand_name": "THERA彩宝"
 	},
 	{
+		"shop_id": "15228",
+		"shop_name": "匹克官方旗舰店",
+		"brand_id": "16307",
+		"brand_name": "匹克"
+	},
+	{
 		"shop_id": "17039",
 		"shop_name": "HARIO旗舰店",
 		"brand_id": "17830",
@@ -70,6 +76,12 @@
 		"shop_name": "巴拉巴拉官方旗舰店",
 		"brand_id": "27396",
 		"brand_name": "巴拉巴拉"
+	},
+	{
+		"shop_id": "28075",
+		"shop_name": "奇酷官方旗舰店",
+		"brand_id": "28814",
+		"brand_name": "奇酷官方旗舰店"
 	},
 	{
 		"shop_id": "28522",
@@ -876,6 +888,12 @@
 		"brand_name": "习酒"
 	},
 	{
+		"shop_id": "677854",
+		"shop_name": "伊力特官方旗舰店",
+		"brand_id": "679301",
+		"brand_name": "伊力特VIP"
+	},
+	{
 		"shop_id": "682597",
 		"shop_name": "疯狂小狗旗舰店",
 		"brand_id": "686353",
@@ -1090,6 +1108,12 @@
 		"shop_name": "沂蒙仁和堂大药房旗舰店",
 		"brand_id": "761386",
 		"brand_name": "沂蒙仁和堂"
+	},
+	{
+		"shop_id": "767945",
+		"shop_name": "罗蒙官方旗舰店",
+		"brand_id": "772106",
+		"brand_name": "罗蒙品牌会员"
 	},
 	{
 		"shop_id": "770786",
@@ -1458,6 +1482,12 @@
 		"brand_name": "康师傅方便面"
 	},
 	{
+		"shop_id": "10093848",
+		"shop_name": "杏子林生鲜官方旗舰店",
+		"brand_id": "10230340",
+		"brand_name": "杏子林生鲜"
+	},
+	{
 		"shop_id": "10095657",
 		"shop_name": "大悦旗舰店",
 		"brand_id": "10232676",
@@ -1582,6 +1612,12 @@
 		"shop_name": "锋味旗舰店",
 		"brand_id": "10355281",
 		"brand_name": "锋味旗舰店"
+	},
+	{
+		"shop_id": "10209213",
+		"shop_name": "得力浪华专卖店",
+		"brand_id": "10355094",
+		"brand_name": "得力浪华专卖店"
 	},
 	{
 		"shop_id": "10209780",
@@ -2874,6 +2910,12 @@
 		"brand_name": "8H旗舰店会员"
 	},
 	{
+		"shop_id": "1000075722",
+		"shop_name": "第一坊京东自营旗舰店",
+		"brand_id": "1000075722",
+		"brand_name": "第一坊"
+	},
+	{
 		"shop_id": "1000076304",
 		"shop_name": "刀唛食用油京东自营旗舰店",
 		"brand_id": "1000076304",
@@ -3240,6 +3282,12 @@
 		"brand_name": "茶里专属会员卡"
 	},
 	{
+		"shop_id": "1000091863",
+		"shop_name": "古船京东自营旗舰店",
+		"brand_id": "1000091863",
+		"brand_name": "古船官方旗舰店"
+	},
+	{
 		"shop_id": "1000092091",
 		"shop_name": "大龍燚京东自营旗舰店",
 		"brand_id": "1000092091",
@@ -3310,6 +3358,12 @@
 		"shop_name": "TCL环境电器京东自营旗舰店",
 		"brand_id": "1000094403",
 		"brand_name": "电器京东自营"
+	},
+	{
+		"shop_id": "1000094961",
+		"shop_name": "歌斐颂京东自营旗舰店",
+		"brand_id": "1000094961",
+		"brand_name": "AEICION"
 	},
 	{
 		"shop_id": "1000095343",
@@ -3732,6 +3786,12 @@
 		"brand_name": "美极尊享会员"
 	},
 	{
+		"shop_id": "1000128743",
+		"shop_name": "雀巢优活水饮京东自营旗舰店",
+		"brand_id": "1000128743",
+		"brand_name": "雀巢优活"
+	},
+	{
 		"shop_id": "1000130821",
 		"shop_name": "执手礼（ZHI SHOU LI）创意礼品京东自营旗舰店",
 		"brand_id": "1000130821",
@@ -3946,6 +4006,12 @@
 		"shop_name": "小白心里软食品京东自营旗舰店",
 		"brand_id": "1000302045",
 		"brand_name": "小白心里软"
+	},
+	{
+		"shop_id": "1000303141",
+		"shop_name": "嘉云京东自营旗舰店",
+		"brand_id": "1000303141",
+		"brand_name": "嘉云自营旗舰店"
 	},
 	{
 		"shop_id": "1000304221",
