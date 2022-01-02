@@ -132,12 +132,6 @@
 		"brandName": "泰山啤酒vip"
 	},
 	{
-		"shopId": "113400",
-		"shopName": "茵茵官方旗舰店",
-		"brandId": "116292",
-		"brandName": "茵茵官方旗舰店"
-	},
-	{
 		"shopId": "113775",
 		"shopName": "联想众信授权专卖店",
 		"brandId": "116691",
@@ -250,12 +244,6 @@
 		"shopName": "续酒缘旗舰店",
 		"brandId": "208991",
 		"brandName": "续酒缘会员卡"
-	},
-	{
-		"shopId": "584303",
-		"shopName": "九孚旗舰店",
-		"brandId": "592591",
-		"brandName": "九孚旗舰店"
 	},
 	{
 		"shopId": "584835",
@@ -450,12 +438,6 @@
 		"brandName": "美德乐"
 	},
 	{
-		"shopId": "771416",
-		"shopName": "种着玩官方旗舰店",
-		"brandId": "775228",
-		"brandName": "种着玩会员"
-	},
-	{
 		"shopId": "789050",
 		"shopName": "水军食品旗舰店",
 		"brandId": "793047",
@@ -562,12 +544,6 @@
 		"shopName": "CJ食品旗舰店",
 		"brandId": "10222935",
 		"brandName": "希杰食品"
-	},
-	{
-		"shopId": "10086998",
-		"shopName": "苏和盛素植专卖店",
-		"brandId": "10223688",
-		"brandName": "苏和盛素植专卖"
 	},
 	{
 		"shopId": "10089149",
@@ -684,6 +660,12 @@
 		"brandName": "华硕网络会员"
 	},
 	{
+		"shopId": "10223680",
+		"shopName": "旗帜奶粉2020",
+		"brandId": "10371404",
+		"brandName": "君乐宝奶粉"
+	},
+	{
 		"shopId": "10226814",
 		"shopName": "域发官方旗舰店",
 		"brandId": "10374948",
@@ -778,12 +760,6 @@
 		"shopName": "乐扣乐扣京东自营官方旗舰店",
 		"brandId": "10537468",
 		"brandName": "乐扣乐扣"
-	},
-	{
-		"shopId": "10331954",
-		"shopName": "SALONIA旗舰店",
-		"brandId": "10544342",
-		"brandName": "SALONIA"
 	},
 	{
 		"shopId": "10339186",
@@ -1026,12 +1002,6 @@
 		"brandName": "科沃斯会员卡"
 	},
 	{
-		"shopId": "1000003003",
-		"shopName": "小迷糊京东自营旗舰店",
-		"brandId": "1000003003",
-		"brandName": "小迷糊会员"
-	},
-	{
 		"shopId": "1000003218",
 		"shopName": "KANS韩束京东自营旗舰店",
 		"brandId": "1000003218",
@@ -1132,12 +1102,6 @@
 		"shopName": "第六感京东自营旗舰店",
 		"brandId": "1000007024",
 		"brandName": "第6感"
-	},
-	{
-		"shopId": "1000007826",
-		"shopName": "巴拉巴拉京东自营旗舰店",
-		"brandId": "1000007826",
-		"brandName": "巴拉巴拉会员"
 	},
 	{
 		"shopId": "1000008082",
@@ -1270,12 +1234,6 @@
 		"shopName": "三全食品京东自营旗舰店",
 		"brandId": "1000015504",
 		"brandName": "三全"
-	},
-	{
-		"shopId": "1000015664",
-		"shopName": "习酒京东自营旗舰店",
-		"brandId": "1000015664",
-		"brandName": "习酒"
 	},
 	{
 		"shopId": "1000015761",
@@ -1704,12 +1662,6 @@
 		"brandName": "潮宏基会员"
 	},
 	{
-		"shopId": "1000106300",
-		"shopName": "大宠爱 京东自营旗舰店",
-		"brandId": "1000106300",
-		"brandName": "大宠爱"
-	},
-	{
 		"shopId": "1000106848",
 		"shopName": "奔图打印京东自营旗舰店",
 		"brandId": "1000106848",
@@ -1732,6 +1684,12 @@
 		"shopName": "宝家洁京东自营旗舰店",
 		"brandId": "1000112452",
 		"brandName": "宝家洁VIP"
+	},
+	{
+		"shopId": "1000114761",
+		"shopName": "圣芝葡萄酒京东自营旗舰店",
+		"brandId": "1000114761",
+		"brandName": "圣芝会员"
 	},
 	{
 		"shopId": "1000114764",
@@ -1864,6 +1822,12 @@
 		"shopName": "可拉奥京东自营旗舰店",
 		"brandId": "1000300336",
 		"brandName": "可拉奥尊享会员"
+	},
+	{
+		"shopId": "1000300485",
+		"shopName": "blueriver蓝河官方自营旗舰店",
+		"brandId": "1000300485",
+		"brandName": "蓝河会员卡"
 	},
 	{
 		"shopId": "1000303141",
