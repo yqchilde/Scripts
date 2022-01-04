@@ -1374,6 +1374,12 @@
 		"brand_name": "安怡官方旗舰店"
 	},
 	{
+		"shop_id": "10020512",
+		"shop_name": "宠集市京东自营旗舰店",
+		"brand_id": "10151115",
+		"brand_name": "宠集市自营"
+	},
+	{
 		"shop_id": "10022748",
 		"shop_name": "onmyoji旗舰店",
 		"brand_id": "10157147",
@@ -4024,6 +4030,12 @@
 		"shop_name": "雀巢优活水饮京东自营旗舰店",
 		"brand_id": "1000128743",
 		"brand_name": "雀巢优活"
+	},
+	{
+		"shop_id": "1000129203",
+		"shop_name": "穗格氏（SHEGURZ）京东自营旗舰店",
+		"brand_id": "1000129203",
+		"brand_name": "穗格氏·VIP"
 	},
 	{
 		"shop_id": "1000130821",
