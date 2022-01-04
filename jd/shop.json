@@ -492,6 +492,12 @@
 		"brandName": "五福金牛旗舰店"
 	},
 	{
+		"shopId": "889623",
+		"shopName": "安怡Anlene官方旗舰店",
+		"brandId": "10050336",
+		"brandName": "安怡官方旗舰店"
+	},
+	{
 		"shopId": "10045073",
 		"shopName": "蕉下服饰旗舰店",
 		"brandId": "10180424",
@@ -1320,6 +1326,12 @@
 		"brandName": "第一坊"
 	},
 	{
+		"shopId": "1000076645",
+		"shopName": "亚麻公社京东自营旗舰店",
+		"brandId": "1000076645",
+		"brandName": "亚麻公社"
+	},
+	{
 		"shopId": "1000076821",
 		"shopName": "必品阁自营旗舰店",
 		"brandId": "1000076821",
@@ -1582,6 +1594,12 @@
 		"shopName": "界界乐京东自营旗舰店",
 		"brandId": "1000097182",
 		"brandName": "界界乐"
+	},
+	{
+		"shopId": "1000097201",
+		"shopName": "露安适京东自营官方旗舰店",
+		"brandId": "1000097201",
+		"brandName": "露安适会员卡"
 	},
 	{
 		"shopId": "1000097462",
