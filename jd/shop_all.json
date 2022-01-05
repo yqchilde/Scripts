@@ -18,6 +18,12 @@
 		"brand_name": "匹克"
 	},
 	{
+		"shop_id": "15649",
+		"shop_name": "舒雅京东旗舰店",
+		"brand_id": "16814",
+		"brand_name": "舒雅会员"
+	},
+	{
 		"shop_id": "17039",
 		"shop_name": "HARIO旗舰店",
 		"brand_id": "17830",
@@ -232,6 +238,12 @@
 		"shop_name": "劲霸男装官方旗舰店",
 		"brand_id": "72587",
 		"brand_name": "劲霸会员卡"
+	},
+	{
+		"shop_id": "69804",
+		"shop_name": "泰迪熊官方旗舰店",
+		"brand_id": "73383",
+		"brand_name": "泰迪熊旗舰店"
 	},
 	{
 		"shop_id": "70605",
@@ -1150,6 +1162,12 @@
 		"shop_name": "Ora2皓乐齿旗舰店",
 		"brand_id": "751612",
 		"brand_name": "Ora2皓乐齿"
+	},
+	{
+		"shop_id": "749309",
+		"shop_name": "小炉酒馆官方旗舰店",
+		"brand_id": "753478",
+		"brand_name": "小炉酒馆会员卡"
 	},
 	{
 		"shop_id": "751612",
@@ -2212,6 +2230,12 @@
 		"shop_name": "北通京东自营旗舰店",
 		"brand_id": "1000000302",
 		"brand_name": "北通会员卡"
+	},
+	{
+		"shop_id": "1000000307",
+		"shop_name": "JBL自营官方旗舰店",
+		"brand_id": "1000000307",
+		"brand_name": "JBL自营官旗"
 	},
 	{
 		"shop_id": "1000000582",
@@ -3432,10 +3456,22 @@
 		"brand_name": "疯狂小狗"
 	},
 	{
+		"shop_id": "1000089201",
+		"shop_name": "气味图书馆京东自营旗舰店",
+		"brand_id": "1000089201",
+		"brand_name": "气味图书馆"
+	},
+	{
 		"shop_id": "1000089541",
 		"shop_name": "车丽友京东自营旗舰店",
 		"brand_id": "1000089541",
 		"brand_name": "车丽友品牌会员"
+	},
+	{
+		"shop_id": "1000089686",
+		"shop_name": "徐福记京东自营旗舰店",
+		"brand_id": "1000089686",
+		"brand_name": "徐福记"
 	},
 	{
 		"shop_id": "1000089744",
@@ -3766,6 +3802,12 @@
 		"shop_name": "罗莎庄园葡萄酒京东自营旗舰店",
 		"brand_id": "1000101425",
 		"brand_name": "罗莎庄园葡萄酒"
+	},
+	{
+		"shop_id": "1000101465",
+		"shop_name": "天佑德京东自营旗舰店",
+		"brand_id": "1000101465",
+		"brand_name": "天佑德自营店"
 	},
 	{
 		"shop_id": "1000101481",
