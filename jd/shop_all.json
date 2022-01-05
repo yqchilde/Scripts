@@ -702,6 +702,12 @@
 		"brand_name": "咕咕官方旗舰店"
 	},
 	{
+		"shop_id": "582650",
+		"shop_name": "华牛电脑专营店",
+		"brand_id": "590997",
+		"brand_name": "华牛电脑专营店"
+	},
+	{
 		"shop_id": "584303",
 		"shop_name": "九孚旗舰店",
 		"brand_id": "592591",
@@ -856,6 +862,12 @@
 		"shop_name": "酒食人生官方旗舰店",
 		"brand_id": "617613",
 		"brand_name": "酒食人生"
+	},
+	{
+		"shop_id": "650453",
+		"shop_name": "珍酒官方旗舰店",
+		"brand_id": "655029",
+		"brand_name": "珍酒官方旗舰店"
 	},
 	{
 		"shop_id": "652421",
@@ -1036,6 +1048,12 @@
 		"shop_name": "格力官方旗舰店",
 		"brand_id": "712169",
 		"brand_name": "格力电器"
+	},
+	{
+		"shop_id": "713914",
+		"shop_name": "puraspace家纺旗舰店",
+		"brand_id": "718709",
+		"brand_name": "金牌会员专享"
 	},
 	{
 		"shop_id": "713993",
@@ -1318,6 +1336,12 @@
 		"shop_name": "mont·bell旗舰店",
 		"brand_id": "10009342",
 		"brand_name": "蒙贝欧会员"
+	},
+	{
+		"shop_id": "846164",
+		"shop_name": "百年流香酒类专营店",
+		"brand_id": "10008694",
+		"brand_name": "百年流香美酒"
 	},
 	{
 		"shop_id": "850737",
@@ -1654,6 +1678,12 @@
 		"shop_name": "星象葡萄酒旗舰店",
 		"brand_id": "10321564",
 		"brand_name": "星象尊享会员"
+	},
+	{
+		"shop_id": "10187997",
+		"shop_name": "徐福记品牌会员",
+		"brand_id": "10332531",
+		"brand_name": "徐福记"
 	},
 	{
 		"shop_id": "10190269",
@@ -3648,6 +3678,12 @@
 		"brand_name": "保乐力加会员"
 	},
 	{
+		"shop_id": "1000097761",
+		"shop_name": "吉米家居京东自营旗舰店",
+		"brand_id": "1000097761",
+		"brand_name": "吉米家居会员"
+	},
+	{
 		"shop_id": "1000098145",
 		"shop_name": "璇信京东自营旗舰店",
 		"brand_id": "1000098145",
@@ -4456,6 +4492,12 @@
 		"shop_name": "蕉下户外京东自营旗舰店",
 		"brand_id": "1000347101",
 		"brand_name": "蕉下会员店"
+	},
+	{
+		"shop_id": "1000348324",
+		"shop_name": "RICHMOND \u0026 FINCH京东自营旗舰店",
+		"brand_id": "1000348324",
+		"brand_name": "尊享会员"
 	},
 	{
 		"shop_id": "1000348365",
