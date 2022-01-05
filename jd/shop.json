@@ -6,6 +6,12 @@
 		"brandName": "匹克"
 	},
 	{
+		"shopId": "15649",
+		"shopName": "舒雅京东旗舰店",
+		"brandId": "16814",
+		"brandName": "舒雅会员"
+	},
+	{
 		"shopId": "17153",
 		"shopName": "百草味官方旗舰店",
 		"brandId": "17934",
@@ -114,16 +120,16 @@
 		"brandName": "青岛啤酒会员"
 	},
 	{
+		"shopId": "69804",
+		"shopName": "泰迪熊官方旗舰店",
+		"brandId": "73383",
+		"brandName": "泰迪熊旗舰店"
+	},
+	{
 		"shopId": "70932",
 		"shopName": "贝因美官方旗舰店",
 		"brandId": "74508",
 		"brandName": "贝因美"
-	},
-	{
-		"shopId": "77456",
-		"shopName": "想念挂面官方旗舰店",
-		"brandId": "80670",
-		"brandName": "想念"
 	},
 	{
 		"shopId": "89460",
@@ -220,6 +226,12 @@
 		"shopName": "锦秋堂陶瓷官方旗舰店",
 		"brandId": "175399",
 		"brandName": "锦秋堂陶瓷"
+	},
+	{
+		"shopId": "169582",
+		"shopName": "酒街网官方旗舰店",
+		"brandId": "174346",
+		"brandName": "酒街网会员"
 	},
 	{
 		"shopId": "172740",
@@ -390,6 +402,12 @@
 		"brandName": "伊力特VIP"
 	},
 	{
+		"shopId": "691842",
+		"shopName": "HomeFacialPro官方旗舰店",
+		"brandId": "695429",
+		"brandName": "HFP"
+	},
+	{
 		"shopId": "694569",
 		"shopName": "五色养生鲜专营店",
 		"brandId": "698907",
@@ -466,6 +484,12 @@
 		"shopName": "韩束雅印专卖店",
 		"brandId": "749873",
 		"brandName": "韩束雅印专卖店"
+	},
+	{
+		"shopId": "749309",
+		"shopName": "小炉酒馆官方旗舰店",
+		"brandId": "753478",
+		"brandName": "小炉酒馆会员卡"
 	},
 	{
 		"shopId": "751847",
@@ -798,6 +822,12 @@
 		"brandName": "华美食品"
 	},
 	{
+		"shopId": "10254655",
+		"shopName": "百事可乐官方旗舰店",
+		"brandId": "10401241",
+		"brandName": "百事可乐"
+	},
+	{
 		"shopId": "10256778",
 		"shopName": "瑞诚康盛大药房旗舰店",
 		"brandId": "10403411",
@@ -844,12 +874,6 @@
 		"shopName": "臻雅茶叶专营店",
 		"brandId": "10491909",
 		"brandName": "宝臻号"
-	},
-	{
-		"shopId": "10296609",
-		"shopName": "臻茶荟茶叶旗舰店",
-		"brandId": "10508693",
-		"brandName": "臻茶荟"
 	},
 	{
 		"shopId": "10302300",
@@ -952,6 +976,12 @@
 		"shopName": "北通京东自营旗舰店",
 		"brandId": "1000000302",
 		"brandName": "北通会员卡"
+	},
+	{
+		"shopId": "1000000307",
+		"shopName": "JBL自营官方旗舰店",
+		"brandId": "1000000307",
+		"brandName": "JBL自营官旗"
 	},
 	{
 		"shopId": "1000000582",
@@ -1512,12 +1542,6 @@
 		"brandName": "好巴食"
 	},
 	{
-		"shopId": "1000078964",
-		"shopName": "阿迪达斯（adidas）童装童鞋京东自营专区",
-		"brandId": "1000078964",
-		"brandName": "阿迪达斯儿童"
-	},
-	{
 		"shopId": "1000079865",
 		"shopName": "圣牧有机京东自营旗舰店",
 		"brandId": "1000079865",
@@ -1654,6 +1678,18 @@
 		"shopName": "疯狂的小狗京东自营旗舰店",
 		"brandId": "1000088881",
 		"brandName": "疯狂小狗"
+	},
+	{
+		"shopId": "1000089201",
+		"shopName": "气味图书馆京东自营旗舰店",
+		"brandId": "1000089201",
+		"brandName": "气味图书馆"
+	},
+	{
+		"shopId": "1000089686",
+		"shopName": "徐福记京东自营旗舰店",
+		"brandId": "1000089686",
+		"brandName": "徐福记"
 	},
 	{
 		"shopId": "1000089744",
@@ -1860,6 +1896,12 @@
 		"brandName": "振德"
 	},
 	{
+		"shopId": "1000101465",
+		"shopName": "天佑德京东自营旗舰店",
+		"brandId": "1000101465",
+		"brandName": "天佑德自营店"
+	},
+	{
 		"shopId": "1000101562",
 		"shopName": "元气森林京东自营旗舰店",
 		"brandId": "1000101562",
@@ -1954,6 +1996,12 @@
 		"shopName": "大喜大京东自营官方旗舰店",
 		"brandId": "1000114841",
 		"brandName": "希杰食品"
+	},
+	{
+		"shopId": "1000115184",
+		"shopName": "HomeFacialPro京东自营旗舰店",
+		"brandId": "1000115184",
+		"brandName": "HFP"
 	},
 	{
 		"shopId": "1000115421",
@@ -2130,6 +2178,18 @@
 		"brandName": "专注于防护"
 	},
 	{
+		"shopId": "1000332881",
+		"shopName": "晖致京东自营旗舰店",
+		"brandId": "1000332881",
+		"brandName": "晖致"
+	},
+	{
+		"shopId": "1000332962",
+		"shopName": "奶酪博士（Dr.Cheese）京东自营旗舰店",
+		"brandId": "1000332962",
+		"brandName": "奶酪博士会员卡"
+	},
+	{
 		"shopId": "1000333009",
 		"shopName": "雀巢冰淇淋官方京东自营旗舰店",
 		"brandId": "1000333009",
@@ -2212,6 +2272,12 @@
 		"shopName": "海洋丝缎京东自营旗舰店",
 		"brandId": "1000353465",
 		"brandName": "海洋丝缎"
+	},
+	{
+		"shopId": "1000364203",
+		"shopName": "丹泉京东自营官方旗舰店",
+		"brandId": "1000364203",
+		"brandName": "丹泉品牌会员"
 	},
 	{
 		"shopId": "1000364363",
