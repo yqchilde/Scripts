@@ -156,6 +156,12 @@
 		"brandName": "品立官方旗舰店"
 	},
 	{
+		"shopId": "120948",
+		"shopName": "jissbon杰士邦官方旗舰店",
+		"brandId": "121385",
+		"brandName": "杰士邦"
+	},
+	{
 		"shopId": "138540",
 		"shopName": "戴尔官方旗舰店",
 		"brandId": "143080",
@@ -276,6 +282,12 @@
 		"brandName": "知音办公扫描仪"
 	},
 	{
+		"shopId": "582650",
+		"shopName": "华牛电脑专营店",
+		"brandId": "590997",
+		"brandName": "华牛电脑专营店"
+	},
+	{
 		"shopId": "584835",
 		"shopName": "金城堡官方旗舰店",
 		"brandId": "593265",
@@ -328,6 +340,12 @@
 		"shopName": "利其尔官方旗舰店",
 		"brandId": "648705",
 		"brandName": "利其尔旗舰店"
+	},
+	{
+		"shopId": "650453",
+		"shopName": "珍酒官方旗舰店",
+		"brandId": "655029",
+		"brandName": "珍酒官方旗舰店"
 	},
 	{
 		"shopId": "652421",
@@ -406,6 +424,12 @@
 		"shopName": "骁龙旗舰店",
 		"brandId": "707261",
 		"brandName": "骁龙会员"
+	},
+	{
+		"shopId": "713914",
+		"shopName": "puraspace家纺旗舰店",
+		"brandId": "718709",
+		"brandName": "金牌会员专享"
 	},
 	{
 		"shopId": "714533",
@@ -520,6 +544,12 @@
 		"shopName": "mont·bell旗舰店",
 		"brandId": "10009342",
 		"brandName": "蒙贝欧会员"
+	},
+	{
+		"shopId": "846164",
+		"shopName": "百年流香酒类专营店",
+		"brandId": "10008694",
+		"brandName": "百年流香美酒"
 	},
 	{
 		"shopId": "851536",
@@ -676,6 +706,12 @@
 		"shopName": "金沙回沙酒官方旗舰店",
 		"brandId": "10321993",
 		"brandName": "金沙VIP"
+	},
+	{
+		"shopId": "10187997",
+		"shopName": "徐福记品牌会员",
+		"brandId": "10332531",
+		"brandName": "徐福记"
 	},
 	{
 		"shopId": "10190269",
@@ -984,6 +1020,12 @@
 		"brandName": "VIP"
 	},
 	{
+		"shopId": "1000001522",
+		"shopName": "TENGA京东自营旗舰店",
+		"brandId": "1000001522",
+		"brandName": "TENGA"
+	},
+	{
 		"shopId": "1000001638",
 		"shopName": "伯纳天纯 京东自营旗舰店",
 		"brandId": "1000001638",
@@ -1168,6 +1210,12 @@
 		"shopName": "3M家庭清洁京东自营旗舰店",
 		"brandId": "1000005554",
 		"brandName": "家庭清洁师"
+	},
+	{
+		"shopId": "1000005670",
+		"shopName": "美孚（Mobil）京东自营旗舰店",
+		"brandId": "1000005670",
+		"brandName": "美孚"
 	},
 	{
 		"shopId": "1000005770",
@@ -1698,6 +1746,12 @@
 		"brandName": "澳牧会员"
 	},
 	{
+		"shopId": "1000094028",
+		"shopName": "桂林三花京东自营官方旗舰店",
+		"brandId": "1000094028",
+		"brandName": "桂林品牌会员"
+	},
+	{
 		"shopId": "1000094461",
 		"shopName": "米小芽京东自营旗舰店",
 		"brandId": "1000094461",
@@ -1750,6 +1804,12 @@
 		"shopName": "保乐力加洋酒京东自营店",
 		"brandId": "1000097462",
 		"brandName": "保乐力加会员"
+	},
+	{
+		"shopId": "1000097761",
+		"shopName": "吉米家居京东自营旗舰店",
+		"brandId": "1000097761",
+		"brandName": "吉米家居会员"
 	},
 	{
 		"shopId": "1000099547",
@@ -1938,6 +1998,12 @@
 		"brandName": "小皮品牌会员"
 	},
 	{
+		"shopId": "1000125002",
+		"shopName": "奥兰葡萄酒京东自营旗舰店",
+		"brandId": "1000125002",
+		"brandName": "奥兰品牌会员"
+	},
+	{
 		"shopId": "1000128743",
 		"shopName": "雀巢优活水饮京东自营旗舰店",
 		"brandId": "1000128743",
@@ -2092,6 +2158,12 @@
 		"shopName": "蕉下户外京东自营旗舰店",
 		"brandId": "1000347101",
 		"brandName": "蕉下会员店"
+	},
+	{
+		"shopId": "1000348324",
+		"shopName": "RICHMOND \u0026 FINCH京东自营旗舰店",
+		"brandId": "1000348324",
+		"brandName": "尊享会员"
 	},
 	{
 		"shopId": "1000348365",
