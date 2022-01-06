@@ -1,5 +1,11 @@
 [
 	{
+		"shop_id": "11963",
+		"shop_name": "劲牌酒类旗舰店",
+		"brand_id": "11856",
+		"brand_name": "劲牌酒类旗舰店"
+	},
+	{
 		"shop_id": "13257",
 		"shop_name": "酒惠网官方旗舰店",
 		"brand_id": "13637",
@@ -436,6 +442,12 @@
 		"shop_name": "黄飞红官方旗舰店",
 		"brand_id": "135094",
 		"brand_name": "黄飞红功夫家族"
+	},
+	{
+		"shop_id": "136691",
+		"shop_name": "LUCKYSAC旗舰店",
+		"brand_id": "140961",
+		"brand_name": "乐粉权益卡"
 	},
 	{
 		"shop_id": "137782",
@@ -1834,6 +1846,12 @@
 		"shop_name": "亨氏品牌会员",
 		"brand_id": "10379084",
 		"brand_name": "亨氏"
+	},
+	{
+		"shop_id": "10240269",
+		"shop_name": "和府捞面官方旗舰店",
+		"brand_id": "10388586",
+		"brand_name": "和府捞面"
 	},
 	{
 		"shop_id": "10243705",
@@ -3244,6 +3262,12 @@
 		"shop_name": "太湖雪家纺京东自营旗舰店",
 		"brand_id": "1000080881",
 		"brand_name": "太湖雪会员卡"
+	},
+	{
+		"shop_id": "1000081521",
+		"shop_name": "百吉福京东自营旗舰店",
+		"brand_id": "1000081521",
+		"brand_name": "百吉福会员"
 	},
 	{
 		"shop_id": "1000081681",
