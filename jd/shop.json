@@ -1,5 +1,11 @@
 [
 	{
+		"shopId": "11963",
+		"shopName": "劲牌酒类旗舰店",
+		"brandId": "11856",
+		"brandName": "劲牌酒类旗舰店"
+	},
+	{
 		"shopId": "15228",
 		"shopName": "匹克官方旗舰店",
 		"brandId": "16307",
@@ -120,10 +126,22 @@
 		"brandName": "青岛啤酒会员"
 	},
 	{
+		"shopId": "68976",
+		"shopName": "劲霸男装官方旗舰店",
+		"brandId": "72587",
+		"brandName": "劲霸会员卡"
+	},
+	{
 		"shopId": "69804",
 		"shopName": "泰迪熊官方旗舰店",
 		"brandId": "73383",
 		"brandName": "泰迪熊旗舰店"
+	},
+	{
+		"shopId": "70605",
+		"shopName": "露安适官方旗舰店",
+		"brandId": "74119",
+		"brandName": "露安适旗舰店"
 	},
 	{
 		"shopId": "70932",
@@ -166,6 +184,12 @@
 		"shopName": "jissbon杰士邦官方旗舰店",
 		"brandId": "121385",
 		"brandName": "杰士邦"
+	},
+	{
+		"shopId": "136691",
+		"shopName": "LUCKYSAC旗舰店",
+		"brandId": "140961",
+		"brandName": "乐粉权益卡"
 	},
 	{
 		"shopId": "138540",
@@ -612,6 +636,12 @@
 		"brandName": "郎牌特曲VIP"
 	},
 	{
+		"shopId": "10052669",
+		"shopName": "金沙酒旗舰店",
+		"brandId": "10188022",
+		"brandName": "金沙"
+	},
+	{
 		"shopId": "10056387",
 		"shopName": "红星酒类旗舰店",
 		"brandId": "10190392",
@@ -810,6 +840,12 @@
 		"brandName": "亨氏"
 	},
 	{
+		"shopId": "10240269",
+		"shopName": "和府捞面官方旗舰店",
+		"brandId": "10388586",
+		"brandName": "和府捞面"
+	},
+	{
 		"shopId": "10249497",
 		"shopName": "SHENGSHISABER箱包旗舰店",
 		"brandId": "10396588",
@@ -1006,6 +1042,12 @@
 		"shopName": "美德乐medela京东自营旗舰店",
 		"brandId": "1000000725",
 		"brandName": "美德乐"
+	},
+	{
+		"shopId": "1000000829",
+		"shopName": "有品京东自营旗舰店",
+		"brandId": "1000000829",
+		"brandName": "有品会员卡"
 	},
 	{
 		"shopId": "1000001120",
@@ -1564,6 +1606,12 @@
 		"shopName": "太湖雪家纺京东自营旗舰店",
 		"brandId": "1000080881",
 		"brandName": "太湖雪会员卡"
+	},
+	{
+		"shopId": "1000081521",
+		"shopName": "百吉福京东自营旗舰店",
+		"brandId": "1000081521",
+		"brandName": "百吉福会员"
 	},
 	{
 		"shopId": "1000081681",
@@ -2236,6 +2284,12 @@
 		"shopName": "伤迪京东自营旗舰店",
 		"brandId": "1000349621",
 		"brandName": "伤迪会员"
+	},
+	{
+		"shopId": "1000350522",
+		"shopName": "联合利华个护海外京东自营旗舰店",
+		"brandId": "1000350522",
+		"brandName": "联合利华个护"
 	},
 	{
 		"shopId": "1000350525",
