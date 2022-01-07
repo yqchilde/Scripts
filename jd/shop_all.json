@@ -180,6 +180,12 @@
 		"brand_name": "狮王自营会员"
 	},
 	{
+		"shop_id": "49808",
+		"shop_name": "酷虎数码专营店",
+		"brand_id": "53419",
+		"brand_name": "酷虎数码专营店"
+	},
+	{
 		"shop_id": "50452",
 		"shop_name": "凤佳运动户外专营店",
 		"brand_id": "54197",
@@ -472,6 +478,12 @@
 		"shop_name": "东北农嫂旗舰店",
 		"brand_id": "143928",
 		"brand_name": "东北农嫂VIP"
+	},
+	{
+		"shop_id": "141383",
+		"shop_name": "谷缇娜服饰旗舰店",
+		"brand_id": "146230",
+		"brand_name": "谷缇娜"
 	},
 	{
 		"shop_id": "144509",
@@ -984,6 +996,12 @@
 		"brand_name": "伊力特VIP"
 	},
 	{
+		"shop_id": "681411",
+		"shop_name": "BOSE旗舰店",
+		"brand_id": "685238",
+		"brand_name": "BOSE旗舰店"
+	},
+	{
 		"shop_id": "682597",
 		"shop_name": "疯狂小狗旗舰店",
 		"brand_id": "686353",
@@ -1018,6 +1036,12 @@
 		"shop_name": "五色养生鲜专营店",
 		"brand_id": "698907",
 		"brand_name": "五色养生鲜"
+	},
+	{
+		"shop_id": "696878",
+		"shop_name": "联想航电授权专卖店",
+		"brand_id": "701114",
+		"brand_name": "联想航电专卖店"
 	},
 	{
 		"shop_id": "697146",
@@ -1186,6 +1210,12 @@
 		"shop_name": "欧丽薇兰旗舰店",
 		"brand_id": "755827",
 		"brand_name": "欧丽薇兰旗舰店"
+	},
+	{
+		"shop_id": "751725",
+		"shop_name": "海迪渔具旗舰店",
+		"brand_id": "755874",
+		"brand_name": "海迪渔具旗舰店"
 	},
 	{
 		"shop_id": "751847",
@@ -1516,6 +1546,12 @@
 		"shop_name": "五粮液同心悦专卖店",
 		"brand_id": "10194827",
 		"brand_name": "五粮液专卖店"
+	},
+	{
+		"shop_id": "10061016",
+		"shop_name": "小泉成器旗舰店",
+		"brand_id": "10196744",
+		"brand_name": "小泉成器旗舰店"
 	},
 	{
 		"shop_id": "10063613",
@@ -2352,6 +2388,12 @@
 		"brand_name": "斯利安会员"
 	},
 	{
+		"shop_id": "1000001316",
+		"shop_name": "东菱京东自营旗舰店",
+		"brand_id": "1000001316",
+		"brand_name": "东菱自营旗舰店"
+	},
+	{
 		"shop_id": "1000001381",
 		"shop_name": "康比特京东自营旗舰店",
 		"brand_id": "1000001381",
@@ -2710,6 +2752,12 @@
 		"shop_name": "美孚（Mobil）京东自营旗舰店",
 		"brand_id": "1000005670",
 		"brand_name": "美孚"
+	},
+	{
+		"shop_id": "1000005762",
+		"shop_name": "1more京东自营旗舰店",
+		"brand_id": "1000005762",
+		"brand_name": "万魔1MORE"
 	},
 	{
 		"shop_id": "1000005770",
@@ -3624,6 +3672,12 @@
 		"brand_name": " 昆仑润滑会员"
 	},
 	{
+		"shop_id": "1000092363",
+		"shop_name": "三人行大米京东自营旗舰店",
+		"brand_id": "1000092363",
+		"brand_name": " "
+	},
+	{
 		"shop_id": "1000092950",
 		"shop_name": "奥智嘉京东自营官方旗舰店",
 		"brand_id": "1000092950",
@@ -4336,6 +4390,12 @@
 		"shop_name": "玄谷村京东自营旗舰店",
 		"brand_id": "1000282404",
 		"brand_name": "玄谷村"
+	},
+	{
+		"shop_id": "1000282822",
+		"shop_name": "人民公社白酒京东自营旗舰店",
+		"brand_id": "1000282822",
+		"brand_name": "人民公社酒票"
 	},
 	{
 		"shop_id": "1000298761",
