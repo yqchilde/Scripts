@@ -168,6 +168,12 @@
 		"brand_name": "蕉下会员店"
 	},
 	{
+		"shop_id": "41261",
+		"shop_name": "尔晏（ERYAN）袜品旗舰店",
+		"brand_id": "43813",
+		"brand_name": "尔晏袜品专享卡"
+	},
+	{
 		"shop_id": "43023",
 		"shop_name": "威莱官方旗舰店",
 		"brand_id": "45773",
@@ -1284,6 +1290,12 @@
 		"brand_name": "征途者会员卡"
 	},
 	{
+		"shop_id": "785058",
+		"shop_name": "恒银名表二手奢侈品专营店",
+		"brand_id": "786152",
+		"brand_name": "恒银名表会员专"
+	},
+	{
 		"shop_id": "789050",
 		"shop_name": "水军食品旗舰店",
 		"brand_id": "793047",
@@ -2112,6 +2124,12 @@
 		"brand_name": "斯可沁旗舰店"
 	},
 	{
+		"shop_id": "10314041",
+		"shop_name": "KANGOL配饰旗舰店",
+		"brand_id": "10525542",
+		"brand_name": "KANGOL"
+	},
+	{
 		"shop_id": "10314911",
 		"shop_name": "宽森计生情趣专营店",
 		"brand_id": "10520232",
@@ -2194,6 +2212,12 @@
 		"shop_name": "时七旗舰店",
 		"brand_id": "10556991",
 		"brand_name": "时七旗舰店"
+	},
+	{
+		"shop_id": "10346869",
+		"shop_name": "爱康国宾渺瓒专卖店",
+		"brand_id": "10558961",
+		"brand_name": "爱康国宾贵宾卡"
 	},
 	{
 		"shop_id": "10351149",
