@@ -384,6 +384,12 @@
 		"brand_name": "联想众信专卖店"
 	},
 	{
+		"shop_id": "115373",
+		"shop_name": "上海友应存储专营店",
+		"brand_id": "117914",
+		"brand_name": "企业尊享VIP"
+	},
+	{
 		"shop_id": "115547",
 		"shop_name": "富士恒敏专卖店",
 		"brand_id": "118490",
@@ -676,6 +682,12 @@
 		"shop_name": "绿尔康保健品专营店",
 		"brand_id": "197497",
 		"brand_name": "绿尔康保健品"
+	},
+	{
+		"shop_id": "190625",
+		"shop_name": "南爵数码专营店",
+		"brand_id": "199254",
+		"brand_name": "南爵数码专营店"
 	},
 	{
 		"shop_id": "191423",
@@ -990,6 +1002,12 @@
 		"brand_name": "沃尔特白酒店"
 	},
 	{
+		"shop_id": "674911",
+		"shop_name": "华麦斯工具官方旗舰店",
+		"brand_id": "679148",
+		"brand_name": "华麦斯旗舰店"
+	},
+	{
 		"shop_id": "675857",
 		"shop_name": "三胖蛋食品旗舰店",
 		"brand_id": "680012",
@@ -1200,6 +1218,18 @@
 		"brand_name": "韩束雅印专卖店"
 	},
 	{
+		"shop_id": "745371",
+		"shop_name": "歌德收藏酒专营店",
+		"brand_id": "750079",
+		"brand_name": "歌德老酒行"
+	},
+	{
+		"shop_id": "746217",
+		"shop_name": "潜龙休闲食品专营店",
+		"brand_id": "750723",
+		"brand_name": "考拉与松鼠"
+	},
+	{
 		"shop_id": "746957",
 		"shop_name": "Ora2皓乐齿旗舰店",
 		"brand_id": "751612",
@@ -1330,6 +1360,12 @@
 		"shop_name": "青花郎官方旗舰店",
 		"brand_id": "803140",
 		"brand_name": "青花郎"
+	},
+	{
+		"shop_id": "818849",
+		"shop_name": "垚娃宠物用品专营店",
+		"brand_id": "820427",
+		"brand_name": "垚娃店铺VIP"
 	},
 	{
 		"shop_id": "819551",
@@ -2934,6 +2970,12 @@
 		"brand_name": "百事可乐"
 	},
 	{
+		"shop_id": "1000010886",
+		"shop_name": "茶人岭京东自营旗舰店",
+		"brand_id": "1000010886",
+		"brand_name": "茶人岭会员"
+	},
+	{
 		"shop_id": "1000010923",
 		"shop_name": "The ONE京东自营官方旗舰店",
 		"brand_id": "1000010923",
@@ -3184,6 +3226,12 @@
 		"shop_name": "维他奶京东自营旗舰店",
 		"brand_id": "1000074823",
 		"brand_name": "维他奶"
+	},
+	{
+		"shop_id": "1000074968",
+		"shop_name": "Dickies手表京东自营旗舰店",
+		"brand_id": "1000074968",
+		"brand_name": "Dickies"
 	},
 	{
 		"shop_id": "1000074984",
@@ -3666,6 +3714,12 @@
 		"brand_name": "茶里专属会员卡"
 	},
 	{
+		"shop_id": "1000091721",
+		"shop_name": "伊利低温乳品京东自营旗舰店",
+		"brand_id": "1000091721",
+		"brand_name": "伊利低温会员卡"
+	},
+	{
 		"shop_id": "1000091863",
 		"shop_name": "古船京东自营旗舰店",
 		"brand_id": "1000091863",
@@ -3724,6 +3778,12 @@
 		"shop_name": "哈尔斯（HAERS）京东自营旗舰店",
 		"brand_id": "1000093303",
 		"brand_name": "哈尔斯会员卡"
+	},
+	{
+		"shop_id": "1000093681",
+		"shop_name": "圣元牛奶京东自营旗舰店",
+		"brand_id": "1000093681",
+		"brand_name": "圣元"
 	},
 	{
 		"shop_id": "1000093692",
@@ -4612,6 +4672,12 @@
 		"shop_name": "五御凝香京东自营旗舰店",
 		"brand_id": "1000336982",
 		"brand_name": "自营五御凝香"
+	},
+	{
+		"shop_id": "1000337191",
+		"shop_name": "武茗匠官方京东自营旗舰店",
+		"brand_id": "1000337191",
+		"brand_name": "贵宾"
 	},
 	{
 		"shop_id": "1000338161",
