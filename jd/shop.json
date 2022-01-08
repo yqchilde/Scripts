@@ -156,12 +156,6 @@
 		"brandName": "贝因美"
 	},
 	{
-		"shopId": "89460",
-		"shopName": "泰山啤酒专卖店",
-		"brandId": "91414",
-		"brandName": "泰山啤酒vip"
-	},
-	{
 		"shopId": "90169",
 		"shopName": "古井贡酒官方旗舰店",
 		"brandId": "92739",
@@ -208,6 +202,18 @@
 		"shopName": "jissbon杰士邦官方旗舰店",
 		"brandId": "121385",
 		"brandName": "杰士邦"
+	},
+	{
+		"shopId": "129134",
+		"shopName": "汾酒旗舰店",
+		"brandId": "133208",
+		"brandName": "汾酒旗舰店"
+	},
+	{
+		"shopId": "130904",
+		"shopName": "黄飞红官方旗舰店",
+		"brandId": "135094",
+		"brandName": "黄飞红功夫家族"
 	},
 	{
 		"shopId": "136691",
@@ -294,12 +300,6 @@
 		"brandName": "TUMI"
 	},
 	{
-		"shopId": "175123",
-		"shopName": "美之高旗舰店",
-		"brandId": "181678",
-		"brandName": "美之高品牌会员"
-	},
-	{
 		"shopId": "176265",
 		"shopName": "乐扣乐扣官方旗舰店",
 		"brandId": "182872",
@@ -316,12 +316,6 @@
 		"shopName": "善草纪官方旗舰店",
 		"brandId": "192982",
 		"brandName": "善草纪花窝"
-	},
-	{
-		"shopId": "185645",
-		"shopName": "卡西欧宝亮专卖店",
-		"brandId": "193385",
-		"brandName": "卡西欧宝亮钟表"
 	},
 	{
 		"shopId": "190625",
@@ -378,28 +372,16 @@
 		"brandName": "爱奇艺旗舰店"
 	},
 	{
-		"shopId": "596429",
-		"shopName": "LEXINGTON旗舰店",
-		"brandId": "601463",
-		"brandName": "莱克星顿"
+		"shopId": "596914",
+		"shopName": "fjallraven旗舰店",
+		"brandId": "604634",
+		"brandName": "北极狐旗舰店"
 	},
 	{
 		"shopId": "601923",
 		"shopName": "小角楼官方旗舰店",
 		"brandId": "609367",
 		"brandName": "小角楼会员卡"
-	},
-	{
-		"shopId": "617465",
-		"shopName": "BROSWAY旗舰店",
-		"brandId": "623891",
-		"brandName": "宝思薇旗舰店"
-	},
-	{
-		"shopId": "625274",
-		"shopName": "紫蓝花海官方旗舰店",
-		"brandId": "630340",
-		"brandName": "紫蓝花海VIP"
 	},
 	{
 		"shopId": "644889",
@@ -414,16 +396,16 @@
 		"brandName": "珍酒官方旗舰店"
 	},
 	{
-		"shopId": "652421",
-		"shopName": "霸王醉官方旗舰店",
-		"brandId": "656920",
-		"brandName": "霸王醉"
-	},
-	{
 		"shopId": "654200",
 		"shopName": "blueriver蓝河母婴旗舰店",
 		"brandId": "658812",
 		"brandName": "蓝河会员卡"
+	},
+	{
+		"shopId": "657927",
+		"shopName": "玖姿官方旗舰店",
+		"brandId": "662688",
+		"brandName": "玖姿会员卡"
 	},
 	{
 		"shopId": "667076",
@@ -732,12 +714,6 @@
 		"brandName": "红星京东自营店"
 	},
 	{
-		"shopId": "10071926",
-		"shopName": "PowerBlock健身训练旗舰店",
-		"brandId": "10207895",
-		"brandName": "PB旗舰店"
-	},
-	{
 		"shopId": "10075479",
 		"shopName": "奇姬官方旗舰店",
 		"brandId": "10211994",
@@ -748,12 +724,6 @@
 		"shopName": "CJ食品旗舰店",
 		"brandId": "10222935",
 		"brandName": "希杰食品"
-	},
-	{
-		"shopId": "10089149",
-		"shopName": "艾素官方旗舰店",
-		"brandId": "10225764",
-		"brandName": "艾素官方旗舰店"
 	},
 	{
 		"shopId": "10090034",
@@ -778,12 +748,6 @@
 		"shopName": "天津顶益食品有限公司北京分公司",
 		"brandId": "10229084",
 		"brandName": "康师傅方便面"
-	},
-	{
-		"shopId": "10093848",
-		"shopName": "杏子林生鲜官方旗舰店",
-		"brandId": "10230340",
-		"brandName": "杏子林生鲜"
 	},
 	{
 		"shopId": "10098128",
@@ -852,6 +816,12 @@
 		"brandName": "阿特纳Vip"
 	},
 	{
+		"shopId": "10206455",
+		"shopName": "今世缘官方旗舰店",
+		"brandId": "10353346",
+		"brandName": "今世缘"
+	},
+	{
 		"shopId": "10208902",
 		"shopName": "锋味旗舰店",
 		"brandId": "10355281",
@@ -862,12 +832,6 @@
 		"shopName": "得力浪华专卖店",
 		"brandId": "10355094",
 		"brandName": "得力浪华专卖店"
-	},
-	{
-		"shopId": "10209780",
-		"shopName": "回味赞旗舰店",
-		"brandId": "10355490",
-		"brandName": "回味赞旗舰店"
 	},
 	{
 		"shopId": "10215768",
@@ -1020,6 +984,12 @@
 		"brandName": "乐扣乐扣"
 	},
 	{
+		"shopId": "10335778",
+		"shopName": "淘佳猫旗舰店",
+		"brandId": "10548476",
+		"brandName": "淘佳猫旗舰店"
+	},
+	{
 		"shopId": "10339186",
 		"shopName": "酒连酒官方旗舰店",
 		"brandId": "10546998",
@@ -1048,12 +1018,6 @@
 		"shopName": "名流会员",
 		"brandId": "10579592",
 		"brandName": "VIP"
-	},
-	{
-		"shopId": "10370169",
-		"shopName": "特仑苏官方旗舰店",
-		"brandId": "10584915",
-		"brandName": "特仑苏会员卡"
 	},
 	{
 		"shopId": "10376536",
@@ -1638,6 +1602,12 @@
 		"brandName": "粮全其美会员"
 	},
 	{
+		"shopId": "1000075683",
+		"shopName": "阿尔卑斯曼妥思自营旗舰店",
+		"brandId": "1000075683",
+		"brandName": "阿尔卑斯曼妥思"
+	},
+	{
 		"shopId": "1000075722",
 		"shopName": "第一坊京东自营旗舰店",
 		"brandId": "1000075722",
@@ -2190,12 +2160,6 @@
 		"brandName": "HFP"
 	},
 	{
-		"shopId": "1000115421",
-		"shopName": "久光制药（Hisamitsu）京东自营旗舰店",
-		"brandId": "1000115421",
-		"brandName": "久光制药"
-	},
-	{
 		"shopId": "1000117009",
 		"shopName": "迪彩京东自营旗舰店",
 		"brandId": "1000117009",
@@ -2290,6 +2254,12 @@
 		"shopName": "Annabella京东自营旗舰店",
 		"brandId": "1000165282",
 		"brandName": "VIP"
+	},
+	{
+		"shopId": "1000168224",
+		"shopName": "小罐茶京东自营官方旗舰店",
+		"brandId": "1000168224",
+		"brandName": "小罐茶旗舰店"
 	},
 	{
 		"shopId": "1000181141",
