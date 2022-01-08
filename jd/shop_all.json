@@ -438,6 +438,12 @@
 		"brand_name": "有友食品旗舰店"
 	},
 	{
+		"shop_id": "129134",
+		"shop_name": "汾酒旗舰店",
+		"brand_id": "133208",
+		"brand_name": "汾酒旗舰店"
+	},
+	{
 		"shop_id": "129506",
 		"shop_name": "KELME官方旗舰店",
 		"brand_id": "133509",
@@ -1842,6 +1848,12 @@
 		"brand_name": "鲜感觉会员卡"
 	},
 	{
+		"shop_id": "10206455",
+		"shop_name": "今世缘官方旗舰店",
+		"brand_id": "10353346",
+		"brand_name": "今世缘"
+	},
+	{
 		"shop_id": "10206850",
 		"shop_name": "小狗当家宠物用品专营店",
 		"brand_id": "10353058",
@@ -2206,6 +2218,12 @@
 		"shop_name": "SALONIA旗舰店",
 		"brand_id": "10544342",
 		"brand_name": "SALONIA"
+	},
+	{
+		"shop_id": "10335778",
+		"shop_name": "淘佳猫旗舰店",
+		"brand_id": "10548476",
+		"brand_name": "淘佳猫旗舰店"
 	},
 	{
 		"shop_id": "10336346",
@@ -3262,6 +3280,12 @@
 		"shop_name": "8H京东自营旗舰店",
 		"brand_id": "1000075608",
 		"brand_name": "8H旗舰店会员"
+	},
+	{
+		"shop_id": "1000075683",
+		"shop_name": "阿尔卑斯曼妥思自营旗舰店",
+		"brand_id": "1000075683",
+		"brand_name": "阿尔卑斯曼妥思"
 	},
 	{
 		"shop_id": "1000075722",
@@ -4390,6 +4414,12 @@
 		"shop_name": "Annabella京东自营旗舰店",
 		"brand_id": "1000165282",
 		"brand_name": "VIP"
+	},
+	{
+		"shop_id": "1000168224",
+		"shop_name": "小罐茶京东自营官方旗舰店",
+		"brand_id": "1000168224",
+		"brand_name": "小罐茶旗舰店"
 	},
 	{
 		"shop_id": "1000168265",
