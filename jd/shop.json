@@ -42,6 +42,12 @@
 		"brandName": "来伊份旗舰店"
 	},
 	{
+		"shopId": "24406",
+		"shopName": "梦特娇皮具官方旗舰店",
+		"brandId": "24825",
+		"brandName": "梦特娇皮具店"
+	},
+	{
 		"shopId": "26858",
 		"shopName": "巴拉巴拉官方旗舰店",
 		"brandId": "27396",
@@ -456,6 +462,12 @@
 		"brandName": "BOSE旗舰店"
 	},
 	{
+		"shopId": "682597",
+		"shopName": "疯狂小狗旗舰店",
+		"brandId": "686353",
+		"brandName": "疯狂小狗旗舰店"
+	},
+	{
 		"shopId": "691842",
 		"shopName": "HomeFacialPro官方旗舰店",
 		"brandId": "695429",
@@ -570,16 +582,16 @@
 		"brandName": "海迪渔具旗舰店"
 	},
 	{
-		"shopId": "751847",
-		"shopName": "ThinkPad重庆授权专卖店",
-		"brandId": "755997",
-		"brandName": "Think重庆"
-	},
-	{
 		"shopId": "752101",
 		"shopName": "自嗨锅旗舰店",
 		"brandId": "756351",
 		"brandName": "自嗨锅旗舰店"
+	},
+	{
+		"shopId": "752168",
+		"shopName": "思念官方旗舰店",
+		"brandId": "756324",
+		"brandName": "思念食品"
 	},
 	{
 		"shopId": "754090",
@@ -1296,6 +1308,12 @@
 		"brandName": "娇韵诗宠粉社"
 	},
 	{
+		"shopId": "1000002984",
+		"shopName": "欧舒丹L'OCCITANE京东自营官方旗舰店",
+		"brandId": "1000002984",
+		"brandName": "欧舒丹丹粉"
+	},
+	{
 		"shopId": "1000002989",
 		"shopName": "科沃斯京东自营旗舰店",
 		"brandId": "1000002989",
@@ -1512,6 +1530,12 @@
 		"brandName": "百事可乐"
 	},
 	{
+		"shopId": "1000010681",
+		"shopName": "修正京东自营旗舰店",
+		"brandId": "1000010681",
+		"brandName": "修正自营旗舰店"
+	},
+	{
 		"shopId": "1000010886",
 		"shopName": "茶人岭京东自营旗舰店",
 		"brandId": "1000010886",
@@ -1672,12 +1696,6 @@
 		"shopName": "阿尔卑斯曼妥思自营旗舰店",
 		"brandId": "1000075683",
 		"brandName": "阿尔卑斯曼妥思"
-	},
-	{
-		"shopId": "1000075722",
-		"shopName": "第一坊京东自营旗舰店",
-		"brandId": "1000075722",
-		"brandName": "第一坊"
 	},
 	{
 		"shopId": "1000076645",
@@ -2518,12 +2536,6 @@
 		"shopName": "澳谷京东自营旗舰店",
 		"brandId": "1000351891",
 		"brandName": "澳谷"
-	},
-	{
-		"shopId": "1000352925",
-		"shopName": "FRANZIA葡萄酒京东自营旗舰店",
-		"brandId": "1000352925",
-		"brandName": "FRANZIA"
 	},
 	{
 		"shopId": "1000353063",
