@@ -318,6 +318,12 @@
 		"brandName": "善草纪花窝"
 	},
 	{
+		"shopId": "185645",
+		"shopName": "卡西欧宝亮专卖店",
+		"brandId": "193385",
+		"brandName": "卡西欧宝亮钟表"
+	},
+	{
 		"shopId": "190625",
 		"shopName": "南爵数码专营店",
 		"brandId": "199254",
@@ -388,6 +394,12 @@
 		"shopName": "利其尔官方旗舰店",
 		"brandId": "648705",
 		"brandName": "利其尔旗舰店"
+	},
+	{
+		"shopId": "646353",
+		"shopName": "美尔凯特旗舰店",
+		"brandId": "650603",
+		"brandName": "美尔凯特旗舰店"
 	},
 	{
 		"shopId": "650453",
@@ -486,6 +498,12 @@
 		"brandName": "永丰源旗舰店"
 	},
 	{
+		"shopId": "703134",
+		"shopName": "联想易合服务器专卖店",
+		"brandId": "707474",
+		"brandName": "联想易合VIP"
+	},
+	{
 		"shopId": "703279",
 		"shopName": "骁龙旗舰店",
 		"brandId": "707261",
@@ -564,6 +582,12 @@
 		"brandName": "自嗨锅旗舰店"
 	},
 	{
+		"shopId": "754090",
+		"shopName": "LANZOOM旗舰店",
+		"brandId": "758412",
+		"brandName": "蓝族官方旗舰店"
+	},
+	{
 		"shopId": "756780",
 		"shopName": "中国特产·广西馆",
 		"brandId": "761042",
@@ -612,6 +636,12 @@
 		"brandName": "青花郎"
 	},
 	{
+		"shopId": "811048",
+		"shopName": "小白心里软旗舰店",
+		"brandId": "813129",
+		"brandName": "小白心里软"
+	},
+	{
 		"shopId": "818849",
 		"shopName": "垚娃宠物用品专营店",
 		"brandId": "820427",
@@ -628,6 +658,12 @@
 		"shopName": "A21童装旗舰店",
 		"brandId": "826431",
 		"brandName": "A21"
+	},
+	{
+		"shopId": "825373",
+		"shopName": "华商数码专营店",
+		"brandId": "826670",
+		"brandName": "华商数码专营店"
 	},
 	{
 		"shopId": "839983",
@@ -720,6 +756,12 @@
 		"brandName": "奇姬"
 	},
 	{
+		"shopId": "10078278",
+		"shopName": "由魅电器旗舰店",
+		"brandId": "10214700",
+		"brandName": "由魅电器旗舰店"
+	},
+	{
 		"shopId": "10086308",
 		"shopName": "CJ食品旗舰店",
 		"brandId": "10222935",
@@ -766,6 +808,12 @@
 		"shopName": "仰韶酒类旗舰店",
 		"brandId": "10265490",
 		"brandName": "仰韶酒类旗舰店"
+	},
+	{
+		"shopId": "10142118",
+		"shopName": "飞鹤成人奶粉旗舰店",
+		"brandId": "10277058",
+		"brandName": "飞鹤成人奶粉"
 	},
 	{
 		"shopId": "10167572",
@@ -820,6 +868,12 @@
 		"shopName": "今世缘官方旗舰店",
 		"brandId": "10353346",
 		"brandName": "今世缘"
+	},
+	{
+		"shopId": "10206850",
+		"shopName": "小狗当家宠物用品专营店",
+		"brandId": "10353058",
+		"brandName": "小狗当家京东店"
 	},
 	{
 		"shopId": "10208902",
@@ -1512,6 +1566,12 @@
 		"brandName": "洽洽"
 	},
 	{
+		"shopId": "1000015502",
+		"shopName": "洋河京东自营旗舰店",
+		"brandId": "1000015502",
+		"brandName": "洋河"
+	},
+	{
 		"shopId": "1000015504",
 		"shopName": "三全食品京东自营旗舰店",
 		"brandId": "1000015504",
@@ -1570,6 +1630,12 @@
 		"shopName": "莎娜SANA京东自营旗舰店",
 		"brandId": "1000072703",
 		"brandName": "SANA莎娜"
+	},
+	{
+		"shopId": "1000074126",
+		"shopName": "全南自营旗舰店",
+		"brandId": "1000074126",
+		"brandName": "全南自营旗舰店"
 	},
 	{
 		"shopId": "1000074722",
@@ -1792,6 +1858,12 @@
 		"shopName": "LG笔记本电脑京东自营旗舰店",
 		"brandId": "1000087624",
 		"brandName": "LG笔记本会员"
+	},
+	{
+		"shopId": "1000088382",
+		"shopName": "京东自营小糊涂仙旗舰店",
+		"brandId": "1000088382",
+		"brandName": "小糊涂仙京东"
 	},
 	{
 		"shopId": "1000088881",
@@ -2326,6 +2398,12 @@
 		"shopName": "仰韶京东自营旗舰店",
 		"brandId": "1000307901",
 		"brandName": "仰韶彩陶坊"
+	},
+	{
+		"shopId": "1000325341",
+		"shopName": "光明（Bright）冰淇淋京东自营旗舰店",
+		"brandId": "1000325341",
+		"brandName": "光明"
 	},
 	{
 		"shopId": "1000328981",
