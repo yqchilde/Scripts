@@ -924,6 +924,12 @@
 		"brand_name": "酒食人生"
 	},
 	{
+		"shop_id": "646353",
+		"shop_name": "美尔凯特旗舰店",
+		"brand_id": "650603",
+		"brand_name": "美尔凯特旗舰店"
+	},
+	{
 		"shop_id": "650453",
 		"shop_name": "珍酒官方旗舰店",
 		"brand_id": "655029",
@@ -1110,6 +1116,12 @@
 		"brand_name": "永丰源旗舰店"
 	},
 	{
+		"shop_id": "703134",
+		"shop_name": "联想易合服务器专卖店",
+		"brand_id": "707474",
+		"brand_name": "联想易合VIP"
+	},
+	{
 		"shop_id": "703279",
 		"shop_name": "骁龙旗舰店",
 		"brand_id": "707261",
@@ -1284,6 +1296,12 @@
 		"brand_name": "联合利华会员卡"
 	},
 	{
+		"shop_id": "754090",
+		"shop_name": "LANZOOM旗舰店",
+		"brand_id": "758412",
+		"brand_name": "蓝族官方旗舰店"
+	},
+	{
 		"shop_id": "756780",
 		"shop_name": "中国特产·广西馆",
 		"brand_id": "761042",
@@ -1368,6 +1386,12 @@
 		"brand_name": "青花郎"
 	},
 	{
+		"shop_id": "811048",
+		"shop_name": "小白心里软旗舰店",
+		"brand_id": "813129",
+		"brand_name": "小白心里软"
+	},
+	{
 		"shop_id": "818849",
 		"shop_name": "垚娃宠物用品专营店",
 		"brand_id": "820427",
@@ -1402,6 +1426,12 @@
 		"shop_name": "A21童装旗舰店",
 		"brand_id": "826431",
 		"brand_name": "A21"
+	},
+	{
+		"shop_id": "825373",
+		"shop_name": "华商数码专营店",
+		"brand_id": "826670",
+		"brand_name": "华商数码专营店"
 	},
 	{
 		"shop_id": "826889",
@@ -1644,6 +1674,12 @@
 		"brand_name": "贡米会员"
 	},
 	{
+		"shop_id": "10078278",
+		"shop_name": "由魅电器旗舰店",
+		"brand_id": "10214700",
+		"brand_name": "由魅电器旗舰店"
+	},
+	{
 		"shop_id": "10082419",
 		"shop_name": "洋河酒类京东自营旗舰店",
 		"brand_id": "10209653",
@@ -1750,6 +1786,12 @@
 		"shop_name": "雀巢母婴旗舰店",
 		"brand_id": "10274676",
 		"brand_name": "雀巢母婴旗舰店"
+	},
+	{
+		"shop_id": "10142118",
+		"shop_name": "飞鹤成人奶粉旗舰店",
+		"brand_id": "10277058",
+		"brand_name": "飞鹤成人奶粉"
 	},
 	{
 		"shop_id": "10166162",
@@ -3120,6 +3162,12 @@
 		"brand_name": "洽洽"
 	},
 	{
+		"shop_id": "1000015502",
+		"shop_name": "洋河京东自营旗舰店",
+		"brand_id": "1000015502",
+		"brand_name": "洋河"
+	},
+	{
 		"shop_id": "1000015504",
 		"shop_name": "三全食品京东自营旗舰店",
 		"brand_id": "1000015504",
@@ -3232,6 +3280,12 @@
 		"shop_name": "书包京东自营专区",
 		"brand_id": "1000072728",
 		"brand_name": "书包京东自营专区"
+	},
+	{
+		"shop_id": "1000074126",
+		"shop_name": "全南自营旗舰店",
+		"brand_id": "1000074126",
+		"brand_name": "全南自营旗舰店"
 	},
 	{
 		"shop_id": "1000074722",
