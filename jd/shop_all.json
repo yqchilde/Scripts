@@ -552,6 +552,12 @@
 		"brand_name": "国保旗舰店"
 	},
 	{
+		"shop_id": "158473",
+		"shop_name": "I Do官方旗舰店",
+		"brand_id": "163955",
+		"brand_name": "I Do"
+	},
+	{
 		"shop_id": "159440",
 		"shop_name": "椰岛官方旗舰店",
 		"brand_id": "164882",
@@ -1530,6 +1536,12 @@
 		"brand_name": "五福金牛旗舰店"
 	},
 	{
+		"shop_id": "872811",
+		"shop_name": "睿晟发食品专营店",
+		"brand_id": "10035547",
+		"brand_name": "睿晟发专营店"
+	},
+	{
 		"shop_id": "878597",
 		"shop_name": "雀巢咖啡品牌",
 		"brand_id": "10039599",
@@ -1792,6 +1804,12 @@
 		"shop_name": "雀巢母婴旗舰店",
 		"brand_id": "10274676",
 		"brand_name": "雀巢母婴旗舰店"
+	},
+	{
+		"shop_id": "10141569",
+		"shop_name": "伊利承翔专卖店",
+		"brand_id": "10277142",
+		"brand_name": "伊利承翔专卖店"
 	},
 	{
 		"shop_id": "10142118",
