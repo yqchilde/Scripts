@@ -1080,6 +1080,12 @@
 		"brand_name": "千纸鹤会员卡"
 	},
 	{
+		"shop_id": "694345",
+		"shop_name": "多加多母婴旗舰店",
+		"brand_id": "698519",
+		"brand_name": "多加多乳业"
+	},
+	{
 		"shop_id": "694569",
 		"shop_name": "五色养生鲜专营店",
 		"brand_id": "698907",
@@ -1390,6 +1396,12 @@
 		"shop_name": "戴·可·思官方旗舰店",
 		"brand_id": "806829",
 		"brand_name": "戴可思品牌会员"
+	},
+	{
+		"shop_id": "807819",
+		"shop_name": "机械革命旗舰店",
+		"brand_id": "809928",
+		"brand_name": "机械革命旗舰店"
 	},
 	{
 		"shop_id": "808397",
@@ -1876,6 +1888,12 @@
 		"shop_name": "氧伴侣旗舰店",
 		"brand_id": "10335574",
 		"brand_name": "氧伴侣旗舰店"
+	},
+	{
+		"shop_id": "10190374",
+		"shop_name": "信良记旗舰店",
+		"brand_id": "10335970",
+		"brand_name": "信良记旗舰店"
 	},
 	{
 		"shop_id": "10191052",
