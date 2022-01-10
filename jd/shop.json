@@ -276,6 +276,12 @@
 		"brandName": "碧芭旗舰店"
 	},
 	{
+		"shopId": "158473",
+		"shopName": "I Do官方旗舰店",
+		"brandId": "163955",
+		"brandName": "I Do"
+	},
+	{
 		"shopId": "159440",
 		"shopName": "椰岛官方旗舰店",
 		"brandId": "164882",
@@ -466,6 +472,12 @@
 		"shopName": "疯狂小狗旗舰店",
 		"brandId": "686353",
 		"brandName": "疯狂小狗旗舰店"
+	},
+	{
+		"shopId": "685392",
+		"shopName": "糖村旗舰店",
+		"brandId": "689317",
+		"brandName": "糖村旗舰店"
 	},
 	{
 		"shopId": "691842",
@@ -708,6 +720,12 @@
 		"brandName": "五福金牛旗舰店"
 	},
 	{
+		"shopId": "872811",
+		"shopName": "睿晟发食品专营店",
+		"brandId": "10035547",
+		"brandName": "睿晟发专营店"
+	},
+	{
 		"shopId": "889623",
 		"shopName": "安怡Anlene官方旗舰店",
 		"brandId": "10050336",
@@ -820,6 +838,12 @@
 		"shopName": "仰韶酒类旗舰店",
 		"brandId": "10265490",
 		"brandName": "仰韶酒类旗舰店"
+	},
+	{
+		"shopId": "10141569",
+		"shopName": "伊利承翔专卖店",
+		"brandId": "10277142",
+		"brandName": "伊利承翔专卖店"
 	},
 	{
 		"shopId": "10142118",
