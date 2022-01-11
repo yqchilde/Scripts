@@ -138,6 +138,12 @@
 		"brandName": "露安适旗舰店"
 	},
 	{
+		"shopId": "86619",
+		"shopName": "粮全其美官方旗舰店",
+		"brandId": "89315",
+		"brandName": "粮全其美会员"
+	},
+	{
 		"shopId": "90169",
 		"shopName": "古井贡酒官方旗舰店",
 		"brandId": "92739",
@@ -172,6 +178,12 @@
 		"shopName": "思沃官方旗舰店",
 		"brandId": "123484",
 		"brandName": "思沃口罩入会"
+	},
+	{
+		"shopId": "120907",
+		"shopName": "5号酒库旗舰店",
+		"brandId": "124276",
+		"brandName": "5号酒库VIP"
 	},
 	{
 		"shopId": "120948",
@@ -268,6 +280,12 @@
 		"shopName": "卡西欧宝亮专卖店",
 		"brandId": "193385",
 		"brandName": "卡西欧宝亮钟表"
+	},
+	{
+		"shopId": "188762",
+		"shopName": "爱乐普数码专营店",
+		"brandId": "197179",
+		"brandName": "爱乐普数码"
 	},
 	{
 		"shopId": "190625",
@@ -768,6 +786,18 @@
 		"brandName": "资生堂自营旗舰"
 	},
 	{
+		"shopId": "10167582",
+		"shopName": "君乐宝品牌旗舰店",
+		"brandId": "10306565",
+		"brandName": "君乐宝品牌旗舰"
+	},
+	{
+		"shopId": "10173133",
+		"shopName": "玛丁尼猫王专卖店",
+		"brandId": "10312720",
+		"brandName": "玛丁尼官方店"
+	},
+	{
 		"shopId": "10176932",
 		"shopName": "乎兮官方旗舰店",
 		"brandId": "10316242",
@@ -840,10 +870,22 @@
 		"brandName": "华硕网络会员"
 	},
 	{
+		"shopId": "10223469",
+		"shopName": "劲牌品牌会员",
+		"brandId": "10371088",
+		"brandName": "劲牌品牌会员"
+	},
+	{
 		"shopId": "10223680",
 		"shopName": "旗帜奶粉2020",
 		"brandId": "10371404",
 		"brandName": "君乐宝奶粉"
+	},
+	{
+		"shopId": "10225824",
+		"shopName": "华为科宇达专卖店",
+		"brandId": "10373358",
+		"brandName": "华为科宇达"
 	},
 	{
 		"shopId": "10226814",
@@ -1488,6 +1530,12 @@
 		"brandName": "四特"
 	},
 	{
+		"shopId": "1000016385",
+		"shopName": "劲牌京东自营官方旗舰店",
+		"brandId": "1000016385",
+		"brandName": "劲牌品牌会员"
+	},
+	{
 		"shopId": "1000016826",
 		"shopName": "衡水老白干京东自营官方旗舰店",
 		"brandId": "1000016826",
@@ -1534,6 +1582,12 @@
 		"shopName": "Dickies手表京东自营旗舰店",
 		"brandId": "1000074968",
 		"brandName": "Dickies"
+	},
+	{
+		"shopId": "1000075024",
+		"shopName": "棉花朵朵京东自营旗舰店",
+		"brandId": "1000075024",
+		"brandName": "棉花朵朵"
 	},
 	{
 		"shopId": "1000075282",
@@ -1782,6 +1836,12 @@
 		"brandName": "伊利低温会员卡"
 	},
 	{
+		"shopId": "1000091783",
+		"shopName": "黄鹤楼酒京东自营旗舰店",
+		"brandId": "1000091783",
+		"brandName": "黄鹤楼酒VIP"
+	},
+	{
 		"shopId": "1000091863",
 		"shopName": "古船京东自营旗舰店",
 		"brandId": "1000091863",
@@ -1866,10 +1926,22 @@
 		"brandName": "梅林"
 	},
 	{
+		"shopId": "1000097152",
+		"shopName": "鸥露京东自营旗舰店",
+		"brandId": "1000097152",
+		"brandName": "鸥露会员卡"
+	},
+	{
 		"shopId": "1000097156",
 		"shopName": "艾恩摩尔京东自营旗舰店",
 		"brandId": "1000097156",
 		"brandName": "艾恩摩尔"
+	},
+	{
+		"shopId": "1000097177",
+		"shopName": "京东自营黄金酒旗舰店",
+		"brandId": "1000097177",
+		"brandName": "黄金酒旗舰店"
 	},
 	{
 		"shopId": "1000097182",
@@ -1966,6 +2038,12 @@
 		"shopName": "古胶京东自营旗舰店",
 		"brandId": "1000102206",
 		"brandName": "古胶vip"
+	},
+	{
+		"shopId": "1000102232",
+		"shopName": "Ocean Spray京东自营旗舰店",
+		"brandId": "1000102232",
+		"brandName": "优鲜沛"
 	},
 	{
 		"shopId": "1000102442",
@@ -2170,6 +2248,12 @@
 		"shopName": "人民公社白酒京东自营旗舰店",
 		"brandId": "1000282822",
 		"brandName": "人民公社酒票"
+	},
+	{
+		"shopId": "1000298761",
+		"shopName": "怡思丁(ISDIN)京东自营旗舰店",
+		"brandId": "1000298761",
+		"brandName": "怡思丁品牌会员"
 	},
 	{
 		"shopId": "1000300336",
