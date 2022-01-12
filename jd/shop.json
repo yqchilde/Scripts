@@ -258,6 +258,12 @@
 		"brandName": "TUMI"
 	},
 	{
+		"shopId": "175123",
+		"shopName": "美之高旗舰店",
+		"brandId": "181678",
+		"brandName": "美之高品牌会员"
+	},
+	{
 		"shopId": "176265",
 		"shopName": "乐扣乐扣官方旗舰店",
 		"brandId": "182872",
@@ -342,6 +348,12 @@
 		"brandName": "小角楼会员卡"
 	},
 	{
+		"shopId": "608640",
+		"shopName": "特特母婴专营店",
+		"brandId": "616138",
+		"brandName": "特特母婴专营店"
+	},
+	{
 		"shopId": "644889",
 		"shopName": "利其尔官方旗舰店",
 		"brandId": "648705",
@@ -372,6 +384,12 @@
 		"brandName": "玖姿会员卡"
 	},
 	{
+		"shopId": "663225",
+		"shopName": "辰硕母婴官方旗舰店",
+		"brandId": "667752",
+		"brandName": "辰硕母婴"
+	},
+	{
 		"shopId": "667076",
 		"shopName": "i-baby官方旗舰店",
 		"brandId": "671430",
@@ -382,12 +400,6 @@
 		"shopName": "华麦斯工具官方旗舰店",
 		"brandId": "679148",
 		"brandName": "华麦斯旗舰店"
-	},
-	{
-		"shopId": "675857",
-		"shopName": "三胖蛋食品旗舰店",
-		"brandId": "680012",
-		"brandName": "三胖蛋"
 	},
 	{
 		"shopId": "677854",
@@ -576,6 +588,12 @@
 		"brandName": "恒银名表会员专"
 	},
 	{
+		"shopId": "790115",
+		"shopName": "徐氏(盐城)厨具专营店",
+		"brandId": "794143",
+		"brandName": "徐氏厨具"
+	},
+	{
 		"shopId": "793740",
 		"shopName": "大公鸡管家掌交专卖店",
 		"brandId": "797626",
@@ -598,6 +616,12 @@
 		"shopName": "小白心里软旗舰店",
 		"brandId": "813129",
 		"brandName": "小白心里软"
+	},
+	{
+		"shopId": "815116",
+		"shopName": "佳贝艾特奶粉旗舰店",
+		"brandId": "816750",
+		"brandName": "佳贝艾特会员"
 	},
 	{
 		"shopId": "818849",
@@ -718,6 +742,12 @@
 		"shopName": "CJ食品旗舰店",
 		"brandId": "10222935",
 		"brandName": "希杰食品"
+	},
+	{
+		"shopId": "10087004",
+		"shopName": "公牛阿拉丁专卖店",
+		"brandId": "10223398",
+		"brandName": "公牛会员卡"
 	},
 	{
 		"shopId": "10090034",
@@ -912,12 +942,6 @@
 		"brandName": "和府捞面"
 	},
 	{
-		"shopId": "10249497",
-		"shopName": "SHENGSHISABER箱包旗舰店",
-		"brandId": "10396588",
-		"brandName": "优惠卡"
-	},
-	{
 		"shopId": "10254655",
 		"shopName": "百事可乐官方旗舰店",
 		"brandId": "10401241",
@@ -1062,12 +1086,6 @@
 		"brandName": "爱康国宾贵宾卡"
 	},
 	{
-		"shopId": "10361992",
-		"shopName": "迪柯尼官方旗舰店",
-		"brandId": "10575926",
-		"brandName": "迪柯尼旗舰店"
-	},
-	{
 		"shopId": "10365618",
 		"shopName": "名流会员",
 		"brandId": "10579592",
@@ -1096,12 +1114,6 @@
 		"shopName": "三星（SAMSUNG）京东自营官方旗舰店",
 		"brandId": "1000000288",
 		"brandName": "三星品牌会员"
-	},
-	{
-		"shopId": "1000000302",
-		"shopName": "北通京东自营旗舰店",
-		"brandId": "1000000302",
-		"brandName": "北通会员卡"
 	},
 	{
 		"shopId": "1000000307",
@@ -1896,6 +1908,12 @@
 		"brandName": "乐纯的小伙伴"
 	},
 	{
+		"shopId": "1000096502",
+		"shopName": "方正（iFound）外设京东自营旗舰店",
+		"brandId": "1000096502",
+		"brandName": "方正外设会员"
+	},
+	{
 		"shopId": "1000097079",
 		"shopName": "梅林京东自营旗舰店",
 		"brandId": "1000097079",
@@ -1960,12 +1978,6 @@
 		"shopName": "阿尔发京东自营旗舰店",
 		"brandId": "1000100295",
 		"brandName": "阿尔发会员"
-	},
-	{
-		"shopId": "1000100547",
-		"shopName": "避风塘京东自营旗舰店",
-		"brandId": "1000100547",
-		"brandName": "避风塘"
 	},
 	{
 		"shopId": "1000100813",
@@ -2278,6 +2290,12 @@
 		"shopName": "folca口罩京东自营旗舰店",
 		"brandId": "1000332111",
 		"brandName": "专注于防护"
+	},
+	{
+		"shopId": "1000332288",
+		"shopName": "大悦京东自营旗舰店",
+		"brandId": "1000332288",
+		"brandName": "大悦会员"
 	},
 	{
 		"shopId": "1000332881",
