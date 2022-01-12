@@ -876,6 +876,12 @@
 		"brand_name": "得宝旗舰店"
 	},
 	{
+		"shop_id": "608640",
+		"shop_name": "特特母婴专营店",
+		"brand_id": "616138",
+		"brand_name": "特特母婴专营店"
+	},
+	{
 		"shop_id": "617465",
 		"shop_name": "BROSWAY旗舰店",
 		"brand_id": "623891",
@@ -994,6 +1000,12 @@
 		"shop_name": "卡西欧手表官方旗舰店",
 		"brand_id": "667324",
 		"brand_name": "卡西欧"
+	},
+	{
+		"shop_id": "663225",
+		"shop_name": "辰硕母婴官方旗舰店",
+		"brand_id": "667752",
+		"brand_name": "辰硕母婴"
 	},
 	{
 		"shop_id": "664798",
@@ -1386,6 +1398,12 @@
 		"brand_name": "水军旗舰店"
 	},
 	{
+		"shop_id": "790115",
+		"shop_name": "徐氏(盐城)厨具专营店",
+		"brand_id": "794143",
+		"brand_name": "徐氏厨具"
+	},
+	{
 		"shop_id": "793740",
 		"shop_name": "大公鸡管家掌交专卖店",
 		"brand_id": "797626",
@@ -1426,6 +1444,12 @@
 		"shop_name": "小白心里软旗舰店",
 		"brand_id": "813129",
 		"brand_name": "小白心里软"
+	},
+	{
+		"shop_id": "815116",
+		"shop_name": "佳贝艾特奶粉旗舰店",
+		"brand_id": "816750",
+		"brand_name": "佳贝艾特会员"
 	},
 	{
 		"shop_id": "818849",
@@ -1750,6 +1774,12 @@
 		"shop_name": "苏和盛素植专卖店",
 		"brand_id": "10223688",
 		"brand_name": "苏和盛素植专卖"
+	},
+	{
+		"shop_id": "10087004",
+		"shop_name": "公牛阿拉丁专卖店",
+		"brand_id": "10223398",
+		"brand_name": "公牛会员卡"
 	},
 	{
 		"shop_id": "10088516",
@@ -4054,6 +4084,12 @@
 		"shop_name": "乐纯（LePur'）京东自营旗舰店",
 		"brand_id": "1000095701",
 		"brand_name": "乐纯的小伙伴"
+	},
+	{
+		"shop_id": "1000096502",
+		"shop_name": "方正（iFound）外设京东自营旗舰店",
+		"brand_id": "1000096502",
+		"brand_name": "方正外设会员"
 	},
 	{
 		"shop_id": "1000097079",
