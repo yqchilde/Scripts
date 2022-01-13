@@ -774,6 +774,12 @@
 		"brand_name": "韩国正品"
 	},
 	{
+		"shop_id": "580799",
+		"shop_name": "联想华东授权专卖店",
+		"brand_id": "588642",
+		"brand_name": "联想华东店会员"
+	},
+	{
 		"shop_id": "581657",
 		"shop_name": "咕咕官方旗舰店",
 		"brand_id": "589672",
@@ -1036,6 +1042,12 @@
 		"shop_name": "习酒官方旗舰店",
 		"brand_id": "661035",
 		"brand_name": "习酒"
+	},
+	{
+		"shop_id": "670714",
+		"shop_name": "富亿农官方旗舰店",
+		"brand_id": "674881",
+		"brand_name": "富亿农旗舰店"
 	},
 	{
 		"shop_id": "671940",
@@ -1572,6 +1584,12 @@
 		"brand_name": "VERSACE"
 	},
 	{
+		"shop_id": "860076",
+		"shop_name": "佳贝艾特羊奶粉旗舰店",
+		"brand_id": "10021910",
+		"brand_name": "佳贝艾特旗舰店"
+	},
+	{
 		"shop_id": "860474",
 		"shop_name": "河套酒业京东自营酒类旗舰店",
 		"brand_id": "817711",
@@ -1936,6 +1954,12 @@
 		"shop_name": "ABCFIT官方旗舰店",
 		"brand_id": "10319921",
 		"brand_name": "智能瘦身会员卡"
+	},
+	{
+		"shop_id": "10180174",
+		"shop_name": "酒祖杜康旗舰店",
+		"brand_id": "10320632",
+		"brand_name": "酒祖杜康"
 	},
 	{
 		"shop_id": "10181475",
@@ -2368,6 +2392,12 @@
 		"shop_name": "五粮液仙林官方旗舰店",
 		"brand_id": "10531658",
 		"brand_name": "仙林官方旗舰店"
+	},
+	{
+		"shop_id": "10322963",
+		"shop_name": "芝者有道旗舰店",
+		"brand_id": "10534135",
+		"brand_name": "芝者有道旗舰店"
 	},
 	{
 		"shop_id": "10325961",
@@ -4284,6 +4314,12 @@
 		"brand_name": "爱立方"
 	},
 	{
+		"shop_id": "1000103367",
+		"shop_name": "鑫乐面粉品牌京东自营旗舰店",
+		"brand_id": "1000103367",
+		"brand_name": "鑫乐尊享会员"
+	},
+	{
 		"shop_id": "1000103422",
 		"shop_name": "亨利摩根京东自营旗舰店",
 		"brand_id": "1000103422",
@@ -4318,6 +4354,12 @@
 		"shop_name": "魔爪京东自营旗舰店",
 		"brand_id": "1000105841",
 		"brand_name": "魔爪"
+	},
+	{
+		"shop_id": "1000105973",
+		"shop_name": "七角板家电京东自营旗舰店",
+		"brand_id": "1000105973",
+		"brand_name": "七角板京东自营"
 	},
 	{
 		"shop_id": "1000106300",
