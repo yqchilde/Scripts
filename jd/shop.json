@@ -312,6 +312,12 @@
 		"brandName": "续酒缘会员卡"
 	},
 	{
+		"shopId": "580799",
+		"shopName": "联想华东授权专卖店",
+		"brandId": "588642",
+		"brandName": "联想华东店会员"
+	},
+	{
 		"shopId": "582650",
 		"shopName": "华牛电脑专营店",
 		"brandId": "590997",
@@ -394,6 +400,12 @@
 		"shopName": "i-baby官方旗舰店",
 		"brandId": "671430",
 		"brandName": "i-baby"
+	},
+	{
+		"shopId": "670714",
+		"shopName": "富亿农官方旗舰店",
+		"brandId": "674881",
+		"brandName": "富亿农旗舰店"
 	},
 	{
 		"shopId": "674911",
@@ -648,6 +660,12 @@
 		"brandName": "华商数码专营店"
 	},
 	{
+		"shopId": "826889",
+		"shopName": "对啊网图书旗舰店",
+		"brandId": "828095",
+		"brandName": "对啊网"
+	},
+	{
 		"shopId": "839983",
 		"shopName": "竹叶青酒官方旗舰店",
 		"brandId": "10001946",
@@ -658,6 +676,12 @@
 		"shopName": "百年流香酒类专营店",
 		"brandId": "10008694",
 		"brandName": "百年流香美酒"
+	},
+	{
+		"shopId": "860076",
+		"shopName": "佳贝艾特羊奶粉旗舰店",
+		"brandId": "10021910",
+		"brandName": "佳贝艾特旗舰店"
 	},
 	{
 		"shopId": "872811",
@@ -838,6 +862,12 @@
 		"shopName": "乎兮官方旗舰店",
 		"brandId": "10316242",
 		"brandName": "乎兮品牌会员"
+	},
+	{
+		"shopId": "10180174",
+		"shopName": "酒祖杜康旗舰店",
+		"brandId": "10320632",
+		"brandName": "酒祖杜康"
 	},
 	{
 		"shopId": "10181475",
@@ -1042,6 +1072,12 @@
 		"shopName": "多燕瘦品牌",
 		"brandId": "10526825",
 		"brandName": "DYESOO"
+	},
+	{
+		"shopId": "10322963",
+		"shopName": "芝者有道旗舰店",
+		"brandId": "10534135",
+		"brandName": "芝者有道旗舰店"
 	},
 	{
 		"shopId": "10326816",
@@ -2034,6 +2070,12 @@
 		"brandName": "厨邦"
 	},
 	{
+		"shopId": "1000103367",
+		"shopName": "鑫乐面粉品牌京东自营旗舰店",
+		"brandId": "1000103367",
+		"brandName": "鑫乐尊享会员"
+	},
+	{
 		"shopId": "1000103422",
 		"shopName": "亨利摩根京东自营旗舰店",
 		"brandId": "1000103422",
@@ -2056,6 +2098,12 @@
 		"shopName": "旗牌京东自营官方旗舰店",
 		"brandId": "1000105757",
 		"brandName": "旗牌文具VIP"
+	},
+	{
+		"shopId": "1000105973",
+		"shopName": "七角板家电京东自营旗舰店",
+		"brandId": "1000105973",
+		"brandName": "七角板京东自营"
 	},
 	{
 		"shopId": "1000106848",
@@ -2176,6 +2224,12 @@
 		"shopName": "卡士（CLASSY.KISS）京东自营旗舰店",
 		"brandId": "1000147303",
 		"brandName": "卡士酸奶会员卡"
+	},
+	{
+		"shopId": "1000147961",
+		"shopName": "高魅（gourmet）京东自营旗舰店",
+		"brandId": "1000147961",
+		"brandName": "希杰食品"
 	},
 	{
 		"shopId": "1000164381",
