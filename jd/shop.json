@@ -318,12 +318,6 @@
 		"brandName": "联想华东店会员"
 	},
 	{
-		"shopId": "582650",
-		"shopName": "华牛电脑专营店",
-		"brandId": "590997",
-		"brandName": "华牛电脑专营店"
-	},
-	{
 		"shopId": "585147",
 		"shopName": "多燕瘦旗舰店",
 		"brandId": "593411",
@@ -688,12 +682,6 @@
 		"shopName": "睿晟发食品专营店",
 		"brandId": "10035547",
 		"brandName": "睿晟发专营店"
-	},
-	{
-		"shopId": "889623",
-		"shopName": "安怡Anlene官方旗舰店",
-		"brandId": "10050336",
-		"brandName": "安怡官方旗舰店"
 	},
 	{
 		"shopId": "10020512",
@@ -1416,12 +1404,6 @@
 		"brandName": "万魔1MORE"
 	},
 	{
-		"shopId": "1000005770",
-		"shopName": "三生花京东自营官方旗舰店",
-		"brandId": "1000005770",
-		"brandName": "三生花会员"
-	},
-	{
 		"shopId": "1000006301",
 		"shopName": "金霸王京东自营旗舰店",
 		"brandId": "1000006301",
@@ -1654,12 +1636,6 @@
 		"shopName": "阿尔卑斯曼妥思自营旗舰店",
 		"brandId": "1000075683",
 		"brandName": "阿尔卑斯曼妥思"
-	},
-	{
-		"shopId": "1000076645",
-		"shopName": "亚麻公社京东自营旗舰店",
-		"brandId": "1000076645",
-		"brandName": "亚麻公社"
 	},
 	{
 		"shopId": "1000076821",
@@ -1980,12 +1956,6 @@
 		"brandName": "界界乐"
 	},
 	{
-		"shopId": "1000097201",
-		"shopName": "露安适京东自营官方旗舰店",
-		"brandId": "1000097201",
-		"brandName": "露安适会员卡"
-	},
-	{
 		"shopId": "1000097203",
 		"shopName": "香丹清京东自营旗舰店",
 		"brandId": "1000097203",
@@ -2122,12 +2092,6 @@
 		"shopName": "亮荘京东自营旗舰店",
 		"brandId": "1000110084",
 		"brandName": "亮荘会员卡"
-	},
-	{
-		"shopId": "1000114761",
-		"shopName": "圣芝葡萄酒京东自营旗舰店",
-		"brandId": "1000114761",
-		"brandName": "圣芝会员"
 	},
 	{
 		"shopId": "1000114841",
@@ -2452,6 +2416,12 @@
 		"shopName": "澳谷京东自营旗舰店",
 		"brandId": "1000351891",
 		"brandName": "澳谷"
+	},
+	{
+		"shopId": "1000352062",
+		"shopName": "涩井（DRYWELL）成人用品京东自营旗舰店",
+		"brandId": "1000352062",
+		"brandName": "涩井成人自营店"
 	},
 	{
 		"shopId": "1000353465",
