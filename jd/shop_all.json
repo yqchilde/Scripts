@@ -1962,6 +1962,12 @@
 		"brand_name": "江赫医疗"
 	},
 	{
+		"shop_id": "10176798",
+		"shop_name": "君乐宝母婴奶粉专卖店",
+		"brand_id": "10315953",
+		"brand_name": "君乐宝奶粉"
+	},
+	{
 		"shop_id": "10176932",
 		"shop_name": "乎兮官方旗舰店",
 		"brand_id": "10316242",
@@ -2302,6 +2308,12 @@
 		"shop_name": "Little Freddie 品牌会员",
 		"brand_id": "10497126",
 		"brand_name": "小皮品牌会员"
+	},
+	{
+		"shop_id": "10287705",
+		"shop_name": "影儿商城官方旗舰店",
+		"brand_id": "10495242",
+		"brand_name": "影儿京东会员"
 	},
 	{
 		"shop_id": "10288677",
@@ -4860,6 +4872,12 @@
 		"brand_name": "伊利会员卡"
 	},
 	{
+		"shop_id": "1000305701",
+		"shop_name": "踏水坊食品京东自营旗舰店",
+		"brand_id": "1000305701",
+		"brand_name": "踏水坊食品"
+	},
+	{
 		"shop_id": "1000306683",
 		"shop_name": "兰蔻京东自营官方旗舰店",
 		"brand_id": "1000306683",
@@ -4930,6 +4948,12 @@
 		"shop_name": "张裕葡萄酒京东自营专卖店",
 		"brand_id": "1000331923",
 		"brand_name": "张裕葡萄酒会员"
+	},
+	{
+		"shop_id": "1000332070",
+		"shop_name": "普莱斯（pulais）京东自营旗舰店",
+		"brand_id": "1000332070",
+		"brand_name": "黑卡"
 	},
 	{
 		"shop_id": "1000332081",
