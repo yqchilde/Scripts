@@ -138,6 +138,12 @@
 		"brandName": "露安适旗舰店"
 	},
 	{
+		"shopId": "74747",
+		"shopName": "LIME FLARE旗舰店",
+		"brandId": "78105",
+		"brandName": "莱茵旗舰店"
+	},
+	{
 		"shopId": "86619",
 		"shopName": "粮全其美官方旗舰店",
 		"brandId": "89315",
@@ -606,6 +612,12 @@
 		"brandName": "大公鸡管家"
 	},
 	{
+		"shopId": "796859",
+		"shopName": "舍得官方旗舰店",
+		"brandId": "797200",
+		"brandName": "舍得官方旗舰店"
+	},
+	{
 		"shopId": "807819",
 		"shopName": "机械革命旗舰店",
 		"brandId": "809928",
@@ -798,6 +810,12 @@
 		"brandName": "第6感"
 	},
 	{
+		"shopId": "10106857",
+		"shopName": "谊心优味旗舰店",
+		"brandId": "10244192",
+		"brandName": "谊心优味V卡"
+	},
+	{
 		"shopId": "10135928",
 		"shopName": "仰韶酒类旗舰店",
 		"brandId": "10265490",
@@ -910,6 +928,12 @@
 		"shopName": "得力浪华专卖店",
 		"brandId": "10355094",
 		"brandName": "得力浪华专卖店"
+	},
+	{
+		"shopId": "10209780",
+		"shopName": "回味赞旗舰店",
+		"brandId": "10355490",
+		"brandName": "回味赞旗舰店"
 	},
 	{
 		"shopId": "10215768",
@@ -1264,6 +1288,12 @@
 		"shopName": "三星家电京东自营旗舰店",
 		"brandId": "1000002367",
 		"brandName": "星星卡"
+	},
+	{
+		"shopId": "1000002441",
+		"shopName": "洁婷京东自营官方旗舰店",
+		"brandId": "1000002441",
+		"brandName": "洁婷会员卡"
 	},
 	{
 		"shopId": "1000002567",
@@ -1638,6 +1668,12 @@
 		"brandName": "阿尔卑斯曼妥思"
 	},
 	{
+		"shopId": "1000075745",
+		"shopName": "劲霸男装京东自营旗舰店",
+		"brandId": "1000075745",
+		"brandName": "劲霸自营会员"
+	},
+	{
 		"shopId": "1000076821",
 		"shopName": "必品阁自营旗舰店",
 		"brandId": "1000076821",
@@ -1846,6 +1882,12 @@
 		"shopName": "古船京东自营旗舰店",
 		"brandId": "1000091863",
 		"brandName": "古船官方旗舰店"
+	},
+	{
+		"shopId": "1000092094",
+		"shopName": "Silvercross京东自营旗舰店",
+		"brandId": "1000092094",
+		"brandName": "SC会员卡"
 	},
 	{
 		"shopId": "1000092169",
@@ -2268,6 +2310,12 @@
 		"brandName": "蓝河会员卡"
 	},
 	{
+		"shopId": "1000301061",
+		"shopName": "开山当道京东自营旗舰店",
+		"brandId": "1000301061",
+		"brandName": "开山酒品牌会员"
+	},
+	{
 		"shopId": "1000302045",
 		"shopName": "小白心里软食品京东自营旗舰店",
 		"brandId": "1000302045",
@@ -2296,6 +2344,12 @@
 		"shopName": "青花汾酒京东自营官方旗舰店",
 		"brandId": "1000328981",
 		"brandName": "汾酒"
+	},
+	{
+		"shopId": "1000330463",
+		"shopName": "大白京东自营旗舰店",
+		"brandId": "1000330463",
+		"brandName": "大白京东自营店"
 	},
 	{
 		"shopId": "1000331923",
@@ -2404,6 +2458,12 @@
 		"shopName": "IAM City Farmer京东自营旗舰店",
 		"brandId": "1000350525",
 		"brandName": "匠心绽放会员"
+	},
+	{
+		"shopId": "1000350703",
+		"shopName": "忆江南传统滋补养生京东自营旗舰店",
+		"brandId": "1000350703",
+		"brandName": "忆江南"
 	},
 	{
 		"shopId": "1000350941",
