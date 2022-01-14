@@ -288,6 +288,12 @@
 		"brand_name": "中派"
 	},
 	{
+		"shop_id": "74747",
+		"shop_name": "LIME FLARE旗舰店",
+		"brand_id": "78105",
+		"brand_name": "莱茵旗舰店"
+	},
+	{
 		"shop_id": "76091",
 		"shop_name": "THREE SEVEN777旗舰店",
 		"brand_id": "79413",
@@ -1428,6 +1434,12 @@
 		"brand_name": "伊舟家具旗舰店"
 	},
 	{
+		"shop_id": "796859",
+		"shop_name": "舍得官方旗舰店",
+		"brand_id": "797200",
+		"brand_name": "舍得官方旗舰店"
+	},
+	{
 		"shop_id": "802686",
 		"shop_name": "元顺生鲜专营店",
 		"brand_id": "805029",
@@ -1870,6 +1882,12 @@
 		"shop_name": "拼惠美旗舰店",
 		"brand_id": "10237817",
 		"brand_name": "拼惠美旗舰店"
+	},
+	{
+		"shop_id": "10106857",
+		"shop_name": "谊心优味旗舰店",
+		"brand_id": "10244192",
+		"brand_name": "谊心优味V卡"
 	},
 	{
 		"shop_id": "10121412",
@@ -3528,6 +3546,12 @@
 		"brand_name": "第一坊"
 	},
 	{
+		"shop_id": "1000075745",
+		"shop_name": "劲霸男装京东自营旗舰店",
+		"brand_id": "1000075745",
+		"brand_name": "劲霸自营会员"
+	},
+	{
 		"shop_id": "1000076304",
 		"shop_name": "刀唛食用油京东自营旗舰店",
 		"brand_id": "1000076304",
@@ -4000,6 +4024,12 @@
 		"shop_name": "大龍燚京东自营旗舰店",
 		"brand_id": "1000092091",
 		"brand_name": "大龍燚店铺会员"
+	},
+	{
+		"shop_id": "1000092094",
+		"shop_name": "Silvercross京东自营旗舰店",
+		"brand_id": "1000092094",
+		"brand_name": "SC会员卡"
 	},
 	{
 		"shop_id": "1000092101",
@@ -4884,6 +4914,12 @@
 		"brand_name": "汾酒"
 	},
 	{
+		"shop_id": "1000330463",
+		"shop_name": "大白京东自营旗舰店",
+		"brand_id": "1000330463",
+		"brand_name": "大白京东自营店"
+	},
+	{
 		"shop_id": "1000331553",
 		"shop_name": "凡米粒自营旗舰店",
 		"brand_id": "1000331553",
@@ -5056,6 +5092,12 @@
 		"shop_name": "IAM City Farmer京东自营旗舰店",
 		"brand_id": "1000350525",
 		"brand_name": "匠心绽放会员"
+	},
+	{
+		"shop_id": "1000350703",
+		"shop_name": "忆江南传统滋补养生京东自营旗舰店",
+		"brand_id": "1000350703",
+		"brand_name": "忆江南"
 	},
 	{
 		"shop_id": "1000350941",
