@@ -378,6 +378,12 @@
 		"brand_name": "哇哇会员"
 	},
 	{
+		"shop_id": "95502",
+		"shop_name": "LifeFitness旗舰店",
+		"brand_id": "97749",
+		"brand_name": "力健旗舰店"
+	},
+	{
 		"shop_id": "97574",
 		"shop_name": "alandv旗舰店",
 		"brand_id": "99428",
@@ -2572,6 +2578,12 @@
 		"shop_name": "畅世生鲜专营店",
 		"brand_id": "10580491",
 		"brand_name": "阿旗馆"
+	},
+	{
+		"shop_id": "10369601",
+		"shop_name": "雨洁官方旗舰店",
+		"brand_id": "10583320",
+		"brand_name": "雨洁洗护"
 	},
 	{
 		"shop_id": "10370169",
@@ -4828,6 +4840,12 @@
 		"shop_name": "雀巢咖啡饮料京东自营旗舰店",
 		"brand_id": "1000278417",
 		"brand_name": "雀巢"
+	},
+	{
+		"shop_id": "1000279042",
+		"shop_name": "韩国海牌京东自营旗舰店",
+		"brand_id": "1000279042",
+		"brand_name": "海牌京东自营"
 	},
 	{
 		"shop_id": "1000282404",
