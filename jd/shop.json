@@ -24,6 +24,12 @@
 		"brandName": "丸美官方旗舰店"
 	},
 	{
+		"shopId": "20751",
+		"shopName": "骆驼牌旗舰店",
+		"brandId": "21396",
+		"brandName": "骆驼牌旗舰店"
+	},
+	{
 		"shopId": "23130",
 		"shopName": "Kappa官方旗舰店",
 		"brandId": "23744",
@@ -40,6 +46,12 @@
 		"shopName": "梦特娇皮具官方旗舰店",
 		"brandId": "24825",
 		"brandName": "梦特娇皮具店"
+	},
+	{
+		"shopId": "27768",
+		"shopName": "川红集团官方旗舰店",
+		"brandId": "28527",
+		"brandName": "川红集团旗舰店"
 	},
 	{
 		"shopId": "28075",
@@ -82,6 +94,12 @@
 		"shopName": "A21官方旗舰店",
 		"brandId": "40716",
 		"brandName": "A21"
+	},
+	{
+		"shopId": "40040",
+		"shopName": "蕉下官方旗舰店",
+		"brandId": "42264",
+		"brandName": "蕉下会员店"
 	},
 	{
 		"shopId": "41261",
@@ -1212,6 +1230,12 @@
 		"brandName": "东菱自营旗舰店"
 	},
 	{
+		"shopId": "1000001351",
+		"shopName": "正官庄京东自营旗舰店",
+		"brandId": "1000001351",
+		"brandName": "正官庄"
+	},
+	{
 		"shopId": "1000001395",
 		"shopName": "美国怡口怡可飘净水京东自营旗舰店",
 		"brandId": "1000001395",
@@ -1638,6 +1662,12 @@
 		"brandName": "黄老五会员卡"
 	},
 	{
+		"shopId": "1000074741",
+		"shopName": "江中京东自营旗舰店",
+		"brandId": "1000074741",
+		"brandName": "江中猴姑会员"
+	},
+	{
 		"shopId": "1000074823",
 		"shopName": "维他奶京东自营旗舰店",
 		"brandId": "1000074823",
@@ -1690,6 +1720,12 @@
 		"shopName": "多燕瘦京东自营旗舰店",
 		"brandId": "1000078076",
 		"brandName": "DYESOO"
+	},
+	{
+		"shopId": "1000078145",
+		"shopName": "霍尼韦尔京东自营旗舰店",
+		"brandId": "1000078145",
+		"brandName": "霍尼韦尔旗舰店"
 	},
 	{
 		"shopId": "1000078242",
@@ -2346,6 +2382,12 @@
 		"brandName": "大白京东自营店"
 	},
 	{
+		"shopId": "1000331691",
+		"shopName": "DHC海外京东自营专区",
+		"brandId": "1000331691",
+		"brandName": "DHC会员"
+	},
+	{
 		"shopId": "1000331923",
 		"shopName": "张裕葡萄酒京东自营专卖店",
 		"brandId": "1000331923",
@@ -2412,6 +2454,12 @@
 		"brandName": "贵宾"
 	},
 	{
+		"shopId": "1000339962",
+		"shopName": "民生普瑞宝京东自营旗舰店",
+		"brandId": "1000339962",
+		"brandName": "民生普瑞宝"
+	},
+	{
 		"shopId": "1000341584",
 		"shopName": "清净园调味品京东自营旗舰店",
 		"brandId": "1000341584",
@@ -2422,6 +2470,12 @@
 		"shopName": "众生官方旗舰店",
 		"brandId": "1000343042",
 		"brandName": "众生"
+	},
+	{
+		"shopId": "1000344125",
+		"shopName": "i-baby京东自营旗舰店",
+		"brandId": "1000344125",
+		"brandName": "ibaby会员"
 	},
 	{
 		"shopId": "1000347101",
