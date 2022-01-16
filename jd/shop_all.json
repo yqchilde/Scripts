@@ -216,6 +216,12 @@
 		"brand_name": "凤佳运动会员卡"
 	},
 	{
+		"shop_id": "51819",
+		"shop_name": "莫高官方旗舰店",
+		"brand_id": "55839",
+		"brand_name": "莫高官方旗舰店"
+	},
+	{
 		"shop_id": "52112",
 		"shop_name": "SWISS MILITARY旗舰店",
 		"brand_id": "56210",
@@ -316,6 +322,12 @@
 		"shop_name": "想念挂面官方旗舰店",
 		"brand_id": "80670",
 		"brand_name": "想念"
+	},
+	{
+		"shop_id": "77776",
+		"shop_name": "睿宣家居专营店",
+		"brand_id": "80969",
+		"brand_name": "睿宣家居专营店"
 	},
 	{
 		"shop_id": "80632",
@@ -1398,6 +1410,12 @@
 		"brand_name": "罗蒙品牌会员"
 	},
 	{
+		"shop_id": "770118",
+		"shop_name": "若小姐传统滋补旗舰店",
+		"brand_id": "773995",
+		"brand_name": "若小姐旗舰店"
+	},
+	{
 		"shop_id": "770786",
 		"shop_name": "美德乐官方旗舰店",
 		"brand_id": "774927",
@@ -2052,6 +2070,12 @@
 		"brand_name": "阿特纳Vip"
 	},
 	{
+		"shop_id": "10199733",
+		"shop_name": "天缘道粮油旗舰店",
+		"brand_id": "10346667",
+		"brand_name": "天缘道旗舰店"
+	},
+	{
 		"shop_id": "10202535",
 		"shop_name": "美奥口腔旗舰店",
 		"brand_id": "10340842",
@@ -2194,6 +2218,12 @@
 		"shop_name": "Nanlite官方旗舰店",
 		"brand_id": "10391872",
 		"brand_name": "南光官方旗舰店"
+	},
+	{
+		"shop_id": "10244423",
+		"shop_name": "中尔医疗器械专营店",
+		"brand_id": "10392357",
+		"brand_name": "“艾”生活"
 	},
 	{
 		"shop_id": "10244494",
@@ -2812,6 +2842,12 @@
 		"shop_name": "乐扣乐扣（LOCK\u0026LOCK）京东自营旗舰店",
 		"brand_id": "1000001684",
 		"brand_name": "乐扣乐扣"
+	},
+	{
+		"shop_id": "1000001713",
+		"shop_name": "金镶玉京东自营旗舰店",
+		"brand_id": "1000001713",
+		"brand_name": "金镶玉京东旗舰"
 	},
 	{
 		"shop_id": "1000001737",
@@ -4692,6 +4728,12 @@
 		"brand_name": "TUMI"
 	},
 	{
+		"shop_id": "1000138877",
+		"shop_name": "海康威视（HIKVISION）车品京东自营旗舰店",
+		"brand_id": "1000138877",
+		"brand_name": "海康威视会员卡"
+	},
+	{
 		"shop_id": "1000139445",
 		"shop_name": "雪菲（CHEFAVOUR）京东自营旗舰店",
 		"brand_id": "1000139445",
@@ -4828,6 +4870,12 @@
 		"shop_name": "天缘道大米京东自营旗舰店",
 		"brand_id": "1000224066",
 		"brand_name": "京东自营旗舰店"
+	},
+	{
+		"shop_id": "1000237582",
+		"shop_name": "Leifheit京东自营旗舰店",
+		"brand_id": "1000237582",
+		"brand_name": "利菲品牌会员"
 	},
 	{
 		"shop_id": "1000243862",
@@ -5110,6 +5158,12 @@
 		"shop_name": "众生官方旗舰店",
 		"brand_id": "1000343042",
 		"brand_name": "众生"
+	},
+	{
+		"shop_id": "1000343085",
+		"shop_name": "昌泰京东自营旗舰店",
+		"brand_id": "1000343085",
+		"brand_name": "昌泰会员卡"
 	},
 	{
 		"shop_id": "1000343902",
