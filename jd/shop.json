@@ -108,6 +108,12 @@
 		"brandName": "威莱官方旗舰店"
 	},
 	{
+		"shopId": "51819",
+		"shopName": "莫高官方旗舰店",
+		"brandId": "55839",
+		"brandName": "莫高官方旗舰店"
+	},
+	{
 		"shopId": "59323",
 		"shopName": "郎酒官方旗舰店",
 		"brandId": "63461",
@@ -142,6 +148,12 @@
 		"shopName": "LIME FLARE旗舰店",
 		"brandId": "78105",
 		"brandName": "莱茵旗舰店"
+	},
+	{
+		"shopId": "77776",
+		"shopName": "睿宣家居专营店",
+		"brandId": "80969",
+		"brandName": "睿宣家居专营店"
 	},
 	{
 		"shopId": "86619",
@@ -534,6 +546,12 @@
 		"brandName": "罗蒙品牌会员"
 	},
 	{
+		"shopId": "770118",
+		"shopName": "若小姐传统滋补旗舰店",
+		"brandId": "773995",
+		"brandName": "若小姐旗舰店"
+	},
+	{
 		"shopId": "770786",
 		"shopName": "美德乐官方旗舰店",
 		"brandId": "774927",
@@ -852,6 +870,12 @@
 		"brandName": "阿特纳Vip"
 	},
 	{
+		"shopId": "10199733",
+		"shopName": "天缘道粮油旗舰店",
+		"brandId": "10346667",
+		"brandName": "天缘道旗舰店"
+	},
+	{
 		"shopId": "10202535",
 		"shopName": "美奥口腔旗舰店",
 		"brandId": "10340842",
@@ -934,6 +958,12 @@
 		"shopName": "和府捞面官方旗舰店",
 		"brandId": "10388586",
 		"brandName": "和府捞面"
+	},
+	{
+		"shopId": "10244423",
+		"shopName": "中尔医疗器械专营店",
+		"brandId": "10392357",
+		"brandName": "“艾”生活"
 	},
 	{
 		"shopId": "10259827",
@@ -1198,6 +1228,12 @@
 		"shopName": "乐扣乐扣（LOCK\u0026LOCK）京东自营旗舰店",
 		"brandId": "1000001684",
 		"brandName": "乐扣乐扣"
+	},
+	{
+		"shopId": "1000001713",
+		"shopName": "金镶玉京东自营旗舰店",
+		"brandId": "1000001713",
+		"brandName": "金镶玉京东旗舰"
 	},
 	{
 		"shopId": "1000001782",
@@ -2100,6 +2136,12 @@
 		"brandName": "TUMI"
 	},
 	{
+		"shopId": "1000138877",
+		"shopName": "海康威视（HIKVISION）车品京东自营旗舰店",
+		"brandId": "1000138877",
+		"brandName": "海康威视会员卡"
+	},
+	{
 		"shopId": "1000146828",
 		"shopName": "澳芝曼（G\u0026M）京东自营官方旗舰店",
 		"brandId": "1000146828",
@@ -2170,6 +2212,12 @@
 		"shopName": "天缘道大米京东自营旗舰店",
 		"brandId": "1000224066",
 		"brandName": "京东自营旗舰店"
+	},
+	{
+		"shopId": "1000237582",
+		"shopName": "Leifheit京东自营旗舰店",
+		"brandId": "1000237582",
+		"brandName": "利菲品牌会员"
 	},
 	{
 		"shopId": "1000279042",
@@ -2338,6 +2386,12 @@
 		"shopName": "众生官方旗舰店",
 		"brandId": "1000343042",
 		"brandName": "众生"
+	},
+	{
+		"shopId": "1000343085",
+		"shopName": "昌泰京东自营旗舰店",
+		"brandId": "1000343085",
+		"brandName": "昌泰会员卡"
 	},
 	{
 		"shopId": "1000344125",
