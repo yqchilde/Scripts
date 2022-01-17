@@ -1308,6 +1308,12 @@
 		"brand_name": "凤祥食品旗舰店"
 	},
 	{
+		"shop_id": "742967",
+		"shop_name": "3AnGnI官方旗舰店",
+		"brand_id": "747810",
+		"brand_name": " 3AnGnI"
+	},
+	{
 		"shop_id": "744279",
 		"shop_name": "雀巢官方旗舰店",
 		"brand_id": "748988",
@@ -1510,6 +1516,12 @@
 		"shop_name": "佳贝艾特奶粉旗舰店",
 		"brand_id": "816750",
 		"brand_name": "佳贝艾特会员"
+	},
+	{
+		"shop_id": "818677",
+		"shop_name": "24HRS旗舰店",
+		"brand_id": "820170",
+		"brand_name": "24Hrs会员"
 	},
 	{
 		"shop_id": "818849",
