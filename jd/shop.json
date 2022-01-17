@@ -180,12 +180,6 @@
 		"brandName": "联想众信专卖店"
 	},
 	{
-		"shopId": "115373",
-		"shopName": "上海友应存储专营店",
-		"brandId": "117914",
-		"brandName": "企业尊享VIP"
-	},
-	{
 		"shopId": "117815",
 		"shopName": "京糖我要酒旗舰店",
 		"brandId": "120858",
@@ -208,12 +202,6 @@
 		"shopName": "jissbon杰士邦官方旗舰店",
 		"brandId": "121385",
 		"brandName": "杰士邦"
-	},
-	{
-		"shopId": "129134",
-		"shopName": "汾酒旗舰店",
-		"brandId": "133208",
-		"brandName": "汾酒旗舰店"
 	},
 	{
 		"shopId": "130904",
@@ -334,12 +322,6 @@
 		"shopName": "爱奇艺旗舰店",
 		"brandId": "603006",
 		"brandName": "爱奇艺旗舰店"
-	},
-	{
-		"shopId": "596914",
-		"shopName": "fjallraven旗舰店",
-		"brandId": "604634",
-		"brandName": "北极狐旗舰店"
 	},
 	{
 		"shopId": "601923",
@@ -504,16 +486,16 @@
 		"brandName": "吉香居品牌会员"
 	},
 	{
+		"shopId": "742967",
+		"shopName": "3AnGnI官方旗舰店",
+		"brandId": "747810",
+		"brandName": " 3AnGnI"
+	},
+	{
 		"shopId": "744279",
 		"shopName": "雀巢官方旗舰店",
 		"brandId": "748988",
 		"brandName": "雀巢"
-	},
-	{
-		"shopId": "745371",
-		"shopName": "歌德收藏酒专营店",
-		"brandId": "750079",
-		"brandName": "歌德老酒行"
 	},
 	{
 		"shopId": "752101",
@@ -576,12 +558,6 @@
 		"brandName": "徐氏厨具"
 	},
 	{
-		"shopId": "793740",
-		"shopName": "大公鸡管家掌交专卖店",
-		"brandId": "797626",
-		"brandName": "大公鸡管家"
-	},
-	{
 		"shopId": "796859",
 		"shopName": "舍得官方旗舰店",
 		"brandId": "797200",
@@ -612,10 +588,10 @@
 		"brandName": "佳贝艾特会员"
 	},
 	{
-		"shopId": "818849",
-		"shopName": "垚娃宠物用品专营店",
-		"brandId": "820427",
-		"brandName": "垚娃店铺VIP"
+		"shopId": "818677",
+		"shopName": "24HRS旗舰店",
+		"brandId": "820170",
+		"brandName": "24Hrs会员"
 	},
 	{
 		"shopId": "822231",
@@ -888,12 +864,6 @@
 		"brandName": "今世缘"
 	},
 	{
-		"shopId": "10206850",
-		"shopName": "小狗当家宠物用品专营店",
-		"brandId": "10353058",
-		"brandName": "小狗当家京东店"
-	},
-	{
 		"shopId": "10208902",
 		"shopName": "锋味旗舰店",
 		"brandId": "10355281",
@@ -1078,12 +1048,6 @@
 		"shopName": "SALONIA旗舰店",
 		"brandId": "10544342",
 		"brandName": "SALONIA"
-	},
-	{
-		"shopId": "10335778",
-		"shopName": "淘佳猫旗舰店",
-		"brandId": "10548476",
-		"brandName": "淘佳猫旗舰店"
 	},
 	{
 		"shopId": "10339186",
@@ -1392,12 +1356,6 @@
 		"brandName": "家庭清洁师"
 	},
 	{
-		"shopId": "1000005670",
-		"shopName": "美孚（Mobil）京东自营旗舰店",
-		"brandId": "1000005670",
-		"brandName": "美孚"
-	},
-	{
 		"shopId": "1000006301",
 		"shopName": "金霸王京东自营旗舰店",
 		"brandId": "1000006301",
@@ -1468,12 +1426,6 @@
 		"shopName": "修正京东自营旗舰店",
 		"brandId": "1000010681",
 		"brandName": "修正自营旗舰店"
-	},
-	{
-		"shopId": "1000010886",
-		"shopName": "茶人岭京东自营旗舰店",
-		"brandId": "1000010886",
-		"brandName": "茶人岭会员"
 	},
 	{
 		"shopId": "1000011225",
@@ -1618,12 +1570,6 @@
 		"shopName": "粮全其美自营旗舰店",
 		"brandId": "1000075282",
 		"brandName": "粮全其美会员"
-	},
-	{
-		"shopId": "1000075683",
-		"shopName": "阿尔卑斯曼妥思自营旗舰店",
-		"brandId": "1000075683",
-		"brandName": "阿尔卑斯曼妥思"
 	},
 	{
 		"shopId": "1000075745",
@@ -1818,12 +1764,6 @@
 		"brandName": "茶里专属会员卡"
 	},
 	{
-		"shopId": "1000091721",
-		"shopName": "伊利低温乳品京东自营旗舰店",
-		"brandId": "1000091721",
-		"brandName": "伊利低温会员卡"
-	},
-	{
 		"shopId": "1000091783",
 		"shopName": "黄鹤楼酒京东自营旗舰店",
 		"brandId": "1000091783",
@@ -1864,12 +1804,6 @@
 		"shopName": "周黑鸭京东自营旗舰店",
 		"brandId": "1000093247",
 		"brandName": "周黑鸭会员"
-	},
-	{
-		"shopId": "1000093681",
-		"shopName": "圣元牛奶京东自营旗舰店",
-		"brandId": "1000093681",
-		"brandName": "圣元"
 	},
 	{
 		"shopId": "1000093692",
@@ -1930,12 +1864,6 @@
 		"shopName": "界界乐京东自营旗舰店",
 		"brandId": "1000097182",
 		"brandName": "界界乐"
-	},
-	{
-		"shopId": "1000097203",
-		"shopName": "香丹清京东自营旗舰店",
-		"brandId": "1000097203",
-		"brandName": "香丹清"
 	},
 	{
 		"shopId": "1000097462",
@@ -2178,12 +2106,6 @@
 		"brandName": "VIP"
 	},
 	{
-		"shopId": "1000168224",
-		"shopName": "小罐茶京东自营官方旗舰店",
-		"brandId": "1000168224",
-		"brandName": "小罐茶旗舰店"
-	},
-	{
 		"shopId": "1000181141",
 		"shopName": "固尚（GSON）京东自营旗舰店",
 		"brandId": "1000181141",
@@ -2326,12 +2248,6 @@
 		"shopName": "大悦京东自营旗舰店",
 		"brandId": "1000332288",
 		"brandName": "大悦会员"
-	},
-	{
-		"shopId": "1000332881",
-		"shopName": "晖致京东自营旗舰店",
-		"brandId": "1000332881",
-		"brandName": "晖致"
 	},
 	{
 		"shopId": "1000332882",
