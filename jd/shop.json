@@ -414,6 +414,12 @@
 		"brandName": "五色养生鲜"
 	},
 	{
+		"shopId": "696878",
+		"shopName": "联想航电授权专卖店",
+		"brandId": "701114",
+		"brandName": "联想航电专卖店"
+	},
+	{
 		"shopId": "697146",
 		"shopName": "振德官方旗舰店",
 		"brandId": "701317",
@@ -630,6 +636,12 @@
 		"brandName": "竹叶青酒会员卡"
 	},
 	{
+		"shopId": "855858",
+		"shopName": "汾阳王官方旗舰店",
+		"brandId": "10017390",
+		"brandName": "汾阳王尊享会员"
+	},
+	{
 		"shopId": "860076",
 		"shopName": "佳贝艾特羊奶粉旗舰店",
 		"brandId": "10021910",
@@ -670,6 +682,12 @@
 		"shopName": "其在官方旗舰店",
 		"brandId": "10192885",
 		"brandName": "其在官方旗舰店"
+	},
+	{
+		"shopId": "10059709",
+		"shopName": "五粮液同心悦专卖店",
+		"brandId": "10194827",
+		"brandName": "五粮液专卖店"
 	},
 	{
 		"shopId": "10061016",
@@ -1236,6 +1254,12 @@
 		"brandName": "皓乐齿"
 	},
 	{
+		"shopId": "1000002519",
+		"shopName": "爱国者存储京东自营旗舰店",
+		"brandId": "1000002519",
+		"brandName": "爱国者存储"
+	},
+	{
 		"shopId": "1000002567",
 		"shopName": "亨氏京东自营旗舰店",
 		"brandId": "1000002567",
@@ -1414,6 +1438,12 @@
 		"shopName": "益米玩具京东自营官方旗舰店",
 		"brandId": "1000010062",
 		"brandName": "益米会员"
+	},
+	{
+		"shopId": "1000010104",
+		"shopName": "蜀道香京东自营旗舰店",
+		"brandId": "1000010104",
+		"brandName": "蜀道香会员"
 	},
 	{
 		"shopId": "1000010481",
@@ -1620,6 +1650,12 @@
 		"brandName": "圣牧"
 	},
 	{
+		"shopId": "1000080630",
+		"shopName": "京东伊力特自营旗舰店",
+		"brandId": "1000080630",
+		"brandName": "伊力特品牌会员"
+	},
+	{
 		"shopId": "1000080683",
 		"shopName": "欣和京东自营旗舰店",
 		"brandId": "1000080683",
@@ -1728,6 +1764,12 @@
 		"brandName": "疯狂小狗"
 	},
 	{
+		"shopId": "1000088981",
+		"shopName": "三星原装配件京东自营旗舰店",
+		"brandId": "1000088981",
+		"brandName": "星选玩家"
+	},
+	{
 		"shopId": "1000089686",
 		"shopName": "徐福记京东自营旗舰店",
 		"brandId": "1000089686",
@@ -1816,6 +1858,12 @@
 		"shopName": "澳牧京东自营旗舰店",
 		"brandId": "1000093828",
 		"brandName": "澳牧会员"
+	},
+	{
+		"shopId": "1000093883",
+		"shopName": "咪鼠科技京东自营旗舰店",
+		"brandId": "1000093883",
+		"brandName": "咪鼠之家"
 	},
 	{
 		"shopId": "1000094961",
@@ -2272,6 +2320,12 @@
 		"shopName": "梅见京东自营旗舰店",
 		"brandId": "1000334325",
 		"brandName": "梅见品鉴官"
+	},
+	{
+		"shopId": "1000334713",
+		"shopName": "LYNN京东自营旗舰店",
+		"brandId": "1000334713",
+		"brandName": "LYNN旗舰店"
 	},
 	{
 		"shopId": "1000335921",
