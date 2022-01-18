@@ -6,6 +6,12 @@
 		"brand_name": "劲牌酒类旗舰店"
 	},
 	{
+		"shop_id": "12974",
+		"shop_name": "红桃K官方旗舰店",
+		"brand_id": "13449",
+		"brand_name": "红桃K会员"
+	},
+	{
 		"shop_id": "13257",
 		"shop_name": "酒惠网官方旗舰店",
 		"brand_id": "13637",
@@ -1492,6 +1498,12 @@
 		"shop_name": "戴·可·思官方旗舰店",
 		"brand_id": "806829",
 		"brand_name": "戴可思品牌会员"
+	},
+	{
+		"shop_id": "807672",
+		"shop_name": "赖茅官方旗舰店",
+		"brand_id": "806844",
+		"brand_name": "赖茅官方旗舰店"
 	},
 	{
 		"shop_id": "807819",
@@ -3052,6 +3064,12 @@
 		"shop_name": "kuyura可悠然京东自营官方旗舰店",
 		"brand_id": "1000003533",
 		"brand_name": "菲婷丝"
+	},
+	{
+		"shop_id": "1000003554",
+		"shop_name": "马勒（MAHLE）京东自营专区",
+		"brand_id": "1000003554",
+		"brand_name": "MAHLE"
 	},
 	{
 		"shop_id": "1000003570",
