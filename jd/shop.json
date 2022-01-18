@@ -6,6 +6,12 @@
 		"brandName": "劲牌酒类旗舰店"
 	},
 	{
+		"shopId": "12974",
+		"shopName": "红桃K官方旗舰店",
+		"brandId": "13449",
+		"brandName": "红桃K会员"
+	},
+	{
 		"shopId": "15228",
 		"shopName": "匹克官方旗舰店",
 		"brandId": "16307",
@@ -46,12 +52,6 @@
 		"shopName": "来伊份旗舰店",
 		"brandId": "24827",
 		"brandName": "来伊份旗舰店"
-	},
-	{
-		"shopId": "24406",
-		"shopName": "梦特娇皮具官方旗舰店",
-		"brandId": "24825",
-		"brandName": "梦特娇皮具店"
 	},
 	{
 		"shopId": "27768",
@@ -100,6 +100,12 @@
 		"shopName": "蕉下官方旗舰店",
 		"brandId": "42264",
 		"brandName": "蕉下会员店"
+	},
+	{
+		"shopId": "41261",
+		"shopName": "尔晏（ERYAN）袜品旗舰店",
+		"brandId": "43813",
+		"brandName": "尔晏袜品专享卡"
 	},
 	{
 		"shopId": "43023",
@@ -264,12 +270,6 @@
 		"brandName": "乐扣乐扣"
 	},
 	{
-		"shopId": "185645",
-		"shopName": "卡西欧宝亮专卖店",
-		"brandId": "193385",
-		"brandName": "卡西欧宝亮钟表"
-	},
-	{
 		"shopId": "188762",
 		"shopName": "爱乐普数码专营店",
 		"brandId": "197179",
@@ -304,12 +304,6 @@
 		"shopName": "联想华东授权专卖店",
 		"brandId": "588642",
 		"brandName": "联想华东店会员"
-	},
-	{
-		"shopId": "585147",
-		"shopName": "多燕瘦旗舰店",
-		"brandId": "593411",
-		"brandName": "DYESOO"
 	},
 	{
 		"shopId": "585640",
@@ -384,12 +378,6 @@
 		"brandName": "伊力特VIP"
 	},
 	{
-		"shopId": "682597",
-		"shopName": "疯狂小狗旗舰店",
-		"brandId": "686353",
-		"brandName": "疯狂小狗旗舰店"
-	},
-	{
 		"shopId": "685392",
 		"shopName": "糖村旗舰店",
 		"brandId": "689317",
@@ -450,12 +438,6 @@
 		"brandName": "永丰源旗舰店"
 	},
 	{
-		"shopId": "703134",
-		"shopName": "联想易合服务器专卖店",
-		"brandId": "707474",
-		"brandName": "联想易合VIP"
-	},
-	{
 		"shopId": "703279",
 		"shopName": "骁龙旗舰店",
 		"brandId": "707261",
@@ -510,18 +492,6 @@
 		"brandName": "自嗨锅旗舰店"
 	},
 	{
-		"shopId": "752168",
-		"shopName": "思念官方旗舰店",
-		"brandId": "756324",
-		"brandName": "思念食品"
-	},
-	{
-		"shopId": "754090",
-		"shopName": "LANZOOM旗舰店",
-		"brandId": "758412",
-		"brandName": "蓝族官方旗舰店"
-	},
-	{
 		"shopId": "765997",
 		"shopName": "沂蒙仁和堂大药房旗舰店",
 		"brandId": "761386",
@@ -570,6 +540,12 @@
 		"brandName": "舍得官方旗舰店"
 	},
 	{
+		"shopId": "807672",
+		"shopName": "赖茅官方旗舰店",
+		"brandId": "806844",
+		"brandName": "赖茅官方旗舰店"
+	},
+	{
 		"shopId": "807819",
 		"shopName": "机械革命旗舰店",
 		"brandId": "809928",
@@ -580,12 +556,6 @@
 		"shopName": "青花郎官方旗舰店",
 		"brandId": "803140",
 		"brandName": "青花郎"
-	},
-	{
-		"shopId": "811048",
-		"shopName": "小白心里软旗舰店",
-		"brandId": "813129",
-		"brandName": "小白心里软"
 	},
 	{
 		"shopId": "815116",
@@ -712,12 +682,6 @@
 		"shopName": "奇姬官方旗舰店",
 		"brandId": "10211994",
 		"brandName": "奇姬"
-	},
-	{
-		"shopId": "10078278",
-		"shopName": "由魅电器旗舰店",
-		"brandId": "10214700",
-		"brandName": "由魅电器旗舰店"
 	},
 	{
 		"shopId": "10086308",
@@ -1038,12 +1002,6 @@
 		"brandName": "希杰食品"
 	},
 	{
-		"shopId": "10315387",
-		"shopName": "多燕瘦品牌",
-		"brandId": "10526825",
-		"brandName": "DYESOO"
-	},
-	{
 		"shopId": "10322963",
 		"shopName": "芝者有道旗舰店",
 		"brandId": "10534135",
@@ -1314,6 +1272,12 @@
 		"brandName": "菲婷丝"
 	},
 	{
+		"shopId": "1000003554",
+		"shopName": "马勒（MAHLE）京东自营专区",
+		"brandId": "1000003554",
+		"brandName": "MAHLE"
+	},
+	{
 		"shopId": "1000003570",
 		"shopName": "伊利母婴京东自营旗舰店",
 		"brandId": "1000003570",
@@ -1452,12 +1416,6 @@
 		"brandName": "百事可乐"
 	},
 	{
-		"shopId": "1000010681",
-		"shopName": "修正京东自营旗舰店",
-		"brandId": "1000010681",
-		"brandName": "修正自营旗舰店"
-	},
-	{
 		"shopId": "1000011225",
 		"shopName": "忆江南京东自营旗舰店",
 		"brandId": "1000011225",
@@ -1504,12 +1462,6 @@
 		"shopName": "洽洽京东自营旗舰店",
 		"brandId": "1000015463",
 		"brandName": "洽洽"
-	},
-	{
-		"shopId": "1000015502",
-		"shopName": "洋河京东自营旗舰店",
-		"brandId": "1000015502",
-		"brandName": "洋河"
 	},
 	{
 		"shopId": "1000015504",
@@ -1564,12 +1516,6 @@
 		"shopName": "莎娜SANA京东自营旗舰店",
 		"brandId": "1000072703",
 		"brandName": "SANA莎娜"
-	},
-	{
-		"shopId": "1000074126",
-		"shopName": "全南自营旗舰店",
-		"brandId": "1000074126",
-		"brandName": "全南自营旗舰店"
 	},
 	{
 		"shopId": "1000074722",
@@ -1792,12 +1738,6 @@
 		"shopName": "君乐宝乳品京东自营旗舰店",
 		"brandId": "1000090824",
 		"brandName": "君乐宝乳品"
-	},
-	{
-		"shopId": "1000091266",
-		"shopName": "中磐粮油京东自营旗舰店",
-		"brandId": "1000091266",
-		"brandName": "中磐粮油会员"
 	},
 	{
 		"shopId": "1000091274",
