@@ -348,6 +348,12 @@
 		"brand_name": "速比涛旗舰店"
 	},
 	{
+		"shop_id": "82882",
+		"shop_name": "方旭烟具专营店",
+		"brand_id": "85926",
+		"brand_name": "方旭烟具专营店"
+	},
+	{
 		"shop_id": "82933",
 		"shop_name": "优卡莲瑜伽用品官方旗舰店",
 		"brand_id": "85986",
@@ -1528,6 +1534,12 @@
 		"shop_name": "小白心里软旗舰店",
 		"brand_id": "813129",
 		"brand_name": "小白心里软"
+	},
+	{
+		"shop_id": "811212",
+		"shop_name": "联想卓电授权专卖店",
+		"brand_id": "811498",
+		"brand_name": "联想卓电专卖店"
 	},
 	{
 		"shop_id": "815116",
@@ -5044,6 +5056,12 @@
 		"shop_name": "伊利奶酪京东自营旗舰店",
 		"brand_id": "1000304221",
 		"brand_name": "伊利会员卡"
+	},
+	{
+		"shop_id": "1000304781",
+		"shop_name": "冰泉（blispring）京东自营旗舰店",
+		"brand_id": "1000304781",
+		"brand_name": "冰泉VIP"
 	},
 	{
 		"shop_id": "1000305701",
