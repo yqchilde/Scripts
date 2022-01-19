@@ -714,6 +714,12 @@
 		"brand_name": "卡唛官方旗舰店"
 	},
 	{
+		"shop_id": "181258",
+		"shop_name": "妮维雅(NIVEA)旗舰店",
+		"brand_id": "188719",
+		"brand_name": "妮维雅旗舰店"
+	},
+	{
 		"shop_id": "185335",
 		"shop_name": "善草纪官方旗舰店",
 		"brand_id": "192982",
@@ -1642,6 +1648,12 @@
 		"shop_name": "中粮罐头官方旗舰店",
 		"brand_id": "10014585",
 		"brand_name": "中粮罐头旗舰店"
+	},
+	{
+		"shop_id": "851975",
+		"shop_name": "泉峰电动工具旗舰店",
+		"brand_id": "10015249",
+		"brand_name": "大有会员俱乐部"
 	},
 	{
 		"shop_id": "853400",
@@ -2734,6 +2746,12 @@
 		"shop_name": "美德乐medela京东自营旗舰店",
 		"brand_id": "1000000725",
 		"brand_name": "美德乐"
+	},
+	{
+		"shop_id": "1000000763",
+		"shop_name": "日康京东自营旗舰店",
+		"brand_id": "1000000763",
+		"brand_name": "VIP卡"
 	},
 	{
 		"shop_id": "1000000827",
@@ -4014,6 +4032,12 @@
 		"brand_name": "米其林VIP"
 	},
 	{
+		"shop_id": "1000088302",
+		"shop_name": "小葵花京东自营专区",
+		"brand_id": "1000088302",
+		"brand_name": "小葵花宝妈神器"
+	},
+	{
 		"shop_id": "1000088382",
 		"shop_name": "京东自营小糊涂仙旗舰店",
 		"brand_id": "1000088382",
@@ -4450,6 +4474,12 @@
 		"shop_name": "威尔顺京东自营旗舰店",
 		"brand_id": "1000101689",
 		"brand_name": "威尔顺店铺会员"
+	},
+	{
+		"shop_id": "1000101716",
+		"shop_name": "viee唯怡京东自营旗舰店",
+		"brand_id": "1000101716",
+		"brand_name": "唯怡"
 	},
 	{
 		"shop_id": "1000101952",
