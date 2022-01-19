@@ -270,6 +270,12 @@
 		"brandName": "乐扣乐扣"
 	},
 	{
+		"shopId": "181258",
+		"shopName": "妮维雅(NIVEA)旗舰店",
+		"brandId": "188719",
+		"brandName": "妮维雅旗舰店"
+	},
+	{
 		"shopId": "188762",
 		"shopName": "爱乐普数码专营店",
 		"brandId": "197179",
@@ -606,6 +612,12 @@
 		"brandName": "竹叶青酒会员卡"
 	},
 	{
+		"shopId": "851975",
+		"shopName": "泉峰电动工具旗舰店",
+		"brandId": "10015249",
+		"brandName": "大有会员俱乐部"
+	},
+	{
 		"shopId": "855858",
 		"shopName": "汾阳王官方旗舰店",
 		"brandId": "10017390",
@@ -640,6 +652,12 @@
 		"shopName": "郎牌特曲官方旗舰店",
 		"brandId": "10185454",
 		"brandName": "郎牌特曲VIP"
+	},
+	{
+		"shopId": "10052669",
+		"shopName": "金沙酒旗舰店",
+		"brandId": "10188022",
+		"brandName": "金沙"
 	},
 	{
 		"shopId": "10056387",
@@ -996,6 +1014,12 @@
 		"brandName": "分阶喂养"
 	},
 	{
+		"shopId": "10308966",
+		"shopName": "雅士利奶粉旗舰店",
+		"brandId": "10517793",
+		"brandName": "别提多美会员"
+	},
+	{
 		"shopId": "10309908",
 		"shopName": "希杰VIP会员",
 		"brandId": "10520129",
@@ -1108,6 +1132,12 @@
 		"shopName": "美德乐medela京东自营旗舰店",
 		"brandId": "1000000725",
 		"brandName": "美德乐"
+	},
+	{
+		"shopId": "1000000763",
+		"shopName": "日康京东自营旗舰店",
+		"brandId": "1000000763",
+		"brandName": "VIP卡"
 	},
 	{
 		"shopId": "1000001120",
@@ -1282,6 +1312,12 @@
 		"shopName": "伊利母婴京东自营旗舰店",
 		"brandId": "1000003570",
 		"brandName": "伊利金领冠"
+	},
+	{
+		"shopId": "1000003577",
+		"shopName": "博世汽车配件京东自营旗舰店",
+		"brandId": "1000003577",
+		"brandName": "博世汽配自营"
 	},
 	{
 		"shopId": "1000003588",
@@ -1698,6 +1734,12 @@
 		"brandName": "润百颜会员卡"
 	},
 	{
+		"shopId": "1000088302",
+		"shopName": "小葵花京东自营专区",
+		"brandId": "1000088302",
+		"brandName": "小葵花宝妈神器"
+	},
+	{
 		"shopId": "1000088382",
 		"shopName": "京东自营小糊涂仙旗舰店",
 		"brandId": "1000088382",
@@ -1894,6 +1936,12 @@
 		"shopName": "元气森林京东自营旗舰店",
 		"brandId": "1000101562",
 		"brandName": "官方会员卡"
+	},
+	{
+		"shopId": "1000101716",
+		"shopName": "viee唯怡京东自营旗舰店",
+		"brandId": "1000101716",
+		"brandName": "唯怡"
 	},
 	{
 		"shopId": "1000101952",
@@ -2164,6 +2212,12 @@
 		"shopName": "开山当道京东自营旗舰店",
 		"brandId": "1000301061",
 		"brandName": "开山酒品牌会员"
+	},
+	{
+		"shopId": "1000301853",
+		"shopName": "菊乐（JULE）京东自营旗舰店",
+		"brandId": "1000301853",
+		"brandName": "菊乐"
 	},
 	{
 		"shopId": "1000302045",
