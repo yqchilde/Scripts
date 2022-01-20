@@ -954,6 +954,12 @@
 		"brandName": "欧舒丹丹粉"
 	},
 	{
+		"shopId": "1000003448",
+		"shopName": "好孩子京东自营官方旗舰店",
+		"brandId": "1000003448",
+		"brandName": "好孩子"
+	},
+	{
 		"shopId": "1000003533",
 		"shopName": "kuyura可悠然京东自营官方旗舰店",
 		"brandId": "1000003533",
@@ -1332,6 +1338,12 @@
 		"brandName": "安速白元"
 	},
 	{
+		"shopId": "1000090242",
+		"shopName": "舒客个护健康京东自营旗舰店",
+		"brandId": "1000090242",
+		"brandName": "舒客个护健康"
+	},
+	{
 		"shopId": "1000091783",
 		"shopName": "黄鹤楼酒京东自营旗舰店",
 		"brandId": "1000091783",
@@ -1708,6 +1720,12 @@
 		"shopName": "i-baby京东自营旗舰店",
 		"brandId": "1000344125",
 		"brandName": "ibaby会员"
+	},
+	{
+		"shopId": "1000344563",
+		"shopName": "安托京东自营旗舰店",
+		"brandId": "1000344563",
+		"brandName": "安托"
 	},
 	{
 		"shopId": "1000350703",
