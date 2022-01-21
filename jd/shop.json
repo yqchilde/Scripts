@@ -150,6 +150,12 @@
 		"brandName": "力健旗舰店"
 	},
 	{
+		"shopId": "100762",
+		"shopName": "OMI欧米旗舰店",
+		"brandId": "102298",
+		"brandName": "欧米VIP"
+	},
+	{
 		"shopId": "113775",
 		"shopName": "联想众信授权专卖店",
 		"brandId": "116691",
@@ -252,10 +258,22 @@
 		"brandName": "第6感"
 	},
 	{
+		"shopId": "588474",
+		"shopName": "太太乐旗舰店",
+		"brandId": "593862",
+		"brandName": "太太乐旗舰店"
+	},
+	{
 		"shopId": "594956",
 		"shopName": "爱奇艺旗舰店",
 		"brandId": "603006",
 		"brandName": "爱奇艺旗舰店"
+	},
+	{
+		"shopId": "599810",
+		"shopName": "美的新创专卖店",
+		"brandId": "603933",
+		"brandName": "美的新创专卖店"
 	},
 	{
 		"shopId": "601923",
@@ -766,6 +784,12 @@
 		"shopName": "酒连酒官方旗舰店",
 		"brandId": "10546998",
 		"brandName": "酒连酒官旗舰店"
+	},
+	{
+		"shopId": "10348681",
+		"shopName": "象米国际旗舰店",
+		"brandId": "10561571",
+		"brandName": "象米国际会员"
 	},
 	{
 		"shopId": "10365618",
@@ -1678,6 +1702,12 @@
 		"shopName": "仰韶京东自营旗舰店",
 		"brandId": "1000307901",
 		"brandName": "仰韶彩陶坊"
+	},
+	{
+		"shopId": "1000328224",
+		"shopName": "森美（Summi）NFC橙汁京东自营旗舰店",
+		"brandId": "1000328224",
+		"brandName": "森美NFC橙汁"
 	},
 	{
 		"shopId": "1000330463",
