@@ -1146,6 +1146,12 @@
 		"brand_name": "伊力特VIP"
 	},
 	{
+		"shop_id": "681119",
+		"shop_name": "香百年旗舰店",
+		"brand_id": "684784",
+		"brand_name": "香百年旗舰店"
+	},
+	{
 		"shop_id": "681411",
 		"shop_name": "BOSE旗舰店",
 		"brand_id": "685238",
@@ -2422,6 +2428,12 @@
 		"shop_name": "蕉下户外旗舰店",
 		"brand_id": "10494532",
 		"brand_name": "蕉下会员店"
+	},
+	{
+		"shop_id": "10284560",
+		"shop_name": "Pom'Potes爱扬专卖店",
+		"brand_id": "10494699",
+		"brand_name": "法优乐专卖店"
 	},
 	{
 		"shop_id": "10285153",
