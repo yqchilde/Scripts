@@ -222,12 +222,6 @@
 		"brandName": "TUMI"
 	},
 	{
-		"shopId": "175123",
-		"shopName": "美之高旗舰店",
-		"brandId": "181678",
-		"brandName": "美之高品牌会员"
-	},
-	{
 		"shopId": "176265",
 		"shopName": "乐扣乐扣官方旗舰店",
 		"brandId": "182872",
@@ -282,12 +276,6 @@
 		"brandName": "小角楼会员卡"
 	},
 	{
-		"shopId": "608640",
-		"shopName": "特特母婴专营店",
-		"brandId": "616138",
-		"brandName": "特特母婴专营店"
-	},
-	{
 		"shopId": "629516",
 		"shopName": "爱思贝官方旗舰店",
 		"brandId": "633931",
@@ -318,12 +306,6 @@
 		"brandName": "玖姿会员卡"
 	},
 	{
-		"shopId": "663225",
-		"shopName": "辰硕母婴官方旗舰店",
-		"brandId": "667752",
-		"brandName": "辰硕母婴"
-	},
-	{
 		"shopId": "667076",
 		"shopName": "i-baby官方旗舰店",
 		"brandId": "671430",
@@ -334,6 +316,12 @@
 		"shopName": "富亿农官方旗舰店",
 		"brandId": "674881",
 		"brandName": "富亿农旗舰店"
+	},
+	{
+		"shopId": "681119",
+		"shopName": "香百年旗舰店",
+		"brandId": "684784",
+		"brandName": "香百年旗舰店"
 	},
 	{
 		"shopId": "682597",
@@ -450,12 +438,6 @@
 		"brandName": "联想卓电专卖店"
 	},
 	{
-		"shopId": "815116",
-		"shopName": "佳贝艾特奶粉旗舰店",
-		"brandId": "816750",
-		"brandName": "佳贝艾特会员"
-	},
-	{
 		"shopId": "818677",
 		"shopName": "24HRS旗舰店",
 		"brandId": "820170",
@@ -546,12 +528,6 @@
 		"brandName": "五粮液专卖店"
 	},
 	{
-		"shopId": "10061031",
-		"shopName": "泽芽旗舰店",
-		"brandId": "10196662",
-		"brandName": "泽芽旗舰店"
-	},
-	{
 		"shopId": "10075479",
 		"shopName": "奇姬官方旗舰店",
 		"brandId": "10211994",
@@ -562,12 +538,6 @@
 		"shopName": "CJ食品旗舰店",
 		"brandId": "10222935",
 		"brandName": "希杰食品"
-	},
-	{
-		"shopId": "10087004",
-		"shopName": "公牛阿拉丁专卖店",
-		"brandId": "10223398",
-		"brandName": "公牛会员卡"
 	},
 	{
 		"shopId": "10091722",
@@ -616,12 +586,6 @@
 		"shopName": "玛丁尼猫王专卖店",
 		"brandId": "10312720",
 		"brandName": "玛丁尼官方店"
-	},
-	{
-		"shopId": "10175878",
-		"shopName": "江赫医疗器械专营店",
-		"brandId": "10314977",
-		"brandName": "江赫医疗"
 	},
 	{
 		"shopId": "10176798",
@@ -720,28 +684,22 @@
 		"brandName": "水井坊旗舰店"
 	},
 	{
+		"shopId": "10284560",
+		"shopName": "Pom'Potes爱扬专卖店",
+		"brandId": "10494699",
+		"brandName": "法优乐专卖店"
+	},
+	{
 		"shopId": "10287705",
 		"shopName": "影儿商城官方旗舰店",
 		"brandId": "10495242",
 		"brandName": "影儿京东会员"
 	},
 	{
-		"shopId": "10296499",
-		"shopName": "武陵酒类旗舰店",
-		"brandId": "10503441",
-		"brandName": "武陵酒类旗舰店"
-	},
-	{
 		"shopId": "10302300",
 		"shopName": "tumi",
 		"brandId": "10514104",
 		"brandName": "TUMI"
-	},
-	{
-		"shopId": "10307910",
-		"shopName": "英氏会员",
-		"brandId": "10517804",
-		"brandName": "分阶喂养"
 	},
 	{
 		"shopId": "10308966",
@@ -772,12 +730,6 @@
 		"shopName": "乐扣乐扣京东自营官方旗舰店",
 		"brandId": "10537468",
 		"brandName": "乐扣乐扣"
-	},
-	{
-		"shopId": "10331954",
-		"shopName": "SALONIA旗舰店",
-		"brandId": "10544342",
-		"brandName": "SALONIA"
 	},
 	{
 		"shopId": "10339186",
@@ -1176,12 +1128,6 @@
 		"brandName": "三全"
 	},
 	{
-		"shopId": "1000016041",
-		"shopName": "五丰京东自营旗舰店",
-		"brandId": "1000016041",
-		"brandName": "五丰大米"
-	},
-	{
 		"shopId": "1000016345",
 		"shopName": "四特京东自营旗舰店",
 		"brandId": "1000016345",
@@ -1264,12 +1210,6 @@
 		"shopName": "欣和京东自营旗舰店",
 		"brandId": "1000080683",
 		"brandName": "欣和品牌会员"
-	},
-	{
-		"shopId": "1000081228",
-		"shopName": "英氏京东自营旗舰店",
-		"brandId": "1000081228",
-		"brandName": "分阶喂养"
 	},
 	{
 		"shopId": "1000081521",
@@ -1374,6 +1314,12 @@
 		"brandName": "舒客个护健康"
 	},
 	{
+		"shopId": "1000090461",
+		"shopName": "汾酒京东自营官方旗舰店",
+		"brandId": "1000090461",
+		"brandName": "汾酒"
+	},
+	{
 		"shopId": "1000091081",
 		"shopName": "ROCK京东自营旗舰店",
 		"brandId": "1000091081",
@@ -1438,12 +1384,6 @@
 		"shopName": "人本京东自营旗舰店",
 		"brandId": "1000094623",
 		"brandName": "人本自营旗舰店"
-	},
-	{
-		"shopId": "1000096502",
-		"shopName": "方正（iFound）外设京东自营旗舰店",
-		"brandId": "1000096502",
-		"brandName": "方正外设会员"
 	},
 	{
 		"shopId": "1000097152",
@@ -1588,6 +1528,18 @@
 		"shopName": "迪彩京东自营旗舰店",
 		"brandId": "1000117009",
 		"brandName": "迪彩会员卡"
+	},
+	{
+		"shopId": "1000118610",
+		"shopName": "张裕（CHANGYU）先锋葡萄酒京东自营旗舰店",
+		"brandId": "1000118610",
+		"brandName": "张裕先锋会员卡"
+	},
+	{
+		"shopId": "1000121465",
+		"shopName": "威娜（WELLA）专业美发京东自营旗舰店",
+		"brandId": "1000121465",
+		"brandName": "威娜造型沙龙"
 	},
 	{
 		"shopId": "1000121761",
