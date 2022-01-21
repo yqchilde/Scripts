@@ -414,6 +414,12 @@
 		"brand_name": "alandv"
 	},
 	{
+		"shop_id": "100762",
+		"shop_name": "OMI欧米旗舰店",
+		"brand_id": "102298",
+		"brand_name": "欧米VIP"
+	},
+	{
 		"shop_id": "109832",
 		"shop_name": "天地精华食品旗舰店",
 		"brand_id": "112508",
@@ -894,6 +900,12 @@
 		"brand_name": "五色养会员"
 	},
 	{
+		"shop_id": "588474",
+		"shop_name": "太太乐旗舰店",
+		"brand_id": "593862",
+		"brand_name": "太太乐旗舰店"
+	},
+	{
 		"shop_id": "594956",
 		"shop_name": "爱奇艺旗舰店",
 		"brand_id": "603006",
@@ -916,6 +928,12 @@
 		"shop_name": "fjallraven旗舰店",
 		"brand_id": "604634",
 		"brand_name": "北极狐旗舰店"
+	},
+	{
+		"shop_id": "599810",
+		"shop_name": "美的新创专卖店",
+		"brand_id": "603933",
+		"brand_name": "美的新创专卖店"
 	},
 	{
 		"shop_id": "601923",
@@ -2614,6 +2632,12 @@
 		"shop_name": "爱康国宾渺瓒专卖店",
 		"brand_id": "10558961",
 		"brand_name": "爱康国宾贵宾卡"
+	},
+	{
+		"shop_id": "10348681",
+		"shop_name": "象米国际旗舰店",
+		"brand_id": "10561571",
+		"brand_name": "象米国际会员"
 	},
 	{
 		"shop_id": "10351149",
@@ -5140,6 +5164,12 @@
 		"shop_name": "创维（Skyworth）智慧商显京东自营旗舰店",
 		"brand_id": "1000328145",
 		"brand_name": "创维商显会员"
+	},
+	{
+		"shop_id": "1000328224",
+		"shop_name": "森美（Summi）NFC橙汁京东自营旗舰店",
+		"brand_id": "1000328224",
+		"brand_name": "森美NFC橙汁"
 	},
 	{
 		"shop_id": "1000328981",
