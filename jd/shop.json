@@ -72,6 +72,12 @@
 		"brandName": "欣和品牌会员"
 	},
 	{
+		"shopId": "37797",
+		"shopName": "好太太官方旗舰店",
+		"brandId": "40058",
+		"brandName": "好太太VIP"
+	},
+	{
 		"shopId": "38360",
 		"shopName": "A21官方旗舰店",
 		"brandId": "40716",
@@ -336,12 +342,6 @@
 		"brandName": "i-baby"
 	},
 	{
-		"shopId": "670714",
-		"shopName": "富亿农官方旗舰店",
-		"brandId": "674881",
-		"brandName": "富亿农旗舰店"
-	},
-	{
 		"shopId": "681119",
 		"shopName": "香百年旗舰店",
 		"brandId": "684784",
@@ -480,16 +480,16 @@
 		"brandName": "A21"
 	},
 	{
-		"shopId": "826889",
-		"shopName": "对啊网图书旗舰店",
-		"brandId": "828095",
-		"brandName": "对啊网"
-	},
-	{
 		"shopId": "828144",
 		"shopName": "益肤官方旗舰店",
 		"brandId": "829096",
 		"brandName": "益肤品牌会员"
+	},
+	{
+		"shopId": "839983",
+		"shopName": "竹叶青酒官方旗舰店",
+		"brandId": "10001946",
+		"brandName": "竹叶青酒会员卡"
 	},
 	{
 		"shopId": "851975",
@@ -502,12 +502,6 @@
 		"shopName": "汾阳王官方旗舰店",
 		"brandId": "10017390",
 		"brandName": "汾阳王尊享会员"
-	},
-	{
-		"shopId": "860076",
-		"shopName": "佳贝艾特羊奶粉旗舰店",
-		"brandId": "10021910",
-		"brandName": "佳贝艾特旗舰店"
 	},
 	{
 		"shopId": "872519",
@@ -738,12 +732,6 @@
 		"brandName": "希杰食品"
 	},
 	{
-		"shopId": "10322963",
-		"shopName": "芝者有道旗舰店",
-		"brandId": "10534135",
-		"brandName": "芝者有道旗舰店"
-	},
-	{
 		"shopId": "10326816",
 		"shopName": "Enternal Summer官方旗舰店",
 		"brandId": "10538814",
@@ -754,6 +742,12 @@
 		"shopName": "乐扣乐扣京东自营官方旗舰店",
 		"brandId": "10537468",
 		"brandName": "乐扣乐扣"
+	},
+	{
+		"shopId": "10338866",
+		"shopName": "好太太VIP",
+		"brandId": "10548578",
+		"brandName": "好太太VIP"
 	},
 	{
 		"shopId": "10339186",
@@ -1026,6 +1020,12 @@
 		"brandName": "张裕葡萄酒"
 	},
 	{
+		"shopId": "1000004719",
+		"shopName": "长城葡萄酒京东自营旗舰店",
+		"brandId": "1000004719",
+		"brandName": "长城葡萄酒"
+	},
+	{
 		"shopId": "1000005165",
 		"shopName": "小龙哈彼京东自营官方旗舰店",
 		"brandId": "1000005165",
@@ -1108,6 +1108,12 @@
 		"shopName": "纽仕兰（Theland）京东自营旗舰店",
 		"brandId": "1000012961",
 		"brandName": "纽仕兰"
+	},
+	{
+		"shopId": "1000013461",
+		"shopName": "信发办公生活收纳京东自营旗舰店",
+		"brandId": "1000013461",
+		"brandName": "信发办公会员卡"
 	},
 	{
 		"shopId": "1000013642",
@@ -1524,12 +1530,6 @@
 		"brandName": "潮宏基会员"
 	},
 	{
-		"shopId": "1000105973",
-		"shopName": "七角板家电京东自营旗舰店",
-		"brandId": "1000105973",
-		"brandName": "七角板京东自营"
-	},
-	{
 		"shopId": "1000106848",
 		"shopName": "奔图打印京东自营旗舰店",
 		"brandId": "1000106848",
@@ -1648,6 +1648,12 @@
 		"shopName": "Leifheit京东自营旗舰店",
 		"brandId": "1000237582",
 		"brandName": "利菲品牌会员"
+	},
+	{
+		"shopId": "1000243862",
+		"shopName": "五粮春京东自营旗舰店",
+		"brandId": "1000243862",
+		"brandName": "五粮春会员"
 	},
 	{
 		"shopId": "1000279042",
@@ -1798,12 +1804,6 @@
 		"shopName": "澳谷京东自营旗舰店",
 		"brandId": "1000351891",
 		"brandName": "澳谷"
-	},
-	{
-		"shopId": "1000352062",
-		"shopName": "涩井（DRYWELL）成人用品京东自营旗舰店",
-		"brandId": "1000352062",
-		"brandName": "涩井成人自营店"
 	},
 	{
 		"shopId": "1000364203",
