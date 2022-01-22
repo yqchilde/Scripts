@@ -282,6 +282,12 @@
 		"brand_name": "TATA木门"
 	},
 	{
+		"shop_id": "64526",
+		"shop_name": "宝岛眼镜旗舰店",
+		"brand_id": "67487",
+		"brand_name": "宝岛眼镜VIP"
+	},
+	{
 		"shop_id": "68976",
 		"shop_name": "劲霸男装官方旗舰店",
 		"brand_id": "72587",
@@ -4456,6 +4462,12 @@
 		"shop_name": "云米智能京东自营旗舰店",
 		"brand_id": "1000099547",
 		"brand_name": "云米会员"
+	},
+	{
+		"shop_id": "1000099915",
+		"shop_name": "健将京东自营官方旗舰店",
+		"brand_id": "1000099915",
+		"brand_name": "健将"
 	},
 	{
 		"shop_id": "1000100295",
