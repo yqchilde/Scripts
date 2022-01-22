@@ -102,6 +102,12 @@
 		"brandName": "莫高官方旗舰店"
 	},
 	{
+		"shopId": "55944",
+		"shopName": "剑南春官方旗舰店",
+		"brandId": "59974",
+		"brandName": "剑南春VIP"
+	},
+	{
 		"shopId": "59323",
 		"shopName": "郎酒官方旗舰店",
 		"brandId": "63461",
@@ -112,6 +118,12 @@
 		"shopName": "青岛啤酒官方旗舰店",
 		"brandId": "65900",
 		"brandName": "青岛啤酒会员"
+	},
+	{
+		"shopId": "64526",
+		"shopName": "宝岛眼镜旗舰店",
+		"brandId": "67487",
+		"brandName": "宝岛眼镜VIP"
 	},
 	{
 		"shopId": "70605",
@@ -174,6 +186,12 @@
 		"brandName": "杰士邦"
 	},
 	{
+		"shopId": "123495",
+		"shopName": "有友食品旗舰店",
+		"brandId": "127034",
+		"brandName": "有友食品旗舰店"
+	},
+	{
 		"shopId": "130904",
 		"shopName": "黄飞红官方旗舰店",
 		"brandId": "135094",
@@ -232,6 +250,12 @@
 		"shopName": "妮维雅(NIVEA)旗舰店",
 		"brandId": "188719",
 		"brandName": "妮维雅旗舰店"
+	},
+	{
+		"shopId": "185645",
+		"shopName": "卡西欧宝亮专卖店",
+		"brandId": "193385",
+		"brandName": "卡西欧宝亮钟表"
 	},
 	{
 		"shopId": "188762",
@@ -930,6 +954,12 @@
 		"brandName": "欧舒丹丹粉"
 	},
 	{
+		"shopId": "1000003003",
+		"shopName": "小迷糊京东自营旗舰店",
+		"brandId": "1000003003",
+		"brandName": "小迷糊会员"
+	},
+	{
 		"shopId": "1000003448",
 		"shopName": "好孩子京东自营官方旗舰店",
 		"brandId": "1000003448",
@@ -1416,6 +1446,12 @@
 		"brandName": "云米会员"
 	},
 	{
+		"shopId": "1000099915",
+		"shopName": "健将京东自营官方旗舰店",
+		"brandId": "1000099915",
+		"brandName": "健将"
+	},
+	{
 		"shopId": "1000100295",
 		"shopName": "阿尔发京东自营旗舰店",
 		"brandId": "1000100295",
@@ -1564,6 +1600,12 @@
 		"shopName": "五粮浓香京东自营旗舰店",
 		"brandId": "1000133084",
 		"brandName": "五粮浓香"
+	},
+	{
+		"shopId": "1000134961",
+		"shopName": "途明（TUMI）官方京东自营旗舰店",
+		"brandId": "1000134961",
+		"brandName": "TUMI"
 	},
 	{
 		"shopId": "1000138877",
@@ -1738,6 +1780,12 @@
 		"shopName": "安托京东自营旗舰店",
 		"brandId": "1000344563",
 		"brandName": "安托"
+	},
+	{
+		"shopId": "1000347101",
+		"shopName": "蕉下户外京东自营旗舰店",
+		"brandId": "1000347101",
+		"brandName": "蕉下会员店"
 	},
 	{
 		"shopId": "1000350703",
