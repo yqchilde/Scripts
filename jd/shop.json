@@ -108,6 +108,12 @@
 		"brandName": "莫高官方旗舰店"
 	},
 	{
+		"shopId": "54985",
+		"shopName": "潮宏基京东旗舰店",
+		"brandId": "59151",
+		"brandName": "潮宏基会员"
+	},
+	{
 		"shopId": "55944",
 		"shopName": "剑南春官方旗舰店",
 		"brandId": "59974",
@@ -414,6 +420,12 @@
 		"brandName": "自嗨锅旗舰店"
 	},
 	{
+		"shopId": "764796",
+		"shopName": "仟味官方旗舰店",
+		"brandId": "768588",
+		"brandName": "仟味会员"
+	},
+	{
 		"shopId": "770118",
 		"shopName": "若小姐传统滋补旗舰店",
 		"brandId": "773995",
@@ -526,6 +538,12 @@
 		"shopName": "郎牌特曲官方旗舰店",
 		"brandId": "10185454",
 		"brandName": "郎牌特曲VIP"
+	},
+	{
+		"shopId": "10050897",
+		"shopName": "华盛尚品酒类专营店",
+		"brandId": "10186114",
+		"brandName": "华盛尚品"
 	},
 	{
 		"shopId": "10052669",
@@ -672,6 +690,12 @@
 		"brandName": "劲牌品牌会员"
 	},
 	{
+		"shopId": "10223909",
+		"shopName": "以茹美妆专营店",
+		"brandId": "10371430",
+		"brandName": "以茹美妆专营店"
+	},
+	{
 		"shopId": "10225824",
 		"shopName": "华为科宇达专卖店",
 		"brandId": "10373358",
@@ -756,6 +780,12 @@
 		"brandName": "酒连酒官旗舰店"
 	},
 	{
+		"shopId": "10340247",
+		"shopName": "GAM旗舰店",
+		"brandId": "10553472",
+		"brandName": "GAM旗舰店"
+	},
+	{
 		"shopId": "10348681",
 		"shopName": "象米国际旗舰店",
 		"brandId": "10561571",
@@ -820,6 +850,12 @@
 		"shopName": "日康京东自营旗舰店",
 		"brandId": "1000000763",
 		"brandName": "VIP卡"
+	},
+	{
+		"shopId": "1000000928",
+		"shopName": "阿里斯顿热水器京东自营旗舰店",
+		"brandId": "1000000928",
+		"brandName": "阿里斯顿会员"
 	},
 	{
 		"shopId": "1000001120",
@@ -1174,6 +1210,12 @@
 		"shopName": "中粮福临门米面京东自营旗舰店",
 		"brandId": "1000040105",
 		"brandName": "福临门米面"
+	},
+	{
+		"shopId": "1000073081",
+		"shopName": "老庙黄金京东自营旗舰店",
+		"brandId": "1000073081",
+		"brandName": "京东老庙会员卡"
 	},
 	{
 		"shopId": "1000074741",
@@ -1596,6 +1638,12 @@
 		"brandName": "阿华田"
 	},
 	{
+		"shopId": "1000128743",
+		"shopName": "雀巢优活水饮京东自营旗舰店",
+		"brandId": "1000128743",
+		"brandName": "雀巢优活"
+	},
+	{
 		"shopId": "1000133084",
 		"shopName": "五粮浓香京东自营旗舰店",
 		"brandId": "1000133084",
@@ -1612,6 +1660,12 @@
 		"shopName": "海康威视（HIKVISION）车品京东自营旗舰店",
 		"brandId": "1000138877",
 		"brandName": "海康威视会员卡"
+	},
+	{
+		"shopId": "1000140062",
+		"shopName": "蔓珠（Mandu）京东自营旗舰店",
+		"brandId": "1000140062",
+		"brandName": "蔓珠Mandu"
 	},
 	{
 		"shopId": "1000147183",
@@ -1704,6 +1758,12 @@
 		"brandName": "仰韶彩陶坊"
 	},
 	{
+		"shopId": "1000325341",
+		"shopName": "光明（Bright）冰淇淋京东自营旗舰店",
+		"brandId": "1000325341",
+		"brandName": "光明"
+	},
+	{
 		"shopId": "1000328224",
 		"shopName": "森美（Summi）NFC橙汁京东自营旗舰店",
 		"brandId": "1000328224",
@@ -1732,6 +1792,12 @@
 		"shopName": "普莱斯（pulais）京东自营旗舰店",
 		"brandId": "1000332070",
 		"brandName": "黑卡"
+	},
+	{
+		"shopId": "1000332081",
+		"shopName": "北井稻京东自营旗舰店",
+		"brandId": "1000332081",
+		"brandName": "北井稻"
 	},
 	{
 		"shopId": "1000332288",
