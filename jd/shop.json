@@ -264,6 +264,12 @@
 		"brandName": "爱乐普数码"
 	},
 	{
+		"shopId": "191423",
+		"shopName": "Mlily梦百合旗舰店",
+		"brandId": "199995",
+		"brandName": "梦百合品牌会员"
+	},
+	{
 		"shopId": "580799",
 		"shopName": "联想华东授权专卖店",
 		"brandId": "588642",
@@ -484,6 +490,12 @@
 		"shopName": "益肤官方旗舰店",
 		"brandId": "829096",
 		"brandName": "益肤品牌会员"
+	},
+	{
+		"shopId": "830653",
+		"shopName": "食康食品旗舰店",
+		"brandId": "831863",
+		"brandName": "食康会员卡"
 	},
 	{
 		"shopId": "839983",
@@ -862,6 +874,12 @@
 		"shopName": "名流京东自营旗舰店",
 		"brandId": "1000001504",
 		"brandName": "VIP"
+	},
+	{
+		"shopId": "1000001627",
+		"shopName": "美之高（MZG）京东自营专区",
+		"brandId": "1000001627",
+		"brandName": "美之高自营会员"
 	},
 	{
 		"shopId": "1000001638",
@@ -1584,6 +1602,12 @@
 		"brandName": "张裕先锋会员卡"
 	},
 	{
+		"shopId": "1000121162",
+		"shopName": "beaba母婴京东自营旗舰店",
+		"brandId": "1000121162",
+		"brandName": "Beaba会员"
+	},
+	{
 		"shopId": "1000121465",
 		"shopName": "威娜（WELLA）专业美发京东自营旗舰店",
 		"brandId": "1000121465",
@@ -1674,6 +1698,12 @@
 		"brandName": "仙维娜会员卡"
 	},
 	{
+		"shopId": "1000225081",
+		"shopName": "奇正官方旗舰店",
+		"brandId": "1000225081",
+		"brandName": "奇正官方旗舰店"
+	},
+	{
 		"shopId": "1000237582",
 		"shopName": "Leifheit京东自营旗舰店",
 		"brandId": "1000237582",
@@ -1696,6 +1726,12 @@
 		"shopName": "怡思丁(ISDIN)京东自营旗舰店",
 		"brandId": "1000298761",
 		"brandName": "怡思丁品牌会员"
+	},
+	{
+		"shopId": "1000300336",
+		"shopName": "可拉奥京东自营旗舰店",
+		"brandId": "1000300336",
+		"brandName": "可拉奥尊享会员"
 	},
 	{
 		"shopId": "1000300485",
@@ -1804,6 +1840,12 @@
 		"shopName": "民生普瑞宝京东自营旗舰店",
 		"brandId": "1000339962",
 		"brandName": "民生普瑞宝"
+	},
+	{
+		"shopId": "1000340243",
+		"shopName": "宇航人京东自营旗舰店",
+		"brandId": "1000340243",
+		"brandName": "宇航人专属会员"
 	},
 	{
 		"shopId": "1000341584",
