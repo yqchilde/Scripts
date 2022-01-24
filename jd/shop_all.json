@@ -1650,6 +1650,12 @@
 		"brand_name": "益肤品牌会员"
 	},
 	{
+		"shop_id": "830653",
+		"shop_name": "食康食品旗舰店",
+		"brand_id": "831863",
+		"brand_name": "食康会员卡"
+	},
+	{
 		"shop_id": "831582",
 		"shop_name": "SIGMAX旗舰店",
 		"brand_id": "832838",
@@ -5112,6 +5118,12 @@
 		"brand_name": "京东自营旗舰店"
 	},
 	{
+		"shop_id": "1000225081",
+		"shop_name": "奇正官方旗舰店",
+		"brand_id": "1000225081",
+		"brand_name": "奇正官方旗舰店"
+	},
+	{
 		"shop_id": "1000237582",
 		"shop_name": "Leifheit京东自营旗舰店",
 		"brand_id": "1000237582",
@@ -5398,6 +5410,12 @@
 		"shop_name": "民生普瑞宝京东自营旗舰店",
 		"brand_id": "1000339962",
 		"brand_name": "民生普瑞宝"
+	},
+	{
+		"shop_id": "1000340243",
+		"shop_name": "宇航人京东自营旗舰店",
+		"brand_id": "1000340243",
+		"brand_name": "宇航人专属会员"
 	},
 	{
 		"shop_id": "1000340841",
