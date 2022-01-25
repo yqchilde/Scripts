@@ -84,12 +84,6 @@
 		"brandName": "威莱官方旗舰店"
 	},
 	{
-		"shopId": "51819",
-		"shopName": "莫高官方旗舰店",
-		"brandId": "55839",
-		"brandName": "莫高官方旗舰店"
-	},
-	{
 		"shopId": "54985",
 		"shopName": "潮宏基京东旗舰店",
 		"brandId": "59151",
@@ -142,6 +136,12 @@
 		"shopName": "方旭烟具专营店",
 		"brandId": "85926",
 		"brandName": "方旭烟具专营店"
+	},
+	{
+		"shopId": "86619",
+		"shopName": "粮全其美官方旗舰店",
+		"brandId": "89315",
+		"brandName": "粮全其美会员"
 	},
 	{
 		"shopId": "90169",
@@ -348,6 +348,12 @@
 		"brandName": "联想航电专卖店"
 	},
 	{
+		"shopId": "697146",
+		"shopName": "振德官方旗舰店",
+		"brandId": "701317",
+		"brandName": "振德品牌会员"
+	},
+	{
 		"shopId": "697724",
 		"shopName": "威露士个护旗舰店",
 		"brandId": "702076",
@@ -358,12 +364,6 @@
 		"shopName": "永丰源旗舰店",
 		"brandId": "704858",
 		"brandName": "永丰源旗舰店"
-	},
-	{
-		"shopId": "704622",
-		"shopName": "金徽白酒旗舰店",
-		"brandId": "708833",
-		"brandName": "金徽酒会员卡"
 	},
 	{
 		"shopId": "714533",
@@ -400,12 +400,6 @@
 		"shopName": "若小姐传统滋补旗舰店",
 		"brandId": "773995",
 		"brandName": "若小姐旗舰店"
-	},
-	{
-		"shopId": "770786",
-		"shopName": "美德乐官方旗舰店",
-		"brandId": "774927",
-		"brandName": "美德乐"
 	},
 	{
 		"shopId": "771017",
@@ -484,6 +478,12 @@
 		"shopName": "汾阳王官方旗舰店",
 		"brandId": "10017390",
 		"brandName": "汾阳王尊享会员"
+	},
+	{
+		"shopId": "864862",
+		"shopName": "AOC显示器旗舰店",
+		"brandId": "10027825",
+		"brandName": "显示器旗舰店"
 	},
 	{
 		"shopId": "872519",
@@ -612,12 +612,6 @@
 		"brandName": "徐福记"
 	},
 	{
-		"shopId": "10199733",
-		"shopName": "天缘道粮油旗舰店",
-		"brandId": "10346667",
-		"brandName": "天缘道旗舰店"
-	},
-	{
 		"shopId": "10206455",
 		"shopName": "今世缘官方旗舰店",
 		"brandId": "10353346",
@@ -670,12 +664,6 @@
 		"shopName": "亨氏品牌会员",
 		"brandId": "10379084",
 		"brandName": "亨氏"
-	},
-	{
-		"shopId": "10244423",
-		"shopName": "中尔医疗器械专营店",
-		"brandId": "10392357",
-		"brandName": "“艾”生活"
 	},
 	{
 		"shopId": "10254655",
@@ -1548,6 +1536,12 @@
 		"brandName": "HFP"
 	},
 	{
+		"shopId": "1000115764",
+		"shopName": "ZEK京东自营旗舰店",
+		"brandId": "1000115764",
+		"brandName": "zek京东自营"
+	},
+	{
 		"shopId": "1000117009",
 		"shopName": "迪彩京东自营旗舰店",
 		"brandId": "1000117009",
@@ -1630,6 +1624,12 @@
 		"shopName": "蔓珠（Mandu）京东自营旗舰店",
 		"brandId": "1000140062",
 		"brandName": "蔓珠Mandu"
+	},
+	{
+		"shopId": "1000146803",
+		"shopName": "TOI京东自营旗舰店",
+		"brandId": "1000146803",
+		"brandName": "图益拼图艺术家"
 	},
 	{
 		"shopId": "1000147183",
@@ -1774,6 +1774,12 @@
 		"shopName": "张裕葡萄酒京东自营专卖店",
 		"brandId": "1000331923",
 		"brandName": "张裕葡萄酒会员"
+	},
+	{
+		"shopId": "1000332064",
+		"shopName": "VSPT葡萄酒京东自营旗舰店",
+		"brandId": "1000332064",
+		"brandName": "VSPT会员卡"
 	},
 	{
 		"shopId": "1000332070",
