@@ -108,6 +108,12 @@
 		"brandName": "郎酒旗舰店会员"
 	},
 	{
+		"shopId": "61916",
+		"shopName": "口口香旗舰店",
+		"brandId": "65709",
+		"brandName": "口口香旗舰店"
+	},
+	{
 		"shopId": "62116",
 		"shopName": "青岛啤酒官方旗舰店",
 		"brandId": "65900",
@@ -444,6 +450,12 @@
 		"brandName": "24Hrs会员"
 	},
 	{
+		"shopId": "822231",
+		"shopName": "塞巴斯汀旗舰店",
+		"brandId": "823628",
+		"brandName": "塞巴斯汀旗舰店"
+	},
+	{
 		"shopId": "825285",
 		"shopName": "A21童装旗舰店",
 		"brandId": "826431",
@@ -526,6 +538,12 @@
 		"shopName": "奇姬官方旗舰店",
 		"brandId": "10211994",
 		"brandName": "奇姬"
+	},
+	{
+		"shopId": "10085940",
+		"shopName": "广州五羊化妆品有限公司",
+		"brandId": "10219129",
+		"brandName": "五羊会员卡"
 	},
 	{
 		"shopId": "10086308",
@@ -1030,6 +1048,12 @@
 		"shopName": "第六感京东自营旗舰店",
 		"brandId": "1000007024",
 		"brandName": "第6感"
+	},
+	{
+		"shopId": "1000007826",
+		"shopName": "巴拉巴拉京东自营旗舰店",
+		"brandId": "1000007826",
+		"brandName": "巴拉巴拉会员"
 	},
 	{
 		"shopId": "1000008082",
@@ -1566,6 +1590,12 @@
 		"brandName": "阿华田"
 	},
 	{
+		"shopId": "1000125002",
+		"shopName": "奥兰葡萄酒京东自营旗舰店",
+		"brandId": "1000125002",
+		"brandName": "奥兰品牌会员"
+	},
+	{
 		"shopId": "1000128743",
 		"shopName": "雀巢优活水饮京东自营旗舰店",
 		"brandId": "1000128743",
@@ -1764,6 +1794,12 @@
 		"brandName": "大悦会员"
 	},
 	{
+		"shopId": "1000332882",
+		"shopName": "拜耳医药保健京东自营旗舰店",
+		"brandId": "1000332882",
+		"brandName": "拜耳医药会员卡"
+	},
+	{
 		"shopId": "1000334713",
 		"shopName": "LYNN京东自营旗舰店",
 		"brandId": "1000334713",
@@ -1792,6 +1828,12 @@
 		"shopName": "宇航人京东自营旗舰店",
 		"brandId": "1000340243",
 		"brandName": "宇航人专属会员"
+	},
+	{
+		"shopId": "1000340841",
+		"shopName": "春光食品京东自营旗舰店",
+		"brandId": "1000340841",
+		"brandName": "春光"
 	},
 	{
 		"shopId": "1000341584",
@@ -1834,6 +1876,12 @@
 		"shopName": "澳谷京东自营旗舰店",
 		"brandId": "1000351891",
 		"brandName": "澳谷"
+	},
+	{
+		"shopId": "1000353465",
+		"shopName": "海洋丝缎京东自营旗舰店",
+		"brandId": "1000353465",
+		"brandName": "海洋丝缎"
 	},
 	{
 		"shopId": "1000364203",
