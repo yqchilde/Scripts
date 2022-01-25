@@ -1746,6 +1746,12 @@
 		"brand_name": "河套酒业VIP"
 	},
 	{
+		"shop_id": "864862",
+		"shop_name": "AOC显示器旗舰店",
+		"brand_id": "10027825",
+		"brand_name": "显示器旗舰店"
+	},
+	{
 		"shop_id": "866179",
 		"shop_name": "五福金牛旗舰店",
 		"brand_id": "10029126",
@@ -4830,6 +4836,12 @@
 		"brand_name": "雷允上"
 	},
 	{
+		"shop_id": "1000115764",
+		"shop_name": "ZEK京东自营旗舰店",
+		"brand_id": "1000115764",
+		"brand_name": "zek京东自营"
+	},
+	{
 		"shop_id": "1000116826",
 		"shop_name": "EMXEE嫚熙自营旗舰店",
 		"brand_id": "1000116826",
@@ -5002,6 +5014,12 @@
 		"shop_name": "蔓珠（Mandu）京东自营旗舰店",
 		"brand_id": "1000140062",
 		"brand_name": "蔓珠Mandu"
+	},
+	{
+		"shop_id": "1000146803",
+		"shop_name": "TOI京东自营旗舰店",
+		"brand_id": "1000146803",
+		"brand_name": "图益拼图艺术家"
 	},
 	{
 		"shop_id": "1000146828",
@@ -5320,6 +5338,12 @@
 		"shop_name": "张裕葡萄酒京东自营专卖店",
 		"brand_id": "1000331923",
 		"brand_name": "张裕葡萄酒会员"
+	},
+	{
+		"shop_id": "1000332064",
+		"shop_name": "VSPT葡萄酒京东自营旗舰店",
+		"brand_id": "1000332064",
+		"brand_name": "VSPT会员卡"
 	},
 	{
 		"shop_id": "1000332070",
