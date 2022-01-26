@@ -378,12 +378,6 @@
 		"brandName": "劲牌官方旗舰店"
 	},
 	{
-		"shopId": "742967",
-		"shopName": "3AnGnI官方旗舰店",
-		"brandId": "747810",
-		"brandName": " 3AnGnI"
-	},
-	{
 		"shopId": "752101",
 		"shopName": "自嗨锅旗舰店",
 		"brandId": "756351",
@@ -538,6 +532,12 @@
 		"shopName": "五粮液同心悦专卖店",
 		"brandId": "10194827",
 		"brandName": "五粮液专卖店"
+	},
+	{
+		"shopId": "10068817",
+		"shopName": "倍舒特旗舰店",
+		"brandId": "10205063",
+		"brandName": "倍舒特"
 	},
 	{
 		"shopId": "10075479",
@@ -928,6 +928,12 @@
 		"shopName": "相宜本草京东自营旗舰店",
 		"brandId": "1000002833",
 		"brandName": "相宜本草会员卡"
+	},
+	{
+		"shopId": "1000002983",
+		"shopName": "法国娇韵诗京东自营旗舰店",
+		"brandId": "1000002983",
+		"brandName": "娇韵诗宠粉社"
 	},
 	{
 		"shopId": "1000002984",
@@ -1894,6 +1900,12 @@
 		"shopName": "枝户折野京东自营旗舰店",
 		"brandId": "1000336384",
 		"brandName": "枝户折野"
+	},
+	{
+		"shopId": "1000337499",
+		"shopName": "郎酒京东自营白酒旗舰店",
+		"brandId": "1000337499",
+		"brandName": "郎酒·京东"
 	},
 	{
 		"shopId": "1000339962",
