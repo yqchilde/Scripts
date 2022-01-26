@@ -1602,6 +1602,12 @@
 		"brand_name": "垚娃店铺VIP"
 	},
 	{
+		"shop_id": "819333",
+		"shop_name": "杨掌柜旗舰店",
+		"brand_id": "820908",
+		"brand_name": "杨掌柜旗舰店"
+	},
+	{
 		"shop_id": "819551",
 		"shop_name": "戴尔直营显示器旗舰店",
 		"brand_id": "821099",
@@ -4524,6 +4530,12 @@
 		"brand_name": "璇信京东自营"
 	},
 	{
+		"shop_id": "1000098567",
+		"shop_name": "御道京东自营旗舰店",
+		"brand_id": "1000098567",
+		"brand_name": "御道VIP"
+	},
+	{
 		"shop_id": "1000098706",
 		"shop_name": "盛宝京东自营旗舰店",
 		"brand_id": "1000098706",
@@ -4740,6 +4752,12 @@
 		"brand_name": "优佳"
 	},
 	{
+		"shop_id": "1000108107",
+		"shop_name": "金鼎轩京东自营旗舰店",
+		"brand_id": "1000108107",
+		"brand_name": "金鼎轩品牌会员"
+	},
+	{
 		"shop_id": "1000109703",
 		"shop_name": "袋鼠医生（DR.ROOS）京东自营旗舰店",
 		"brand_id": "1000109703",
@@ -4792,6 +4810,12 @@
 		"shop_name": "宝家洁京东自营旗舰店",
 		"brand_id": "1000112452",
 		"brand_name": "宝家洁VIP"
+	},
+	{
+		"shop_id": "1000113741",
+		"shop_name": "紫林京东自营旗舰店",
+		"brand_id": "1000113741",
+		"brand_name": "紫林"
 	},
 	{
 		"shop_id": "1000114761",
