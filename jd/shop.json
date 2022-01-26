@@ -444,6 +444,12 @@
 		"brandName": "24Hrs会员"
 	},
 	{
+		"shopId": "819333",
+		"shopName": "杨掌柜旗舰店",
+		"brandId": "820908",
+		"brandName": "杨掌柜旗舰店"
+	},
+	{
 		"shopId": "822231",
 		"shopName": "塞巴斯汀旗舰店",
 		"brandId": "823628",
@@ -556,6 +562,12 @@
 		"shopName": "武汉杰士邦卫生用品有限公司",
 		"brandId": "10228602",
 		"brandName": "杰士邦"
+	},
+	{
+		"shopId": "10095657",
+		"shopName": "大悦旗舰店",
+		"brandId": "10232676",
+		"brandName": "大悦"
 	},
 	{
 		"shopId": "10097123",
@@ -832,6 +844,12 @@
 		"shopName": "名流京东自营旗舰店",
 		"brandId": "1000001504",
 		"brandName": "VIP"
+	},
+	{
+		"shopId": "1000001576",
+		"shopName": "博世家电京东自营旗舰店",
+		"brandId": "1000001576",
+		"brandName": "博世冰洗自营"
 	},
 	{
 		"shopId": "1000001627",
@@ -1362,6 +1380,12 @@
 		"brandName": "犬印本铺"
 	},
 	{
+		"shopId": "1000093692",
+		"shopName": "芬兰蔚优Valio京东自营旗舰店",
+		"brandId": "1000093692",
+		"brandName": "蔚优Valio"
+	},
+	{
 		"shopId": "1000093828",
 		"shopName": "澳牧京东自营旗舰店",
 		"brandId": "1000093828",
@@ -1408,6 +1432,12 @@
 		"shopName": "保乐力加洋酒京东自营店",
 		"brandId": "1000097462",
 		"brandName": "保乐力加会员"
+	},
+	{
+		"shopId": "1000098567",
+		"shopName": "御道京东自营旗舰店",
+		"brandId": "1000098567",
+		"brandName": "御道VIP"
 	},
 	{
 		"shopId": "1000099547",
@@ -1500,10 +1530,22 @@
 		"brandName": "福益德会员卡"
 	},
 	{
+		"shopId": "1000106300",
+		"shopName": "大宠爱 京东自营旗舰店",
+		"brandId": "1000106300",
+		"brandName": "大宠爱"
+	},
+	{
 		"shopId": "1000106848",
 		"shopName": "奔图打印京东自营旗舰店",
 		"brandId": "1000106848",
 		"brandName": "奔图VIP"
+	},
+	{
+		"shopId": "1000108107",
+		"shopName": "金鼎轩京东自营旗舰店",
+		"brandId": "1000108107",
+		"brandName": "金鼎轩品牌会员"
 	},
 	{
 		"shopId": "1000110084",
@@ -1516,6 +1558,12 @@
 		"shopName": "盖茨（gates）皮带胶管京东自营旗舰店",
 		"brandId": "1000110993",
 		"brandName": "盖茨工业会员卡"
+	},
+	{
+		"shopId": "1000113741",
+		"shopName": "紫林京东自营旗舰店",
+		"brandId": "1000113741",
+		"brandName": "紫林"
 	},
 	{
 		"shopId": "1000114841",
@@ -1654,6 +1702,12 @@
 		"shopName": "希杰（CJ）京东自营旗舰店",
 		"brandId": "1000164381",
 		"brandName": "希杰食品"
+	},
+	{
+		"shopId": "1000204438",
+		"shopName": "A21童装京东自营旗舰店",
+		"brandId": "1000204438",
+		"brandName": "A21"
 	},
 	{
 		"shopId": "1000208883",
@@ -1800,10 +1854,28 @@
 		"brandName": "大悦会员"
 	},
 	{
+		"shopId": "1000332881",
+		"shopName": "晖致京东自营旗舰店",
+		"brandId": "1000332881",
+		"brandName": "晖致"
+	},
+	{
 		"shopId": "1000332882",
 		"shopName": "拜耳医药保健京东自营旗舰店",
 		"brandId": "1000332882",
 		"brandName": "拜耳医药会员卡"
+	},
+	{
+		"shopId": "1000332962",
+		"shopName": "奶酪博士（Dr.Cheese）京东自营旗舰店",
+		"brandId": "1000332962",
+		"brandName": "奶酪博士会员卡"
+	},
+	{
+		"shopId": "1000334325",
+		"shopName": "梅见京东自营旗舰店",
+		"brandId": "1000334325",
+		"brandName": "梅见品鉴官"
 	},
 	{
 		"shopId": "1000334713",
