@@ -1920,6 +1920,12 @@
 		"brand_name": "水井坊"
 	},
 	{
+		"shop_id": "10068817",
+		"shop_name": "倍舒特旗舰店",
+		"brand_id": "10205063",
+		"brand_name": "倍舒特"
+	},
+	{
 		"shop_id": "10071926",
 		"shop_name": "PowerBlock健身训练旗舰店",
 		"brand_id": "10207895",
@@ -5458,6 +5464,12 @@
 		"shop_name": "武茗匠官方京东自营旗舰店",
 		"brand_id": "1000337191",
 		"brand_name": "贵宾"
+	},
+	{
+		"shop_id": "1000337499",
+		"shop_name": "郎酒京东自营白酒旗舰店",
+		"brand_id": "1000337499",
+		"brand_name": "郎酒·京东"
 	},
 	{
 		"shop_id": "1000338161",
