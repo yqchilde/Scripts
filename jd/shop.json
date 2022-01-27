@@ -1,11 +1,5 @@
 [
 	{
-		"shopId": "12974",
-		"shopName": "红桃K官方旗舰店",
-		"brandId": "13449",
-		"brandName": "红桃K会员"
-	},
-	{
 		"shopId": "17153",
 		"shopName": "百草味官方旗舰店",
 		"brandId": "17934",
@@ -70,12 +64,6 @@
 		"shopName": "蕉下官方旗舰店",
 		"brandId": "42264",
 		"brandName": "蕉下会员店"
-	},
-	{
-		"shopId": "41261",
-		"shopName": "尔晏（ERYAN）袜品旗舰店",
-		"brandId": "43813",
-		"brandName": "尔晏袜品专享卡"
 	},
 	{
 		"shopId": "43023",
@@ -210,6 +198,12 @@
 		"brandName": "I Do"
 	},
 	{
+		"shopId": "161582",
+		"shopName": "优护优家旗舰店",
+		"brandId": "167065",
+		"brandName": "优护优家旗舰店"
+	},
+	{
 		"shopId": "166535",
 		"shopName": "美赞臣官方专卖店",
 		"brandId": "172541",
@@ -226,12 +220,6 @@
 		"shopName": "乐扣乐扣官方旗舰店",
 		"brandId": "182872",
 		"brandName": "乐扣乐扣"
-	},
-	{
-		"shopId": "181258",
-		"shopName": "妮维雅(NIVEA)旗舰店",
-		"brandId": "188719",
-		"brandName": "妮维雅旗舰店"
 	},
 	{
 		"shopId": "185645",
@@ -274,6 +262,12 @@
 		"shopName": "爱奇艺旗舰店",
 		"brandId": "603006",
 		"brandName": "爱奇艺旗舰店"
+	},
+	{
+		"shopId": "597163",
+		"shopName": "格兰仕微波炉旗舰店",
+		"brandId": "601339",
+		"brandName": "微波炉旗舰店"
 	},
 	{
 		"shopId": "599810",
@@ -426,12 +420,6 @@
 		"brandName": "舍得官方旗舰店"
 	},
 	{
-		"shopId": "807672",
-		"shopName": "赖茅官方旗舰店",
-		"brandId": "806844",
-		"brandName": "赖茅官方旗舰店"
-	},
-	{
 		"shopId": "808397",
 		"shopName": "青花郎官方旗舰店",
 		"brandId": "803140",
@@ -544,12 +532,6 @@
 		"shopName": "红星酒类旗舰店",
 		"brandId": "10190392",
 		"brandName": "红星二锅头"
-	},
-	{
-		"shopId": "10059709",
-		"shopName": "五粮液同心悦专卖店",
-		"brandId": "10194827",
-		"brandName": "五粮液专卖店"
 	},
 	{
 		"shopId": "10068817",
@@ -990,12 +972,6 @@
 		"brandName": "菲婷丝"
 	},
 	{
-		"shopId": "1000003554",
-		"shopName": "马勒（MAHLE）京东自营专区",
-		"brandId": "1000003554",
-		"brandName": "MAHLE"
-	},
-	{
 		"shopId": "1000003570",
 		"shopName": "伊利母婴京东自营旗舰店",
 		"brandId": "1000003570",
@@ -1122,12 +1098,6 @@
 		"brandName": "百岁山"
 	},
 	{
-		"shopId": "1000010104",
-		"shopName": "蜀道香京东自营旗舰店",
-		"brandId": "1000010104",
-		"brandName": "蜀道香会员"
-	},
-	{
 		"shopId": "1000010481",
 		"shopName": "百事可乐京东自营旗舰店",
 		"brandId": "1000010481",
@@ -1198,6 +1168,12 @@
 		"shopName": "四特京东自营旗舰店",
 		"brandId": "1000016345",
 		"brandName": "四特"
+	},
+	{
+		"shopId": "1000040084",
+		"shopName": "Pico京东自营旗舰店",
+		"brandId": "1000040084",
+		"brandName": "Pico"
 	},
 	{
 		"shopId": "1000040105",
@@ -1438,12 +1414,6 @@
 		"shopName": "澳牧京东自营旗舰店",
 		"brandId": "1000093828",
 		"brandName": "澳牧会员"
-	},
-	{
-		"shopId": "1000093883",
-		"shopName": "咪鼠科技京东自营旗舰店",
-		"brandId": "1000093883",
-		"brandName": "咪鼠之家"
 	},
 	{
 		"shopId": "1000094623",
