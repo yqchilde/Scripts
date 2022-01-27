@@ -642,6 +642,12 @@
 		"brand_name": "奢态度尊享会员"
 	},
 	{
+		"shop_id": "161582",
+		"shop_name": "优护优家旗舰店",
+		"brand_id": "167065",
+		"brand_name": "优护优家旗舰店"
+	},
+	{
 		"shop_id": "164760",
 		"shop_name": "燕塘旗舰店",
 		"brand_id": "170258",
@@ -940,6 +946,12 @@
 		"shop_name": "fjallraven旗舰店",
 		"brand_id": "604634",
 		"brand_name": "北极狐旗舰店"
+	},
+	{
+		"shop_id": "597163",
+		"shop_name": "格兰仕微波炉旗舰店",
+		"brand_id": "601339",
+		"brand_name": "微波炉旗舰店"
 	},
 	{
 		"shop_id": "599810",
@@ -3730,6 +3742,12 @@
 		"shop_name": "湾仔码头京东自营旗舰店",
 		"brand_id": "1000017846",
 		"brand_name": "湾仔码头VIP"
+	},
+	{
+		"shop_id": "1000040084",
+		"shop_name": "Pico京东自营旗舰店",
+		"brand_id": "1000040084",
+		"brand_name": "Pico"
 	},
 	{
 		"shop_id": "1000040105",
