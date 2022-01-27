@@ -294,6 +294,12 @@
 		"brandName": "爱思贝旗舰店"
 	},
 	{
+		"shopId": "644689",
+		"shopName": "寒江雪户外专营店",
+		"brandId": "648440",
+		"brandName": "寒江雪户外"
+	},
+	{
 		"shopId": "644889",
 		"shopName": "利其尔官方旗舰店",
 		"brandId": "648705",
@@ -384,6 +390,12 @@
 		"brandName": "自嗨锅旗舰店"
 	},
 	{
+		"shopId": "757760",
+		"shopName": "观澜星空二手电脑配件专营店",
+		"brandId": "759743",
+		"brandName": "观澜星空会员"
+	},
+	{
 		"shopId": "764796",
 		"shopName": "仟味官方旗舰店",
 		"brandId": "768588",
@@ -442,6 +454,12 @@
 		"shopName": "杨掌柜旗舰店",
 		"brandId": "820908",
 		"brandName": "杨掌柜旗舰店"
+	},
+	{
+		"shopId": "821436",
+		"shopName": "奇蹟莊園旗舰店",
+		"brandId": "822565",
+		"brandName": "奇迹庄园旗舰店"
 	},
 	{
 		"shopId": "822231",
@@ -688,6 +706,12 @@
 		"shopName": "水井坊旗舰店",
 		"brandId": "10419639",
 		"brandName": "水井坊旗舰店"
+	},
+	{
+		"shopId": "10276102",
+		"shopName": "黄飞红品牌会员",
+		"brandId": "10425402",
+		"brandName": "黄飞红功夫家族"
 	},
 	{
 		"shopId": "10284560",
@@ -946,6 +970,12 @@
 		"shopName": "小迷糊京东自营旗舰店",
 		"brandId": "1000003003",
 		"brandName": "小迷糊会员"
+	},
+	{
+		"shopId": "1000003026",
+		"shopName": "妙思乐京东自营旗舰店",
+		"brandId": "1000003026",
+		"brandName": "妙粉俱乐部"
 	},
 	{
 		"shopId": "1000003448",
@@ -1302,6 +1332,12 @@
 		"brandName": "小糊涂仙京东"
 	},
 	{
+		"shopId": "1000088544",
+		"shopName": "妙可蓝多京东自营旗舰店",
+		"brandId": "1000088544",
+		"brandName": "妙可蓝多会员卡"
+	},
+	{
 		"shopId": "1000088881",
 		"shopName": "疯狂的小狗京东自营旗舰店",
 		"brandId": "1000088881",
@@ -1336,6 +1372,12 @@
 		"shopName": "汾酒京东自营官方旗舰店",
 		"brandId": "1000090461",
 		"brandName": "汾酒"
+	},
+	{
+		"shopId": "1000090906",
+		"shopName": "星巴克即饮自营官方旗舰店",
+		"brandId": "1000090906",
+		"brandName": "星巴克即饮咖啡"
 	},
 	{
 		"shopId": "1000091081",
@@ -1414,6 +1456,12 @@
 		"shopName": "申士京东自营官方旗舰店",
 		"brandId": "1000094643",
 		"brandName": "申士会员卡"
+	},
+	{
+		"shopId": "1000095701",
+		"shopName": "乐纯（LePur'）京东自营旗舰店",
+		"brandId": "1000095701",
+		"brandName": "乐纯的小伙伴"
 	},
 	{
 		"shopId": "1000097152",
