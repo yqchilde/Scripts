@@ -24,6 +24,12 @@
 		"brandName": "来伊份旗舰店"
 	},
 	{
+		"shopId": "27768",
+		"shopName": "川红集团官方旗舰店",
+		"brandId": "28527",
+		"brandName": "川红集团旗舰店"
+	},
+	{
 		"shopId": "28075",
 		"shopName": "奇酷官方旗舰店",
 		"brandId": "28814",
@@ -148,6 +154,12 @@
 		"shopName": "联想众信授权专卖店",
 		"brandId": "116691",
 		"brandName": "联想众信专卖店"
+	},
+	{
+		"shopId": "115878",
+		"shopName": "喜德盛官方旗舰店",
+		"brandId": "118640",
+		"brandName": "喜德盛会员"
 	},
 	{
 		"shopId": "118590",
@@ -706,6 +718,12 @@
 		"shopName": "影儿商城官方旗舰店",
 		"brandId": "10495242",
 		"brandName": "影儿京东会员"
+	},
+	{
+		"shopId": "10288677",
+		"shopName": "潮宏基会员",
+		"brandId": "10497960",
+		"brandName": "潮宏基会员"
 	},
 	{
 		"shopId": "10302300",
