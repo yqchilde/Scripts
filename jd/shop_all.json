@@ -756,6 +756,12 @@
 		"brand_name": "妮维雅旗舰店"
 	},
 	{
+		"shop_id": "182445",
+		"shop_name": "星辉震东乐器专营店",
+		"brand_id": "189939",
+		"brand_name": "星辉震东雅马哈"
+	},
+	{
 		"shop_id": "185335",
 		"shop_name": "善草纪官方旗舰店",
 		"brand_id": "192982",
@@ -1582,6 +1588,12 @@
 		"shop_name": "戴·可·思官方旗舰店",
 		"brand_id": "806829",
 		"brand_name": "戴可思品牌会员"
+	},
+	{
+		"shop_id": "806627",
+		"shop_name": "碧洛诗王雎儿专卖店",
+		"brand_id": "808932",
+		"brand_name": "碧洛诗"
 	},
 	{
 		"shop_id": "807672",
@@ -3648,6 +3660,12 @@
 		"brand_name": "掌阅会员卡"
 	},
 	{
+		"shop_id": "1000014970",
+		"shop_name": "果仙多维京东自营旗舰店",
+		"brand_id": "1000014970",
+		"brand_name": "果仙多维品牌会"
+	},
+	{
 		"shop_id": "1000014989",
 		"shop_name": "禾泱泱京东自营旗舰店",
 		"brand_id": "1000014989",
@@ -5416,6 +5434,12 @@
 		"shop_name": "大白京东自营旗舰店",
 		"brand_id": "1000330463",
 		"brand_name": "大白京东自营店"
+	},
+	{
+		"shop_id": "1000331477",
+		"shop_name": "EAORON京东自营旗舰店",
+		"brand_id": "1000331477",
+		"brand_name": "EAORON"
 	},
 	{
 		"shop_id": "1000331553",
