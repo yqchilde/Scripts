@@ -150,6 +150,12 @@
 		"brandName": "欧米VIP"
 	},
 	{
+		"shopId": "109832",
+		"shopName": "天地精华食品旗舰店",
+		"brandId": "112508",
+		"brandName": "天地精华"
+	},
+	{
 		"shopId": "113775",
 		"shopName": "联想众信授权专卖店",
 		"brandId": "116691",
@@ -226,12 +232,6 @@
 		"shopName": "TUMI官方旗舰店",
 		"brandId": "180870",
 		"brandName": "TUMI"
-	},
-	{
-		"shopId": "176265",
-		"shopName": "乐扣乐扣官方旗舰店",
-		"brandId": "182872",
-		"brandName": "乐扣乐扣"
 	},
 	{
 		"shopId": "182445",
@@ -486,12 +486,6 @@
 		"brandName": "显示器旗舰店"
 	},
 	{
-		"shopId": "872519",
-		"shopName": "卡萨帝官方旗舰店",
-		"brandId": "10035087",
-		"brandName": "卡萨帝官方会员"
-	},
-	{
 		"shopId": "10020512",
 		"shopName": "宠集市京东自营旗舰店",
 		"brandId": "10151115",
@@ -714,6 +708,12 @@
 		"brandName": "TUMI"
 	},
 	{
+		"shopId": "10308966",
+		"shopName": "雅士利奶粉旗舰店",
+		"brandId": "10517793",
+		"brandName": "别提多美会员"
+	},
+	{
 		"shopId": "10309908",
 		"shopName": "希杰VIP会员",
 		"brandId": "10520129",
@@ -748,12 +748,6 @@
 		"shopName": "GAM旗舰店",
 		"brandId": "10553472",
 		"brandName": "GAM旗舰店"
-	},
-	{
-		"shopId": "10348681",
-		"shopName": "象米国际旗舰店",
-		"brandId": "10561571",
-		"brandName": "象米国际会员"
 	},
 	{
 		"shopId": "10365618",
@@ -874,12 +868,6 @@
 		"shopName": "维达京东自营官方旗舰店",
 		"brandId": "1000001683",
 		"brandName": "维达"
-	},
-	{
-		"shopId": "1000001684",
-		"shopName": "乐扣乐扣（LOCK\u0026LOCK）京东自营旗舰店",
-		"brandId": "1000001684",
-		"brandName": "乐扣乐扣"
 	},
 	{
 		"shopId": "1000001713",
@@ -1356,12 +1344,6 @@
 		"brandName": "安速白元"
 	},
 	{
-		"shopId": "1000090242",
-		"shopName": "舒客个护健康京东自营旗舰店",
-		"brandId": "1000090242",
-		"brandName": "舒客个护健康"
-	},
-	{
 		"shopId": "1000090461",
 		"shopName": "汾酒京东自营官方旗舰店",
 		"brandId": "1000090461",
@@ -1372,12 +1354,6 @@
 		"shopName": "星巴克即饮自营官方旗舰店",
 		"brandId": "1000090906",
 		"brandName": "星巴克即饮咖啡"
-	},
-	{
-		"shopId": "1000091081",
-		"shopName": "ROCK京东自营旗舰店",
-		"brandId": "1000091081",
-		"brandName": "ROCK会员"
 	},
 	{
 		"shopId": "1000091266",
@@ -1432,12 +1408,6 @@
 		"shopName": "澳牧京东自营旗舰店",
 		"brandId": "1000093828",
 		"brandName": "澳牧会员"
-	},
-	{
-		"shopId": "1000094623",
-		"shopName": "人本京东自营旗舰店",
-		"brandId": "1000094623",
-		"brandName": "人本自营旗舰店"
 	},
 	{
 		"shopId": "1000094643",
@@ -1516,12 +1486,6 @@
 		"shopName": "宝乐星京东自营官方旗舰店",
 		"brandId": "1000100948",
 		"brandName": "宝乐星会员"
-	},
-	{
-		"shopId": "1000101481",
-		"shopName": "小林制药母婴京东自营旗舰店",
-		"brandId": "1000101481",
-		"brandName": "小林母婴VIP"
 	},
 	{
 		"shopId": "1000101562",
@@ -1642,6 +1606,12 @@
 		"shopName": "张裕（CHANGYU）先锋葡萄酒京东自营旗舰店",
 		"brandId": "1000118610",
 		"brandName": "张裕先锋会员卡"
+	},
+	{
+		"shopId": "1000120162",
+		"shopName": "玫斯京东自营旗舰店",
+		"brandId": "1000120162",
+		"brandName": "玫斯官方旗舰店"
 	},
 	{
 		"shopId": "1000121162",
@@ -2028,10 +1998,10 @@
 		"brandName": "海洋丝缎"
 	},
 	{
-		"shopId": "1000364203",
-		"shopName": "丹泉京东自营官方旗舰店",
-		"brandId": "1000364203",
-		"brandName": "丹泉品牌会员"
+		"shopId": "1000354499",
+		"shopName": "西麦大健康京东自营旗舰店",
+		"brandId": "1000354499",
+		"brandName": "西麦大健康"
 	},
 	{
 		"shopId": "1000364363",
