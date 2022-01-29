@@ -234,6 +234,12 @@
 		"brandName": "乐扣乐扣"
 	},
 	{
+		"shopId": "182445",
+		"shopName": "星辉震东乐器专营店",
+		"brandId": "189939",
+		"brandName": "星辉震东雅马哈"
+	},
+	{
 		"shopId": "185645",
 		"shopName": "卡西欧宝亮专卖店",
 		"brandId": "193385",
@@ -412,6 +418,12 @@
 		"shopName": "舍得官方旗舰店",
 		"brandId": "797200",
 		"brandName": "舍得官方旗舰店"
+	},
+	{
+		"shopId": "806627",
+		"shopName": "碧洛诗王雎儿专卖店",
+		"brandId": "808932",
+		"brandName": "碧洛诗"
 	},
 	{
 		"shopId": "808397",
@@ -598,6 +610,12 @@
 		"shopName": "徐福记品牌会员",
 		"brandId": "10332531",
 		"brandName": "徐福记"
+	},
+	{
+		"shopId": "10197603",
+		"shopName": "阿特纳运动专营店",
+		"brandId": "10342761",
+		"brandName": "阿特纳Vip"
 	},
 	{
 		"shopId": "10206455",
@@ -1128,6 +1146,12 @@
 		"brandName": "A21"
 	},
 	{
+		"shopId": "1000014970",
+		"shopName": "果仙多维京东自营旗舰店",
+		"brandId": "1000014970",
+		"brandName": "果仙多维品牌会"
+	},
+	{
 		"shopId": "1000015372",
 		"shopName": "李锦记京东自营旗舰店",
 		"brandId": "1000015372",
@@ -1144,6 +1168,12 @@
 		"shopName": "三全食品京东自营旗舰店",
 		"brandId": "1000015504",
 		"brandName": "三全"
+	},
+	{
+		"shopId": "1000015664",
+		"shopName": "习酒京东自营旗舰店",
+		"brandId": "1000015664",
+		"brandName": "习酒"
 	},
 	{
 		"shopId": "1000016345",
@@ -1834,6 +1864,12 @@
 		"shopName": "大白京东自营旗舰店",
 		"brandId": "1000330463",
 		"brandName": "大白京东自营店"
+	},
+	{
+		"shopId": "1000331477",
+		"shopName": "EAORON京东自营旗舰店",
+		"brandId": "1000331477",
+		"brandName": "EAORON"
 	},
 	{
 		"shopId": "1000331691",
