@@ -264,6 +264,12 @@
 		"brand_name": "周六福"
 	},
 	{
+		"shop_id": "59077",
+		"shop_name": "长天户外专营店",
+		"brand_id": "63120",
+		"brand_name": "长天户外专营店"
+	},
+	{
 		"shop_id": "59323",
 		"shop_name": "郎酒官方旗舰店",
 		"brand_id": "63461",
@@ -1492,6 +1498,12 @@
 		"shop_name": "洞庭湖官方旗舰店",
 		"brand_id": "764693",
 		"brand_name": "洞庭湖旗舰店"
+	},
+	{
+		"shop_id": "761120",
+		"shop_name": "养生堂保健品旗舰店",
+		"brand_id": "765651",
+		"brand_name": "养生堂"
 	},
 	{
 		"shop_id": "764796",
