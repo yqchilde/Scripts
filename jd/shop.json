@@ -90,6 +90,12 @@
 		"brandName": "剑南春VIP"
 	},
 	{
+		"shopId": "59077",
+		"shopName": "长天户外专营店",
+		"brandId": "63120",
+		"brandName": "长天户外专营店"
+	},
+	{
 		"shopId": "59323",
 		"shopName": "郎酒官方旗舰店",
 		"brandId": "63461",
@@ -384,10 +390,22 @@
 		"brandName": "自嗨锅旗舰店"
 	},
 	{
+		"shopId": "752168",
+		"shopName": "思念官方旗舰店",
+		"brandId": "756324",
+		"brandName": "思念食品"
+	},
+	{
 		"shopId": "757760",
 		"shopName": "观澜星空二手电脑配件专营店",
 		"brandId": "759743",
 		"brandName": "观澜星空会员"
+	},
+	{
+		"shopId": "761120",
+		"shopName": "养生堂保健品旗舰店",
+		"brandId": "765651",
+		"brandName": "养生堂"
 	},
 	{
 		"shopId": "764796",
@@ -690,6 +708,12 @@
 		"brandName": "法优乐专卖店"
 	},
 	{
+		"shopId": "10285153",
+		"shopName": "天地精华旗舰店",
+		"brandId": "10495187",
+		"brandName": "天地精华"
+	},
+	{
 		"shopId": "10287705",
 		"shopName": "影儿商城官方旗舰店",
 		"brandId": "10495242",
@@ -870,6 +894,12 @@
 		"brandName": "维达"
 	},
 	{
+		"shopId": "1000001684",
+		"shopName": "乐扣乐扣（LOCK\u0026LOCK）京东自营旗舰店",
+		"brandId": "1000001684",
+		"brandName": "乐扣乐扣"
+	},
+	{
 		"shopId": "1000001713",
 		"shopName": "金镶玉京东自营旗舰店",
 		"brandId": "1000001713",
@@ -928,6 +958,12 @@
 		"shopName": "欧舒丹L'OCCITANE京东自营官方旗舰店",
 		"brandId": "1000002984",
 		"brandName": "欧舒丹丹粉"
+	},
+	{
+		"shopId": "1000002989",
+		"shopName": "科沃斯京东自营旗舰店",
+		"brandId": "1000002989",
+		"brandName": "科沃斯会员卡"
 	},
 	{
 		"shopId": "1000003003",
@@ -1828,6 +1864,12 @@
 		"shopName": "森美（Summi）NFC橙汁京东自营旗舰店",
 		"brandId": "1000328224",
 		"brandName": "森美NFC橙汁"
+	},
+	{
+		"shopId": "1000328981",
+		"shopName": "青花汾酒京东自营官方旗舰店",
+		"brandId": "1000328981",
+		"brandName": "汾酒"
 	},
 	{
 		"shopId": "1000330463",
