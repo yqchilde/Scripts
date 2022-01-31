@@ -54,12 +54,6 @@
 		"brandName": "欣和品牌会员"
 	},
 	{
-		"shopId": "37797",
-		"shopName": "好太太官方旗舰店",
-		"brandId": "40058",
-		"brandName": "好太太VIP"
-	},
-	{
 		"shopId": "38360",
 		"shopName": "A21官方旗舰店",
 		"brandId": "40716",
@@ -70,6 +64,12 @@
 		"shopName": "蕉下官方旗舰店",
 		"brandId": "42264",
 		"brandName": "蕉下会员店"
+	},
+	{
+		"shopId": "41261",
+		"shopName": "尔晏（ERYAN）袜品旗舰店",
+		"brandId": "43813",
+		"brandName": "尔晏袜品专享卡"
 	},
 	{
 		"shopId": "43023",
@@ -654,12 +654,6 @@
 		"brandName": "劲牌品牌会员"
 	},
 	{
-		"shopId": "10223909",
-		"shopName": "以茹美妆专营店",
-		"brandId": "10371430",
-		"brandName": "以茹美妆专营店"
-	},
-	{
 		"shopId": "10225824",
 		"shopName": "华为科宇达专卖店",
 		"brandId": "10373358",
@@ -766,12 +760,6 @@
 		"shopName": "酒连酒官方旗舰店",
 		"brandId": "10546998",
 		"brandName": "酒连酒官旗舰店"
-	},
-	{
-		"shopId": "10340247",
-		"shopName": "GAM旗舰店",
-		"brandId": "10553472",
-		"brandName": "GAM旗舰店"
 	},
 	{
 		"shopId": "10365618",
@@ -972,12 +960,6 @@
 		"brandName": "科沃斯会员卡"
 	},
 	{
-		"shopId": "1000003003",
-		"shopName": "小迷糊京东自营旗舰店",
-		"brandId": "1000003003",
-		"brandName": "小迷糊会员"
-	},
-	{
 		"shopId": "1000003026",
 		"shopName": "妙思乐京东自营旗舰店",
 		"brandId": "1000003026",
@@ -1138,12 +1120,6 @@
 		"shopName": "纽仕兰（Theland）京东自营旗舰店",
 		"brandId": "1000012961",
 		"brandName": "纽仕兰"
-	},
-	{
-		"shopId": "1000013461",
-		"shopName": "信发办公生活收纳京东自营旗舰店",
-		"brandId": "1000013461",
-		"brandName": "信发办公会员卡"
 	},
 	{
 		"shopId": "1000013928",
@@ -1470,12 +1446,6 @@
 		"brandName": "黄金酒旗舰店"
 	},
 	{
-		"shopId": "1000097462",
-		"shopName": "保乐力加洋酒京东自营店",
-		"brandId": "1000097462",
-		"brandName": "保乐力加会员"
-	},
-	{
 		"shopId": "1000098567",
 		"shopName": "御道京东自营旗舰店",
 		"brandId": "1000098567",
@@ -1510,6 +1480,12 @@
 		"shopName": "宝乐星京东自营官方旗舰店",
 		"brandId": "1000100948",
 		"brandName": "宝乐星会员"
+	},
+	{
+		"shopId": "1000101209",
+		"shopName": "振德（ZHENDE）京东自营旗舰店",
+		"brandId": "1000101209",
+		"brandName": "振德"
 	},
 	{
 		"shopId": "1000101562",
