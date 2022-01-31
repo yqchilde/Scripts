@@ -210,6 +210,12 @@
 		"brandName": "舍得酒官方会员"
 	},
 	{
+		"shopId": "155749",
+		"shopName": "远望在线办公专营店",
+		"brandId": "161087",
+		"brandName": "远望在线会员卡"
+	},
+	{
 		"shopId": "155756",
 		"shopName": "Beaba旗舰店",
 		"brandId": "160918",
@@ -688,6 +694,12 @@
 		"shopName": "黄飞红品牌会员",
 		"brandId": "10425402",
 		"brandName": "黄飞红功夫家族"
+	},
+	{
+		"shopId": "10284435",
+		"shopName": "蕉下户外旗舰店",
+		"brandId": "10494532",
+		"brandName": "蕉下会员店"
 	},
 	{
 		"shopId": "10284560",
