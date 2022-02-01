@@ -204,6 +204,12 @@
 		"brandName": "戴尔官方旗舰店"
 	},
 	{
+		"shopId": "139183",
+		"shopName": "东北农嫂旗舰店",
+		"brandId": "143928",
+		"brandName": "东北农嫂VIP"
+	},
+	{
 		"shopId": "144509",
 		"shopName": "沱牌舍得官方旗舰店",
 		"brandId": "149101",
@@ -228,6 +234,12 @@
 		"brandName": "I Do"
 	},
 	{
+		"shopId": "159440",
+		"shopName": "椰岛官方旗舰店",
+		"brandId": "164882",
+		"brandName": "椰岛官方旗舰店"
+	},
+	{
 		"shopId": "161582",
 		"shopName": "优护优家旗舰店",
 		"brandId": "167065",
@@ -238,6 +250,12 @@
 		"shopName": "美赞臣官方专卖店",
 		"brandId": "172541",
 		"brandName": "美赞臣官方专卖"
+	},
+	{
+		"shopId": "172740",
+		"shopName": "合生元母婴官方旗舰店",
+		"brandId": "179146",
+		"brandName": "合生元尊享会员"
 	},
 	{
 		"shopId": "174391",
@@ -402,6 +420,12 @@
 		"brandName": "养生堂"
 	},
 	{
+		"shopId": "763688",
+		"shopName": "la官方旗舰店",
+		"brandId": "768100",
+		"brandName": "la官方旗舰店"
+	},
+	{
 		"shopId": "764796",
 		"shopName": "仟味官方旗舰店",
 		"brandId": "768588",
@@ -486,6 +510,12 @@
 		"brandName": "竹叶青酒会员卡"
 	},
 	{
+		"shopId": "851536",
+		"shopName": "中粮罐头官方旗舰店",
+		"brandId": "10014585",
+		"brandName": "中粮罐头旗舰店"
+	},
+	{
 		"shopId": "855858",
 		"shopName": "汾阳王官方旗舰店",
 		"brandId": "10017390",
@@ -496,6 +526,12 @@
 		"shopName": "AOC显示器旗舰店",
 		"brandId": "10027825",
 		"brandName": "显示器旗舰店"
+	},
+	{
+		"shopId": "889623",
+		"shopName": "安怡Anlene官方旗舰店",
+		"brandId": "10050336",
+		"brandName": "安怡官方旗舰店"
 	},
 	{
 		"shopId": "10020512",
@@ -520,6 +556,12 @@
 		"shopName": "华盛尚品酒类专营店",
 		"brandId": "10186114",
 		"brandName": "华盛尚品"
+	},
+	{
+		"shopId": "10052669",
+		"shopName": "金沙酒旗舰店",
+		"brandId": "10188022",
+		"brandName": "金沙"
 	},
 	{
 		"shopId": "10056387",
@@ -616,6 +658,12 @@
 		"shopName": "徐福记品牌会员",
 		"brandId": "10332531",
 		"brandName": "徐福记"
+	},
+	{
+		"shopId": "10197026",
+		"shopName": "三得利饮料官方旗舰店",
+		"brandId": "10342651",
+		"brandName": "三得利会员"
 	},
 	{
 		"shopId": "10197603",
@@ -936,6 +984,12 @@
 		"brandName": "亨氏"
 	},
 	{
+		"shopId": "1000002701",
+		"shopName": "君乐宝京东自营旗舰店",
+		"brandId": "1000002701",
+		"brandName": "君乐宝奶粉"
+	},
+	{
 		"shopId": "1000002833",
 		"shopName": "相宜本草京东自营旗舰店",
 		"brandId": "1000002833",
@@ -982,6 +1036,12 @@
 		"shopName": "伊利母婴京东自营旗舰店",
 		"brandId": "1000003570",
 		"brandName": "伊利金领冠"
+	},
+	{
+		"shopId": "1000003571",
+		"shopName": "卡西欧京东自营店",
+		"brandId": "1000003571",
+		"brandName": "卡西欧"
 	},
 	{
 		"shopId": "1000003588",
@@ -1098,10 +1158,28 @@
 		"brandName": "蕉下会员店"
 	},
 	{
+		"shopId": "1000009402",
+		"shopName": "添宁京东自营旗舰店",
+		"brandId": "1000009402",
+		"brandName": "添宁会员俱乐部"
+	},
+	{
+		"shopId": "1000009441",
+		"shopName": "包大人京东自营旗舰店",
+		"brandId": "1000009441",
+		"brandName": "包大人会员卡"
+	},
+	{
 		"shopId": "1000009521",
 		"shopName": "安而康京东自营旗舰店",
 		"brandId": "1000009521",
 		"brandName": "安而康会员之家"
+	},
+	{
+		"shopId": "1000009661",
+		"shopName": "一叶子京东自营官方旗舰店",
+		"brandId": "1000009661",
+		"brandName": "一叶子"
 	},
 	{
 		"shopId": "1000009782",
@@ -1182,10 +1260,22 @@
 		"brandName": "习酒"
 	},
 	{
+		"shopId": "1000015741",
+		"shopName": "屈臣氏(Watson’s)京东自营官方旗舰店",
+		"brandId": "1000015741",
+		"brandName": "屈臣氏饮料"
+	},
+	{
 		"shopId": "1000016345",
 		"shopName": "四特京东自营旗舰店",
 		"brandId": "1000016345",
 		"brandName": "四特"
+	},
+	{
+		"shopId": "1000017162",
+		"shopName": "雀巢咖啡京东自营官方旗舰店",
+		"brandId": "1000017162",
+		"brandName": "雀巢"
 	},
 	{
 		"shopId": "1000040084",
@@ -1198,6 +1288,12 @@
 		"shopName": "中粮福临门米面京东自营旗舰店",
 		"brandId": "1000040105",
 		"brandName": "福临门米面"
+	},
+	{
+		"shopId": "1000072303",
+		"shopName": "剑南春京东自营旗舰店",
+		"brandId": "1000072303",
+		"brandName": "剑南春VIP"
 	},
 	{
 		"shopId": "1000073081",
@@ -1218,10 +1314,22 @@
 		"brandName": "棉花朵朵"
 	},
 	{
+		"shopId": "1000075555",
+		"shopName": "周六福珠宝京东自营旗舰店",
+		"brandId": "1000075555",
+		"brandName": "周六福"
+	},
+	{
 		"shopId": "1000076821",
 		"shopName": "必品阁自营旗舰店",
 		"brandId": "1000076821",
 		"brandName": "希杰食品"
+	},
+	{
+		"shopId": "1000077045",
+		"shopName": "EmporioArmani腕表京东自营旗舰店",
+		"brandId": "1000077045",
+		"brandName": "阿玛尼会员卡"
 	},
 	{
 		"shopId": "1000078242",
@@ -1282,6 +1390,12 @@
 		"shopName": "青蛙王子京东自营旗舰店",
 		"brandId": "1000083421",
 		"brandName": "青蛙王子储值卡"
+	},
+	{
+		"shopId": "1000083728",
+		"shopName": "乌苏啤酒京东自营官方旗舰店",
+		"brandId": "1000083728",
+		"brandName": "乌苏啤酒VIP"
 	},
 	{
 		"shopId": "1000083766",
@@ -1446,6 +1560,12 @@
 		"brandName": "黄金酒旗舰店"
 	},
 	{
+		"shopId": "1000097203",
+		"shopName": "香丹清京东自营旗舰店",
+		"brandId": "1000097203",
+		"brandName": "香丹清"
+	},
+	{
 		"shopId": "1000098567",
 		"shopName": "御道京东自营旗舰店",
 		"brandId": "1000098567",
@@ -1470,6 +1590,12 @@
 		"brandName": "阿尔发会员"
 	},
 	{
+		"shopId": "1000100768",
+		"shopName": "孚莱化学品京东自营旗舰店",
+		"brandId": "1000100768",
+		"brandName": "孚莱化学品会员"
+	},
+	{
 		"shopId": "1000100813",
 		"shopName": "亿滋京东自营官方旗舰店",
 		"brandId": "1000100813",
@@ -1480,6 +1606,12 @@
 		"shopName": "宝乐星京东自营官方旗舰店",
 		"brandId": "1000100948",
 		"brandName": "宝乐星会员"
+	},
+	{
+		"shopId": "1000101141",
+		"shopName": "便利妥京东自营官方旗舰店",
+		"brandId": "1000101141",
+		"brandName": "便利妥会员卡"
 	},
 	{
 		"shopId": "1000101209",
@@ -1498,6 +1630,12 @@
 		"shopName": "viee唯怡京东自营旗舰店",
 		"brandId": "1000101716",
 		"brandName": "唯怡"
+	},
+	{
+		"shopId": "1000101893",
+		"shopName": "和路雪京东自营旗舰店",
+		"brandId": "1000101893",
+		"brandName": "和路雪会员卡"
 	},
 	{
 		"shopId": "1000102232",
@@ -1522,6 +1660,12 @@
 		"shopName": "亨利摩根京东自营旗舰店",
 		"brandId": "1000103422",
 		"brandName": "亨利摩根"
+	},
+	{
+		"shopId": "1000104146",
+		"shopName": "全友家居京东自营旗舰店",
+		"brandId": "1000104146",
+		"brandName": "全友家居友粉"
 	},
 	{
 		"shopId": "1000104643",
@@ -1606,6 +1750,12 @@
 		"shopName": "迪彩京东自营旗舰店",
 		"brandId": "1000117009",
 		"brandName": "迪彩会员卡"
+	},
+	{
+		"shopId": "1000119021",
+		"shopName": "0度（PERFECTSIGHT） 京东自营旗舰店",
+		"brandId": "1000119021",
+		"brandName": "0度京东自营店"
 	},
 	{
 		"shopId": "1000120162",
@@ -1714,6 +1864,12 @@
 		"shopName": "希杰（CJ）京东自营旗舰店",
 		"brandId": "1000164381",
 		"brandName": "希杰食品"
+	},
+	{
+		"shopId": "1000195861",
+		"shopName": "道地（TAO-TI）茶饮料京东自营旗舰店",
+		"brandId": "1000195861",
+		"brandName": "道地茶饮料会员"
 	},
 	{
 		"shopId": "1000204438",
