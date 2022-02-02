@@ -132,12 +132,6 @@
 		"brandName": "睿宣家居专营店"
 	},
 	{
-		"shopId": "82882",
-		"shopName": "方旭烟具专营店",
-		"brandId": "85926",
-		"brandName": "方旭烟具专营店"
-	},
-	{
 		"shopId": "86619",
 		"shopName": "粮全其美官方旗舰店",
 		"brandId": "89315",
@@ -148,12 +142,6 @@
 		"shopName": "古井贡酒官方旗舰店",
 		"brandId": "92739",
 		"brandName": "古井贡酒VIP"
-	},
-	{
-		"shopId": "100762",
-		"shopName": "OMI欧米旗舰店",
-		"brandId": "102298",
-		"brandName": "欧米VIP"
 	},
 	{
 		"shopId": "109832",
@@ -658,6 +646,12 @@
 		"shopName": "仰韶酒类旗舰店",
 		"brandId": "10265490",
 		"brandName": "仰韶酒类旗舰店"
+	},
+	{
+		"shopId": "10142118",
+		"shopName": "飞鹤成人奶粉旗舰店",
+		"brandId": "10277058",
+		"brandName": "飞鹤成人奶粉"
 	},
 	{
 		"shopId": "10164231",
@@ -1812,10 +1806,22 @@
 		"brandName": "盖茨工业会员卡"
 	},
 	{
+		"shopId": "1000112452",
+		"shopName": "宝家洁京东自营旗舰店",
+		"brandId": "1000112452",
+		"brandName": "宝家洁VIP"
+	},
+	{
 		"shopId": "1000113741",
 		"shopName": "紫林京东自营旗舰店",
 		"brandId": "1000113741",
 		"brandName": "紫林"
+	},
+	{
+		"shopId": "1000114761",
+		"shopName": "圣芝葡萄酒京东自营旗舰店",
+		"brandId": "1000114761",
+		"brandName": "圣芝会员"
 	},
 	{
 		"shopId": "1000114841",
