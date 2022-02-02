@@ -468,6 +468,12 @@
 		"brandName": "Aqara会员"
 	},
 	{
+		"shopId": "789050",
+		"shopName": "水军食品旗舰店",
+		"brandId": "793047",
+		"brandName": "水军旗舰店"
+	},
+	{
 		"shopId": "790115",
 		"shopName": "徐氏(盐城)厨具专营店",
 		"brandId": "794143",
@@ -736,6 +742,12 @@
 		"shopName": "劲牌品牌会员",
 		"brandId": "10371088",
 		"brandName": "劲牌品牌会员"
+	},
+	{
+		"shopId": "10223680",
+		"shopName": "旗帜奶粉2020",
+		"brandId": "10371404",
+		"brandName": "君乐宝奶粉"
 	},
 	{
 		"shopId": "10225824",
@@ -1212,6 +1224,12 @@
 		"brandName": "百岁山"
 	},
 	{
+		"shopId": "1000010124",
+		"shopName": "北纯京东自营旗舰店",
+		"brandId": "1000010124",
+		"brandName": "北纯会员"
+	},
+	{
 		"shopId": "1000010481",
 		"shopName": "百事可乐京东自营旗舰店",
 		"brandId": "1000010481",
@@ -1276,6 +1294,12 @@
 		"shopName": "三全食品京东自营旗舰店",
 		"brandId": "1000015504",
 		"brandName": "三全"
+	},
+	{
+		"shopId": "1000015583",
+		"shopName": "麦德氏京东自营旗舰店",
+		"brandId": "1000015583",
+		"brandName": "麦德氏"
 	},
 	{
 		"shopId": "1000015664",
@@ -1366,6 +1390,12 @@
 		"shopName": "周六福珠宝京东自营旗舰店",
 		"brandId": "1000075555",
 		"brandName": "周六福"
+	},
+	{
+		"shopId": "1000075683",
+		"shopName": "阿尔卑斯曼妥思自营旗舰店",
+		"brandId": "1000075683",
+		"brandName": "阿尔卑斯曼妥思"
 	},
 	{
 		"shopId": "1000075745",
@@ -1468,6 +1498,12 @@
 		"shopName": "康师傅方便面京东自营官方旗舰店",
 		"brandId": "1000084104",
 		"brandName": "康师傅方便面"
+	},
+	{
+		"shopId": "1000085508",
+		"shopName": "潮香村京东自营旗舰店",
+		"brandId": "1000085508",
+		"brandName": "潮香村"
 	},
 	{
 		"shopId": "1000085823",
@@ -1866,6 +1902,12 @@
 		"brandName": "雀巢优活"
 	},
 	{
+		"shopId": "1000132124",
+		"shopName": "妆蕾RAY京东自营旗舰店",
+		"brandId": "1000132124",
+		"brandName": "VIP"
+	},
+	{
 		"shopId": "1000133084",
 		"shopName": "五粮浓香京东自营旗舰店",
 		"brandId": "1000133084",
@@ -2032,6 +2074,12 @@
 		"shopName": "仰韶京东自营旗舰店",
 		"brandId": "1000307901",
 		"brandName": "仰韶彩陶坊"
+	},
+	{
+		"shopId": "1000308921",
+		"shopName": "Bb LABORATORIES京东自营旗舰店",
+		"brandId": "1000308921",
+		"brandName": "BbLab"
 	},
 	{
 		"shopId": "1000324022",
