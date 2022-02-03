@@ -516,12 +516,6 @@
 		"brandName": "奇迹庄园旗舰店"
 	},
 	{
-		"shopId": "822231",
-		"shopName": "塞巴斯汀旗舰店",
-		"brandId": "823628",
-		"brandName": "塞巴斯汀旗舰店"
-	},
-	{
 		"shopId": "825285",
 		"shopName": "A21童装旗舰店",
 		"brandId": "826431",
@@ -550,12 +544,6 @@
 		"shopName": "汾阳王官方旗舰店",
 		"brandId": "10017390",
 		"brandName": "汾阳王尊享会员"
-	},
-	{
-		"shopId": "864862",
-		"shopName": "AOC显示器旗舰店",
-		"brandId": "10027825",
-		"brandName": "显示器旗舰店"
 	},
 	{
 		"shopId": "889623",
@@ -610,12 +598,6 @@
 		"shopName": "奇姬官方旗舰店",
 		"brandId": "10211994",
 		"brandName": "奇姬"
-	},
-	{
-		"shopId": "10085940",
-		"shopName": "广州五羊化妆品有限公司",
-		"brandId": "10219129",
-		"brandName": "五羊会员卡"
 	},
 	{
 		"shopId": "10086308",
@@ -888,6 +870,12 @@
 		"brandName": "蓝河会员卡"
 	},
 	{
+		"shopId": "1000000187",
+		"shopName": "漫步者京东自营旗舰店",
+		"brandId": "1000000187",
+		"brandName": "漫步者会员卡"
+	},
+	{
 		"shopId": "1000000193",
 		"shopName": "SanDisk闪迪京东自营旗舰店",
 		"brandId": "1000000193",
@@ -1006,12 +994,6 @@
 		"shopName": "三星家电京东自营旗舰店",
 		"brandId": "1000002367",
 		"brandName": "星星卡"
-	},
-	{
-		"shopId": "1000002519",
-		"shopName": "爱国者存储京东自营旗舰店",
-		"brandId": "1000002519",
-		"brandName": "爱国者存储"
 	},
 	{
 		"shopId": "1000002567",
@@ -1872,12 +1854,6 @@
 		"brandName": "HFP"
 	},
 	{
-		"shopId": "1000115764",
-		"shopName": "ZEK京东自营旗舰店",
-		"brandId": "1000115764",
-		"brandName": "zek京东自营"
-	},
-	{
 		"shopId": "1000117009",
 		"shopName": "迪彩京东自营旗舰店",
 		"brandId": "1000117009",
@@ -1972,12 +1948,6 @@
 		"shopName": "蔓珠（Mandu）京东自营旗舰店",
 		"brandId": "1000140062",
 		"brandName": "蔓珠Mandu"
-	},
-	{
-		"shopId": "1000146803",
-		"shopName": "TOI京东自营旗舰店",
-		"brandId": "1000146803",
-		"brandName": "图益拼图艺术家"
 	},
 	{
 		"shopId": "1000147183",
