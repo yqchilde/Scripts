@@ -36,6 +36,12 @@
 		"brandName": "奇酷官方旗舰店"
 	},
 	{
+		"shopId": "28522",
+		"shopName": "多特思官方旗舰店",
+		"brandId": "29344",
+		"brandName": "多特思会员"
+	},
+	{
 		"shopId": "29612",
 		"shopName": "登登妈官方旗舰店",
 		"brandId": "30617",
@@ -88,6 +94,12 @@
 		"shopName": "剑南春官方旗舰店",
 		"brandId": "59974",
 		"brandName": "剑南春VIP"
+	},
+	{
+		"shopId": "58661",
+		"shopName": "周六福珠宝旗舰店",
+		"brandId": "62915",
+		"brandName": "周六福"
 	},
 	{
 		"shopId": "59077",
@@ -1044,6 +1056,12 @@
 		"brandName": "妙粉俱乐部"
 	},
 	{
+		"shopId": "1000003218",
+		"shopName": "KANS韩束京东自营旗舰店",
+		"brandId": "1000003218",
+		"brandName": "韩束"
+	},
+	{
 		"shopId": "1000003448",
 		"shopName": "好孩子京东自营官方旗舰店",
 		"brandId": "1000003448",
@@ -1186,6 +1204,12 @@
 		"shopName": "蕉下京东自营旗舰店",
 		"brandId": "1000008122",
 		"brandName": "蕉下会员店"
+	},
+	{
+		"shopId": "1000008983",
+		"shopName": "脉动京东自营旗舰店",
+		"brandId": "1000008983",
+		"brandName": "脉动"
 	},
 	{
 		"shopId": "1000009402",
@@ -1396,6 +1420,12 @@
 		"shopName": "劲霸男装京东自营旗舰店",
 		"brandId": "1000075745",
 		"brandName": "劲霸自营会员"
+	},
+	{
+		"shopId": "1000076645",
+		"shopName": "亚麻公社京东自营旗舰店",
+		"brandId": "1000076645",
+		"brandName": "亚麻公社"
 	},
 	{
 		"shopId": "1000076821",
