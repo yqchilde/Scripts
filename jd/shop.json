@@ -348,6 +348,12 @@
 		"brandName": "la官方旗舰店"
 	},
 	{
+		"shopId": "767945",
+		"shopName": "罗蒙官方旗舰店",
+		"brandId": "772106",
+		"brandName": "罗蒙品牌会员"
+	},
+	{
 		"shopId": "770786",
 		"shopName": "美德乐官方旗舰店",
 		"brandId": "774927",
@@ -394,6 +400,12 @@
 		"shopName": "中粮罐头官方旗舰店",
 		"brandId": "10014585",
 		"brandName": "中粮罐头旗舰店"
+	},
+	{
+		"shopId": "878597",
+		"shopName": "雀巢咖啡品牌",
+		"brandId": "10039599",
+		"brandName": "雀巢"
 	},
 	{
 		"shopId": "889623",
