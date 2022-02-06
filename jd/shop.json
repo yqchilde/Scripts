@@ -96,6 +96,12 @@
 		"brandName": "郎酒旗舰店会员"
 	},
 	{
+		"shopId": "68976",
+		"shopName": "劲霸男装官方旗舰店",
+		"brandId": "72587",
+		"brandName": "劲霸会员卡"
+	},
+	{
 		"shopId": "70605",
 		"shopName": "露安适官方旗舰店",
 		"brandId": "74119",
@@ -1518,10 +1524,28 @@
 		"brandName": "仙维娜会员卡"
 	},
 	{
+		"shopId": "1000300336",
+		"shopName": "可拉奥京东自营旗舰店",
+		"brandId": "1000300336",
+		"brandName": "可拉奥尊享会员"
+	},
+	{
 		"shopId": "1000300485",
 		"shopName": "blueriver蓝河官方自营旗舰店",
 		"brandId": "1000300485",
 		"brandName": "蓝河会员卡"
+	},
+	{
+		"shopId": "1000301853",
+		"shopName": "菊乐（JULE）京东自营旗舰店",
+		"brandId": "1000301853",
+		"brandName": "菊乐"
+	},
+	{
+		"shopId": "1000306683",
+		"shopName": "兰蔻京东自营官方旗舰店",
+		"brandId": "1000306683",
+		"brandName": "兰蔻"
 	},
 	{
 		"shopId": "1000307901",
@@ -1588,6 +1612,12 @@
 		"shopName": "倔强的尾巴京东自营旗舰店",
 		"brandId": "1000338161",
 		"brandName": "倔强的尾巴会员"
+	},
+	{
+		"shopId": "1000350522",
+		"shopName": "联合利华个护海外京东自营旗舰店",
+		"brandId": "1000350522",
+		"brandName": "联合利华个护"
 	},
 	{
 		"shopId": "1000351891",
