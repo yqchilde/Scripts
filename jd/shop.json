@@ -1,5 +1,11 @@
 [
 	{
+		"shopId": "13257",
+		"shopName": "酒惠网官方旗舰店",
+		"brandId": "13637",
+		"brandName": "酒惠网"
+	},
+	{
 		"shopId": "17153",
 		"shopName": "百草味官方旗舰店",
 		"brandId": "17934",
@@ -256,6 +262,12 @@
 		"shopName": "小角楼官方旗舰店",
 		"brandId": "609367",
 		"brandName": "小角楼会员卡"
+	},
+	{
+		"shopId": "632482",
+		"shopName": "外星人官方旗舰店",
+		"brandId": "637147",
+		"brandName": "外星人官方会员"
 	},
 	{
 		"shopId": "644889",
@@ -1246,6 +1258,12 @@
 		"shopName": "周黑鸭京东自营旗舰店",
 		"brandId": "1000093247",
 		"brandName": "周黑鸭会员"
+	},
+	{
+		"shopId": "1000093692",
+		"shopName": "芬兰蔚优Valio京东自营旗舰店",
+		"brandId": "1000093692",
+		"brandName": "蔚优Valio"
 	},
 	{
 		"shopId": "1000093828",
