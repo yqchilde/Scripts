@@ -120,12 +120,6 @@
 		"brandName": "古井贡酒VIP"
 	},
 	{
-		"shopId": "109832",
-		"shopName": "天地精华食品旗舰店",
-		"brandId": "112508",
-		"brandName": "天地精华"
-	},
-	{
 		"shopId": "113775",
 		"shopName": "联想众信授权专卖店",
 		"brandId": "116691",
@@ -282,6 +276,12 @@
 		"brandName": "蓝河会员卡"
 	},
 	{
+		"shopId": "662324",
+		"shopName": "古井贡酒年份原浆官方旗舰店",
+		"brandId": "663861",
+		"brandName": "年份原浆官旗"
+	},
+	{
 		"shopId": "662490",
 		"shopName": "卡西欧手表官方旗舰店",
 		"brandId": "667324",
@@ -382,12 +382,6 @@
 		"shopName": "水军食品旗舰店",
 		"brandId": "793047",
 		"brandName": "水军旗舰店"
-	},
-	{
-		"shopId": "806627",
-		"shopName": "碧洛诗王雎儿专卖店",
-		"brandId": "808932",
-		"brandName": "碧洛诗"
 	},
 	{
 		"shopId": "808397",
@@ -516,12 +510,6 @@
 		"brandName": "三得利会员"
 	},
 	{
-		"shopId": "10197603",
-		"shopName": "阿特纳运动专营店",
-		"brandId": "10342761",
-		"brandName": "阿特纳Vip"
-	},
-	{
 		"shopId": "10206455",
 		"shopName": "今世缘官方旗舰店",
 		"brandId": "10353346",
@@ -592,12 +580,6 @@
 		"shopName": "tumi",
 		"brandId": "10514104",
 		"brandName": "TUMI"
-	},
-	{
-		"shopId": "10308966",
-		"shopName": "雅士利奶粉旗舰店",
-		"brandId": "10517793",
-		"brandName": "别提多美会员"
 	},
 	{
 		"shopId": "10309908",
@@ -976,12 +958,6 @@
 		"shopName": "A21京东自营旗舰店",
 		"brandId": "1000014781",
 		"brandName": "A21"
-	},
-	{
-		"shopId": "1000014970",
-		"shopName": "果仙多维京东自营旗舰店",
-		"brandId": "1000014970",
-		"brandName": "果仙多维品牌会"
 	},
 	{
 		"shopId": "1000015372",
@@ -1624,12 +1600,6 @@
 		"shopName": "海洋丝缎京东自营旗舰店",
 		"brandId": "1000353465",
 		"brandName": "海洋丝缎"
-	},
-	{
-		"shopId": "1000354499",
-		"shopName": "西麦大健康京东自营旗舰店",
-		"brandId": "1000354499",
-		"brandName": "西麦大健康"
 	},
 	{
 		"shopId": "1000364363",
