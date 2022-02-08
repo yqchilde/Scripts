@@ -234,12 +234,6 @@
 		"brandName": "星辉震东雅马哈"
 	},
 	{
-		"shopId": "185645",
-		"shopName": "卡西欧宝亮专卖店",
-		"brandId": "193385",
-		"brandName": "卡西欧宝亮钟表"
-	},
-	{
 		"shopId": "191423",
 		"shopName": "Mlily梦百合旗舰店",
 		"brandId": "199995",
@@ -354,22 +348,10 @@
 		"brandName": "自嗨锅旗舰店"
 	},
 	{
-		"shopId": "752168",
-		"shopName": "思念官方旗舰店",
-		"brandId": "756324",
-		"brandName": "思念食品"
-	},
-	{
 		"shopId": "757760",
 		"shopName": "观澜星空二手电脑配件专营店",
 		"brandId": "759743",
 		"brandName": "观澜星空会员"
-	},
-	{
-		"shopId": "761120",
-		"shopName": "养生堂保健品旗舰店",
-		"brandId": "765651",
-		"brandName": "养生堂"
 	},
 	{
 		"shopId": "763688",
@@ -394,6 +376,12 @@
 		"shopName": "水军食品旗舰店",
 		"brandId": "793047",
 		"brandName": "水军旗舰店"
+	},
+	{
+		"shopId": "793740",
+		"shopName": "大公鸡管家掌交专卖店",
+		"brandId": "797626",
+		"brandName": "大公鸡管家"
 	},
 	{
 		"shopId": "808397",
@@ -864,12 +852,6 @@
 		"brandName": "家庭清洁师"
 	},
 	{
-		"shopId": "1000005670",
-		"shopName": "美孚（Mobil）京东自营旗舰店",
-		"brandId": "1000005670",
-		"brandName": "美孚"
-	},
-	{
 		"shopId": "1000006643",
 		"shopName": "雪肌精京东自营官方旗舰店",
 		"brandId": "1000006643",
@@ -1278,6 +1260,12 @@
 		"brandName": "艾恩摩尔"
 	},
 	{
+		"shopId": "1000097201",
+		"shopName": "露安适京东自营官方旗舰店",
+		"brandId": "1000097201",
+		"brandName": "露安适会员卡"
+	},
+	{
 		"shopId": "1000097203",
 		"shopName": "香丹清京东自营旗舰店",
 		"brandId": "1000097203",
@@ -1366,12 +1354,6 @@
 		"shopName": "奔图打印京东自营旗舰店",
 		"brandId": "1000106848",
 		"brandName": "奔图VIP"
-	},
-	{
-		"shopId": "1000108429",
-		"shopName": "中盐调味京东自营旗舰店",
-		"brandId": "1000108429",
-		"brandName": "中盐"
 	},
 	{
 		"shopId": "1000110084",
@@ -1612,12 +1594,6 @@
 		"shopName": "澳谷京东自营旗舰店",
 		"brandId": "1000351891",
 		"brandName": "澳谷"
-	},
-	{
-		"shopId": "1000352463",
-		"shopName": "艾科京东自营旗舰店",
-		"brandId": "1000352463",
-		"brandName": "艾科会员卡"
 	},
 	{
 		"shopId": "1000353465",
