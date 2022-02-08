@@ -24,6 +24,12 @@
 		"brandName": "Kappa官方"
 	},
 	{
+		"shopId": "24299",
+		"shopName": "来伊份旗舰店",
+		"brandId": "24827",
+		"brandName": "来伊份旗舰店"
+	},
+	{
 		"shopId": "28522",
 		"shopName": "多特思官方旗舰店",
 		"brandId": "29344",
@@ -136,6 +142,12 @@
 		"shopName": "品立旗舰店",
 		"brandId": "121665",
 		"brandName": "品立官方旗舰店"
+	},
+	{
+		"shopId": "120660",
+		"shopName": "思沃官方旗舰店",
+		"brandId": "123484",
+		"brandName": "思沃口罩入会"
 	},
 	{
 		"shopId": "123495",
@@ -514,6 +526,12 @@
 		"shopName": "今世缘官方旗舰店",
 		"brandId": "10353346",
 		"brandName": "今世缘"
+	},
+	{
+		"shopId": "10208902",
+		"shopName": "锋味旗舰店",
+		"brandId": "10355281",
+		"brandName": "锋味旗舰店"
 	},
 	{
 		"shopId": "10215768",
@@ -1300,6 +1318,12 @@
 		"shopName": "振德（ZHENDE）京东自营旗舰店",
 		"brandId": "1000101209",
 		"brandName": "振德"
+	},
+	{
+		"shopId": "1000101481",
+		"shopName": "小林制药母婴京东自营旗舰店",
+		"brandId": "1000101481",
+		"brandName": "小林母婴VIP"
 	},
 	{
 		"shopId": "1000101562",
