@@ -114,12 +114,6 @@
 		"brandName": "劲霸会员卡"
 	},
 	{
-		"shopId": "70605",
-		"shopName": "露安适官方旗舰店",
-		"brandId": "74119",
-		"brandName": "露安适旗舰店"
-	},
-	{
 		"shopId": "70932",
 		"shopName": "贝因美官方旗舰店",
 		"brandId": "74508",
@@ -148,12 +142,6 @@
 		"shopName": "喜德盛官方旗舰店",
 		"brandId": "118640",
 		"brandName": "喜德盛会员"
-	},
-	{
-		"shopId": "118590",
-		"shopName": "品立旗舰店",
-		"brandId": "121665",
-		"brandName": "品立官方旗舰店"
 	},
 	{
 		"shopId": "120660",
@@ -190,12 +178,6 @@
 		"shopName": "沱牌舍得官方旗舰店",
 		"brandId": "149101",
 		"brandName": "舍得酒官方会员"
-	},
-	{
-		"shopId": "155749",
-		"shopName": "远望在线办公专营店",
-		"brandId": "161087",
-		"brandName": "远望在线会员卡"
 	},
 	{
 		"shopId": "155756",
@@ -244,6 +226,12 @@
 		"shopName": "星辉震东乐器专营店",
 		"brandId": "189939",
 		"brandName": "星辉震东雅马哈"
+	},
+	{
+		"shopId": "185645",
+		"shopName": "卡西欧宝亮专卖店",
+		"brandId": "193385",
+		"brandName": "卡西欧宝亮钟表"
 	},
 	{
 		"shopId": "191423",
@@ -678,10 +666,10 @@
 		"brandName": "格之格VIP"
 	},
 	{
-		"shopId": "1000001391",
-		"shopName": "养生堂京东自营旗舰店",
-		"brandId": "1000001391",
-		"brandName": "养生堂"
+		"shopId": "1000001381",
+		"shopName": "康比特京东自营旗舰店",
+		"brandId": "1000001381",
+		"brandName": "康比特会员"
 	},
 	{
 		"shopId": "1000001396",
@@ -784,6 +772,12 @@
 		"shopName": "妙思乐京东自营旗舰店",
 		"brandId": "1000003026",
 		"brandName": "妙粉俱乐部"
+	},
+	{
+		"shopId": "1000003111",
+		"shopName": "贝因美京东自营旗舰店",
+		"brandId": "1000003111",
+		"brandName": "贝因美"
 	},
 	{
 		"shopId": "1000003218",
@@ -1326,12 +1320,6 @@
 		"brandName": "便利妥会员卡"
 	},
 	{
-		"shopId": "1000101209",
-		"shopName": "振德（ZHENDE）京东自营旗舰店",
-		"brandId": "1000101209",
-		"brandName": "振德"
-	},
-	{
 		"shopId": "1000101481",
 		"shopName": "小林制药母婴京东自营旗舰店",
 		"brandId": "1000101481",
@@ -1510,6 +1498,12 @@
 		"shopName": "Annabella京东自营旗舰店",
 		"brandId": "1000165282",
 		"brandName": "VIP"
+	},
+	{
+		"shopId": "1000168862",
+		"shopName": "雀巢休闲零食自营旗舰店",
+		"brandId": "1000168862",
+		"brandName": "雀巢"
 	},
 	{
 		"shopId": "1000195861",
