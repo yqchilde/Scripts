@@ -102,6 +102,12 @@
 		"brandName": "郎酒旗舰店会员"
 	},
 	{
+		"shopId": "62116",
+		"shopName": "青岛啤酒官方旗舰店",
+		"brandId": "65900",
+		"brandName": "青岛啤酒会员"
+	},
+	{
 		"shopId": "68976",
 		"shopName": "劲霸男装官方旗舰店",
 		"brandId": "72587",
@@ -112,6 +118,12 @@
 		"shopName": "露安适官方旗舰店",
 		"brandId": "74119",
 		"brandName": "露安适旗舰店"
+	},
+	{
+		"shopId": "70932",
+		"shopName": "贝因美官方旗舰店",
+		"brandId": "74508",
+		"brandName": "贝因美"
 	},
 	{
 		"shopId": "86619",
@@ -292,6 +304,12 @@
 		"shopName": "卡西欧手表官方旗舰店",
 		"brandId": "667324",
 		"brandName": "卡西欧"
+	},
+	{
+		"shopId": "667076",
+		"shopName": "i-baby官方旗舰店",
+		"brandId": "671430",
+		"brandName": "i-baby"
 	},
 	{
 		"shopId": "685798",
@@ -942,6 +960,12 @@
 		"brandName": "纽仕兰"
 	},
 	{
+		"shopId": "1000013928",
+		"shopName": "吉得利食品京东自营旗舰店",
+		"brandId": "1000013928",
+		"brandName": "吉得利知食青年"
+	},
+	{
 		"shopId": "1000014286",
 		"shopName": "可口可乐京东自营旗舰店",
 		"brandId": "1000014286",
@@ -1468,6 +1492,12 @@
 		"shopName": "卡士（CLASSY.KISS）京东自营旗舰店",
 		"brandId": "1000147303",
 		"brandName": "卡士酸奶会员卡"
+	},
+	{
+		"shopId": "1000147961",
+		"shopName": "高魅（gourmet）京东自营旗舰店",
+		"brandId": "1000147961",
+		"brandName": "希杰食品"
 	},
 	{
 		"shopId": "1000164381",
