@@ -330,6 +330,12 @@
 		"brandName": "永丰源旗舰店"
 	},
 	{
+		"shopId": "713993",
+		"shopName": "乐扣乐扣厨具旗舰店",
+		"brandId": "718638",
+		"brandName": "乐扣乐扣"
+	},
+	{
 		"shopId": "714533",
 		"shopName": "汾酒官方旗舰店",
 		"brandId": "718157",
@@ -352,6 +358,12 @@
 		"shopName": "自嗨锅旗舰店",
 		"brandId": "756351",
 		"brandName": "自嗨锅旗舰店"
+	},
+	{
+		"shopId": "752168",
+		"shopName": "思念官方旗舰店",
+		"brandId": "756324",
+		"brandName": "思念食品"
 	},
 	{
 		"shopId": "757760",
@@ -508,6 +520,12 @@
 		"shopName": "飞鹤成人奶粉旗舰店",
 		"brandId": "10277058",
 		"brandName": "飞鹤成人奶粉"
+	},
+	{
+		"shopId": "10190269",
+		"shopName": "氧伴侣旗舰店",
+		"brandId": "10335574",
+		"brandName": "氧伴侣旗舰店"
 	},
 	{
 		"shopId": "10197026",
@@ -1128,6 +1146,12 @@
 		"brandName": "欣和品牌会员"
 	},
 	{
+		"shopId": "1000080881",
+		"shopName": "太湖雪家纺京东自营旗舰店",
+		"brandId": "1000080881",
+		"brandName": "太湖雪会员卡"
+	},
+	{
 		"shopId": "1000081521",
 		"shopName": "百吉福京东自营旗舰店",
 		"brandId": "1000081521",
@@ -1266,6 +1290,12 @@
 		"brandName": "澳牧会员"
 	},
 	{
+		"shopId": "1000093883",
+		"shopName": "咪鼠科技京东自营旗舰店",
+		"brandId": "1000093883",
+		"brandName": "咪鼠之家"
+	},
+	{
 		"shopId": "1000095701",
 		"shopName": "乐纯（LePur'）京东自营旗舰店",
 		"brandId": "1000095701",
@@ -1276,6 +1306,12 @@
 		"shopName": "艾恩摩尔京东自营旗舰店",
 		"brandId": "1000097156",
 		"brandName": "艾恩摩尔"
+	},
+	{
+		"shopId": "1000097182",
+		"shopName": "界界乐京东自营旗舰店",
+		"brandId": "1000097182",
+		"brandName": "界界乐"
 	},
 	{
 		"shopId": "1000097201",
@@ -1360,6 +1396,12 @@
 		"shopName": "潮宏基京东自营旗舰店",
 		"brandId": "1000104643",
 		"brandName": "潮宏基会员"
+	},
+	{
+		"shopId": "1000105757",
+		"shopName": "旗牌京东自营官方旗舰店",
+		"brandId": "1000105757",
+		"brandName": "旗牌文具VIP"
 	},
 	{
 		"shopId": "1000106848",
@@ -1608,6 +1650,12 @@
 		"brandName": "倔强的尾巴会员"
 	},
 	{
+		"shopId": "1000343085",
+		"shopName": "昌泰京东自营旗舰店",
+		"brandId": "1000343085",
+		"brandName": "昌泰会员卡"
+	},
+	{
 		"shopId": "1000350522",
 		"shopName": "联合利华个护海外京东自营旗舰店",
 		"brandId": "1000350522",
@@ -1624,6 +1672,12 @@
 		"shopName": "海洋丝缎京东自营旗舰店",
 		"brandId": "1000353465",
 		"brandName": "海洋丝缎"
+	},
+	{
+		"shopId": "1000354499",
+		"shopName": "西麦大健康京东自营旗舰店",
+		"brandId": "1000354499",
+		"brandName": "西麦大健康"
 	},
 	{
 		"shopId": "1000364363",
