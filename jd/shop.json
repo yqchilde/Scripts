@@ -138,6 +138,12 @@
 		"brandName": "古井贡酒VIP"
 	},
 	{
+		"shopId": "109832",
+		"shopName": "天地精华食品旗舰店",
+		"brandId": "112508",
+		"brandName": "天地精华"
+	},
+	{
 		"shopId": "113775",
 		"shopName": "联想众信授权专卖店",
 		"brandId": "116691",
@@ -196,6 +202,12 @@
 		"shopName": "优护优家旗舰店",
 		"brandId": "167065",
 		"brandName": "优护优家旗舰店"
+	},
+	{
+		"shopId": "168198",
+		"shopName": "石花官方旗舰店",
+		"brandId": "174020",
+		"brandName": "湖北石花"
 	},
 	{
 		"shopId": "174391",
@@ -444,12 +456,6 @@
 		"brandName": "华盛尚品"
 	},
 	{
-		"shopId": "10056387",
-		"shopName": "红星酒类旗舰店",
-		"brandId": "10190392",
-		"brandName": "红星二锅头"
-	},
-	{
 		"shopId": "10075479",
 		"shopName": "奇姬官方旗舰店",
 		"brandId": "10211994",
@@ -604,6 +610,12 @@
 		"shopName": "酒连酒官方旗舰店",
 		"brandId": "10546998",
 		"brandName": "酒连酒官旗舰店"
+	},
+	{
+		"shopId": "10348681",
+		"shopName": "象米国际旗舰店",
+		"brandId": "10561571",
+		"brandName": "象米国际会员"
 	},
 	{
 		"shopId": "10365618",
@@ -918,12 +930,6 @@
 		"brandName": "百岁山"
 	},
 	{
-		"shopId": "1000010124",
-		"shopName": "北纯京东自营旗舰店",
-		"brandId": "1000010124",
-		"brandName": "北纯会员"
-	},
-	{
 		"shopId": "1000012961",
 		"shopName": "纽仕兰（Theland）京东自营旗舰店",
 		"brandId": "1000012961",
@@ -1036,12 +1042,6 @@
 		"shopName": "周六福珠宝京东自营旗舰店",
 		"brandId": "1000075555",
 		"brandName": "周六福"
-	},
-	{
-		"shopId": "1000075683",
-		"shopName": "阿尔卑斯曼妥思自营旗舰店",
-		"brandId": "1000075683",
-		"brandName": "阿尔卑斯曼妥思"
 	},
 	{
 		"shopId": "1000075745",
@@ -1170,12 +1170,6 @@
 		"brandName": "疯狂小狗"
 	},
 	{
-		"shopId": "1000089744",
-		"shopName": "雅培血糖仪京东自营旗舰店",
-		"brandId": "1000089744",
-		"brandName": "雅培血糖仪"
-	},
-	{
 		"shopId": "1000090142",
 		"shopName": "白元（HAKUGEN）京东自营旗舰店",
 		"brandId": "1000090142",
@@ -1290,12 +1284,6 @@
 		"brandName": "官方会员卡"
 	},
 	{
-		"shopId": "1000101893",
-		"shopName": "和路雪京东自营旗舰店",
-		"brandId": "1000101893",
-		"brandName": "和路雪会员卡"
-	},
-	{
 		"shopId": "1000102442",
 		"shopName": "厨邦京东自营旗舰店",
 		"brandId": "1000102442",
@@ -1336,12 +1324,6 @@
 		"shopName": "亮荘京东自营旗舰店",
 		"brandId": "1000110084",
 		"brandName": "亮荘会员卡"
-	},
-	{
-		"shopId": "1000112452",
-		"shopName": "宝家洁京东自营旗舰店",
-		"brandId": "1000112452",
-		"brandName": "宝家洁VIP"
 	},
 	{
 		"shopId": "1000114761",
