@@ -114,6 +114,12 @@
 		"brandName": "劲霸会员卡"
 	},
 	{
+		"shopId": "70605",
+		"shopName": "露安适官方旗舰店",
+		"brandId": "74119",
+		"brandName": "露安适旗舰店"
+	},
+	{
 		"shopId": "70932",
 		"shopName": "贝因美官方旗舰店",
 		"brandId": "74508",
@@ -300,6 +306,12 @@
 		"brandName": "威露士个护店"
 	},
 	{
+		"shopId": "698888",
+		"shopName": "伤迪官方旗舰店",
+		"brandId": "702976",
+		"brandName": "伤迪会员卡"
+	},
+	{
 		"shopId": "700678",
 		"shopName": "永丰源旗舰店",
 		"brandId": "704858",
@@ -340,6 +352,12 @@
 		"shopName": "思念官方旗舰店",
 		"brandId": "756324",
 		"brandName": "思念食品"
+	},
+	{
+		"shopId": "756780",
+		"shopName": "中国特产·广西馆",
+		"brandId": "761042",
+		"brandName": "中国特产广西馆"
 	},
 	{
 		"shopId": "757760",
@@ -474,6 +492,12 @@
 		"brandName": "飞鹤成人奶粉"
 	},
 	{
+		"shopId": "10181475",
+		"shopName": "金沙回沙酒官方旗舰店",
+		"brandId": "10321993",
+		"brandName": "金沙VIP"
+	},
+	{
 		"shopId": "10190269",
 		"shopName": "氧伴侣旗舰店",
 		"brandId": "10335574",
@@ -586,6 +610,12 @@
 		"shopName": "名流会员",
 		"brandId": "10579592",
 		"brandName": "VIP"
+	},
+	{
+		"shopId": "10366224",
+		"shopName": "天纵易康益肤官方旗舰店",
+		"brandId": "10580548",
+		"brandName": "益肤美肤VIP"
 	},
 	{
 		"shopId": "10370169",
@@ -924,6 +954,12 @@
 		"brandName": "A21"
 	},
 	{
+		"shopId": "1000015372",
+		"shopName": "李锦记京东自营旗舰店",
+		"brandId": "1000015372",
+		"brandName": "李锦记"
+	},
+	{
 		"shopId": "1000015463",
 		"shopName": "洽洽京东自营旗舰店",
 		"brandId": "1000015463",
@@ -1044,6 +1080,12 @@
 		"brandName": "太湖雪会员卡"
 	},
 	{
+		"shopId": "1000081228",
+		"shopName": "英氏京东自营旗舰店",
+		"brandId": "1000081228",
+		"brandName": "分阶喂养"
+	},
+	{
 		"shopId": "1000081521",
 		"shopName": "百吉福京东自营旗舰店",
 		"brandId": "1000081521",
@@ -1108,6 +1150,12 @@
 		"shopName": "润百颜京东自营旗舰店",
 		"brandId": "1000087025",
 		"brandName": "润百颜会员卡"
+	},
+	{
+		"shopId": "1000088382",
+		"shopName": "京东自营小糊涂仙旗舰店",
+		"brandId": "1000088382",
+		"brandName": "小糊涂仙京东"
 	},
 	{
 		"shopId": "1000088544",
@@ -1324,6 +1372,12 @@
 		"shopName": "迪彩京东自营旗舰店",
 		"brandId": "1000117009",
 		"brandName": "迪彩会员卡"
+	},
+	{
+		"shopId": "1000118610",
+		"shopName": "张裕（CHANGYU）先锋葡萄酒京东自营旗舰店",
+		"brandId": "1000118610",
+		"brandName": "张裕先锋会员卡"
 	},
 	{
 		"shopId": "1000120162",
