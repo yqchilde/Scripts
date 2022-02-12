@@ -126,6 +126,12 @@
 		"brandName": "贝因美"
 	},
 	{
+		"shopId": "82882",
+		"shopName": "方旭烟具专营店",
+		"brandId": "85926",
+		"brandName": "方旭烟具专营店"
+	},
+	{
 		"shopId": "86619",
 		"shopName": "粮全其美官方旗舰店",
 		"brandId": "89315",
@@ -264,6 +270,12 @@
 		"brandName": "小角楼会员卡"
 	},
 	{
+		"shopId": "630478",
+		"shopName": "麦芽小达人官方旗舰店",
+		"brandId": "634958",
+		"brandName": "麦芽小达人会员"
+	},
+	{
 		"shopId": "632482",
 		"shopName": "外星人官方旗舰店",
 		"brandId": "637147",
@@ -348,6 +360,12 @@
 		"brandName": "劲牌官方旗舰店"
 	},
 	{
+		"shopId": "742142",
+		"shopName": "吉香居食品旗舰店",
+		"brandId": "746810",
+		"brandName": "吉香居品牌会员"
+	},
+	{
 		"shopId": "744279",
 		"shopName": "雀巢官方旗舰店",
 		"brandId": "748988",
@@ -400,6 +418,12 @@
 		"shopName": "大公鸡管家掌交专卖店",
 		"brandId": "797626",
 		"brandName": "大公鸡管家"
+	},
+	{
+		"shopId": "796859",
+		"shopName": "舍得官方旗舰店",
+		"brandId": "797200",
+		"brandName": "舍得官方旗舰店"
 	},
 	{
 		"shopId": "808397",
@@ -660,6 +684,12 @@
 		"brandName": "闪迪品牌会员"
 	},
 	{
+		"shopId": "1000000288",
+		"shopName": "三星（SAMSUNG）京东自营官方旗舰店",
+		"brandId": "1000000288",
+		"brandName": "三星品牌会员"
+	},
+	{
 		"shopId": "1000000715",
 		"shopName": "AOC京东自营旗舰店",
 		"brandId": "1000000715",
@@ -754,6 +784,12 @@
 		"shopName": "亨氏京东自营旗舰店",
 		"brandId": "1000002567",
 		"brandName": "亨氏"
+	},
+	{
+		"shopId": "1000002586",
+		"shopName": "欧珀莱京东自营官方旗舰店",
+		"brandId": "1000002586",
+		"brandName": "欧珀莱"
 	},
 	{
 		"shopId": "1000002833",
@@ -1068,6 +1104,12 @@
 		"brandName": "伊利成人粉"
 	},
 	{
+		"shopId": "1000078445",
+		"shopName": "通化葡萄酒京东自营旗舰店",
+		"brandId": "1000078445",
+		"brandName": "通化品牌VIP"
+	},
+	{
 		"shopId": "1000080683",
 		"shopName": "欣和京东自营旗舰店",
 		"brandId": "1000080683",
@@ -1096,6 +1138,12 @@
 		"shopName": "阿道夫京东自营官方旗舰店",
 		"brandId": "1000081681",
 		"brandName": "阿道夫"
+	},
+	{
+		"shopId": "1000081881",
+		"shopName": "吉香居京东自营旗舰店",
+		"brandId": "1000081881",
+		"brandName": "吉香居品牌会员"
 	},
 	{
 		"shopId": "1000082761",
