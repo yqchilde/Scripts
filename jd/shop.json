@@ -36,12 +36,6 @@
 		"brandName": "奇酷官方旗舰店"
 	},
 	{
-		"shopId": "28522",
-		"shopName": "多特思官方旗舰店",
-		"brandId": "29344",
-		"brandName": "多特思会员"
-	},
-	{
 		"shopId": "29612",
 		"shopName": "登登妈官方旗舰店",
 		"brandId": "30617",
@@ -148,6 +142,12 @@
 		"shopName": "天地精华食品旗舰店",
 		"brandId": "112508",
 		"brandName": "天地精华"
+	},
+	{
+		"shopId": "113400",
+		"shopName": "茵茵官方旗舰店",
+		"brandId": "116292",
+		"brandName": "茵茵官方旗舰店"
 	},
 	{
 		"shopId": "113775",
@@ -492,6 +492,12 @@
 		"brandName": "华盛尚品"
 	},
 	{
+		"shopId": "10056387",
+		"shopName": "红星酒类旗舰店",
+		"brandId": "10190392",
+		"brandName": "红星二锅头"
+	},
+	{
 		"shopId": "10075479",
 		"shopName": "奇姬官方旗舰店",
 		"brandId": "10211994",
@@ -586,6 +592,12 @@
 		"shopName": "亨氏品牌会员",
 		"brandId": "10379084",
 		"brandName": "亨氏"
+	},
+	{
+		"shopId": "10254655",
+		"shopName": "百事可乐官方旗舰店",
+		"brandId": "10401241",
+		"brandName": "百事可乐"
 	},
 	{
 		"shopId": "10267433",
@@ -694,12 +706,6 @@
 		"shopName": "蓝河会员卡",
 		"brandId": "10597325",
 		"brandName": "蓝河会员卡"
-	},
-	{
-		"shopId": "1000000187",
-		"shopName": "漫步者京东自营旗舰店",
-		"brandId": "1000000187",
-		"brandName": "漫步者会员卡"
 	},
 	{
 		"shopId": "1000000193",
@@ -1098,12 +1104,6 @@
 		"brandName": "维他奶"
 	},
 	{
-		"shopId": "1000075555",
-		"shopName": "周六福珠宝京东自营旗舰店",
-		"brandId": "1000075555",
-		"brandName": "周六福"
-	},
-	{
 		"shopId": "1000075745",
 		"shopName": "劲霸男装京东自营旗舰店",
 		"brandId": "1000075745",
@@ -1180,6 +1180,12 @@
 		"shopName": "青蛙王子京东自营旗舰店",
 		"brandId": "1000083421",
 		"brandName": "青蛙王子储值卡"
+	},
+	{
+		"shopId": "1000083728",
+		"shopName": "乌苏啤酒京东自营官方旗舰店",
+		"brandId": "1000083728",
+		"brandName": "乌苏啤酒VIP"
 	},
 	{
 		"shopId": "1000083766",
