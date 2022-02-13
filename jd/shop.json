@@ -288,6 +288,12 @@
 		"brandName": "利其尔旗舰店"
 	},
 	{
+		"shopId": "652421",
+		"shopName": "霸王醉官方旗舰店",
+		"brandId": "656920",
+		"brandName": "霸王醉"
+	},
+	{
 		"shopId": "654200",
 		"shopName": "blueriver蓝河母婴旗舰店",
 		"brandId": "658812",
@@ -426,6 +432,12 @@
 		"brandName": "舍得官方旗舰店"
 	},
 	{
+		"shopId": "806627",
+		"shopName": "碧洛诗王雎儿专卖店",
+		"brandId": "808932",
+		"brandName": "碧洛诗"
+	},
+	{
 		"shopId": "808397",
 		"shopName": "青花郎官方旗舰店",
 		"brandId": "803140",
@@ -490,6 +502,12 @@
 		"shopName": "CJ食品旗舰店",
 		"brandId": "10222935",
 		"brandName": "希杰食品"
+	},
+	{
+		"shopId": "10090034",
+		"shopName": "BEBETOUR母婴旗舰店",
+		"brandId": "10226475",
+		"brandName": "BEBETOU"
 	},
 	{
 		"shopId": "10091722",
@@ -568,6 +586,12 @@
 		"shopName": "亨氏品牌会员",
 		"brandId": "10379084",
 		"brandName": "亨氏"
+	},
+	{
+		"shopId": "10267433",
+		"shopName": "Tiny Love旗舰店",
+		"brandId": "10415068",
+		"brandName": "乐享成长"
 	},
 	{
 		"shopId": "10273932",
@@ -1498,6 +1522,12 @@
 		"shopName": "仙维娜（SIVIA）京东自营旗舰店",
 		"brandId": "1000208883",
 		"brandName": "仙维娜会员卡"
+	},
+	{
+		"shopId": "1000243862",
+		"shopName": "五粮春京东自营旗舰店",
+		"brandId": "1000243862",
+		"brandName": "五粮春会员"
 	},
 	{
 		"shopId": "1000300336",
