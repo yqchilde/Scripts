@@ -348,6 +348,12 @@
 		"brandName": "永丰源旗舰店"
 	},
 	{
+		"shopId": "703279",
+		"shopName": "骁龙旗舰店",
+		"brandId": "707261",
+		"brandName": "骁龙会员"
+	},
+	{
 		"shopId": "713993",
 		"shopName": "乐扣乐扣厨具旗舰店",
 		"brandId": "718638",
@@ -442,6 +448,12 @@
 		"shopName": "青花郎官方旗舰店",
 		"brandId": "803140",
 		"brandName": "青花郎"
+	},
+	{
+		"shopId": "819333",
+		"shopName": "杨掌柜旗舰店",
+		"brandId": "820908",
+		"brandName": "杨掌柜旗舰店"
 	},
 	{
 		"shopId": "821436",
@@ -1482,6 +1494,12 @@
 		"brandName": "TUMI"
 	},
 	{
+		"shopId": "1000139925",
+		"shopName": "卡比兽京东自营旗舰店",
+		"brandId": "1000139925",
+		"brandName": "卡比兽旗舰店"
+	},
+	{
 		"shopId": "1000140062",
 		"shopName": "蔓珠（Mandu）京东自营旗舰店",
 		"brandId": "1000140062",
@@ -1596,10 +1614,22 @@
 		"brandName": "EAORON"
 	},
 	{
+		"shopId": "1000332081",
+		"shopName": "北井稻京东自营旗舰店",
+		"brandId": "1000332081",
+		"brandName": "北井稻"
+	},
+	{
 		"shopId": "1000332288",
 		"shopName": "大悦京东自营旗舰店",
 		"brandId": "1000332288",
 		"brandName": "大悦会员"
+	},
+	{
+		"shopId": "1000332881",
+		"shopName": "晖致京东自营旗舰店",
+		"brandId": "1000332881",
+		"brandName": "晖致"
 	},
 	{
 		"shopId": "1000332882",
